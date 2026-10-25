@@ -1168,6 +1168,7 @@ function viewSources(focusId) {
     ['law', 'Swedish laws and ordinances', 'The legal texts. Lessons quote them in Swedish and translate them.'],
     ['regulation', 'Regulations from Transportstyrelsen (TSFS)', 'Detailed rules issued by the Swedish Transport Agency.'],
     ['official-web', 'Official web pages', 'Transportstyrelsen (licences, rules) and Trafikverket (the tests).'],
+    ['brochure', 'Official guides from Transportstyrelsen', 'Short brochures that explain some of the rules. Most have an official English version.'],
   ];
   $('#main').innerHTML = `<div class="page-head"><h1>Sources</h1>
     <p class="lede">Everything on this site is based on these sources. Each lesson lists the ones it uses, and each rule box links to the exact paragraph.</p></div>
@@ -1184,6 +1185,7 @@ function viewSources(focusId) {
         <p>${esc(s.publisher)}${s.consolidated ? ` · ${esc(s.consolidated)}` : ''} · read ${esc(s.accessed)}</p>
         ${s.note ? `<p>${esc(s.note)}</p>` : ''}
         ${s.alt ? `<p class="small"><a href="${esc(s.alt)}" target="_blank" rel="noopener">Same text in Regeringskansliet's legal database</a></p>` : ''}
+        ${s.en ? `<p class="small"><a href="${esc(s.en)}" target="_blank" rel="noopener">Official English version</a>${s.enNote ? ` (${esc(s.enNote)})` : ''}</p>` : ''}
         ${s.usedBy && s.usedBy.length ? `<p class="small">Used in: ${s.usedBy.map((id) => lessonMap.get(id)).filter(Boolean).map((l) => `<a href="#lesson.${l.id}">${esc(l.title)}</a>`).join(', ')}</p>` : ''}
       </article>`).join('')}</div></section>`).join('')}`;
   if (focusId) App.pendingAnchor = `src-${focusId}`;

@@ -416,3 +416,61 @@
   kind: official-web
   url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/forlorat-korkort/nytt-korkort-efter-aterkallelse/
   accessed: 2026-10-25
+
+# ---------- Transportstyrelsen brochures (with official English versions) ----------
+- id: ts-roundabout
+  short: Transportstyrelsen – Att köra i cirkulationsplats
+  title: Att köra i cirkulationsplats (publication TS 201509)
+  titleEn: Driving in a roundabout
+  publisher: Transportstyrelsen
+  kind: brochure
+  url: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/att-koera-i-cirkulationsplats-a5-webb.pdf
+  en: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-driving-in-a-roundabout_a5_webb.pdf
+  enNote: publication TS 201617
+  accessed: 2026-10-25
+  note: How to enter, drive in and leave a roundabout – lanes and direction indicators.
+
+- id: ts-parking
+  short: Transportstyrelsen – Stanna och parkera
+  title: Stanna och parkera (2nd edition, January 2024)
+  titleEn: Stopping and parking
+  publisher: Transportstyrelsen
+  kind: brochure
+  url: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/trans-027-stanna-och-parkera-a5-webb_2024-01-01.pdf
+  en: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-stopping-and-parking_a5_webb_2024-01-01.pdf
+  enNote: publication TS 201619, 2nd edition, January 2024
+  accessed: 2026-10-25
+  note: The general rules for stopping and parking, how to read parking signs and panels, parking fines and vehicle removal.
+
+- id: ts-crossings
+  short: Transportstyrelsen – Övergångsställen
+  title: Övergångsställen (publication TS 201512)
+  titleEn: Pedestrian crossings
+  publisher: Transportstyrelsen
+  kind: brochure
+  url: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/oevergaengsstaellen-a5-webb.pdf
+  en: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-pedestrian-crossings_a5_webb.pdf
+  accessed: 2026-10-25
+  note: What drivers and pedestrians must do at controlled and uncontrolled pedestrian crossings.
+
+- id: ts-lighting
+  short: Transportstyrelsen – Välj rätt fordonsbelysning
+  title: Välj rätt fordonsbelysning (publication TS 201513)
+  titleEn: Choose the right vehicle lighting
+  publisher: Transportstyrelsen
+  kind: brochure
+  url: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/vaelj-raett-fordonsbelysning-a5-webb.pdf
+  en: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf
+  accessed: 2026-10-25
+  note: Dipped beam, main beam, daytime running lights, fog lights and parking lights – when each one must or may be used.
+
+- id: ts-bike-crossings
+  short: Transportstyrelsen – Cykelpassager och cykelöverfarter
+  title: Cykelpassager och cykelöverfarter (May 2022)
+  titleEn: Bicycle passages and bicycle crossings
+  publisher: Transportstyrelsen
+  kind: brochure
+  url: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/cykelpassager-och-cykeloverfarter-2022-05-05.pdf
+  en: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-bicycle-passages-and-bicycle-crossings_a5_webb.pdf
+  accessed: 2026-10-25
+  note: The difference between a cycle passage and a cycle crossing, and who gives way to whom.
