@@ -361,3 +361,13 @@
   kind: official-web
   url: https://www.trafikverket.se/korkort/korkortsprov/
   accessed: 2026-10-25
+
+- id: tsfs-2019-74
+  short: TSFS 2019:74
+  title: Transportstyrelsens föreskrifter och allmänna råd (TSFS 2019:74) om vägmärken och andra anordningar
+  titleEn: Transport Agency regulations and general advice on road signs and other devices
+  publisher: Transportstyrelsen
+  kind: regulation
+  url: https://www.transportstyrelsen.se/TSFS/TSFS%202019_74.pdf
+  accessed: 2026-10-25
+  note: Detailed rules on how signs are placed and used, for example how far before a danger a warning sign stands.

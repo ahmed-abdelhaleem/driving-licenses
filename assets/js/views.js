@@ -293,7 +293,7 @@ function viewSign(id) {
       ${s.enText ? `<div class="panel"><h2>What it means</h2><p>${s.enText}</p>${s.tip ? `<p>${s.tip}</p>` : ''}</div>` : ''}
       ${s.svText ? `<div class="panel"><h2>Official text</h2><blockquote lang="sv">${esc(s.svText)}</blockquote><p class="small muted">From Transportstyrelsen's catalogue, which quotes the Road Signs Ordinance ${citeHtml('vmf', cat.vmf)}. The English text above is this site's translation.</p></div>` : ''}
       ${s.variants.length ? `<div><h2 style="font-size:1.3rem;margin-bottom:.6rem">Other versions of this sign</h2><div class="sign-grid">${s.variants.map((v) => `<div class="sign-card">${signImgTag(v.key, `${v.key} ${v.en || s.en}`)}<span class="sign-code">${esc(v.key)}</span><span class="sign-name">${esc(v.en || 'Variant')}</span></div>`).join('')}</div></div>` : ''}
-      ${related.length ? `<div><h2 style="font-size:1.3rem;margin-bottom:.6rem">Do not confuse with</h2><div class="sign-grid">${related.map((r) => signCard(r)).join('')}</div></div>` : ''}
+      ${related.length ? `<div><h2 style="font-size:1.3rem;margin-bottom:.6rem">Related signs</h2><div class="sign-grid">${related.map((r) => signCard(r)).join('')}</div></div>` : ''}
       ${inLessons.length ? `<div class="panel"><h2>Explained in</h2><ul>${inLessons.map((l) => `<li><a href="#lesson.${l.id}">${esc(l.title)}</a></li>`).join('')}</ul></div>` : ''}
       ${qs.length ? `<p><a class="btn ghost small" href="#quiz.sign.${s.id}">Practise questions about this sign (${qs.length})</a></p>` : ''}
       <p class="small muted">Source: <a href="${esc(s.url)}" target="_blank" rel="noopener">Transportstyrelsen – ${esc(s.id)} ${esc(s.sv)}</a></p>

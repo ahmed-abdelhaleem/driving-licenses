@@ -1,1 +1,2086 @@
-{}
+# English names and explanations for every entry in Transportstyrelsen's sign
+# catalogue (content/signs/catalogue.json holds the official Swedish text).
+#   en:        English name (faithful translation of the official Swedish name)
+#   text:      what it means, translated from the official description (VMF)
+#   tip:       practical advice for drivers and riders (not part of the law text)
+#   variants:  what the other official versions of the sign show
+#   kw:        extra search words
+#   related:   signs that are easy to confuse with this one
+#   lesson:    lesson that explains the sign
+#   quiz:      false = do not generate a recognition question
+
+# ---------------------------------------------------------------- A: warning signs
+A1:
+  en: Dangerous bend
+  text: Warns of a dangerous bend and shows which way the bend turns.
+  tip: Slow down before the bend, not in it. The sign is used where the bend is sharper than the road suggests.
+  variants: { A1-2: "Dangerous bend to the right (A1 shows a bend to the left)" }
+  kw: [curve, corner, turn, kurva]
+  related: [A2]
+  lesson: warning-signs
+A2:
+  en: Several dangerous bends
+  text: Warns of several dangerous bends and shows which way the first one turns.
+  variants: { A2-2: "Several bends, the first one to the right (A2 shows the first bend to the left)" }
+  kw: [curves, winding road, double bend]
+  related: [A1]
+  lesson: warning-signs
+A3:
+  en: Steep descent
+  text: Warns of a steep downhill slope. The number gives the gradient in per cent and is set to match the actual slope at the place.
+  tip: A 10 % slope drops 10 metres per 100 metres. Use a lower gear so the engine helps you brake, and keep more distance.
+  kw: [downhill, gradient, hill, slope, nedförsbacke]
+  related: [A4]
+  lesson: warning-signs
+A4:
+  en: Steep ascent
+  text: Warns of a steep uphill slope. The number gives the gradient in per cent and is set to match the actual slope at the place.
+  kw: [uphill, gradient, hill, slope, uppförsbacke]
+  related: [A3]
+  lesson: warning-signs
+A5:
+  en: Road narrows
+  text: Warns that the road or lane gets narrower. The symbol is drawn to match the actual narrowing at the place.
+  variants: { A5-2: Road narrows on the right side, A5-3: Road narrows on the left side }
+  kw: [narrowing, narrow road]
+  lesson: warning-signs
+A6:
+  en: Opening bridge
+  text: Warns of a bridge that can be opened (for example to let boats pass).
+  kw: [swing bridge, lifting bridge, drawbridge, bro]
+  lesson: warning-signs
+A7:
+  en: Quay or river bank
+  text: Warns of a place where the road ends at water.
+  kw: [quayside, harbour, water, ferry, kaj]
+  lesson: warning-signs
+A8:
+  en: Uneven road
+  text: Warns of bumps or damage in the road surface that make it wise to drive more slowly than you otherwise would.
+  kw: [bumpy road, potholes, rough surface]
+  related: [A9]
+  lesson: warning-signs
+A9:
+  en: Speed bump or dip
+  text: Warns of a raised hump or a dip that has been built on purpose to make traffic slow down.
+  variants: { A9-2: "Dip (a hollow built to slow traffic). A9 shows a raised speed bump." }
+  kw: [speed hump, traffic calming, farthinder, gupp]
+  related: [A8]
+  lesson: warning-signs
+A10:
+  en: Slippery road
+  text: Warns that the road may be slippery. It is used to warn of slippery snow or ice only if there are special reasons.
+  tip: Do not expect this sign every time there is ice. In winter you must judge the grip yourself.
+  kw: [skid, ice, wet, slippery, halka]
+  lesson: warning-signs
+A11:
+  en: Loose stones
+  text: Warns of the risk of stones being thrown up by tyres. It is not used on gravel roads and similar roads, where this is common.
+  tip: Keep a longer distance to the vehicle in front so you are not hit by stones it throws up.
+  kw: [loose chippings, gravel, stone chips, stenskott]
+  lesson: warning-signs
+A12:
+  en: Falling rocks
+  text: Warns of the risk of rock falls, and that stones from a rock fall may lie on the road. The symbol is drawn to match the place.
+  variants: { A12-2: "Falling rocks, with the rock face on the left side (A12 shows it on the right)" }
+  kw: [rockfall, landslide, stenras]
+  lesson: warning-signs
+A13:
+  en: Pedestrian crossing ahead
+  text: Warns of a pedestrian crossing ahead.
+  tip: This yellow triangle is only a warning. The crossing itself is marked with sign B3 and white stripes on the road.
+  kw: [zebra crossing, crosswalk, övergångsställe]
+  related: [B3, A14]
+  lesson: warning-signs
+A14:
+  en: Pedestrians
+  text: Warns of a stretch of road where pedestrians often cross or walk on or beside the road.
+  kw: [people walking, walkers, gående]
+  related: [A13, A15]
+  lesson: warning-signs
+A15:
+  en: Children
+  text: Warns of a stretch of road where children often cross or spend time on or beside the road.
+  tip: Often placed near schools and playgrounds. Children can run out without looking, so lower your speed and be ready to stop.
+  kw: [school, kids, playground, barn]
+  related: [A14]
+  lesson: warning-signs
+A16:
+  en: Cyclists and moped riders
+  text: Warns of a stretch of road where cyclists or moped riders often cross the road or ride out onto it.
+  kw: [bicycles, bikes, cycle crossing, cyklister]
+  lesson: warning-signs
+A17:
+  en: Skiers
+  text: Warns of a place where skiers often cross or spend time on the road.
+  kw: [ski track, skiing, skidåkare]
+  lesson: warning-signs
+A18:
+  en: Horse riders
+  text: Warns of a stretch of road where people on horseback often cross or spend time on the road.
+  tip: Pass horses slowly and with plenty of space. Horses can be frightened by noise and sudden movement.
+  kw: [horses, riding, ridande]
+  lesson: warning-signs
+A19:
+  en: Animals
+  text: Warns of a place or stretch of road where there is a special risk of animals on or beside the road. The basic sign shows an elk (moose); other symbols show other animals.
+  tip: The elk (moose) sign is the best known. Elk are most active at dawn and dusk. If you see one animal, expect more.
+  variants:
+    A19-2: "Deer (Swedish: hjortdjur)"
+    A19-3: "Cattle (Swedish: ko)"
+    A19-4: "Horses (Swedish: häst)"
+    A19-5: "Reindeer (Swedish: ren)"
+    A19-6: "Sheep (Swedish: får)"
+    A19-7: "Wild boar (Swedish: vildsvin)"
+  kw: [elk, moose, deer, wildlife, älg, vilt, viltolycka]
+  lesson: wildlife
+A20:
+  en: Road works
+  text: Warns of a stretch of road where road works or similar work is going on.
+  tip: Workers may be very close to traffic. Follow the temporary signs and markings (often yellow) and slow down.
+  kw: [roadworks, construction, vägarbete]
+  related: [A21]
+  lesson: warning-signs
+A21:
+  en: End of road works
+  text: Marks the end of a stretch of road works that was marked with sign A20. It is left out if it is clear anyway where the stretch ends.
+  kw: [roadworks end]
+  related: [A20]
+  lesson: warning-signs
+A22:
+  en: Traffic signals ahead
+  text: Warns of a place where traffic is controlled by traffic lights with three lamps (red, yellow, green). Inside built-up areas it is only put up if there are special reasons.
+  kw: [traffic lights, stop lights, trafikljus]
+  lesson: warning-signs
+A23:
+  en: Low-flying aircraft
+  text: Warns of low-flying aircraft, for example near the end of a runway.
+  variants: { A23-2: "The same warning with the aircraft drawn in the other direction" }
+  kw: [airport, planes, airfield]
+  lesson: warning-signs
+A24:
+  en: Side wind
+  text: Warns of a stretch of road where strong side winds are common. The symbol is drawn to match the place.
+  tip: Strong gusts can push a car, a trailer or a motorcycle sideways, for example on bridges and in openings in a forest.
+  variants: { A24-2: "Side wind from the other side (the windsock points away from where the wind comes from)" }
+  kw: [crosswind, wind, gusts]
+  lesson: warning-signs
+A25:
+  en: Two-way traffic
+  text: Warns that a carriageway with one-way traffic becomes a carriageway with traffic in both directions.
+  kw: [oncoming traffic, two way, mötande trafik]
+  lesson: warning-signs
+A26:
+  en: Tunnel
+  text: Warns of a tunnel ahead.
+  kw: [tunnel]
+  related: [E26]
+  lesson: warning-signs
+A27:
+  en: Soft verge or high road edge
+  text: Warns of a weak road edge, or of a high step down from the edge of the carriageway.
+  kw: [soft shoulder, verge, edge drop]
+  lesson: warning-signs
+A28:
+  en: Crossroads (right-hand rule)
+  text: Warns of a junction where the right-hand rule applies, that is, you must give way to vehicles coming from your right (Road Traffic Ordinance, chapter 3, section 18).
+  tip: The X means nobody has priority by signs. Every driver gives way to traffic from the right.
+  kw: [junction, intersection, högerregeln, right hand rule]
+  related: [A29]
+  lesson: priority-signs
+A29:
+  en: Junction where side roads must give way
+  text: Warns of a junction where drivers on the side roads have to give way or stop. You are on the road with priority. The symbol shows the shape of the junction; the wide line is your road.
+  tip: You have priority here, but still look out. Someone on the side road may not stop.
+  variants:
+    A29-2: The junction drawn with a different layout
+    A29-3: The junction drawn with a different layout
+    A29-4: The junction drawn with a different layout
+    A29-5: The junction drawn with a different layout
+    A29-6: The junction drawn with a different layout
+    A29-7: The junction drawn with a different layout
+    A29-8: The junction drawn with a different layout
+    A29-9: The junction drawn with a different layout
+    A29-10: The junction drawn with a different layout
+    A29-11: The junction drawn with a different layout
+    A29-12: The junction drawn with a different layout
+    A29-13: The junction drawn with a different layout
+    A29-14: The junction drawn with a different layout
+    A29-15: The junction drawn with a different layout
+    A29-16: The junction drawn with a different layout
+    A29-17: The junction drawn with a different layout
+    A29-18: The junction drawn with a different layout
+    A29-19: The junction drawn with a different layout
+    A29-20: The junction drawn with a different layout
+    A29-21: The junction drawn with a different layout
+  kw: [junction, side road, priority road, intersection]
+  related: [A28, B4]
+  lesson: priority-signs
+A30:
+  en: Roundabout ahead
+  text: Warns of a roundabout ahead.
+  tip: When you enter a roundabout you must give way to all vehicles already in it.
+  kw: [roundabout, rondell, cirkulationsplats]
+  related: [D3]
+  lesson: warning-signs
+A31:
+  en: Slow-moving vehicles
+  text: Warns of a place where slow vehicles often cross the road or drive out onto it, for example tractors.
+  kw: [tractor, farm vehicles]
+  lesson: warning-signs
+A32:
+  en: Horse-drawn vehicles
+  text: Warns of a stretch of road where vehicles pulled by animals often cross or travel on the road. Other symbols can be used.
+  variants: { A32-2: Dog sled, A32-3: Trotting horse with a sulky }
+  kw: [horse and cart, carriage, dragdjur]
+  lesson: warning-signs
+A33:
+  en: Snowmobiles
+  text: Warns of a place where snowmobiles and other off-road scooters often cross the road or drive out onto it.
+  kw: [snowmobile, skoter, terrängskoter]
+  lesson: warning-signs
+A34:
+  en: Queues likely
+  text: Warns of a stretch of road where there is a risk of queues building up.
+  kw: [traffic jam, queue, congestion, kö]
+  lesson: warning-signs
+A35:
+  en: Level crossing with barriers
+  text: Warns of a crossing with a railway or tramway where there are barriers.
+  kw: [railway crossing, train, gates, bommar]
+  related: [A36, A37, A39]
+  lesson: railway-crossings
+A36:
+  en: Level crossing without barriers
+  text: Warns of a railway crossing that has no barriers.
+  tip: No barriers means you must look and listen for trains yourself.
+  kw: [railway crossing, train, unguarded crossing]
+  related: [A35, A37, A39]
+  lesson: railway-crossings
+A37:
+  en: Tramway crossing without barriers
+  text: Warns of a crossing with a tramway that has no barriers.
+  kw: [tram, streetcar, spårväg]
+  related: [A35, A36]
+  lesson: railway-crossings
+A38:
+  en: Distance to level crossing
+  text: Count-down markers that show the distance to a level crossing in thirds. Outside built-up areas the marker with three stripes is placed under sign A35, A36 or A37. The marker with two stripes means two thirds of the distance is left, and the one with one stripe marks the last third.
+  variants: { A38-2: Two stripes – two thirds of the distance left, A38-3: One stripe – the last third }
+  kw: [countdown markers, railway, level crossing]
+  related: [A35, A36]
+  lesson: railway-crossings
+  quiz: false
+A39:
+  en: St Andrew's cross (level crossing)
+  text: Marks a crossing with a railway or tramway with one or more tracks. It is placed immediately before a level crossing. It may be left out on a private road with little traffic, where that can be done without danger. It can also be used at other crossings with a railway or tramway.
+  tip: A double cross means there is more than one track. When one train has passed, another may be coming.
+  variants:
+    A39-2: One track – narrow, upright version
+    A39-3: More than one track (double cross)
+    A39-4: More than one track – narrow, upright version
+  kw: [railway crossing, cross buck, kryssmärke, level crossing]
+  related: [A35, A36]
+  lesson: railway-crossings
+A40:
+  en: Other danger
+  text: Warns of a danger that no other warning sign covers. An additional panel below it says what the danger is.
+  kw: [danger, exclamation mark, caution]
+  lesson: warning-signs
+A41:
+  en: Accident
+  text: Warns that there has been a traffic accident on the road ahead.
+  tip: Slow down, be ready to stop and follow instructions from the police or rescue services.
+  kw: [crash, accident, olycka]
+  lesson: warning-signs
+
+# ---------------------------------------------------------------- B: priority signs
+B1:
+  en: Give way
+  text: You must give way to vehicles on the road or route you are about to cross or enter. Chapter 3, section 5 of the Road Traffic Ordinance applies – show clearly in good time that you will give way by slowing down or stopping, and go on only when it causes no danger or obstruction. With additional panel T2 (distance) it warns in advance of a give-way point; with T3 it warns in advance of a stop sign. Panel T13 means that all roads into the junction have to give way.
+  tip: Give way does not always mean stop. If you can see that the road is clear, you may drive on without stopping.
+  kw: [yield, väjningsplikt, triangle, give way]
+  related: [B2, A29]
+  lesson: priority-signs
+B2:
+  en: Stop
+  text: You must stop before you drive into the crossing road, route or track area. Chapter 3, section 19 of the Road Traffic Ordinance applies – stop at the stop line, or if there is none, immediately before you enter the crossing road. Panel T14 means that all roads into the junction must stop.
+  tip: You must always come to a complete stop, even if you can see that the road is empty. After stopping you still have to give way.
+  kw: [stop sign, stopplikt, octagon]
+  related: [B1]
+  lesson: priority-signs
+B3:
+  en: Pedestrian crossing
+  text: Marks a pedestrian crossing. The two versions mean exactly the same and can be used alone or together. At an unguarded crossing (one without traffic lights or police), drivers must give way to pedestrians who are on the crossing or about to step onto it, and pedestrians must take account of the distance and speed of approaching vehicles.
+  variants: { B3-2: "The same sign with a different figure – both versions mean the same" }
+  kw: [zebra crossing, crosswalk, övergångsställe]
+  related: [A13, B8]
+  lesson: pedestrians-and-cyclists
+B4:
+  en: Main road
+  text: Marks the start of a main road (priority road). Traffic coming onto it from side roads must give way. The sign is repeated after each junction, unless it is clear anyway that the main road continues. Exits from places such as car parks, petrol stations and private property do not count as junctions here.
+  tip: On a main road you may not park (you may stop briefly). The right-hand rule does not apply to traffic from side roads.
+  kw: [priority road, huvudled, yellow diamond]
+  related: [B5, A29]
+  lesson: priority-signs
+B5:
+  en: End of main road
+  text: Marks the end of a main road (priority road). After this sign you no longer have priority over side roads because of the main road.
+  kw: [end of priority road, huvudled upphör]
+  related: [B4]
+  lesson: priority-signs
+B6:
+  en: Give way to oncoming traffic
+  text: You may not drive into the stretch ahead (often a narrow section) if doing so would hinder vehicles coming towards you. Let them pass first.
+  kw: [narrow road, priority to oncoming traffic, single lane]
+  related: [B7]
+  lesson: priority-signs
+B7:
+  en: Oncoming traffic must give way
+  text: You have priority over oncoming traffic on the narrow stretch ahead. Drivers coming towards you must give way.
+  tip: Priority is not a right to force your way through. If the other driver does not give way, you must still avoid a collision.
+  kw: [narrow road, priority over oncoming traffic]
+  related: [B6]
+  lesson: priority-signs
+B8:
+  en: Cycle crossing
+  text: Marks a cycle crossing (cykelöverfart). Drivers must give way to cyclists and riders of class II mopeds who are on the crossing or about to ride onto it. Cyclists must take account of the distance and speed of approaching vehicles.
+  tip: Do not mix it up with a cycle passage (cykelpassage), which is only road markings without this sign. At a passage you adapt your speed, but at a crossing with this sign you must give way.
+  kw: [cycle crossing, bike crossing, cykelöverfart]
+  related: [B3, A16]
+  lesson: pedestrians-and-cyclists
+
+# ---------------------------------------------------------------- C: prohibitory signs
+C1:
+  en: No entry
+  text: Driving any vehicle into the road from this direction is prohibited. It is used, for example, at the far end of a one-way street.
+  tip: A prohibition aimed at vehicles does not apply to a person who walks beside a bicycle or moped, unless a panel says so.
+  kw: [no entry, one way, wrong way, infart förbjuden]
+  related: [C2, E16]
+  lesson: prohibitory-signs
+C2:
+  en: No vehicles
+  text: Traffic with all vehicles is prohibited, in both directions.
+  kw: [closed to vehicles, road closed, no traffic]
+  related: [C1]
+  lesson: prohibitory-signs
+C3:
+  en: No motor vehicles (except class II mopeds)
+  text: Traffic with motor vehicles other than class II mopeds is prohibited. If class II mopeds are also prohibited, a panel says so.
+  kw: [no cars, no motorcycles, motor vehicles prohibited]
+  related: [C4, C5]
+  lesson: prohibitory-signs
+C4:
+  en: No motor vehicles with more than two wheels
+  text: Traffic with motor vehicles that have more than two wheels is prohibited – for example cars. Two-wheeled motorcycles and mopeds may still use the road.
+  kw: [no cars]
+  related: [C3, C5]
+  lesson: prohibitory-signs
+C5:
+  en: No motorcycles or class I mopeds
+  text: Traffic with motorcycles and class I mopeds is prohibited.
+  kw: [no motorcycles, no mopeds, no MC]
+  related: [C3, C4, C11]
+  lesson: prohibitory-signs
+C6:
+  en: No motor vehicles with a trailer
+  text: Traffic with motor vehicles towing a trailer is prohibited. The ban does not cover semi-trailers or light single-axle trailers of the kind called släpkärra unless a panel says so. If the ban only covers combinations whose trailer weighs more than a certain total weight, panel T5 shows that weight.
+  tip: A släpkärra is a trailer with a fixed drawbar that puts only a small part of its weight on the towing vehicle – most ordinary car trailers are of this kind.
+  kw: [no trailers, trailer ban]
+  lesson: prohibitory-signs
+C7:
+  en: No heavy trucks
+  text: Traffic with heavy trucks (total weight over 3,500 kg) is prohibited. If the ban also covers light trucks, a panel says so.
+  kw: [no lorries, no HGV, lastbil]
+  related: [C29]
+  lesson: prohibitory-signs
+C8:
+  en: No tractors or class II motor implements
+  text: Traffic with tractors (class a) and class II motor implements (machines built for at most 30 km/h) is prohibited. If the ban also covers class b tractors or class I motor implements, a panel says so.
+  kw: [no tractors, traktor]
+  lesson: prohibitory-signs
+C9:
+  en: No vehicles carrying dangerous goods
+  text: Traffic with vehicles carrying a load that must be marked with orange plates under the rules on transport of dangerous goods is prohibited. With panel T23 the sign shows the category of a road tunnel.
+  kw: [hazardous goods, ADR, dangerous goods, farligt gods]
+  related: [D12]
+  lesson: prohibitory-signs
+C10:
+  en: No cycles or class II mopeds
+  text: Traffic with bicycles and class II mopeds is prohibited. If class I mopeds are also banned, a panel says so.
+  kw: [no bikes, no bicycles, no cycling]
+  related: [C11]
+  lesson: prohibitory-signs
+C11:
+  en: No class II mopeds
+  text: Traffic with class II mopeds is prohibited. If class I mopeds are also banned, a panel says so.
+  kw: [no mopeds]
+  related: [C10, C5]
+  lesson: prohibitory-signs
+C12:
+  en: No horse-drawn vehicles
+  text: Traffic with vehicles pulled by animals is prohibited.
+  kw: [no carts, no horses]
+  lesson: prohibitory-signs
+C13:
+  en: No off-road vehicles
+  text: Traffic with off-road motor vehicles (such as snowmobiles) and off-road trailers is prohibited. If the ban does not cover terrain vehicles over 450 kg (terrängvagn), a panel says so.
+  kw: [no snowmobiles, terräng, skoter]
+  lesson: prohibitory-signs
+C14:
+  en: No horse riding
+  text: Riding is prohibited. If leading a horse is also prohibited, a panel says so.
+  kw: [no horses, no riding]
+  lesson: prohibitory-signs
+C15:
+  en: No pedestrians
+  text: Pedestrian traffic is prohibited.
+  kw: [no walking, no pedestrians]
+  lesson: prohibitory-signs
+C16:
+  en: Width limit
+  text: Vehicles wider than the width shown on the sign are prohibited.
+  kw: [maximum width, narrow, bredd]
+  lesson: prohibitory-signs
+C17:
+  en: Height limit
+  text: Vehicles higher than the height shown on the sign are prohibited. It is used where the free height is less than 4.5 metres.
+  tip: The height includes any load, a roof box or bicycles on the roof.
+  kw: [maximum height, low bridge, headroom, höjd]
+  lesson: prohibitory-signs
+C18:
+  en: Length limit
+  text: Vehicles or vehicle combinations longer than the length shown on the sign are prohibited.
+  kw: [maximum length, längd]
+  lesson: prohibitory-signs
+C19:
+  en: Minimum distance
+  text: It is prohibited to keep a shorter distance than the one shown to the motor vehicle in front of you going in the same direction.
+  kw: [keep distance, following distance, avstånd, bridge]
+  lesson: prohibitory-signs
+C20:
+  en: Weight limit for a vehicle
+  text: Vehicles whose gross weight (the actual weight at that moment, load included) is higher than the weight shown are prohibited.
+  tip: Gross weight (bruttovikt) is what the vehicle actually weighs right now. Total weight (totalvikt) is the highest weight it is registered for. These weight signs are about gross weight.
+  kw: [weight limit, bruttovikt, tonnes, bridge]
+  related: [C21]
+  lesson: prohibitory-signs
+C21:
+  en: Weight limit for a vehicle or combination
+  text: Vehicles and vehicle combinations whose gross weight (actual weight, load included) is higher than the weight shown are prohibited.
+  kw: [weight limit, combination, trailer, bruttovikt]
+  related: [C20]
+  lesson: prohibitory-signs
+C22:
+  en: Bearing capacity class
+  text: Shows the road's bearing capacity class (BK), which sets the highest axle, bogie and gross weights allowed. It matters mostly for heavy vehicles.
+  variants: { C22-2: "Bearing capacity class 2 (BK2). The main image shows BK3." }
+  kw: [BK1, BK2, BK3, bärighetsklass, weight class]
+  lesson: prohibitory-signs
+  quiz: false
+C23:
+  en: Axle load limit
+  text: The highest axle load allowed (the weight the wheels on one axle put on the road) is shown on the sign.
+  kw: [axle weight, axeltryck]
+  lesson: prohibitory-signs
+C24:
+  en: Bogie load limit
+  text: The highest bogie load allowed (the weight that two axles less than 2 metres apart put on the road) is shown on the sign.
+  kw: [bogie weight, boggitryck]
+  lesson: prohibitory-signs
+C25:
+  en: No turning
+  text: Turning in the direction shown is prohibited at the junction (or similar place) where the sign stands or that it is placed before. It can cover several junctions; the length of the stretch is then shown on a panel. The symbol is drawn to match the place.
+  variants: { C25-2: "No right turn (the main image shows no left turn)" }
+  kw: [no left turn, no right turn, sväng förbjuden]
+  related: [C26]
+  lesson: prohibitory-signs
+C26:
+  en: No U-turns
+  text: U-turns are prohibited at the junction (or similar place) where the sign stands or that it is placed before. It can cover several junctions; the length of the stretch is then shown on a panel.
+  kw: [no u-turn, turning around, vändning]
+  related: [C25]
+  lesson: prohibitory-signs
+C27:
+  en: No overtaking
+  text: It is prohibited to overtake motor vehicles other than two-wheeled mopeds and two-wheeled motorcycles without a sidecar. The ban applies on the road where the sign is placed, until sign C28 (end of no overtaking).
+  tip: You may still overtake a bicycle, a two-wheeled moped or a two-wheeled motorcycle without a sidecar, if it can be done safely.
+  kw: [overtaking prohibited, passing, omkörning förbjuden]
+  related: [C28, C29]
+  lesson: meeting-and-overtaking
+C28:
+  en: End of no overtaking
+  text: Marks the end of the overtaking ban that started with sign C27.
+  kw: [overtaking allowed again]
+  related: [C27]
+  lesson: meeting-and-overtaking
+C29:
+  en: No overtaking by heavy trucks
+  text: Drivers of heavy trucks may not overtake motor vehicles other than two-wheeled mopeds and two-wheeled motorcycles without a sidecar. The ban applies until sign C30.
+  kw: [lorry overtaking ban, lastbil]
+  related: [C27, C30]
+  lesson: meeting-and-overtaking
+C30:
+  en: End of no overtaking by heavy trucks
+  text: Marks the end of the overtaking ban for heavy trucks that started with sign C29.
+  kw: [heavy truck overtaking]
+  related: [C29]
+  lesson: meeting-and-overtaking
+C31:
+  en: Speed limit
+  text: You may not drive faster than the speed shown, in km/h. The limit applies until another speed limit sign, sign C32 (end of temporary speed limit), sign E7 (pedestrian street) or sign E9 (walking-speed area). The sign does not have to be repeated after a junction if the crossing road has the same limit.
+  tip: A speed limit is the highest speed allowed, not the right speed. You must always adapt your speed to the conditions.
+  variants:
+    C31-4: 40 km/h
+    C31-5: 50 km/h
+    C31-6: 60 km/h
+    C31-7: 70 km/h
+    C31-8: 80 km/h
+    C31-9: 90 km/h
+    C31-10: 100 km/h
+    C31-11: 110 km/h
+    C31-12: 120 km/h
+  kw: [speed limit, km/h, hastighetsbegränsning, max speed, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
+  related: [C32, E11]
+  lesson: speed-limits
+C32:
+  en: End of temporary speed limit
+  text: Marks the end of a temporary speed limit that was shown with sign C31. After it, the speed limit that applied before the temporary limit applies again.
+  variants:
+    C32-2: End of temporary 20 km/h
+    C32-4: End of temporary 40 km/h
+    C32-5: End of temporary 50 km/h
+    C32-6: End of temporary 60 km/h
+    C32-7: End of temporary 70 km/h
+    C32-8: End of temporary 80 km/h
+    C32-9: End of temporary 90 km/h
+    C32-10: End of temporary 100 km/h
+    C32-11: End of temporary 110 km/h
+  kw: [end of speed limit, temporary speed limit, road works]
+  related: [C31]
+  lesson: speed-limits
+C33:
+  en: Stop at customs
+  text: You must stop for customs formalities, at the stop line or, if there is none, at the sign. The text below the bar is given in a suitable language.
+  variants: { C33-2: Customs in Swedish and Norwegian, C33-3: Customs in Swedish and Finnish, C33-4: Customs in Swedish and German }
+  kw: [customs, border, tull]
+  lesson: prohibitory-signs
+C34:
+  en: Stop for the reason given
+  text: You must stop for the reason written below the bar – at the stop line or, if there is none, at the sign. If the sign stands before a traffic signal (STOPP SIGNAL), vehicles that are to pass the signal must stop when it shows red.
+  variants: { C34-3: "STOPP FÄRJA – stop for the ferry", C34-4: "STOPP KONTROLL – stop for an inspection or check", C34-5: "STOPP VAKT – stop for a guard (for example at road works)" }
+  kw: [stop signal, ferry, police check, control]
+  lesson: prohibitory-signs
+C35:
+  en: No parking
+  text: Parking is prohibited on the side of the road where the sign stands. The ban starts at the sign and applies as shown on a panel, or until another stopping or parking rule is signed, until the next junction, or until a matching sign with panel T11 (arrow pointing down). If another rule applies on a shorter stretch, the ban applies again after it without a new sign. The sign does not give you the right to stop where stopping is prohibited by the Road Traffic Ordinance.
+  tip: You may still stop briefly, for example to let someone get in or out, or to load or unload.
+  kw: [no parking, parkering förbjuden, blue circle red line]
+  related: [C39, C36, C37, C38]
+  lesson: stopping-and-parking
+C36:
+  en: No parking on odd dates
+  text: Parking is prohibited on days with an odd date (1st, 3rd, 5th …). Otherwise the same rules as for sign C35 apply.
+  kw: [odd date, date parking]
+  related: [C37, C38, C35]
+  lesson: stopping-and-parking
+C37:
+  en: No parking on even dates
+  text: Parking is prohibited on days with an even date (2nd, 4th, 6th …). Otherwise the same rules as for sign C35 apply.
+  kw: [even date, date parking]
+  related: [C36, C38, C35]
+  lesson: stopping-and-parking
+C38:
+  en: Date parking
+  text: Parking is prohibited on days with an even date on the side of the road with even house numbers, and on days with an odd date on the side with odd house numbers. Otherwise the same rules as for sign C35 apply.
+  kw: [date parking, datumparkering, house numbers]
+  related: [C36, C37]
+  lesson: stopping-and-parking
+C39:
+  en: No stopping or parking
+  text: Both stopping and parking are prohibited. The same rules as for sign C35 apply to where the ban starts and ends.
+  tip: Here you may not even stop to let a passenger out. You may only stop if the traffic forces you to or to avoid danger.
+  kw: [no stopping, clearway, stoppförbud, red cross]
+  related: [C35]
+  lesson: stopping-and-parking
+C40:
+  en: Special-purpose place
+  text: A place reserved for a stated purpose. Vehicles may not park or stop there except for that purpose, but may stop briefly to let people get in or out if this does not hinder the purpose. If the purpose is given as lastplats, it means loading or unloading of heavy or bulky goods.
+  variants:
+    C40-2: Taxiplats – taxi place
+    C40-3: Bokbussplats – mobile library bus place
+    C40-4: Ambulansplats – ambulance place
+    C40-5: Skolskjutsplats – school transport place
+    C40-6: På- och avstigningsplats – place for getting in and out
+  kw: [loading bay, lastplats, taxi, ändamålsplats]
+  related: [C41]
+  lesson: stopping-and-parking
+C41:
+  en: End of special-purpose place
+  text: Marks the end of a special-purpose place (sign C40). It is left out if it is clear anyway where the place ends.
+  variants:
+    C41-2: End of taxi place
+    C41-3: End of mobile library bus place
+    C41-4: End of ambulance place
+    C41-5: End of school transport place
+    C41-6: End of place for getting in and out
+  kw: [end of loading bay]
+  related: [C40]
+  lesson: stopping-and-parking
+  quiz: false
+C42:
+  en: Turning place
+  text: Marks a place meant for turning vehicles around, where parking is prohibited. If the no-stopping symbol (C39) is shown in the sign instead, both stopping and parking are prohibited.
+  variants: { C42-2: "Turning place where stopping and parking are prohibited" }
+  kw: [turning area, vändplats]
+  related: [C43]
+  lesson: stopping-and-parking
+C43:
+  en: End of turning place
+  text: Marks the end of a turning place (sign C42). It is left out if it is clear anyway where it ends.
+  variants: { C43-2: "End of a turning place where stopping was prohibited" }
+  kw: [end of turning area]
+  related: [C42]
+  lesson: stopping-and-parking
+  quiz: false
+C44:
+  en: No motor vehicles with studded tyres
+  text: Traffic with motor vehicles that have studded tyres is prohibited, except class II mopeds. If class II mopeds are also banned, a panel says so.
+  tip: Some city streets ban studded tyres to reduce road wear and harmful particles in the air.
+  kw: [studded tyres, dubbdäck, spikes, winter tyres]
+  lesson: prohibitory-signs
+C45:
+  en: Special rules for stopping and parking
+  text: A panel that contains a small prohibitory sign and conditions, for example times. It applies the ban shown inside it, or it gives an exception to the sign it is placed under. Times work as on panel T6. It is placed under signs such as C35–C40, C42, D10, E19 or E20.
+  variants:
+    C45-2: No parking during the times shown
+    C45-3: No parking on odd dates during the times shown
+    C45-4: No parking on even dates during the times shown
+    C45-5: Date parking during the times shown
+    C45-6: No stopping or parking during the times shown
+    C45-7: No stopping or parking during the times shown
+    C45-8: The same panel with the no-parking symbol inside a square frame
+    C45-9: The same panel with the date-parking symbol inside a square frame
+  kw: [parking times, parking rules panel]
+  lesson: additional-panels
+  quiz: false
+C46:
+  en: Triple axle load limit
+  text: The highest triple axle load allowed (the weight that three axles close together put on the road) is shown on the sign.
+  kw: [triple axle, trippelaxeltryck]
+  lesson: prohibitory-signs
+
+# ---------------------------------------------------------------- D: mandatory signs
+D1:
+  en: Mandatory direction
+  text: Vehicles may only be driven in the direction of the arrow, or, where there are two arrows, in the direction of either arrow. The symbol is drawn to match the place.
+  variants:
+    D1-2: Drive to the right
+    D1-3: Drive straight ahead
+    D1-4: Turn left
+    D1-5: Turn right
+    D1-6: Straight ahead or left
+    D1-7: Straight ahead or right
+    D1-8: Left or right
+  kw: [compulsory direction, one way, arrow, påbjuden körriktning]
+  related: [D2, E16]
+  lesson: mandatory-signs
+D2:
+  en: Pass this side
+  text: Vehicles may only pass the sign on the side the arrow points to, or where there are two arrows, on either side. The symbol is drawn to match the place.
+  variants: { D2-2: Pass on the left, D2-3: Pass on either side }
+  kw: [keep right, keep left, traffic island, refuge]
+  related: [D1]
+  lesson: mandatory-signs
+D3:
+  en: Roundabout
+  text: Marks a roundabout (cirkulationsplats). Drive anticlockwise around the centre, and give way to every vehicle already in the roundabout when you enter.
+  kw: [roundabout, rondell, cirkulationsplats]
+  related: [A30]
+  lesson: right-of-way
+D4:
+  en: Cycle track
+  text: Marks a track for cyclists (and class II mopeds unless a panel says otherwise). Other traffic is not allowed on it.
+  tip: Drivers may cross a cycle track, for example to reach a property, but must give way to cyclists on it.
+  kw: [bike lane, bicycle path, cykelbana]
+  related: [D6, D7, D11]
+  lesson: special-areas
+D5:
+  en: Footpath
+  text: Marks a path for pedestrians only.
+  kw: [pedestrian path, gångbana, walkway]
+  related: [D6, D11]
+  lesson: special-areas
+D6:
+  en: Shared path for pedestrians and cyclists
+  text: Marks a path shared by pedestrians and cyclists (and class II mopeds unless a panel says otherwise).
+  kw: [shared path, gång- och cykelbana]
+  related: [D4, D7]
+  lesson: special-areas
+D7:
+  en: Separated paths for pedestrians and cyclists
+  text: Marks paths that are divided by a road marking, kerb or similar into one part for pedestrians and one for cyclists. The position of the symbols on the sign shows which side is for whom. Class II mopeds may use the cycle part unless a panel says otherwise.
+  variants: { D7-2: "Cyclists on the left, pedestrians on the right" }
+  kw: [segregated path, split path]
+  related: [D6]
+  lesson: special-areas
+D8:
+  en: Bridle path
+  text: Marks a path for horse riding. Walking is also allowed on it.
+  kw: [riding path, ridväg, horses]
+  lesson: special-areas
+D9:
+  en: Route for off-road vehicles
+  text: Marks a route for off-road motor vehicles (such as snowmobiles) and off-road trailers. Walking is also allowed on it.
+  kw: [snowmobile trail, skoterled]
+  lesson: special-areas
+D10:
+  en: Bus lane
+  text: Marks a lane or carriageway for vehicles in scheduled services (buses) and the others allowed by the Road Traffic Ordinance – bicycles and class II mopeds may use it if it is on the right-hand side. A panel can allow other vehicles, such as taxis.
+  tip: Other drivers may only cross a bus lane, for example to turn. Watch the panel – it may allow taxis or set times.
+  kw: [bus lane, kollektivkörfält, linjetrafik, public transport]
+  related: [D11]
+  lesson: special-areas
+D11:
+  en: End of compulsory path, lane or route
+  text: Marks the end of a path, lane, road or route marked with one of the signs D4–D10. It is left out if it is clear anyway that the rule has ended. The symbol in it is the same as on the sign that started the stretch.
+  variants:
+    D11-2: End of cycle track
+    D11-3: End of footpath
+    D11-4: End of shared path
+    D11-5: End of separated paths (pedestrians left, cyclists right)
+    D11-6: End of separated paths (cyclists left, pedestrians right)
+    D11-7: End of bridle path
+    D11-8: End of route for off-road vehicles
+  kw: [end of bus lane, end of cycle track]
+  lesson: mandatory-signs
+D12:
+  en: Mandatory direction for vehicles with dangerous goods
+  text: Shows the direction that vehicles carrying dangerous goods (marked with orange plates) must take. A letter on the sign means the rule only applies to vehicles that may not go through a tunnel of that category.
+  variants: { D12-2: "The same sign for vehicles that may not pass a category B tunnel" }
+  kw: [dangerous goods route, ADR]
+  related: [C9]
+  lesson: mandatory-signs
+  quiz: false
+
+# ---------------------------------------------------------------- E: information signs
+E1:
+  en: Motorway
+  text: Marks the start of a motorway (motorväg), where the special motorway rules apply. Used as an advance notice, a panel gives the distance to where the motorway begins. The sign can also appear inside a direction sign.
+  tip: On a motorway the speed limit is 110 km/h unless signs show otherwise, and you may not stop, park, turn around or reverse.
+  kw: [motorway, highway, freeway, motorväg, green sign]
+  related: [E2, E3]
+  lesson: motorways
+E2:
+  en: End of motorway
+  text: Marks the end of a motorway. Used as an advance notice, a panel gives the distance. It is not used where a motorway turns into an expressway (motortrafikled).
+  kw: [motorway ends]
+  related: [E1]
+  lesson: motorways
+E3:
+  en: Expressway
+  text: Marks the start of an expressway (motortrafikled) – a road for fast motor traffic with no level junctions, where most motorway rules apply. Used as an advance notice, a panel gives the distance. The sign can also appear inside a direction sign.
+  tip: Unlike a motorway, an expressway may have traffic in both directions on the same carriageway without a central reserve. The motorway's 110 km/h default does not apply, so follow the speed limit signs.
+  kw: [expressway, motor traffic road, motortrafikled, green car sign]
+  related: [E4, E1]
+  lesson: motorways
+E4:
+  en: End of expressway
+  text: Marks the end of an expressway. Used as an advance notice, a panel gives the distance. It is not used where an expressway turns into a motorway.
+  kw: [expressway ends]
+  related: [E3]
+  lesson: motorways
+E5:
+  en: Built-up area
+  text: Marks the start of a built-up area (tättbebyggt område). The name of the place may be shown on the sign.
+  tip: In a built-up area the speed limit is 50 km/h unless signs show otherwise. A prohibitory sign put up together with this sign applies in the whole built-up area.
+  kw: [town, village, city limit, tättbebyggt område]
+  related: [E6]
+  lesson: speed-limits
+E6:
+  en: End of built-up area
+  text: Marks the end of a built-up area. The name of the place may be shown on the sign.
+  tip: After this sign the base speed of 70 km/h applies unless another limit is signed.
+  kw: [leaving town, end of town]
+  related: [E5]
+  lesson: speed-limits
+E7:
+  en: Pedestrian street
+  text: Marks a pedestrian street (gågata). Vehicles may drive at walking speed only, may not park, and must give way to pedestrians. Motor vehicles may only cross it, except for deliveries to shops, transport of goods or residents to and from addresses, transport of hotel guests, and transport of sick or disabled people. A panel can prohibit even that traffic.
+  kw: [pedestrian zone, walking street, gågata]
+  related: [E8, E9]
+  lesson: special-areas
+E8:
+  en: End of pedestrian street
+  text: Marks the end of a pedestrian street. It is left out if it is clear anyway where the street ends.
+  kw: [pedestrian zone ends]
+  related: [E7]
+  lesson: special-areas
+E9:
+  en: Walking-speed area
+  text: Marks a walking-speed area (gångfartsområde). Vehicles may drive at walking speed only, may not park, and must give way to pedestrians.
+  tip: Unlike a pedestrian street, motor vehicles may drive in a walking-speed area – but only at walking speed and always giving way to pedestrians. Children may play in the street.
+  kw: [shared space, home zone, woonerf, gångfartsområde]
+  related: [E10, E7]
+  lesson: special-areas
+E10:
+  en: End of walking-speed area
+  text: Marks the end of a walking-speed area. It is left out if it is clear anyway where the area ends.
+  kw: [end of home zone]
+  related: [E9]
+  lesson: special-areas
+E11:
+  en: Recommended lower speed
+  text: Marks a stretch or an area where special measures have been taken, or where conditions make it suitable to drive slower than the speed limit. The recommended speed is shown on the sign.
+  tip: This blue sign is advice, not a legal limit like the red-ringed C31. It is still wise to follow it.
+  variants:
+    E11-2: The same sign with another recommended speed
+    E11-3: The same sign with another recommended speed
+    E11-4: The same sign with another recommended speed
+    E11-5: The same sign with another recommended speed
+    E11-6: The same sign with another recommended speed
+    E11-7: The same sign with another recommended speed
+    E11-8: The same sign with another recommended speed
+    E11-9: The same sign with another recommended speed
+    E11-10: The same sign with another recommended speed
+  kw: [recommended speed, advisory speed, max km/tim]
+  related: [E12, C31, E13]
+  lesson: speed-limits
+E12:
+  en: End of recommended lower speed
+  text: Marks the end of a stretch with a recommended lower speed. It is left out if it is clear anyway where the stretch ends.
+  variants:
+    E12-2: The same sign for another recommended speed
+    E12-3: The same sign for another recommended speed
+    E12-4: The same sign for another recommended speed
+    E12-5: The same sign for another recommended speed
+    E12-6: The same sign for another recommended speed
+    E12-7: The same sign for another recommended speed
+    E12-8: The same sign for another recommended speed
+    E12-9: The same sign for another recommended speed
+    E12-10: The same sign for another recommended speed
+  kw: [end of recommended speed]
+  related: [E11]
+  lesson: speed-limits
+E13:
+  en: Recommended maximum speed
+  text: Used only as a variable (electronic) sign. It shows that conditions are temporarily such that it is not suitable to drive faster than the speed shown, for example because of queues, an accident or bad weather. The speed shown is always lower than the speed limit.
+  variants:
+    E13-2: The same sign showing another speed
+    E13-3: The same sign showing another speed
+    E13-4: The same sign showing another speed
+    E13-5: The same sign showing another speed
+    E13-6: The same sign showing another speed
+    E13-7: The same sign showing another speed
+    E13-8: The same sign showing another speed
+    E13-9: The same sign showing another speed
+    E13-10: The same sign showing another speed
+    E13-11: The same sign showing another speed
+  kw: [variable speed, electronic sign, motorway sign]
+  related: [E14, E11, C31]
+  lesson: speed-limits
+E14:
+  en: End of recommended maximum speed
+  text: Shows that the temporary conditions behind a recommended maximum speed (E13) have ended. It is left out if that is clear anyway.
+  kw: [end of advisory speed]
+  related: [E13]
+  lesson: speed-limits
+E15:
+  en: Merging lanes (zip merge)
+  text: Informs that two lanes or two carriageways run together and that drivers must adapt to each other (chapter 3, section 44 of the Road Traffic Ordinance). It is also used in advance, with the distance on a panel.
+  tip: Where lanes merge, nobody has priority. Drivers take turns, one from each lane, like a zip – this is called sammanvävning.
+  kw: [zip merge, merging, lanes merge, sammanvävning, zipper]
+  related: [F17]
+  lesson: turning-and-lanes
+E16:
+  en: One-way traffic
+  text: Shows that vehicle traffic on the road goes one way only, in the direction of the arrow. An upward arrow means traffic goes one way straight ahead.
+  variants: { E16-2: "One-way traffic straight ahead (upward arrow)" }
+  kw: [one way street, enkelriktad]
+  related: [C1, D1]
+  lesson: information-signs
+E17:
+  en: Dead end
+  text: Shows that you cannot drive through. The symbol is drawn to match the place and can be part of a direction sign. If cyclists and class II moped riders can get through, the bicycle symbol (S8) is added to the sign.
+  variants: { E17-2: Dead-end road to the right, E17-3: Dead-end road to the left, E17-4: "Dead end, but bicycles and class II mopeds can get through" }
+  kw: [no through road, cul-de-sac, återvändsväg]
+  lesson: information-signs
+E18:
+  en: Passing place
+  text: Marks a passing place (mötesplats) on a narrow road, where vehicles can meet or let others overtake.
+  tip: You may not park in a passing place marked with this sign.
+  kw: [meeting place, passing bay, M sign, mötesplats]
+  lesson: meeting-and-overtaking
+E19:
+  en: Parking
+  text: Parking is allowed in a car park, or on a stretch on the side of the road where the sign stands. By a road, the permission starts at the sign and applies as a panel says, until another stopping or parking rule is signed, or else to the next junction. In a car park it covers the whole car park. It does not allow parking where the Road Traffic Ordinance forbids stopping or parking, and it does not allow parking longer than 24 hours in a row on weekdays on public streets and roads.
+  tip: Look for panels under the P sign – they may set a time limit, fees, a parking disc or a vehicle type.
+  kw: [parking, P sign, car park, parkering]
+  related: [C35, E30]
+  lesson: stopping-and-parking
+E20:
+  en: Zone sign
+  text: Marks the start of an area (zone) where the prohibition or permission shown inside the sign applies. It stands at every entrance to the area and applies until sign E21 (end of zone) or until it is otherwise clear that it no longer applies. Exceptions inside the area are shown with other signs and panels, and the zone rule applies again after them without a new sign. Times can be shown in the sign.
+  variants:
+    E20-2: Zone with no vehicles
+    E20-3: Zone with no motor vehicles (except class II mopeds)
+    E20-4: Zone with no motor vehicles with more than two wheels
+    E20-5: Zone with no vehicles towing a trailer
+    E20-7: Zone with no tractors and class II motor implements
+    E20-8: Zone with a height limit
+    E20-9: Zone with a length limit
+    E20-10: Zone with a weight limit for vehicles
+    E20-11: Zone with a weight limit for vehicles and combinations
+    E20-12: Zone with an axle load limit
+    E20-13: Zone with a bogie load limit
+    E20-14: Zone with no parking on even dates
+    E20-15: Zone with no stopping or parking
+    E20-16: Parking zone with a time limit (here 15 minutes)
+  kw: [zone, area sign, områdesmärke, parking zone]
+  related: [E21]
+  lesson: information-signs
+E21:
+  en: End of zone
+  text: Marks the end of a zone that started with sign E20. It looks like the sign that was inside the E20 sign.
+  variants:
+    E21-2: End of zone with no vehicles
+    E21-3: End of zone (other rule)
+    E21-4: End of zone (other rule)
+    E21-5: End of zone (other rule)
+    E21-6: End of zone (other rule)
+    E21-7: End of zone (other rule)
+    E21-8: End of zone (other rule)
+    E21-9: End of zone (other rule)
+    E21-10: End of zone (other rule)
+    E21-11: End of zone (other rule)
+    E21-12: End of zone (other rule)
+    E21-13: End of zone (other rule)
+    E21-14: End of zone (other rule)
+    E21-15: End of zone (other rule)
+    E21-16: End of zone (other rule)
+  kw: [end of zone]
+  related: [E20]
+  lesson: information-signs
+  quiz: false
+E22:
+  en: Bus stop
+  text: Marks a stop for buses in scheduled service and school transport, unless the stop is clearly shown in another way. Bus lines, operators and times may be shown on or by the sign.
+  tip: Within 20 metres before and 5 metres after this sign (where no markings show the stop), other vehicles may only stop briefly to let passengers on or off without hindering buses. In built-up areas with a limit of 50 km/h or lower, let a bus that signals leave the stop first.
+  kw: [bus stop, busshållplats]
+  lesson: stopping-and-parking
+E23:
+  en: Taxi rank
+  text: Marks the far end (in the direction of travel) of a special place where taxis wait.
+  kw: [taxi stand, taxi rank]
+  lesson: information-signs
+E24:
+  en: Automatic traffic surveillance
+  text: Shows that automatic monitoring with a camera or similar may take place at the spot or along the stretch – to check traffic rules (for example speed), or for taxes or fees. Personal data may be recorded. For a longer stretch, the length is shown on panel T1, and the sign is repeated at suitable distances.
+  kw: [speed camera, ATK, traffic camera, surveillance]
+  lesson: speed-limits
+E25:
+  en: Toll road or charge
+  text: Shows that a fee or special tax must be paid to drive on a certain road or within a certain area, for example congestion tax or a bridge toll.
+  kw: [toll, congestion charge, trängselskatt, infrastructure charge, betalväg]
+  lesson: information-signs
+E26:
+  en: Tunnel
+  text: Marks a tunnel. The length of the tunnel is shown, and its name may be shown. The sign is repeated after every kilometre, then showing the remaining length.
+  kw: [tunnel length]
+  related: [A26]
+  lesson: information-signs
+E27:
+  en: Emergency lay-by
+  text: Marks a place to stop a vehicle after a breakdown, engine failure or similar. A symbol for an emergency telephone or a fire extinguisher may be added. With a panel showing distance, it gives advance notice.
+  kw: [emergency stopping place, breakdown bay, SOS]
+  lesson: motorways
+E28:
+  en: Emergency exit
+  text: Marks an emergency exit for people on foot, for example in a tunnel.
+  variants: { E28-2: The same sign mirrored }
+  kw: [emergency exit, tunnel exit, nödutgång]
+  related: [E29]
+  lesson: information-signs
+E29:
+  en: Escape route
+  text: Shows the direction and distance to an emergency exit or similar for people on foot. The signs are placed at most 25 metres apart.
+  kw: [evacuation route, tunnel, emergency exit direction]
+  related: [E28]
+  lesson: information-signs
+E30:
+  en: Special rules for parking
+  text: A panel showing that parking is allowed with the conditions shown in it, for example a time limit. It can also make an exception to the sign it is placed under. Times work as on panel T6.
+  kw: [parking time limit, parking conditions]
+  related: [E19, C45]
+  lesson: additional-panels
+  quiz: false
+E31:
+  en: Environmental zone
+  text: Marks the start of an environmental zone (miljözon), where only vehicles meeting certain emission standards may be driven (Road Traffic Ordinance, chapter 4, sections 22–24 a). Class 1 covers heavy trucks and buses, class 2 covers cars, light trucks and light buses, and class 3 has the strictest rules for both groups. The zone applies until sign E6 (end of built-up area), E32 (end of zone) or another zone sign.
+  variants: { E31-2: Environmental zone class 2, E31-3: Environmental zone class 3, E31-4: Environmental zone classes 1 and 2 }
+  kw: [low emission zone, miljözon, clean air zone]
+  related: [E32]
+  lesson: environment-and-vehicles
+E32:
+  en: End of environmental zone
+  text: Marks the end of an environmental zone.
+  variants: { E32-2: End of environmental zone class 2, E32-3: End of environmental zone class 3, E32-4: End of environmental zone classes 1 and 2 }
+  kw: [end of low emission zone]
+  related: [E31]
+  lesson: environment-and-vehicles
+E33:
+  en: Cycle street
+  text: Marks a cycle street (cykelgata). Vehicles may not drive faster than 30 km/h, may only park in specially arranged parking spaces, and drivers of motor vehicles must adapt their speed to the cyclists. A driver who comes onto a cycle street from another road must give way to vehicles on the cycle street.
+  kw: [bicycle street, cykelgata, cycle priority street]
+  related: [E34]
+  lesson: special-areas
+E34:
+  en: End of cycle street
+  text: Marks the end of a cycle street.
+  kw: [end of bicycle street]
+  related: [E33]
+  lesson: special-areas
+
+# ---------------------------------------------------------------- F: direction signs
+# Colour rule (VMF 2:14): blue = public roads, green = motorways and expressways,
+# yellow with red border = private roads, white = facilities and local destinations,
+# brown = tourist destinations, orange = temporary diversions, yellow with green text = temporary events.
+F1:
+  en: Advance direction sign
+  text: Gives advance information about a junction, roundabout or similar, showing the directions and destinations. Where there are special reasons it can show two junctions.
+  tip: The colour of a direction sign tells you the type of road – blue for public roads, green for motorways and expressways, yellow with a red border for private roads.
+  variants: { F1-2: "Advance direction sign for a roundabout" }
+  kw: [direction sign, signpost, orienteringstavla]
+  lesson: direction-signs
+  quiz: false
+F2:
+  en: Advance direction sign for a banned turn
+  text: Gives advance information that turning is prohibited at the junction ahead, and shows another way to reach the destination.
+  kw: [turn ban, detour, diversion]
+  lesson: direction-signs
+  quiz: false
+F3:
+  en: Advance direction sign in table form
+  text: Gives advance information about a junction, roundabout or similar as a list, with all directions shown. The distance shown is adjusted to the place.
+  kw: [direction table]
+  lesson: direction-signs
+  quiz: false
+F4:
+  en: Advance exit sign
+  text: Gives advance information about an exit. The distance shown is adjusted to the place.
+  kw: [exit ahead, avfart]
+  lesson: direction-signs
+  quiz: false
+F5:
+  en: Direction sign
+  text: Placed at a junction and points the way to a destination. Distances, if shown, are given in whole kilometres.
+  kw: [signpost, vägvisare, finger post]
+  lesson: direction-signs
+  quiz: false
+F6:
+  en: Direction sign in table form
+  text: Can be used instead of F5. It stands a short distance before a junction or roundabout, or in the exit from a roundabout. Near a hospital, industrial area or similar, the area may be named at the top without a direction.
+  kw: [direction table]
+  lesson: direction-signs
+  quiz: false
+F7:
+  en: Exit sign
+  text: Placed where an exit begins.
+  kw: [exit, avfart]
+  lesson: direction-signs
+  quiz: false
+F8:
+  en: Lane direction sign (overhead)
+  text: Shows which lane or lanes are suitable for reaching a destination. It hangs above the lane or lanes it refers to. It can also give advance notice of an exit; the distance to the exit is then shown under it.
+  variants: { F8-2: "Lane direction signs that also give advance notice of an exit, with the distance" }
+  kw: [gantry sign, overhead sign, lane sign, körfältsvägvisare]
+  lesson: turning-and-lanes
+  quiz: false
+F9:
+  en: Collective direction sign
+  text: The destinations inside the bracket are all reached by the same choice of route, which is given under the point of the bracket. The distance to the exit or junction can be shown on a panel.
+  kw: [grouped destinations]
+  lesson: direction-signs
+  quiz: false
+F10:
+  en: Place name sign
+  text: Shows the name of a town or other place that helps with orientation. A municipal, town or county coat of arms may be shown.
+  kw: [town name, place name, platsmärke]
+  lesson: direction-signs
+  quiz: false
+F11:
+  en: Road name
+  text: Shows the name of a road or route.
+  kw: [street name, road name, vägnamn]
+  lesson: direction-signs
+  quiz: false
+F12:
+  en: Watercourse
+  text: Shows the name of a river or stream.
+  kw: [river name, stream]
+  lesson: direction-signs
+  quiz: false
+F13:
+  en: Distance sign
+  text: Shows distances to destinations in whole kilometres. A road name or road number may be shown.
+  kw: [distances, km, avståndstavla]
+  lesson: direction-signs
+  quiz: false
+F14:
+  en: Road number
+  text: Shows the road number. Numbers are only given for roads numbered 1–499. A sign with a dashed border means the road leads to the road with the number shown.
+  tip: Green E-numbers are European roads (for example E4). Blue numbers are national and county roads.
+  variants: { F14-2: "Road leading to European road E4 (dashed border)", F14-3: "National or county road number", F14-4: "Road leading to road 58 (dashed border)" }
+  kw: [road number, E-road, European route, riksväg]
+  lesson: direction-signs
+F15:
+  en: Permanent diversion route
+  text: Shows a permanent alternative route for a numbered road.
+  kw: [diversion route, omledning]
+  lesson: direction-signs
+  quiz: false
+F16:
+  en: More lanes ahead
+  text: Shows that the number of lanes increases. The sign is drawn to match the place, and symbols for vehicle types, road numbers or a physical barrier between opposite lanes may be added. Used in advance, the distance is shown on a panel. At temporary diversions it may have an orange background.
+  variants: { F16-2: More lanes ahead (another layout), F16-3: "More lanes ahead, with a barrier between the directions", F16-4: More lanes ahead (another layout) }
+  kw: [extra lane, lane gain, overtaking lane]
+  related: [F17]
+  lesson: turning-and-lanes
+  quiz: false
+F17:
+  en: Fewer lanes ahead
+  text: Shows that the number of lanes decreases. The sign is drawn to match the place. Used in advance, the distance is shown on a panel. At temporary diversions it may have an orange background.
+  tip: On a 2+1 road this sign tells you the overtaking lane is ending. Finish overtaking in good time and merge back.
+  variants: { F17-2: Fewer lanes ahead (another layout), F17-3: Fewer lanes ahead (another layout) }
+  kw: [lane ends, lane drop, 2+1 road]
+  related: [F16, E15]
+  lesson: turning-and-lanes
+  quiz: false
+F18:
+  en: Lane layout on the road ahead
+  text: Shows the direction of traffic in each lane. The sign is drawn to match the place, and symbols for vehicle types, road numbers or a physical barrier between opposite lanes may be added. Used in advance, the distance is shown on a panel. At temporary diversions it may have an orange background.
+  variants:
+    F18-2: Lane layout with a barrier between the directions
+    F18-3: Lane layout (another layout)
+    F18-4: Lane layout (another layout)
+    F18-5: Lane layout with a barrier between the directions (another layout)
+    F18-6: Lane layout with a barrier between the directions (another layout)
+  kw: [lane arrangement, 2+1 road]
+  lesson: turning-and-lanes
+  quiz: false
+F19:
+  en: Joining road with acceleration lane
+  text: Shows that a road joins with an acceleration lane. The sign is drawn to match the place. At temporary diversions it may have an orange background.
+  variants: { F19-2: Joining road with acceleration lane (another layout), F19-3: Joining road with acceleration lane (another layout), F19-4: Joining road with acceleration lane (another layout), F19-5: Joining road with acceleration lane (another layout) }
+  kw: [slip road, merge, acceleration lane, påfart]
+  lesson: motorways
+  quiz: false
+F20:
+  en: Joining road with its own lane
+  text: Shows that a road joins with a separate lane of its own. The sign is drawn to match the place. At temporary diversions it may have an orange background.
+  variants: { F20-2: Joining road with its own lane (another layout), F20-3: Joining road with its own lane (another layout), F20-4: Joining road with its own lane (another layout) }
+  kw: [added lane, slip road]
+  lesson: motorways
+  quiz: false
+F21:
+  en: Lanes before a junction
+  text: Shows the suitable lane for the onward journey before a junction. The sign is drawn to match the place.
+  kw: [lane choice, junction lanes]
+  lesson: turning-and-lanes
+  quiz: false
+F22:
+  en: National border sign
+  text: Marks the border of Sweden or another EU country.
+  variants: { F22-1: The border sign for Finland }
+  kw: [border, country sign, EU]
+  lesson: direction-signs
+  quiz: false
+F23:
+  en: Diversion advance sign
+  text: Shows the diversion route when the normal road is temporarily closed.
+  kw: [detour, diversion, road closed]
+  lesson: direction-signs
+  quiz: false
+F24:
+  en: Diversion direction
+  text: Shows the direction to follow during a temporary diversion of traffic.
+  kw: [detour arrow, diversion]
+  lesson: direction-signs
+  quiz: false
+F25:
+  en: Lane closed – move to another lane
+  text: Shows that a lane is temporarily closed and that another lane in your direction can be used. The sign is drawn to match the place.
+  variants: { F25-3: Lane closed (another layout), F25-4: Lane closed (another layout) }
+  kw: [road works, lane closure]
+  related: [F26]
+  lesson: direction-signs
+  quiz: false
+F26:
+  en: Lane closed – traffic in the opposite lane
+  text: Shows that a lane is temporarily closed and that no other lane in your direction can be used (you share the road with oncoming traffic). The sign is drawn to match the place.
+  variants: { F26-2: Lane closed (another layout) }
+  kw: [road works, contraflow]
+  related: [F25]
+  lesson: direction-signs
+  quiz: false
+F27:
+  en: Junction number
+  text: Shows the number of the junction (exit). It may be completed with the exit's designation.
+  kw: [exit number, junction number, trafikplatsnummer]
+  lesson: motorways
+  quiz: false
+F28:
+  en: Multi-storey car park
+  text: Marks a parking garage. Information about whether it is full or has free spaces may be given next to it, and its name may be shown.
+  kw: [parking garage, car park, parkeringshus]
+  lesson: direction-signs
+  quiz: false
+F29:
+  en: Park and ride
+  text: Marks a car park connected to public transport. The symbol shows the type of public transport available. The car park's name may be shown.
+  variants: { F29-2: "Park and ride with a bus", F29-3: "Park and ride (another type of public transport)" }
+  kw: [park and ride, infartsparkering, commuter parking]
+  lesson: direction-signs
+  quiz: false
+F30:
+  en: Local loop
+  text: Marks a ring road or similar route. It can carry a designation.
+  kw: [ring road, loop]
+  lesson: direction-signs
+  quiz: false
+F31:
+  en: Suitable route for a vehicle type or road user group
+  text: Shows a suitable road or bypass for the vehicle type or road user group shown by the symbol.
+  variants:
+    F31-2: The same sign for another vehicle type or user group
+    F31-3: The same sign for another vehicle type or user group
+    F31-4: The same sign for another vehicle type or user group
+    F31-5: The same sign for another vehicle type or user group
+    F31-6: The same sign for another vehicle type or user group
+    F31-7: The same sign for another vehicle type or user group
+    F31-8: The same sign for another vehicle type or user group
+    F31-9: The same sign for another vehicle type or user group
+    F31-10: The same sign for another vehicle type or user group
+    F31-11: The same sign for another vehicle type or user group
+  kw: [truck route, bypass]
+  lesson: direction-signs
+  quiz: false
+F31a:
+  en: Route for long vehicle combinations
+  text: Shows the route for long vehicle combinations (up to 34.5 metres) under the special rules for such roads.
+  kw: [long trucks, 34.5 m]
+  lesson: direction-signs
+  quiz: false
+F32:
+  en: Dangerous goods route
+  text: Shows the recommended route for vehicles carrying dangerous goods (marked with orange plates).
+  kw: [ADR route, hazardous goods]
+  related: [C9, D12]
+  lesson: direction-signs
+  quiz: false
+F33:
+  en: Rescue point
+  text: Marks a rescue point at road works or similar. The number is the rescue point's number.
+  kw: [rescue point, R1]
+  lesson: direction-signs
+  quiz: false
+F34:
+  en: Direction sign for pedestrians and cyclists
+  text: Points the way to a town, place or facility for people walking or cycling. Distance in kilometres may be shown.
+  kw: [cycle signpost]
+  lesson: direction-signs
+  quiz: false
+F35:
+  en: Direction table for pedestrians and cyclists
+  text: Points the way to several towns, places or facilities, with distances in kilometres, for people walking or cycling.
+  kw: [cycle route sign]
+  lesson: direction-signs
+  quiz: false
+F36:
+  en: Place name sign for pedestrians and cyclists
+  text: Shows the name of a town or other place on a walking or cycling route. A coat of arms may be shown.
+  kw: [place name]
+  lesson: direction-signs
+  quiz: false
+F37:
+  en: Distance sign for pedestrians and cyclists
+  text: Shows the distance in kilometres to places on a walking or cycling route.
+  kw: [cycle distance]
+  lesson: direction-signs
+  quiz: false
+F38:
+  en: Cycle route
+  text: Marks a specially arranged cycle route. The colours of the sign can vary.
+  kw: [cycle route, bike route, cykelled]
+  lesson: direction-signs
+  quiz: false
+
+# ---------------------------------------------------------------- G: public facilities
+G1: { en: Post office, text: "Marks a postal agent offering letter and parcel services and stamps.", kw: [post, mail, parcels], lesson: direction-signs }
+G2: { en: Emergency telephone, text: "Marks an emergency telephone.", kw: [SOS phone, help phone, hjälptelefon], lesson: direction-signs }
+G3: { en: Traffic information radio, text: "Shows a radio station that regularly broadcasts road traffic information covering a larger area, with its frequency.", kw: [radio, traffic news, FM], lesson: direction-signs }
+G4: { en: Hospital with emergency department, text: "Marks a hospital with an emergency department (akutmottagning).", kw: [hospital, emergency, A&E, akutsjukhus], lesson: direction-signs }
+G5: { en: Industrial area, text: "Marks an area for industry or similar business.", kw: [industry, factories], lesson: direction-signs }
+G6: { en: Railway station, text: "Marks a railway station.", kw: [train station], lesson: direction-signs }
+G7: { en: Bus station, text: "Marks a bus station where several bus lines meet.", kw: [bus terminal], lesson: direction-signs }
+G8: { en: Airport, text: "Marks an airport with scheduled flights.", variants: { G8-2: The aircraft symbol drawn in another direction, G8-3: The aircraft symbol drawn in another direction }, kw: [airport, flights], lesson: direction-signs }
+G9: { en: Fire extinguisher, text: "Marks a fire extinguisher, for example in a tunnel.", kw: [fire extinguisher], lesson: direction-signs }
+G10: { en: Shopping area, text: "Marks an area for shopping.", kw: [shops, retail park], lesson: direction-signs }
+G11: { en: Ferry, text: "Marks a ferry terminal, or shows that the destination is reached by ferry.", kw: [car ferry, färja], lesson: direction-signs }
+G12: { en: Passenger ferry, text: "Marks a terminal for a passenger ferry, or shows that the destination can only be reached by a ferry for passengers.", kw: [foot ferry, passenger boat], lesson: direction-signs }
+
+# ---------------------------------------------------------------- H: service facilities
+H1: { en: Information point, text: "Marks a place where you can get information. The type of information may be shown next to the sign.", kw: [tourist information, i], lesson: direction-signs }
+H2: { en: Vehicle repair workshop, text: "Marks a vehicle repair workshop.", kw: [garage, mechanic, verkstad], lesson: direction-signs }
+H3: { en: Fuel, text: "Marks a place that sells fuel. A company emblem may be shown next to it.", kw: [petrol station, gas station, filling station, drivmedel], lesson: direction-signs }
+H4: { en: Gas for vehicles, text: "Marks places that sell different kinds of vehicle gas. The abbreviation shows the type; CNG means compressed natural gas.", variants: { H4-2: "LPG – liquefied petroleum gas", H4-3: "LNG – liquefied natural gas", H4-4: "H2 – hydrogen" }, kw: [CNG, LPG, LNG, hydrogen, biogas], lesson: environment-and-vehicles }
+H5: { en: Café, text: "Marks a place serving drinks and simple meals.", kw: [snacks, coffee, servering], lesson: direction-signs }
+H6: { en: Restaurant, text: "Marks a restaurant.", kw: [food, dining], lesson: direction-signs }
+H7: { en: Hotel, text: "Marks a hotel.", kw: [accommodation], lesson: direction-signs }
+H8: { en: Hostel, text: "Marks a hostel (vandrarhem).", kw: [youth hostel], lesson: direction-signs }
+H9: { en: Holiday cabin village, text: "Marks a place with a larger number of cabins.", kw: [cabins, stugby], lesson: direction-signs }
+H10: { en: Holiday cabins, text: "Marks a place with a few cabins.", kw: [cabin, stuga], lesson: direction-signs }
+H11: { en: Campsite, text: "Marks a site with places for both tents and vehicles with living accommodation (caravans and motorhomes).", kw: [camping, tents], lesson: direction-signs }
+H12: { en: Caravan site, text: "Marks a site with places only for vehicles with living accommodation.", kw: [caravans, motorhomes], lesson: direction-signs }
+H13: { en: Rest area, text: "Marks a rest area with a toilet that can also be used by people with reduced mobility.", kw: [lay-by, rastplats, picnic], lesson: direction-signs }
+H14: { en: Toilet, text: "Marks a toilet that can also be used by people with reduced mobility.", kw: [WC, restroom], lesson: direction-signs }
+H15: { en: Bathing place, text: "Marks a beach or other bathing facility.", kw: [beach, swimming], lesson: direction-signs }
+H16: { en: Outdoor recreation area, text: "Marks an outdoor recreation area.", kw: [nature, park], lesson: direction-signs }
+H17: { en: Hiking trail, text: "Marks a hiking trail.", kw: [walking trail], lesson: direction-signs }
+H18: { en: Chair lift, text: "Marks a lift with chairs or similar.", kw: [ski lift], lesson: direction-signs }
+H19: { en: Ski tow, text: "Marks a lift where skiers are pulled along.", kw: [drag lift, T-bar], lesson: direction-signs }
+H20: { en: Golf course, text: "Marks a golf course.", kw: [golf], lesson: direction-signs }
+H21: { en: Fishing licences sold here, text: "Marks a place that sells fishing licences.", kw: [fishing permit, fiskekort], lesson: direction-signs }
+H22: { en: Place of interest, text: "Marks a sight of national interest. The kind of sight is shown next to the sign.", kw: [sight, attraction, sevärdhet], lesson: direction-signs }
+H23: { en: Services ahead, text: "Gives advance information about services near the road, sometimes with their names, and the distance to the exit or junction. Fuel, restaurant and hotel symbols may be completed with company names or emblems.", kw: [motorway services, roadside services], lesson: direction-signs }
+H24: { en: Bed and breakfast, text: "Marks a place offering rooms for the night and breakfast.", kw: [B&B], lesson: direction-signs }
+H25: { en: Farm shop, text: "Marks a shop selling locally made or locally grown products.", kw: [farm shop, gårdsbutik], lesson: direction-signs }
+H26: { en: Crafts, text: "Marks a place where handicrafts are made and sold.", kw: [handicraft], lesson: direction-signs }
+H27: { en: Charging station, text: "Marks a place for charging electric vehicles.", kw: [EV charging, laddstation, electric car], lesson: environment-and-vehicles }
+H28: { en: Motorhome site, text: "Marks a site with places only for cars with living accommodation (motorhomes).", kw: [motorhome, camper van, husbil], lesson: direction-signs }
+
+# ---------------------------------------------------------------- I: tourist signs (brown)
+I1: { en: Tourist route, text: "Marks a road or route of tourist interest. It can be part of a direction sign.", kw: [scenic route, turistväg, brown sign], lesson: direction-signs }
+I2: { en: Tourist area, text: "Marks a tourist area. The symbol matches the area's theme.", kw: [tourist region, brown sign], lesson: direction-signs }
+I3: { en: Landmark, text: "Tells you about a landmark of tourist interest that can be seen from the road. The symbol is a silhouette of the place.", kw: [landmark, view], lesson: direction-signs }
+I4: { en: World Heritage Site, text: "Marks a World Heritage Site decided by UNESCO.", kw: [UNESCO, world heritage, världsarv], lesson: direction-signs }
+
+# ---------------------------------------------------------------- J: notice signs
+J2:
+  en: Information sign
+  text: Gives information that matters for traffic flow or safety and that cannot be given in another way – for example that road salting ends. Warning or prohibitory signs and road numbers can be shown in it as advance information.
+  kw: [yellow information sign, notice, vägsaltning upphör]
+  lesson: direction-signs
+J3:
+  en: Dangerous overhead power line
+  text: Warns that there is an electric line over the road or route that can be dangerous (livsfarlig ledning means "deadly line").
+  variants: { J3-2: "A smaller version of the same sign" }
+  kw: [power line, high voltage, electricity, livsfarlig ledning]
+  lesson: direction-signs
+
+# ---------------------------------------------------------------- T: additional panels
+# Colour rule (VMF 2:29): a panel has the same colours as the sign above it, except
+# under no-parking and no-stopping signs, where it is yellow with black text.
+T1:
+  en: Length of stretch
+  text: Shows where a stretch begins and ends, measured from the sign. For example "200–800 m" means the sign above applies from 200 metres ahead to 800 metres ahead; "0–1.2 km" means it applies from here for 1.2 kilometres.
+  kw: [stretch length, distance range]
+  related: [T2]
+  lesson: additional-panels
+T2:
+  en: Distance
+  text: Shows the distance to what the sign above refers to – for example to a danger, a ban or a give-way point.
+  kw: [distance ahead, meters]
+  related: [T1, T3]
+  lesson: additional-panels
+T3:
+  en: Distance to stop sign
+  text: Used only under sign B1 (give way). It warns that there is a stop sign (stopplikt) at the distance shown.
+  tip: When you see this panel, be ready to stop completely at the junction ahead.
+  kw: [stop ahead, STOPP 200 m]
+  related: [B1, B2, T2]
+  lesson: priority-signs
+T4:
+  en: Free width
+  text: Shows the free width of the road, for example where the road narrows.
+  kw: [width, road width]
+  lesson: additional-panels
+T5:
+  en: Total weight
+  text: The sign above applies only to vehicles with a total weight (the highest weight the vehicle is registered for) above the value shown.
+  tip: Total weight is the registered maximum weight, not what the vehicle weighs today. A light truck with a total weight of 3.5 t is not covered by a ban for vehicles over 3.5 t.
+  kw: [weight, tonnes, totalvikt]
+  related: [C20]
+  lesson: additional-panels
+T6:
+  en: Times
+  text: "Shows when the sign above applies. Black or white numbers without brackets mean weekdays except the day before a Sunday or public holiday. Numbers in brackets mean the day before a Sunday or public holiday (usually Saturday). Red numbers mean Sundays and public holidays. If a period runs past midnight, the part after midnight belongs to the next day. If a particular date or weekday is given, the rule applies that day whatever kind of day it is."
+  tip: "Example: 8–17, (8–14), 8–13 in red means Monday–Friday 8–17, Saturday 8–14, Sunday and holidays 8–13."
+  kw: [time panel, hours, weekdays, Saturday, Sunday, red numbers, brackets]
+  lesson: additional-panels
+T7:
+  en: Disabled parking permit
+  text: Used only under sign E19 (parking). The parking applies to people who may park with a parking permit for people with disabilities. Times on panel T6 work as usual.
+  kw: [disabled parking, handicap parking, wheelchair]
+  related: [E19, T8]
+  lesson: stopping-and-parking
+T8:
+  en: Vehicle type or road user panel
+  text: The sign above applies only to the vehicle type or road user group shown by the symbol. Times on panel T6 work as usual.
+  tip: For example, sign C27 (no overtaking) with a truck panel applies only to heavy trucks; a P sign with a car panel means parking only for cars.
+  variants:
+    T8-2: Heavy trucks with a trailer
+    T8-3: Passenger cars
+    T8-4: Passenger cars with a light trailer
+    T8-5: Buses
+    T8-6: Tractors and class II motor implements
+    T8-7: Motorcycles and class I mopeds (two-wheeled, without sidecar)
+    T8-8: Bicycles and class II mopeds
+    T8-9: Light trailers (släpkärra)
+    T8-10: Pedestrians
+    T8-11: People with reduced mobility
+  kw: [vehicle symbol, applies only to, truck panel]
+  lesson: additional-panels
+T9:
+  en: People with impaired sight
+  text: Shows that people with impaired sight are often found here.
+  kw: [blind people, visually impaired]
+  related: [T10]
+  lesson: additional-panels
+T10:
+  en: People with impaired hearing
+  text: Shows that people with impaired hearing are often found here. This panel is always yellow.
+  kw: [deaf people, hearing impaired]
+  related: [T9]
+  lesson: additional-panels
+T11:
+  en: Extent
+  text: A panel with arrows pointing both ways (horizontal or vertical) means the rule applies on both sides of the sign. An arrow pointing down means the rule ends here. An arrow to the right or left shows that the rule applies in that direction. Under a parking sign (E19) it has black arrows on white without a border.
+  variants:
+    T11-2: Rule ends here (arrow pointing down)
+    T11-3: Rule applies in the direction of the arrow
+    T11-4: Rule applies to the left (under a parking sign)
+    T11-5: Rule applies to the right (under a parking sign)
+    T11-6: Rule applies on both sides (yellow, under a no-parking sign)
+    T11-7: Rule applies on both sides (vertical, yellow)
+    T11-8: Rule ends here (yellow, under a no-parking sign)
+    T11-9: Rule applies to the left (yellow)
+    T11-10: Rule applies to the right (yellow)
+  kw: [arrow panel, ends here, both sides, utsträckning]
+  lesson: additional-panels
+T12:
+  en: Direction
+  text: Shows the direction to what the sign above refers to.
+  variants:
+    T12-2: Direction (half right)
+    T12-3: Direction (straight ahead)
+    T12-4: Direction (half left)
+    T12-5: Direction (left)
+    T12-6: Direction (to the left)
+    T12-7: Direction (to the right)
+    T12-8: Direction (both ways)
+    T12-9: Direction (straight ahead and left)
+    T12-10: Direction (straight ahead and right)
+    T12-11: Direction (diagonally right)
+  kw: [direction arrow]
+  lesson: additional-panels
+T13:
+  en: All-way give way
+  text: Shows that drivers on every road into the junction have to give way.
+  tip: When everyone has to give way, the right-hand rule decides between drivers who arrive at the same time.
+  kw: [all-way yield, flervägsväjning]
+  related: [T14, B1]
+  lesson: priority-signs
+T14:
+  en: All-way stop
+  text: Shows that drivers on every road into the junction must stop.
+  tip: After stopping, the right-hand rule decides who goes first if several drivers arrive at the same time.
+  kw: [all-way stop, four-way stop, flervägsstopp]
+  related: [T13, B2]
+  lesson: priority-signs
+T15:
+  en: How the roads continue in the junction
+  text: Shows a junction where drivers on the road drawn with a narrow line must give way to vehicles on the road drawn with a wide line. The symbol is drawn to match the place.
+  tip: This panel is common under a main road sign where the main road turns. The wide line shows where the priority road goes.
+  variants:
+    T15-2: Another junction layout
+    T15-3: Another junction layout
+    T15-4: Another junction layout
+    T15-5: Another junction layout
+    T15-6: Another junction layout
+  kw: [priority road turns, main road bends]
+  related: [B4, B1]
+  lesson: priority-signs
+T16:
+  en: Fee
+  text: Parking costs money according to the price list on the parking meter, ticket machine or similar, and any other conditions written there must be followed. Times on panel T6 work as usual.
+  kw: [paid parking, avgift, parking meter]
+  related: [E19, T20]
+  lesson: stopping-and-parking
+T17:
+  en: Parking disc
+  text: You must show the time you started parking with a parking disc (P-skiva) or similar. Times on panel T6 work as usual.
+  tip: Set the disc to the next half hour after you arrive. Arrive at 10:10 and you set 10:30.
+  kw: [parking disc, P-skiva, parkeringsskiva]
+  related: [T18]
+  lesson: stopping-and-parking
+T18:
+  en: Time limit for parking
+  text: Shows the longest time you may park. Times on panel T6 work as usual.
+  kw: [max parking time, 2 tim, hours]
+  related: [T17]
+  lesson: stopping-and-parking
+T19:
+  en: Residents
+  text: Residents of an area who have a special permit may park under special conditions. An area code may be added. Times on panel T6 work as usual.
+  kw: [resident parking, boende]
+  lesson: stopping-and-parking
+T20:
+  en: Parking ticket
+  text: Parking is free of charge, but you must use a parking ticket. Times on panel T6 work as usual.
+  kw: [free ticket, P-biljett]
+  related: [T16]
+  lesson: stopping-and-parking
+T21:
+  en: How to park
+  text: Shows how vehicles must be placed in a car park – for example at right angles, in a line, or at an angle. The panel is drawn to match the place.
+  variants: { T21-2: Park in a line along the road, T21-3: Park at an angle, T21-4: Park at an angle (other direction) }
+  kw: [parking layout, angle parking]
+  lesson: stopping-and-parking
+T22:
+  en: Text panel
+  text: Gives an extra instruction in words that no other panel, or combination of panels, can give. Times on panel T6 work as usual.
+  kw: [text, written panel]
+  lesson: additional-panels
+T23:
+  en: Tunnel category
+  text: Used under sign C9 (no vehicles with dangerous goods). The letter B, C, D or E gives the tunnel's category, which decides which dangerous goods are banned. Times may be shown.
+  variants: { T23-2: Tunnel category C, T23-3: Tunnel category D, T23-4: Tunnel category E }
+  kw: [tunnel category, dangerous goods]
+  related: [C9]
+  lesson: additional-panels
+  quiz: false
+T24:
+  en: Charging place
+  text: Used under sign E19 (parking). It marks a place for charging electric vehicles, where only vehicles that can be charged from an external source may park.
+  tip: A petrol or diesel car may not park here, not even for a short time; it may only stop to let people get in or out.
+  kw: [EV charging, electric car parking, laddplats]
+  related: [E19, H27]
+  lesson: stopping-and-parking
+T25:
+  en: Open 24 hours
+  text: Shows that a café or restaurant is open around the clock. It is used under sign H5 or H6.
+  kw: [24 hours, open all night]
+  lesson: direction-signs
+  quiz: false
+
+# ---------------------------------------------------------------- S: symbols on signs and panels
+S1: { en: Heavy truck, text: "Symbol for a heavy truck (total weight over 3,500 kg), used on direction signs and panels.", kw: [lorry symbol], lesson: additional-panels }
+S2: { en: Heavy truck with trailer, text: "Symbol for a heavy truck with a trailer.", kw: [truck and trailer], lesson: additional-panels }
+S3: { en: Passenger car, text: "Symbol for a passenger car.", kw: [car symbol], lesson: additional-panels }
+S4: { en: Passenger car with light trailer, text: "Symbol for a passenger car towing a light trailer (släpkärra).", kw: [car and trailer], lesson: additional-panels }
+S5: { en: Bus, text: "Symbol for a bus.", kw: [bus symbol], lesson: additional-panels }
+S6: { en: Tractor and class II motor implement, text: "Symbol for tractors and class II motor implements (machines built for at most 30 km/h).", kw: [tractor symbol], lesson: additional-panels }
+S7: { en: Motorcycle, text: "Symbol for a two-wheeled motorcycle without a sidecar and a two-wheeled class I moped without a sidecar.", kw: [motorbike symbol, MC], lesson: additional-panels }
+S8: { en: Bicycle and class II moped, text: "Symbol for bicycles and class II mopeds.", kw: [bike symbol], lesson: additional-panels }
+S9: { en: Light trailer, text: "Symbol for a light trailer of the kind called släpkärra.", kw: [trailer symbol], lesson: additional-panels }
+S10: { en: Pedestrians, text: "Symbol for pedestrians.", kw: [walkers], lesson: additional-panels }
+S11: { en: People with reduced mobility, text: "Symbol for people with reduced mobility.", kw: [wheelchair, disabled], lesson: additional-panels }
+S12: { en: Motorhome, text: "Symbol for a class II passenger car – a car with a permanent living area (motorhome).", kw: [camper van, husbil], lesson: additional-panels }
+S13: { en: Passenger ferry, text: "Symbol for a terminal for a passenger ferry, or showing that the destination can only be reached by a ferry for passengers.", kw: [foot ferry], lesson: additional-panels }
+
+# ---------------------------------------------------------------- M: road markings (VMF chapter 4)
+# Markings are white unless stated. Yellow markings used for temporary needs (road works)
+# apply instead of the ordinary ones. The no-parking/no-stopping kerb markings are always yellow.
+M1:
+  en: Centre line or lane line
+  text: A broken line. As a centre line it marks the border between lanes for traffic in opposite directions; as a lane line it marks the border between lanes in the same direction. The dashes and gaps have the length ratio 1:3 or 1:1. A centre line can also mark the middle of a cycle track (ratio 1:1).
+  tip: You may cross a broken centre line, for example to overtake, if it is safe.
+  kw: [broken line, dashed line, centre line, lane marking, mittlinje]
+  related: [M3, M8]
+  lesson: road-markings
+M2:
+  en: Edge line
+  text: A broken line marking the outer edge of the carriageway. Ratio 1:2 between dash and gap.
+  kw: [edge marking, kantlinje, road edge]
+  related: [M8]
+  lesson: road-markings
+M3:
+  en: Warning line
+  text: A broken line with long dashes and short gaps (ratio 3:1) between lanes for opposite directions. It tells you that crossing it is unsuitable because of traffic conditions, for example poor sight ahead. It can also warn of a solid line coming up.
+  tip: Crossing a warning line is not forbidden, but it is a strong hint not to overtake here.
+  kw: [warning line, long dashes, varningslinje]
+  related: [M1, M8]
+  lesson: road-markings
+M4:
+  en: Guide line
+  text: A broken line (ratio 1:1) showing a suitable path through complicated junctions, or elsewhere where guidance is needed.
+  kw: [guidance line, junction line, ledlinje]
+  lesson: road-markings
+M5:
+  en: Cycle lane line
+  text: A broken line (ratio 1:1) marking the border between a cycle lane and another lane.
+  kw: [bike lane line, cykelfält]
+  lesson: road-markings
+M6:
+  en: Bus lane line
+  text: A broken line (ratio 1:1) marking the border between a lane for buses in scheduled service (and others allowed) and another lane.
+  kw: [bus lane marking]
+  lesson: road-markings
+M7:
+  en: Reversible lane line
+  text: A double broken line (ratio 1:1) marking a lane that is used by traffic in one direction at some times and the other direction at other times.
+  kw: [tidal flow, reversible lane]
+  lesson: road-markings
+M8:
+  en: Solid line
+  text: A solid line replaces a broken line where it is not allowed, for safety reasons, to cross over to oncoming lanes, change lanes or drive out onto the shoulder. You may not drive with any wheel over a solid line (with a few exceptions, for example to pass an obstacle or to reach a property, with special care). A solid centre line can be single or double; a solid lane line and a solid edge line are single.
+  tip: A broken line running right next to a solid line on your side means you may cross from your side.
+  kw: [continuous line, unbroken line, heldragen linje, no crossing]
+  related: [M10, M11]
+  lesson: road-markings
+M9:
+  en: Restricted area (hatched area)
+  text: An area marked with angled or diagonal stripes and bordered by a solid line. Vehicles may not drive on it (Road Traffic Ordinance chapter 3, section 11). Part or all of the area can be painted white.
+  kw: [hatched area, chevrons, spärrområde]
+  lesson: road-markings
+M10:
+  en: Centre or lane line combined with a solid line
+  text: Used where vehicles on the side of the solid line may not change lanes or cross, while vehicles on the side of the broken line may.
+  kw: [double line, one side solid]
+  related: [M8, M11]
+  lesson: road-markings
+M11:
+  en: Warning line combined with a solid line
+  text: Used where vehicles on the side of the solid line may not change lanes or cross, while vehicles on the warning-line side may (if it is safe).
+  kw: [double line]
+  related: [M10, M3]
+  lesson: road-markings
+M12:
+  en: Centre line combined with a warning line
+  text: Used where crossing the warning line is unsuitable because of the traffic conditions, while crossing from the centre-line side is less of a problem.
+  kw: [double broken line]
+  related: [M3]
+  lesson: road-markings
+M13:
+  en: Stop line
+  text: Marks where a vehicle must stop because of a sign, a traffic signal or a level-crossing light signal (Y1).
+  kw: [stop line, wide line across the road, stopplinje]
+  related: [B2, M14]
+  lesson: road-markings
+M14:
+  en: Give-way line
+  text: A row of triangles across the road ("shark's teeth") that marks the line vehicles should not pass when giving way.
+  kw: [shark teeth, give way line, väjningslinje, triangles]
+  related: [B1, M13]
+  lesson: road-markings
+M15:
+  en: Pedestrian crossing marking
+  text: Stripes across the road marking a pedestrian crossing. It is used where sign B3 is placed.
+  kw: [zebra stripes, crosswalk]
+  related: [B3]
+  lesson: road-markings
+M16:
+  en: Cycle passage or cycle crossing marking
+  text: Marks a cycle passage or a cycle crossing (where sign B8 stands). At a cycle crossing it is combined with a give-way line (M14). A pedestrian crossing marking may form one of its edges.
+  tip: With shark's teeth and sign B8 it is a cycle crossing, where you must give way. Without them it is a cycle passage, where you adapt your speed so cyclists are not put in danger.
+  kw: [bike crossing marking, cycle passage]
+  related: [B8]
+  lesson: pedestrians-and-cyclists
+M17:
+  en: Speed bump marking
+  text: Marks a speed bump, dip or similar.
+  kw: [speed hump marking]
+  related: [A9]
+  lesson: road-markings
+M17a:
+  en: Cycle box
+  text: Marks a suitable waiting position for cyclists and class II moped riders, for example in front of cars at traffic lights. It is adapted to the place.
+  kw: [advanced stop box, bike box, cykelbox]
+  lesson: road-markings
+M18:
+  en: Give-way or stop ahead
+  text: A triangle painted on the road warning that you will have to give way or stop further ahead.
+  kw: [triangle on road, give way ahead]
+  related: [B1, B2]
+  lesson: road-markings
+M19:
+  en: Lane arrows
+  text: Show the suitable lane for the next junction. If the lane is bordered by solid lane lines, drivers must follow the direction or directions of the arrows (except when entering or leaving a reserved lane near the junction). Double arrows in the same direction show the lane for the next junction and the one after. The arrows also mean you may not drive in the opposite direction.
+  variants: { M19a: "Lane arrows before a roundabout" }
+  kw: [arrows on road, turn lane, körfältspilar]
+  lesson: turning-and-lanes
+M20:
+  en: Change lanes
+  text: An arrow showing that you must change lane as soon as possible, because your lane ends.
+  variants: { M20a: "Advance notice of a solid centre line or a physical barrier ahead" }
+  kw: [lane ends arrow, merge arrow]
+  lesson: turning-and-lanes
+M21:
+  en: No stopping or parking (yellow line)
+  text: A solid yellow line at the edge of the carriageway showing that stopping and parking are prohibited.
+  kw: [yellow line, kerb marking, no stopping]
+  related: [C39, M22]
+  lesson: stopping-and-parking
+M22:
+  en: No parking (yellow broken line)
+  text: A broken yellow line at the edge of the carriageway showing that parking is prohibited. It is also used to show the extent of a bus stop.
+  kw: [yellow dashed line, no parking]
+  related: [C35, M21]
+  lesson: stopping-and-parking
+M23:
+  en: Yellow zigzag line
+  text: A yellow zigzag that reinforces markings M21 (no stopping or parking) and M22 (no parking).
+  kw: [zigzag, yellow zigzag]
+  related: [M21, M22]
+  lesson: stopping-and-parking
+M24:
+  en: Parking space marking
+  text: Marks the border of a space where vehicles may be placed. It can be a broken line.
+  kw: [parking bay lines]
+  lesson: stopping-and-parking
+M25:
+  en: Pedestrian and cycle arrow
+  text: Shows a suitable route for pedestrians or for cyclists and class II moped riders.
+  kw: [path arrow]
+  lesson: road-markings
+M26:
+  en: Bicycle symbol
+  text: Shows a track or a suitable route for cyclists and class II moped riders.
+  kw: [bike symbol on road]
+  lesson: road-markings
+M27:
+  en: Pedestrian symbol
+  text: Shows a path or suitable route for pedestrians.
+  kw: [walking symbol on road]
+  lesson: road-markings
+M28:
+  en: BUSS marking
+  text: Shows that the lane is meant for buses in scheduled service and others allowed there.
+  kw: [bus lane text, BUSS]
+  related: [D10]
+  lesson: road-markings
+M29:
+  en: Speed limit marking
+  text: Painted on the road to remind you of the speed limit.
+  kw: [speed number on road, 30 painted]
+  related: [C31]
+  lesson: road-markings
+M30:
+  en: Road number marking
+  text: Shows the road number painted on the road.
+  kw: [E4 on road]
+  lesson: road-markings
+M31:
+  en: Purpose place marking
+  text: Shows that a parking space is meant for a certain purpose, for example LASTPLATS (loading place). The text matches the purpose.
+  kw: [loading place text]
+  related: [C40]
+  lesson: road-markings
+M32:
+  en: STOPP marking
+  text: The word STOPP painted on the road. Used together with sign B2 to reinforce the duty to stop.
+  kw: [stop painted]
+  related: [B2]
+  lesson: road-markings
+M33:
+  en: Disabled parking marking
+  text: Shows a parking space only for people with reduced mobility (with a disabled parking permit).
+  kw: [wheelchair symbol, disabled bay]
+  lesson: road-markings
+M34:
+  en: Information marking
+  text: Text painted on the road that gives information, a warning or guidance that matters to road users, for example SKOLA (school).
+  kw: [SKOLA, text on road]
+  lesson: road-markings
+
+# ---------------------------------------------------------------- SIG: traffic signals (VMF chapter 3)
+# The SIG numbers are Transportstyrelsen's catalogue numbers; the law gives signals no codes.
+SIG1:
+  en: Red light
+  text: Stop. Vehicles may not pass the stop line, or the signal if there is no stop line. A red arrow outline in the lamp means the red light only applies to the direction of the arrow.
+  kw: [red light, stop light, rött ljus, traffic light]
+  related: [SIG2, SIG4]
+  lesson: signals-and-police
+SIG2:
+  en: Red and yellow light
+  text: The light is about to turn green. Otherwise it means the same as red – you may not drive yet.
+  kw: [red amber, red yellow]
+  related: [SIG1, SIG3]
+  lesson: signals-and-police
+SIG3:
+  en: Green light
+  text: Vehicles may go ahead. A green arrow means the signal applies to the direction of the arrow, and you may drive in that direction even if another light is showing at the same time.
+  tip: Green does not mean the way is clear. When you turn, you must still give way to pedestrians and cyclists crossing the road you turn into.
+  kw: [green light, go]
+  related: [SIG1]
+  lesson: signals-and-police
+SIG4:
+  en: Yellow light
+  text: Stop. Vehicles may not pass the stop line (or the signal) unless they were so close when the light changed from green to yellow that they cannot stop safely.
+  kw: [amber light, yellow light, gult ljus]
+  related: [SIG1, SIG5]
+  lesson: signals-and-police
+SIG5:
+  en: Flashing yellow light
+  text: Take special care when passing. It is shown only when the signals are out of order or temporarily not working for a short time; the normal priority rules and signs then apply.
+  kw: [flashing amber, signals out of order]
+  related: [SIG4, SIG18]
+  lesson: signals-and-police
+SIG6:
+  en: Red pedestrian light
+  text: A standing figure, often with a slow ticking sound. Pedestrians may not step onto the carriageway, cycle track or crossing. Someone already on the road when it turns red should continue to the other side, or stop on a refuge if there is one.
+  kw: [red man, don't walk]
+  related: [SIG7]
+  lesson: signals-and-police
+SIG7:
+  en: Green pedestrian light
+  text: A walking figure, often with a fast ticking sound. Pedestrians may cross. A flashing green figure (with a fast sound with breaks) means it will soon turn red.
+  tip: As a driver turning at a junction, you must let pedestrians cross on a green pedestrian light.
+  kw: [green man, walk signal]
+  related: [SIG6]
+  lesson: signals-and-police
+SIG8:
+  en: Public transport signal "S"
+  text: Stop. A white S in a signal for buses and trams. It applies to vehicles in scheduled service and trams – and to everyone using a bus lane where the signal stands by that lane.
+  kw: [bus signal, tram signal, kollektivtrafiksignal]
+  related: [SIG9, SIG10, SIG11]
+  lesson: signals-and-police
+SIG9:
+  en: Public transport signal "S" with a horizontal bar
+  text: The signal is about to show the vertical bar (go). Otherwise it means the same as S – stop.
+  kw: [bus signal]
+  related: [SIG8]
+  lesson: signals-and-police
+SIG10:
+  en: Public transport signal with a vertical bar or arrow
+  text: Go. Buses and trams may continue. An arrow means it applies to that direction.
+  kw: [bus signal go]
+  related: [SIG8]
+  lesson: signals-and-police
+SIG11:
+  en: Public transport signal with a horizontal bar
+  text: Stop, unless the vehicle was so close when the signal changed from a vertical to a horizontal bar that it cannot stop safely. A flashing horizontal bar means take special care.
+  kw: [bus signal stop]
+  related: [SIG8]
+  lesson: signals-and-police
+SIG12:
+  en: Lane signal – red cross
+  text: A red cross above a lane means the lane, and the shoulder next to it, may not be used.
+  tip: Common on motorways and in tunnels when a lane is closed because of an accident or road works.
+  kw: [lane closed, red X, motorway gantry]
+  related: [SIG13, SIG14]
+  lesson: signals-and-police
+SIG13:
+  en: Lane signal – yellow arrow
+  text: A yellow diagonal arrow (or arrows) above a lane means you must change to another lane in the direction shown.
+  kw: [lane change arrow, move over]
+  related: [SIG12, SIG14]
+  lesson: signals-and-police
+SIG14:
+  en: Lane signal – green arrow
+  text: A green arrow pointing down above a lane means the lane may be used. A road sign may be shown instead of the green arrow.
+  kw: [lane open]
+  related: [SIG12, SIG13]
+  lesson: signals-and-police
+SIG16:
+  en: Flashing red lights (bridge, fire station, tunnel …)
+  text: Two red lights flashing alternately mean stop. You may not pass the stop line, or the signal. They are used where a road is temporarily closed, for example at an opening bridge, a fire or ambulance station, an airfield, road works or a tunnel. A ringing sound may be added.
+  kw: [alternating red lights, bridge signal]
+  related: [Y1]
+  lesson: signals-and-police
+SIG17:
+  en: Steady red light (road closed)
+  text: A steady red light means the road is completely closed.
+  kw: [road closed light]
+  lesson: signals-and-police
+SIG18:
+  en: Flashing yellow light (take special care)
+  text: Used where a road is partly closed, or to make a sign or other device easier to notice. It can also be combined with a sound to warn pedestrians of a crossing tram or bus.
+  kw: [flashing amber beacon, caution light]
+  related: [SIG5]
+  lesson: signals-and-police
+
+# ---------------------------------------------------------------- P: signals from police (VMF chapter 7)
+P1:
+  en: Police – stop (arm stretched out)
+  text: Stop for road users coming from in front of or behind the police officer. It is used in junctions and applies as long as the officer faces the same way. For road users coming from the side, it means the way is clear and they may drive. It can be combined with P2 and given with a stop paddle.
+  tip: Think of the officer as a closed gate facing you, and an open gate from the side.
+  kw: [police officer, traffic police, arm out]
+  related: [P2, P4]
+  lesson: signals-and-police
+P2:
+  en: Police – stop (raised hand)
+  text: Stop for the road user that the palm of the hand is facing. It can be given with a stop paddle.
+  kw: [police hand, stop]
+  related: [P1]
+  lesson: signals-and-police
+P3:
+  en: Police – stop (lamp)
+  text: Stop for the road user that the lamp is facing. Used in darkness and when visibility is poor; the lamp is held where it is easiest to see.
+  kw: [police torch, red lamp]
+  related: [P2]
+  lesson: signals-and-police
+P4:
+  en: Police – drive on
+  text: Road users in the direction of the officer's waving movement may continue.
+  kw: [wave on, proceed]
+  related: [P1]
+  lesson: signals-and-police
+P5:
+  en: Police – slow down
+  text: The road user the officer is facing must reduce speed. In darkness or poor visibility it can be made clearer with a lamp or reflector showing white or yellow light.
+  kw: [slow down signal]
+  related: [P8, P9]
+  lesson: signals-and-police
+P6:
+  en: Control point
+  text: Drivers must drive into the control point to be checked. If a symbol for a vehicle type is shown, only drivers of those vehicles must drive in.
+  kw: [police check, inspection, kontroll]
+  related: [P7]
+  lesson: signals-and-police
+P7:
+  en: Control point ahead
+  text: Advance notice of a control point.
+  kw: [checkpoint ahead]
+  related: [P6]
+  lesson: signals-and-police
+P8:
+  en: Police vehicle – slow down (traffic behind)
+  text: Road users behind the police vehicle must reduce speed. In darkness it can be made clearer with white or yellow light or a reflector.
+  kw: [police car, slow down]
+  related: [P9, P5]
+  lesson: signals-and-police
+P9:
+  en: Police vehicle – slow down (oncoming traffic)
+  text: Road users meeting the police vehicle must reduce speed. In darkness it can be made clearer with white or yellow light or a reflector.
+  kw: [police car, slow down]
+  related: [P8, P5]
+  lesson: signals-and-police
+P10:
+  en: Police vehicle – follow and stop behind it
+  text: The driver of the vehicle behind the police vehicle must follow it and stop when it stops. It can be given with a stop paddle.
+  kw: [follow me, police car]
+  related: [P11]
+  lesson: signals-and-police
+P11:
+  en: Police vehicle – pull over and stop in front
+  text: The driver of the vehicle in front of the police vehicle must pull over to the side of the road and stop. The signal is given with blue and red lights flashing alternately.
+  tip: Indicate, pull over where it is safe, stop and stay in the vehicle unless told otherwise.
+  kw: [pulled over, blue and red lights, police stop]
+  related: [P10]
+  lesson: signals-and-police
+
+# ---------------------------------------------------------------- V: signals from a guard (VMF chapter 5)
+V1:
+  en: Guard – stop
+  text: Stop for the road user the guard is facing. In darkness it is given with a lamp showing red light. It can also be given with sign C34 with the text VAKT (guard).
+  kw: [flagman, road works guard, vakt]
+  related: [V2, C34]
+  lesson: signals-and-police
+V2:
+  en: Guard – drive on
+  text: The road user may continue. Given with a waving movement in the direction of travel.
+  kw: [flagman wave]
+  related: [V1]
+  lesson: signals-and-police
+V3:
+  en: Guard's identification
+  text: A guard who directs traffic wears identification marking on both the front and the back.
+  kw: [guard vest]
+  lesson: signals-and-police
+  quiz: false
+
+# ---------------------------------------------------------------- X: other traffic devices (VMF chapter 5)
+X1:
+  en: Marker arrow
+  text: Yellow arrow(s) showing that drivers must turn sharply in the direction of the arrow(s), for example because of a bend. The number of arrows matches the place. At road works or other temporary places it has a red background.
+  kw: [chevron sign, bend marker, markeringspil]
+  related: [A1]
+  lesson: signals-and-police
+X2:
+  en: Obstacle marker board
+  text: Shows that the road is narrowed by an obstacle. It can also show that a road is completely or partly closed. The number of yellow fields matches the obstacle. At road works or other temporary places it has a red background.
+  kw: [barrier board, obstacle marker]
+  lesson: signals-and-police
+X3:
+  en: Side obstacle marker
+  text: Marks the edge of a road or carriageway, or separates the directions of traffic at complicated places. Vehicles must pass on the side the yellow stripes slope down towards. At road works or other temporary places it has a red background; the yellow fields may then be horizontal, and you may pass on either side.
+  variants: { X3-2: "Temporary version (red and yellow) – pass on the side the stripes slope towards", X3-3: "Temporary version with horizontal stripes – pass on either side" }
+  kw: [bollard marker, keep left marker, refuge marker]
+  related: [D2]
+  lesson: signals-and-police
+X4:
+  en: Exit marker
+  text: Marks the split between a main carriageway and an exit that has a deceleration lane.
+  kw: [gore marker, exit split]
+  lesson: motorways
+X5:
+  en: Yellow light arrow(s)
+  text: Road users must pass on the side shown by the arrow or arrows, which may be flashing.
+  kw: [arrow board, flashing arrows, road works]
+  lesson: signals-and-police
+X6:
+  en: Special warning device
+  text: A triangle with a text showing that the road is restricted by a temporary obstacle or similar. The text matches the reason.
+  variants:
+    X6-2: KONTROLL – a check or inspection
+    X6-3: POLIS – police
+    X6-4: BÄRGNING – vehicle recovery (towing)
+    X6-5: LASTNING – loading
+    X6-6: EFTERSÖK – search (for example for an injured animal after a collision)
+  kw: [warning triangle, olycka, accident, recovery]
+  lesson: accidents-first-aid
+X7:
+  en: Road barrier
+  text: Shows that a road is completely or partly closed to traffic. It may carry more devices to make it easier to see.
+  kw: [barrier, road closed, vägbom]
+  lesson: signals-and-police
+X8:
+  en: Temporary closure
+  text: Shows that a direction sign's information about the way to a place, facility or similar does not apply for the time being.
+  kw: [crossed-out sign, temporarily closed]
+  lesson: direction-signs
+  quiz: false
+X9:
+  en: Roundabout centre marker
+  text: Marks the centre of a roundabout, around which vehicles must drive.
+  kw: [roundabout marker]
+  related: [D3]
+  lesson: right-of-way
+X10:
+  en: Post marker
+  text: Placed on the post of a sign or device to make it easier to notice. It usually has the same colours as the sign it sits under.
+  kw: [post marking]
+  lesson: signals-and-police
+  quiz: false
+
+# ---------------------------------------------------------------- Y: level crossing signals and barriers (VMF chapter 6)
+Y1:
+  en: Level crossing light signal
+  text: Two red lights flashing alternately mean stop. Road users may not pass the stop line, or the signal if there is no stop line. Below the red lights there may be a round white light that flashes to make the crossing easier to notice.
+  tip: Never drive onto a level crossing while the red lights flash, the bell rings or the barriers move – even if you cannot see a train.
+  kw: [railway signal, flashing red, level crossing, train]
+  related: [Y2, Y3, A39]
+  lesson: railway-crossings
+Y2:
+  en: Level crossing bell
+  text: A ringing sound means stop. Road users may not pass the stop line, or the signal.
+  kw: [bell, ringing, railway]
+  related: [Y1]
+  lesson: railway-crossings
+  quiz: false
+Y3:
+  en: Level crossing barrier
+  text: A full or half barrier. It has at least one lamp showing flashing red light towards approaching traffic from when it starts to lower until it is fully raised. The back of the barrier may have the text "Kör genom bommen" (drive through the barrier).
+  tip: If you get trapped between the barriers, drive straight out through the barrier – that is what the text on its back tells you to do.
+  kw: [railway barrier, boom gate, bom]
+  related: [Y1, A35]
+  lesson: railway-crossings
+Y4:
+  en: Level crossing marker board
+  text: Makes a level crossing easier to notice. It is adapted to the place and may be placed lying down.
+  kw: [crossing board]
+  related: [A39]
+  lesson: railway-crossings
+  quiz: false
