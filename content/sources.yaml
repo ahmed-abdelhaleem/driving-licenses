@@ -579,3 +579,53 @@
   url: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-motorcykel/
   accessed: 2026-10-25
   note: Facts about fatal motorcycle crashes in Sweden (speed, bends, junctions, head-on crashes), crash barriers, and the most important safety measures.
+
+- id: tv-safety-facts
+  short: Trafikverket – Visste du att? (2025)
+  title: Trafiksäkerhetskonferens 2025 – Visste du att?
+  titleEn: Road safety facts from Trafikverket's 2025 conference
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/om-oss/nyheter/lansnyheter/vastra-gotaland/2025/trafiksakerhetskonferens-2025---visste-du-att/
+  accessed: 2026-10-25
+  note: Includes how crash forces grow with speed and how injury risk for older pedestrians differs between 30 and 50 km/h.
+
+- id: polisen-wildlife
+  short: Polisen – Viltolyckor
+  title: Viltolyckor
+  titleEn: Collisions with wild animals
+  publisher: Polismyndigheten
+  kind: official-web
+  url: https://polisen.se/lagar-och-regler/trafik-och-fordon/viltolyckor/
+  accessed: 2026-10-25
+  note: Which animals you must report after a collision, how to mark the place and what to tell the police.
+
+- id: 1177-bleeding
+  short: 1177 – Stoppa en blödning
+  title: Stoppa en blödning
+  titleEn: Stopping bleeding
+  publisher: 1177 (Swedish public healthcare guide)
+  kind: official-web
+  url: https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/stoppa-blodning/
+  accessed: 2026-10-25
+  note: Signs of life-threatening bleeding and how to stop it.
+
+- id: 1177-shock
+  short: 1177 – Chock
+  title: Chock
+  titleEn: Shock
+  publisher: 1177 (Swedish public healthcare guide)
+  kind: official-web
+  url: https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/chock/
+  accessed: 2026-10-25
+  note: Symptoms of shock, how to help, and the recovery position.
+
+- id: 1177-cpr
+  short: 1177 – Hjärt-lungräddning
+  title: Hjärt-lungräddning, HLR
+  titleEn: Cardiopulmonary resuscitation (CPR) for adults
+  publisher: 1177 (Swedish public healthcare guide)
+  kind: official-web
+  url: https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/hjart-lungraddning-hlr/
+  accessed: 2026-10-25
+  note: How to check breathing and give chest compressions and rescue breaths, and how to use a defibrillator.

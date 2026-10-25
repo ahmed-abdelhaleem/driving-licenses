@@ -15,7 +15,7 @@ sources: [tsfs-2011-20, tv-vehicle-safety, ts-tyres, tf]
 
 The curriculum asks you to explain how **road conditions** and the **laws of nature** affect the car, and what **steerability and stability** mean [[src:tsfs-2011-20|2:2]].
 
-Everything the car does needs **grip** ([[term:vaggrepp]]) between tyres and road. Grip depends on:
+Everything the car does needs **grip** ([[term:vaggrepp|sv]]) between tyres and road. Grip depends on:
 
 - the **road surface** – dry asphalt, wet, gravel, snow, ice,
 - the **tyres** – type, tread depth and pressure [[src:ts-tyres]],
@@ -54,7 +54,7 @@ The curriculum also asks you to explain how different **drive systems** affect h
 
 ## Aquaplaning
 
-At speed on a wet road, a **film of water** can build up under the tyres so they lose contact with the road – **aquaplaning** ([[term:vattenplaning]]). The risk grows with **higher speed**, **worn tyres** and **deeper water** – for example in **ruts**.
+At speed on a wet road, a **film of water** can build up under the tyres so they lose contact with the road – **aquaplaning** ([[term:vattenplaning|sv]]). The risk grows with **higher speed**, **worn tyres** and **deeper water** – for example in **ruts**.
 
 Signs: the steering suddenly feels **light**, the engine revs may rise. What to do: **ease off the accelerator**, hold the wheel steady, do **not** brake hard or steer sharply until the tyres grip again. See [[lesson:darkness-and-weather]].
 

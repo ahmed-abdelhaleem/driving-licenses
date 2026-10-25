@@ -48,7 +48,7 @@ A long vehicle may deviate from this, with special care, if there is not enough 
 Keep as close to the **right edge** of the carriageway as is suitable [[src:tf|3:26]]. Then a cyclist cannot end up on your right.
 
 ::: warning Cyclists on your right
-Cyclists and class II moped riders may keep to the right before a junction even when they are going **left** – they ride across to the far side and turn there [[src:tf|3:28]]. When you turn right, a cyclist going straight on or waiting on your right is in great danger. Check your mirror and **blind spot** ([[term:dodvinkel]]) before turning, and give way on cycle crossings and passages [[src:tf|3:61]] [[src:tf|3:61a]].
+Cyclists and class II moped riders may keep to the right before a junction even when they are going **left** – they ride across to the far side and turn there [[src:tf|3:28]]. When you turn right, a cyclist going straight on or waiting on your right is in great danger. Check your mirror and **blind spot** ([[term:dodvinkel|sv]]) before turning, and give way on cycle crossings and passages [[src:tf|3:61]] [[src:tf|3:61a]].
 :::
 
 ### Turning left

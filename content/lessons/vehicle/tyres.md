@@ -13,7 +13,7 @@ sources: [tf, tsfs-2009-19, ts-winter-tyres, ts-tyres]
 
 ## Why tyres matter so much
 
-The tyres are the car's **only contact with the road**. Every movement – accelerating, braking, steering – depends on the **grip** ([[term:vaggrepp]]) between a few small patches of rubber and the road. Worn tyres, the wrong tyres for the season or the wrong pressure can make the braking distance far longer and the car hard to control.
+The tyres are the car's **only contact with the road**. Every movement – accelerating, braking, steering – depends on the **grip** ([[term:vaggrepp|sv]]) between a few small patches of rubber and the road. Worn tyres, the wrong tyres for the season or the wrong pressure can make the braking distance far longer and the car hard to control.
 
 ## Tread depth
 
@@ -38,7 +38,7 @@ These are **minimums**. Grip on wet roads, snow and ice gets much worse long bef
 **In English:** "When driving on a road from 1 December to 31 March, the following vehicles must have winter tyres or equivalent equipment when there are winter road conditions: 1. class I passenger cars, 2. class II passenger cars, 3. tractors made from converted cars, 4. light trucks, 5. light buses, and 6. trailers towed by any of these."
 :::
 
-- **Winter road conditions** (*[[term:vinterväglag]]*) means snow, ice, slush or frost on **any part** of the road [[src:tsfs-2009-19|3]] [[src:ts-winter-tyres]]. The **police** decide whether winter road conditions apply at a place [[src:ts-winter-tyres]].
+- **Winter road conditions** ([[term:vinterväglag|sv]]) means snow, ice, slush or frost on **any part** of the road [[src:tsfs-2009-19|3]] [[src:ts-winter-tyres]]. The **police** decide whether winter road conditions apply at a place [[src:ts-winter-tyres]].
 - **Equivalent equipment** can be, for example, **snow chains** [[src:tsfs-2009-19|3]].
 - The requirement does not apply to vehicles that are **30 years old or more** (model year) [[src:tf|4:18c]].
 

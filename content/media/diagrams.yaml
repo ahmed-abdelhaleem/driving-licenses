@@ -1,3 +1,5 @@
 # Illustrations drawn for this site (assets/diagrams/<id>.svg). They use CSS classes
 # from app.css (d-asphalt, d-text …) so they follow the light and dark themes.
-[]
+- id: stopping-distance
+  caption: "Stopping distance = reaction distance + braking distance. Example with a 1-second reaction time on a dry road: the braking part grows with the square of the speed."
+  alt: Bar chart of stopping distances at 30, 50, 70, 90 and 110 km/h.

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 352" role="img" aria-labelledby="sd-t sd-d">
+  <title id="sd-t">Stopping distance at different speeds</title>
+  <desc id="sd-d">Bars showing reaction distance (blue) and braking distance (orange) for 30, 50, 70, 90 and 110 km/h, assuming a 1 second reaction time and a dry road. The total grows from about 13 m at 30 km/h to about 99 m at 110 km/h.</desc>
+  <rect class="d-car-a" x="120" y="16" width="18" height="14" rx="2"/>
+  <text class="d-text" x="146" y="28">Reaction distance (1 second)</text>
+  <rect class="d-car-b" x="370" y="16" width="18" height="14" rx="2"/>
+  <text class="d-text" x="396" y="28">Braking distance (dry asphalt)</text>
+  <g>
+    <text class="d-text-b" x="106" y="81" text-anchor="end">30 km/h</text>
+    <rect class="d-car-a" x="120" y="64" width="46.7" height="24" rx="3"/>
+    <rect class="d-car-b" x="166.7" y="64" width="28.3" height="24" rx="3"/>
+    <text class="d-text" x="203.0" y="81">≈ 13 m</text>
+  </g>
+  <g>
+    <text class="d-text-b" x="106" y="121" text-anchor="end">50 km/h</text>
+    <rect class="d-car-a" x="120" y="104" width="77.8" height="24" rx="3"/>
+    <rect class="d-car-b" x="197.8" y="104" width="78.7" height="24" rx="3"/>
+    <text class="d-text" x="284.4" y="121">≈ 28 m</text>
+  </g>
+  <g>
+    <text class="d-text-b" x="106" y="161" text-anchor="end">70 km/h</text>
+    <rect class="d-car-a" x="120" y="144" width="108.9" height="24" rx="3"/>
+    <rect class="d-car-b" x="228.9" y="144" width="154.2" height="24" rx="3"/>
+    <text class="d-text" x="391.1" y="161">≈ 47 m</text>
+  </g>
+  <g>
+    <text class="d-text-b" x="106" y="201" text-anchor="end">90 km/h</text>
+    <rect class="d-car-a" x="120" y="184" width="140.0" height="24" rx="3"/>
+    <rect class="d-car-b" x="260.0" y="184" width="254.8" height="24" rx="3"/>
+    <text class="d-text" x="522.8" y="201">≈ 71 m</text>
+  </g>
+  <g>
+    <text class="d-text-b" x="106" y="241" text-anchor="end">110 km/h</text>
+    <rect class="d-car-a" x="120" y="224" width="171.1" height="24" rx="3"/>
+    <rect class="d-car-b" x="291.1" y="224" width="380.7" height="24" rx="3"/>
+    <text class="d-text" x="679.8" y="241">≈ 99 m</text>
+  </g>
+  <line class="d-ink-s" x1="120" y1="266" x2="680.0" y2="266" stroke-width="1.5"/>
+  <line class="d-ink-s" x1="120.0" y1="266" x2="120.0" y2="272" stroke-width="1.5"/>
+  <text class="d-text" x="120.0" y="288" text-anchor="middle">0 m</text>
+  <line class="d-ink-s" x1="232.0" y1="266" x2="232.0" y2="272" stroke-width="1.5"/>
+  <text class="d-text" x="232.0" y="288" text-anchor="middle">20 m</text>
+  <line class="d-ink-s" x1="344.0" y1="266" x2="344.0" y2="272" stroke-width="1.5"/>
+  <text class="d-text" x="344.0" y="288" text-anchor="middle">40 m</text>
+  <line class="d-ink-s" x1="456.0" y1="266" x2="456.0" y2="272" stroke-width="1.5"/>
+  <text class="d-text" x="456.0" y="288" text-anchor="middle">60 m</text>
+  <line class="d-ink-s" x1="568.0" y1="266" x2="568.0" y2="272" stroke-width="1.5"/>
+  <text class="d-text" x="568.0" y="288" text-anchor="middle">80 m</text>
+  <line class="d-ink-s" x1="680.0" y1="266" x2="680.0" y2="272" stroke-width="1.5"/>
+  <text class="d-text" x="680.0" y="288" text-anchor="middle">100 m</text>
+  <text class="d-muted" x="120" y="316" font-size="12">Example values. Real distances depend on the driver, tyres, brakes, slope and road surface.</text>
+  <text class="d-muted" x="120" y="332" font-size="12">On snow and ice they can be many times longer.</text>
+</svg>

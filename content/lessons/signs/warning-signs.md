@@ -37,7 +37,7 @@ Transportstyrelsen's regulations set the distance from the sign to the danger. I
 If a sign has to stand further away than this, the distance is shown on additional panel [[sign:T2|T2, distance]] [[src:tsfs-2019-74|2:2]]. If the danger goes on for a while – for example several bends or a stretch with animals – panel [[sign:T1|T1]] shows how long the stretch is [[src:vmf|2:4]].
 
 ::: warning No sign does not mean no danger
-On roads with the **base speed** of 70 km/h ([[term:bashastighet]]), warning signs may only be put up for things road users **cannot be expected to foresee**. On other roads they are put up when a danger is **hard to discover in time** at a legal speed [[src:tsfs-2019-74|2:1]]. Ordinary dangers, such as a normal bend, a junction you can see, or ice in winter, are often **not** signed. You must always adapt your speed to what you can see [[src:tf|3:14]].
+On roads with the **base speed** of 70 km/h ([[term:bashastighet|sv]]), warning signs may only be put up for things road users **cannot be expected to foresee**. On other roads they are put up when a danger is **hard to discover in time** at a legal speed [[src:tsfs-2019-74|2:1]]. Ordinary dangers, such as a normal bend, a junction you can see, or ice in winter, are often **not** signed. You must always adapt your speed to what you can see [[src:tf|3:14]].
 :::
 
 ## The road ahead – shape and surface

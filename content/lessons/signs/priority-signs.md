@@ -135,6 +135,6 @@ On roads with a limit higher than 60 km/h, a B3 crossing may only be set up wher
 
 ## When there are no signs
 
-If two vehicles' paths cross and there are no signs, signals or other rules, the **right-hand rule** ([[term:hogerregeln]]) applies: give way to vehicles coming from your right [[src:tf|3:18]]. [[sign:A28|A28]] can warn of such a junction. The [[lesson:right-of-way]] lesson goes through all the right-of-way rules.
+If two vehicles' paths cross and there are no signs, signals or other rules, the **right-hand rule** ([[term:hogerregeln|sv]]) applies: give way to vehicles coming from your right [[src:tf|3:18]]. [[sign:A28|A28]] can warn of such a junction. The [[lesson:right-of-way]] lesson goes through all the right-of-way rules.
 
 Remember the order from [[lesson:signs-basics]]: a **traffic light** that is working with a steady light overrides the give-way and stop signs, and a **police officer** overrides everything [[src:tf|2:2]] [[src:tf|2:3]].

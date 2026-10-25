@@ -193,6 +193,8 @@ function renderShortcode(type, arg, env) {
       const t = termById.get(main);
       if (!t) { problem(env.where, `unknown term "${main}"`); return escapeHtml(opts[0] || main); }
       env.terms?.add(t.id);
+      // [[term:id|sv]] shows the Swedish headword, e.g. after the English word in bold.
+      if (opts[0] === 'sv') return `<a class="term" href="#term.${t.id}" data-term="${t.id}" lang="sv"><i>${escapeHtml(t.sv)}</i></a>`;
       const label = opts[0] || t.en;
       return `<a class="term" href="#term.${t.id}" data-term="${t.id}">${escapeHtml(label)}</a>`;
     }
