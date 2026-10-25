@@ -479,7 +479,7 @@ function viewSources(focusId) {
         ${s.titleEn && s.titleEn !== s.title ? `<p>${esc(s.titleEn)}</p>` : ''}
         <p>${esc(s.publisher)}${s.consolidated ? ` · ${esc(s.consolidated)}` : ''} · read ${esc(s.accessed)}</p>
         ${s.note ? `<p>${esc(s.note)}</p>` : ''}
-        ${s.alt ? `<p class="small"><a href="${esc(s.alt)}" target="_blank" rel="noopener">Same text in Regeringskansliet's legal database</a></p>` : ''}
+        ${s.alt ? `<p class="small"><a href="${esc(s.alt)}" target="_blank" rel="noopener">${esc(s.altLabel || "Same text in Regeringskansliet's legal database")}</a></p>` : ''}
         ${s.en ? `<p class="small"><a href="${esc(s.en)}" target="_blank" rel="noopener">Official English version</a>${s.enNote ? ` (${esc(s.enNote)})` : ''}</p>` : ''}
         ${s.usedBy && s.usedBy.length ? `<p class="small">Used in: ${s.usedBy.map((id) => lessonMap.get(id)).filter(Boolean).map((l) => `<a href="#lesson.${l.id}">${esc(l.title)}</a>`).join(', ')}</p>` : ''}
       </article>`).join('')}</div></section>`).join('')}`;

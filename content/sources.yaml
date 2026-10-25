@@ -133,12 +133,25 @@
   url: https://www.transportstyrelsen.se/TSFS/TSFS%202026_47.pdf
   accessed: 2026-10-25
 
+- id: tsfs-2017-94
+  short: TSFS 2017:94
+  title: Transportstyrelsens föreskrifter och allmänna råd (TSFS 2017:94) om skyddshjälm
+  titleEn: Transport Agency regulations on protective helmets
+  publisher: Transportstyrelsen
+  kind: regulation
+  url: https://www.transportstyrelsen.se/TSFS/TSFS%202017_94.pdf
+  accessed: 2026-10-25
+  note: Which helmets are approved for motorcycles and mopeds, and how a helmet must be worn.
+
 - id: tsfs-2009-19
   short: TSFS 2009:19
   title: Transportstyrelsens föreskrifter och allmänna råd (TSFS 2009:19) om användning av däck med mera avsedda för bilar och släpvagnar som dras av bilar
   titleEn: Transport Agency regulations on the use of tyres on cars and trailers
   publisher: Transportstyrelsen
   kind: regulation
+  consolidated: consolidated edition with amendments up to and including TSFS 2025:68
+  alt: https://www.transportstyrelsen.se/TSFS/TSFS%202009_19k.pdf
+  altLabel: Consolidated text (PDF)
   url: https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2009/details?RuleNumber=2009:19&ruleprefix=TSFS
   accessed: 2026-10-25
 
@@ -524,3 +537,45 @@
   url: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/regler-for-mobilanvandning-och-kommunikationsutrustning/sluta-rattsurfa/fragor-och-svar-om-mobilanvandning-i-fordon/
   accessed: 2026-10-25
   note: The ban on holding a phone while driving, what is allowed, and advice for using a phone safely.
+
+- id: tv-vehicle-safety
+  short: Trafikverket – Effektsamband fordonssäkerhet
+  title: Effektsamband kopplade till fordonssäkerhet (2025)
+  titleEn: Safety effects of vehicle safety systems
+  publisher: Trafikverket
+  kind: official-web
+  url: https://bransch.trafikverket.se/contentassets/6172806b6959485d895374173243047f/2025_ny/trafiksakerhet/fordonssakerhet.pdf
+  accessed: 2026-10-25
+  note: Trafikverket's summary of research on seat belts, airbags, ESC, emergency braking, lane-keeping and speed assistance.
+
+- id: eu-168-2013
+  short: EU Regulation 168/2013 (summary)
+  title: Regulation (EU) No 168/2013 on the approval and market surveillance of two- or three-wheel vehicles and quadricycles – summary
+  titleEn: EU type-approval rules for motorcycles and mopeds
+  publisher: European Parliament Legislative Observatory
+  kind: official-web
+  url: https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1257404
+  alt: https://eur-lex.europa.eu/eli/reg/2013/168/oj
+  altLabel: Full text of the regulation on EUR-Lex
+  accessed: 2026-10-25
+  note: Requires ABS on new motorcycles above 125 cc and automatic headlights on new models of mopeds and motorcycles.
+
+- id: tv-car-safety
+  short: Trafikverket – Säkerhet i bil
+  title: Säkerhet i bil
+  titleEn: Safety in the car
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/
+  accessed: 2026-10-25
+  note: Trafikverket's basic advice for safe car travel – belt, speed limits, sobriety, a safe car, children, rules and no phone in the hand.
+
+- id: tv-mc-safety
+  short: Trafikverket – Säkerhet på motorcykel
+  title: Säkerhet på motorcykel
+  titleEn: Motorcycle safety
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-motorcykel/
+  accessed: 2026-10-25
+  note: Facts about fatal motorcycle crashes in Sweden (speed, bends, junctions, head-on crashes), crash barriers, and the most important safety measures.
