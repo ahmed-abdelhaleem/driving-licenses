@@ -1,0 +1,17 @@
+- id: korkortstillstand
+  sv: körkortstillstånd
+  en: learner's permit
+  also: [licence permit, provisional permit]
+  def: "A decision from Transportstyrelsen that you meet the health and personal requirements to get a licence. You need it before you may practise or take any test."
+  law: ["kkl|1:1"]
+  lessons: [learner-permit]
+
+- id: sparrtid
+  sv: spärrtid
+  en: waiting period (ban period)
+  also: [disqualification period]
+  def: "A period set by the authorities during which you cannot get a licence. It is set when a licence is revoked, or when a learner's permit is refused for personal reasons."
+  more: "After a revocation the period is at least one month and at most three years. For a serious offence covered by the first ground for revocation (for example drink driving) it is at least one year."
+  law: ["kkl|3:9", "kkl|5:6"]
+  related: [korkortstillstand]
+  lessons: [consequences]

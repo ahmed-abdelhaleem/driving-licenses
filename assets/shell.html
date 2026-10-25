@@ -1,0 +1,71 @@
+<!--full--><!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--/full--><title>Övningskör</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Study the Swedish driving licence theory in plain English: separate paths for manual cars, automatic cars and motorcycle A, every official road sign, a dictionary, search and a theory exam simulator. Every rule is linked to its official source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&amp;family=Barlow+Semi+Condensed:wght@500;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/app.css">
+<!--full--></head>
+<body>
+<!--/full--><a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#home" aria-label="Övningskör home">
+      <span class="plate" aria-hidden="true">ÖVNINGSKÖR</span>
+      <span class="brand-tag">Swedish licence theory in plain English</span>
+    </a>
+    <div class="search-box" role="search">
+      <label class="visually-hidden" for="q">Search signs, rules and words</label>
+      <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search signs, rules, words… (e.g. B1, väjningsplikt)" aria-controls="search-pop" aria-expanded="false">
+      <div class="search-pop" id="search-pop" role="listbox" hidden></div>
+    </div>
+  </div>
+  <nav class="mainnav" aria-label="Main">
+    <div class="mainnav-inner" id="mainnav">
+      <a href="#home" data-nav="home">Start</a>
+      <a href="#learn" data-nav="learn">Learn</a>
+      <a href="#signs" data-nav="signs">Road signs</a>
+      <a href="#dictionary" data-nav="dictionary">Dictionary</a>
+      <a href="#practice" data-nav="practice">Practice &amp; exam</a>
+      <a href="#sources" data-nav="sources">Sources</a>
+      <span class="path-switch">
+        <label for="pathsel">Studying for</label>
+        <select id="pathsel">
+          <option value="">Choose a licence…</option>
+          <option value="car-manual">Car – manual (B)</option>
+          <option value="car-automatic">Car – automatic (B, code 78)</option>
+          <option value="motorcycle">Motorcycle (A)</option>
+        </select>
+      </span>
+    </div>
+  </nav>
+</header>
+<div class="layout" id="layout">
+  <aside class="rail" id="rail" aria-label="Lessons in this licence path" hidden></aside>
+  <main id="main" tabindex="-1">
+    <noscript><p class="noscript">This study site needs JavaScript to show lessons, search and quizzes.</p></noscript>
+    <p class="loading">Loading…</p>
+  </main>
+</div>
+<footer class="sitefoot">
+  <div class="sitefoot-inner">
+    <p>Rules checked against official Swedish sources on <span id="checked-on">25 October 2026</span>. Laws change: before your test, confirm anything important with <a href="https://www.transportstyrelsen.se/sv/vagtrafik/korkort/" target="_blank" rel="noopener">Transportstyrelsen</a> and <a href="https://www.trafikverket.se/korkort/" target="_blank" rel="noopener">Trafikverket</a>.</p>
+    <p><a href="#sources">Sources</a> · <a href="#credits">Image credits</a> · <a href="#about">About this site</a> · <a href="#progress">Your progress</a></p>
+  </div>
+</footer>
+<div class="term-pop" id="term-pop" role="dialog" aria-modal="false" hidden></div>
+<script src="assets/minisearch.js"></script>
+<script src="assets/data/content.js"></script>
+<script src="assets/data/signs.js"></script>
+<script src="assets/data/sign-bundles.js"></script>
+<script src="assets/data/questions.js"></script>
+<script src="assets/data/search.js"></script>
+<script src="assets/app.js"></script>
+<!--full--></body>
+</html>
+<!--/full-->

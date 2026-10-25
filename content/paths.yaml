@@ -1,0 +1,129 @@
+# The three study paths. Lessons are shared where the rules are the same;
+# each path lists its own order. `area` links a part to one of the five
+# areas of Trafikverket's theory test.
+paths:
+  - id: car-manual
+    title: Car – manual gearbox
+    short: Manual car
+    badge: Category B
+    blurb: Cars and light trucks up to 3,500 kg. Pass the driving test in a manual car and your licence lets you drive both manual and automatic cars.
+    intro: Everything you need for the car theory test, with the manual gearbox explained step by step. The theory test is the same for manual and automatic; only the car you use in the driving test differs.
+    modules:
+      - id: start
+        title: Your road to the licence
+        intro: What a B licence allows, and every step from learner's permit to probation.
+        lessons: [journey-car, learner-permit, practice-driving, risk-education, theory-test, driving-test-car, after-the-test]
+      - id: signs
+        title: Signs, markings and signals
+        area: rules
+        intro: How Swedish signs work, group by group, plus road markings, traffic lights and police signals.
+        lessons: [signs-basics, warning-signs, priority-signs, prohibitory-signs, mandatory-signs, information-signs, direction-signs, additional-panels, road-markings, signals-and-police]
+      - id: rules
+        title: Traffic rules
+        area: rules
+        intro: The rules from the Road Traffic Ordinance, explained in plain English with the Swedish text beside them.
+        lessons: [basic-duties, road-position, speed-limits, right-of-way, turning-and-lanes, meeting-and-overtaking, pedestrians-and-cyclists, stopping-and-parking, vehicle-lights, motorways, special-areas, railway-crossings, passengers-and-loads, towing-trailers, phones-and-distraction]
+      - id: vehicle
+        title: Your car
+        area: vehicle
+        intro: How the car works, the manual gearbox, checks before driving, tyres, brakes and safety systems.
+        lessons: [car-controls, manual-gearbox, safety-check-car, tyres, brakes-and-abs, skids-and-traction, safety-systems-car, electric-and-hybrid]
+      - id: safety
+        title: Driving safely
+        area: safety
+        intro: Seeing risks early, speed and stopping distance, different roads, darkness, winter, wildlife and what to do at an accident.
+        lessons: [seeing-and-planning, speed-and-stopping-distance, roads-and-environments, darkness-and-weather, winter-driving, wildlife, vulnerable-road-users, accidents-first-aid]
+      - id: environment
+        title: Environment
+        area: environment
+        intro: How driving affects the environment and how to drive with less fuel and fewer emissions.
+        lessons: [eco-driving, environment-and-vehicles]
+      - id: personal
+        title: You as a driver
+        area: personal
+        intro: Alcohol, drugs, tiredness, attitudes and the consequences of breaking the rules.
+        lessons: [alcohol-and-drugs, fatigue, attitudes-and-risk, consequences]
+
+  - id: car-automatic
+    title: Car – automatic
+    short: Automatic car
+    badge: Category B, code 78
+    blurb: The same B licence, but pass the driving test in an automatic car and your licence gets code 78 – automatic cars only.
+    intro: The theory test is exactly the same as for a manual car. This path replaces the manual gearbox lesson with the automatic gearbox and explains code 78 and how to remove it later.
+    modules:
+      - id: start
+        title: Your road to the licence
+        intro: What a B licence with code 78 allows, and every step from learner's permit to probation.
+        lessons: [journey-car, code-78, learner-permit, practice-driving, risk-education, theory-test, driving-test-car, after-the-test]
+      - id: signs
+        title: Signs, markings and signals
+        area: rules
+        intro: How Swedish signs work, group by group, plus road markings, traffic lights and police signals.
+        lessons: [signs-basics, warning-signs, priority-signs, prohibitory-signs, mandatory-signs, information-signs, direction-signs, additional-panels, road-markings, signals-and-police]
+      - id: rules
+        title: Traffic rules
+        area: rules
+        intro: The rules from the Road Traffic Ordinance, explained in plain English with the Swedish text beside them.
+        lessons: [basic-duties, road-position, speed-limits, right-of-way, turning-and-lanes, meeting-and-overtaking, pedestrians-and-cyclists, stopping-and-parking, vehicle-lights, motorways, special-areas, railway-crossings, passengers-and-loads, towing-trailers, phones-and-distraction]
+      - id: vehicle
+        title: Your car
+        area: vehicle
+        intro: How the car works, the automatic gearbox, checks before driving, tyres, brakes and safety systems.
+        lessons: [car-controls, automatic-gearbox, safety-check-car, tyres, brakes-and-abs, skids-and-traction, safety-systems-car, electric-and-hybrid]
+      - id: safety
+        title: Driving safely
+        area: safety
+        intro: Seeing risks early, speed and stopping distance, different roads, darkness, winter, wildlife and what to do at an accident.
+        lessons: [seeing-and-planning, speed-and-stopping-distance, roads-and-environments, darkness-and-weather, winter-driving, wildlife, vulnerable-road-users, accidents-first-aid]
+      - id: environment
+        title: Environment
+        area: environment
+        intro: How driving affects the environment and how to drive with less fuel and fewer emissions.
+        lessons: [eco-driving, environment-and-vehicles]
+      - id: personal
+        title: You as a driver
+        area: personal
+        intro: Alcohol, drugs, tiredness, attitudes and the consequences of breaking the rules.
+        lessons: [alcohol-and-drugs, fatigue, attitudes-and-risk, consequences]
+
+  - id: motorcycle
+    title: Motorcycle – category A
+    short: Motorcycle A
+    badge: Category A
+    blurb: All two- and three-wheeled motorcycles. Direct access from 24, or from 20 if you have had an A2 licence for two years.
+    intro: Everything for the motorcycle theory test, plus the riding test with its manoeuvre track. Rules and signs are shared with car drivers; the vehicle and safety lessons are written for riders.
+    modules:
+      - id: start
+        title: Your road to the licence
+        intro: Ages, learner's permit, practice, risk education and the two-part riding test.
+        lessons: [journey-mc, learner-permit, practice-driving, risk-education, theory-test, riding-test-mc, after-the-test]
+      - id: signs
+        title: Signs, markings and signals
+        area: rules
+        intro: How Swedish signs work, group by group, plus road markings, traffic lights and police signals.
+        lessons: [signs-basics, warning-signs, priority-signs, prohibitory-signs, mandatory-signs, information-signs, direction-signs, additional-panels, road-markings, signals-and-police]
+      - id: rules
+        title: Traffic rules
+        area: rules
+        intro: The rules from the Road Traffic Ordinance, explained in plain English with the Swedish text beside them.
+        lessons: [basic-duties, road-position, speed-limits, right-of-way, turning-and-lanes, meeting-and-overtaking, pedestrians-and-cyclists, stopping-and-parking, vehicle-lights, motorways, special-areas, railway-crossings, passengers-and-loads, phones-and-distraction]
+      - id: vehicle
+        title: Your motorcycle
+        area: vehicle
+        intro: Controls, the safety check, protective gear, cornering and braking technique.
+        lessons: [mc-controls, mc-safety-check, mc-protective-gear, mc-cornering, mc-braking]
+      - id: safety
+        title: Riding safely
+        area: safety
+        intro: Being seen, lane position, road surfaces, speed, darkness, wildlife and what to do at an accident.
+        lessons: [seeing-and-planning, mc-visibility-and-position, mc-road-surface, speed-and-stopping-distance, roads-and-environments, darkness-and-weather, wildlife, vulnerable-road-users, accidents-first-aid]
+      - id: environment
+        title: Environment
+        area: environment
+        intro: How riding affects the environment and how to ride with less fuel, noise and emissions.
+        lessons: [eco-driving, environment-and-vehicles]
+      - id: personal
+        title: You as a rider
+        area: personal
+        intro: Alcohol, drugs, tiredness, attitudes and the consequences of breaking the rules.
+        lessons: [alcohol-and-drugs, fatigue, attitudes-and-risk, consequences]

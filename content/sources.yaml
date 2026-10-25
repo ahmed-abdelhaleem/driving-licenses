@@ -1,0 +1,363 @@
+# Source registry. Every fact on the site points to one of these entries.
+# accessed = the date the text was read for this site.
+# For laws, `section` builds a deep link to one paragraph on lagen.nu
+# ({k} = chapter, {p} = section). The `url` is always the official text.
+
+# ---------- Swedish laws and ordinances (Svensk författningssamling, SFS) ----------
+- id: tf
+  short: TrF
+  title: Trafikförordning (1998:1276)
+  titleEn: Road Traffic Ordinance (1998:1276)
+  publisher: Sveriges riksdag / Regeringskansliet
+  kind: law
+  consolidated: amended up to and including SFS 2026:1052
+  url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/
+  alt: https://rkrattsbaser.gov.se/sfst?bet=1998:1276
+  section: https://lagen.nu/1998:1276#K{k}P{p}
+  accessed: 2026-10-25
+  note: The main Swedish traffic rules (speed, right of way, overtaking, parking, lights, loads, seat belts, helmets, motorways).
+
+- id: vmf
+  short: VMF
+  title: Vägmärkesförordning (2007:90)
+  titleEn: Road Signs Ordinance (2007:90)
+  publisher: Sveriges riksdag / Regeringskansliet
+  kind: law
+  consolidated: amended up to and including SFS 2025:268
+  url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/
+  alt: https://rkrattsbaser.gov.se/sfst?bet=2007:90
+  section: https://lagen.nu/2007:90#K{k}P{p}
+  accessed: 2026-10-25
+  note: Defines every road sign, additional panel, traffic signal, road marking, police signal and level-crossing signal, and what each one means.
+
+- id: kkl
+  short: KKL
+  title: Körkortslag (1998:488)
+  titleEn: Driving Licence Act (1998:488)
+  publisher: Sveriges riksdag / Regeringskansliet
+  kind: law
+  consolidated: amended up to and including SFS 2026:469
+  url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/korkortslag-1998488_sfs-1998-488/
+  alt: https://rkrattsbaser.gov.se/sfst?bet=1998:488
+  section: https://lagen.nu/1998:488#K{k}P{p}
+  accessed: 2026-10-25
+  note: Licence categories, ages, learner permit, practice driving, supervisors, risk education, probation, revocation.
+
+- id: kkf
+  short: KKF
+  title: Körkortsförordning (1998:980)
+  titleEn: Driving Licence Ordinance (1998:980)
+  publisher: Sveriges riksdag / Regeringskansliet
+  kind: law
+  consolidated: amended up to and including SFS 2026:470
+  url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/korkortsforordning-1998980_sfs-1998-980/
+  alt: https://rkrattsbaser.gov.se/sfst?bet=1998:980
+  section: https://lagen.nu/1998:980#K{k}P{p}
+  accessed: 2026-10-25
+
+- id: tbl
+  short: Trafikbrottslagen
+  title: Lag (1951:649) om straff för vissa trafikbrott
+  titleEn: Act (1951:649) on Penalties for Certain Traffic Offences
+  publisher: Sveriges riksdag / Regeringskansliet
+  kind: law
+  consolidated: amended up to and including SFS 2024:715
+  url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1951649-om-straff-for-vissa-trafikbrott_sfs-1951-649/
+  alt: https://rkrattsbaser.gov.se/sfst?bet=1951:649
+  section: https://lagen.nu/1951:649#P{p}
+  accessed: 2026-10-25
+  note: Careless driving, unlicensed driving, drink and drug driving limits, leaving the scene of an accident.
+
+- id: vtdl
+  short: Vägtrafikdefinitionslagen
+  title: Lag (2001:559) om vägtrafikdefinitioner
+  titleEn: Road Traffic Definitions Act (2001:559)
+  publisher: Sveriges riksdag / Regeringskansliet
+  kind: law
+  consolidated: amended up to and including SFS 2017:360
+  url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/
+  alt: https://rkrattsbaser.gov.se/sfst?bet=2001:559
+  section: https://lagen.nu/2001:559#P{p}
+  accessed: 2026-10-25
+  note: Legal definitions of vehicle types and weights (car, passenger car, light truck, motorcycle, moped, trailer, total weight, kerb weight).
+
+- id: vtdf
+  short: Vägtrafikdefinitionsförordningen
+  title: Förordning (2001:651) om vägtrafikdefinitioner
+  titleEn: Road Traffic Definitions Ordinance (2001:651)
+  publisher: Sveriges riksdag / Regeringskansliet
+  kind: law
+  consolidated: amended up to and including SFS 2020:1095
+  url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2001651-om-vagtrafikdefinitioner_sfs-2001-651/
+  alt: https://rkrattsbaser.gov.se/sfst?bet=2001:651
+  section: https://lagen.nu/2001:651#P{p}
+  accessed: 2026-10-25
+  note: Legal definitions of road parts and places (road, carriageway, lane, shoulder, main road, motorway, built-up area, pedestrian crossing, parking, stopping).
+
+# ---------- Transportstyrelsen regulations (TSFS) ----------
+- id: tsfs-2011-20
+  short: TSFS 2011:20
+  title: Transportstyrelsens föreskrifter (TSFS 2011:20) om kursplan, behörighet B
+  titleEn: Transport Agency regulations on the course plan for category B
+  publisher: Transportstyrelsen
+  kind: regulation
+  url: https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf
+  accessed: 2026-10-25
+  note: The official learning goals for the car licence. The site's car curriculum follows its four parts.
+
+- id: tsfs-2011-19
+  short: TSFS 2011:19
+  title: Transportstyrelsens föreskrifter (TSFS 2011:19) om kursplan, behörighet A1 och A
+  titleEn: Transport Agency regulations on the course plan for categories A1 and A
+  publisher: Transportstyrelsen
+  kind: regulation
+  url: https://www.transportstyrelsen.se/TSFS/TSFS%202011_19.pdf
+  accessed: 2026-10-25
+  note: The official learning goals for the motorcycle licence.
+
+- id: tsfs-2012-40
+  short: TSFS 2012:40
+  title: Transportstyrelsens föreskrifter (TSFS 2012:40) om riskutbildning för behörighet B
+  titleEn: Transport Agency regulations on risk education for category B
+  publisher: Transportstyrelsen
+  kind: regulation
+  url: https://www.transportstyrelsen.se/TSFS/TSFS%202012_40.pdf
+  accessed: 2026-10-25
+
+- id: tsfs-2026-47
+  short: TSFS 2026:47
+  title: Transportstyrelsens föreskrifter (TSFS 2026:47) om ändring i föreskrifterna (TSFS 2012:41) om förarprov, gemensamma bestämmelser
+  titleEn: Amendment making a passed theory test valid for one year (in force 19 August 2026)
+  publisher: Transportstyrelsen
+  kind: regulation
+  url: https://www.transportstyrelsen.se/TSFS/TSFS%202026_47.pdf
+  accessed: 2026-10-25
+
+- id: tsfs-2009-19
+  short: TSFS 2009:19
+  title: Transportstyrelsens föreskrifter och allmänna råd (TSFS 2009:19) om användning av däck med mera avsedda för bilar och släpvagnar som dras av bilar
+  titleEn: Transport Agency regulations on the use of tyres on cars and trailers
+  publisher: Transportstyrelsen
+  kind: regulation
+  url: https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2009/details?RuleNumber=2009:19&ruleprefix=TSFS
+  accessed: 2026-10-25
+
+# ---------- Transportstyrelsen (Swedish Transport Agency) web pages ----------
+- id: ts-b
+  short: Transportstyrelsen – B
+  title: B – Personbil och lätt lastbil
+  titleEn: "Category B: passenger car and light truck"
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/
+  accessed: 2026-10-25
+
+- id: ts-a
+  short: Transportstyrelsen – A
+  title: A – Tung motorcykel
+  titleEn: "Category A: heavy motorcycle"
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/motorcykel/a-tung-motorcykel/
+  accessed: 2026-10-25
+
+- id: ts-mc
+  short: Transportstyrelsen – motorcykel
+  title: Körkort för motorcykel
+  titleEn: Motorcycle licences (A1, A2, A)
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/motorcykel/
+  accessed: 2026-10-25
+
+- id: ts-permit
+  short: Transportstyrelsen – körkortstillstånd
+  title: Körkortstillstånd
+  titleEn: Learner's permit
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/korkortstillstand/
+  accessed: 2026-10-25
+
+- id: ts-practice
+  short: Transportstyrelsen – övningsköra
+  title: Övningsköra
+  titleEn: Practice driving
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/ovningskora/
+  accessed: 2026-10-25
+
+- id: ts-supervisor
+  short: Transportstyrelsen – handledare
+  title: Handledare
+  titleEn: Supervisor for private practice
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/handledare/
+  accessed: 2026-10-25
+
+- id: ts-intro-removed
+  short: Transportstyrelsen news 2026
+  title: Introduktionsutbildningen tas bort – det här behöver du ha koll på (published 30 July 2026)
+  titleEn: The introduction course is removed from 1 August 2026
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/introduktionsutbildningen-tas-bort--det-har-behover-du-ha-koll-pa/
+  accessed: 2026-10-25
+
+- id: ts-risk-car
+  short: Transportstyrelsen – riskutbildning bil
+  title: Riskutbildning för personbil
+  titleEn: Risk education for cars
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/
+  accessed: 2026-10-25
+
+- id: ts-risk-mc
+  short: Transportstyrelsen – riskutbildning MC
+  title: Riskutbildning för motorcykel
+  titleEn: Risk education for motorcycles
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-motorcykel/
+  accessed: 2026-10-25
+
+- id: ts-medical
+  short: Transportstyrelsen – medicinska krav
+  title: Medicinska krav
+  titleEn: Medical requirements (including eyesight)
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/medicinska-krav/
+  accessed: 2026-10-25
+
+- id: ts-winter-tyres
+  short: Transportstyrelsen – vinterdäck
+  title: Vinterdäck
+  titleEn: Winter tyres
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/vinterdack/
+  accessed: 2026-10-25
+
+- id: ts-tyres
+  short: Transportstyrelsen – däck
+  title: Däck
+  titleEn: Tyres
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/
+  accessed: 2026-10-25
+
+- id: ts-future
+  short: Transportstyrelsen – kommande regler
+  title: Kommande körkortsregler
+  titleEn: Upcoming driving licence rules (EU's fourth driving licence directive)
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/lagar-och-regler/regler-for-vag/kommande-korkortsregler/
+  accessed: 2026-10-25
+
+- id: ts-signs
+  short: Transportstyrelsen – vägmärken
+  title: Vägmärken
+  titleEn: Road signs catalogue (official images and descriptions)
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/vagmarken/
+  accessed: 2026-10-25
+  note: All sign, marking and signal images on this site are the official files from this catalogue.
+
+- id: ts-press
+  short: Transportstyrelsen – pressbilder
+  title: Pressbilder (section "Vägmärken")
+  titleEn: Permission to use the road sign files
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/om-oss/pressrum/pressbilder/
+  accessed: 2026-10-25
+  note: '"Du kan ladda ner filer av vägmärken och använda fritt för olika ändamål utan Transportstyrelsens godkännande." (You may download road sign files and use them freely for different purposes without the Transport Agency''s approval.)'
+
+- id: ts-curricula
+  short: Transportstyrelsen – kursplaner
+  title: Kursplaner
+  titleEn: Course plans for driver education
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/regler-som-styr/kursplaner/
+  accessed: 2026-10-25
+
+# ---------- Trafikverket (Swedish Transport Administration, runs the tests) ----------
+- id: tv-theory-b
+  short: Trafikverket – teoriprov B
+  title: Personbil och lätt lastbil – kunskapsprov B
+  titleEn: "Car licence: the theory test"
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/korkortsprov/personbil-och-latt-lastbil/kunskapsprov-b/
+  accessed: 2026-10-25
+
+- id: tv-driving-b
+  short: Trafikverket – körprov B
+  title: Så går körprovet till
+  titleEn: "Car licence: how the driving test works"
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/
+  accessed: 2026-10-25
+
+- id: tv-languages
+  short: Trafikverket – språk
+  title: Teoriprovet på annat språk
+  titleEn: The theory test in other languages
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/teoriprovet-pa-annat-sprak/
+  accessed: 2026-10-25
+
+- id: tv-mc
+  short: Trafikverket – motorcykel
+  title: Motorcykel
+  titleEn: "Motorcycle licence: theory test and riding test"
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/ta-korkort/motorcykel/
+  accessed: 2026-10-25
+
+- id: tv-prices
+  short: Trafikverket – priser
+  title: Priser för prov och fotografering
+  titleEn: Prices for tests and photos
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/boka-betala-och-avboka-prov/priser/
+  accessed: 2026-10-25
+
+- id: tv-booking
+  short: Trafikverket – boka och betala
+  title: Boka, betala och avboka prov
+  titleEn: Booking, paying for and cancelling tests
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/boka-betala-och-avboka-prov/
+  accessed: 2026-10-25
+
+- id: tv-before
+  short: Trafikverket – före provet
+  title: Före provet
+  titleEn: Before the test (photo and ID)
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/ta-korkort/fore-provet/
+  accessed: 2026-10-25
+
+- id: tv-general
+  short: Trafikverket – ta körkort
+  title: Ta körkort
+  titleEn: Getting a licence (tips and cheating rules)
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/korkort/korkortsprov/
+  accessed: 2026-10-25

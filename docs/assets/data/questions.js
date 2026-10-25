@@ -1,0 +1,1 @@
+window.DL_QUESTIONS=[];

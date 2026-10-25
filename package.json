@@ -1,0 +1,19 @@
+{
+  "name": "korkort-sverige-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "English study site for the Swedish driving licence theory test: Car (manual), Car (automatic) and Motorcycle A, with an official road-sign catalogue, dictionary, search and exam simulator.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "js-yaml": "4.1.0",
+    "markdown-it": "14.1.0",
+    "markdown-it-container": "4.0.0",
+    "minisearch": "7.1.2"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,88 @@
+# Key numbers used across the site. Lessons insert them with [[fact:key]],
+# so a change here updates every page. Each fact names its source.
+# Checked against the sources on: 2026-10-25
+
+checkedOn: "25 October 2026"
+
+theory:
+  questions: { value: "70", src: tv-theory-b }
+  scored: { value: "65", src: tv-theory-b, note: "5 of the 70 questions are trial questions that do not count" }
+  passMark: { value: "52", src: tv-theory-b, note: "52 points or more out of 65 is a pass" }
+  minutes: { value: "50", src: tv-theory-b }
+  validity: { value: "1 year", src: tsfs-2026-47, note: "A theory test passed on or after 19 August 2026 is valid for one year from the test date. Tests passed before that date are valid for four months." }
+  validityChangeDate: { value: "19 August 2026", src: tsfs-2026-47 }
+  languages: { value: "15", src: tv-languages, note: "Category B test translations; you choose the language when you book" }
+  interpreterMinutes: { value: "100", src: tv-languages, note: "Test time with an interpreter for AM, B, A1, A2, A" }
+  perDay: { value: "one", src: tv-theory-b, note: "Only one test per day for the same category" }
+  arriveEarly: { value: "30 minutes", src: tv-before }
+
+prices:
+  theory: { value: "420 SEK", src: tv-prices, note: "weekday daytime; 520 SEK after 18:00 and at weekends" }
+  theoryEvening: { value: "520 SEK", src: tv-prices }
+  drivingB: { value: "1,000 SEK", src: tv-prices, note: "weekday daytime; 1,400 SEK after 18:00 and at weekends" }
+  drivingBEvening: { value: "1,400 SEK", src: tv-prices }
+  carHire: { value: "800 SEK", src: tv-prices, note: "renting Trafikverket's car for the category B driving test" }
+  drivingA: { value: "2,000 SEK", src: tv-prices, note: "weekday daytime; 2,800 SEK after 18:00 and at weekends" }
+  drivingAEvening: { value: "2,800 SEK", src: tv-prices }
+  photo: { value: "120 SEK", src: tv-prices, note: "photo taken at the test" }
+  permit: { value: "free", src: ts-permit, note: "Applying for a learner's permit costs nothing" }
+
+permit:
+  validity: { value: "5 years", src: ts-permit, note: "cannot be extended" }
+  processing: { value: "up to 4 weeks", src: ts-permit, note: "normal case, when all documents are in" }
+  eyeTestMaxAge: { value: "2 months", src: ts-permit, note: "the eyesight certificate may not be older than two months when you apply" }
+  vision: { value: "0.5", src: ts-medical, note: "visual acuity with both eyes together; glasses or contact lenses allowed" }
+
+ages:
+  practiceCar: { value: "16 years", src: kkl, loc: "4:2" }
+  licenceB: { value: "18 years", src: kkl, loc: "3:1" }
+  licenceADirect: { value: "24 years", src: kkl, loc: "3:1" }
+  licenceAStep: { value: "20 years", src: kkl, loc: "3:1", note: "if you have held A2 for at least two years" }
+  practiceADirect: { value: "23 years", src: kkl, loc: "4:2" }
+  practiceAStep: { value: "19 years and 6 months", src: kkl, loc: "4:2", note: "if you have held A2 for at least 1 year and 6 months" }
+  practiceASchool: { value: "17 years and 6 months", src: kkl, loc: "4:3", note: "only at a driving school, with the person supervising riding on the motorcycle or in a sidecar" }
+  supervisor: { value: "24 years", src: kkl, loc: "4:7" }
+  mcPassengerDriver: { value: "18 years", src: tf, loc: "4:6b", note: "a motorcycle rider must be 18 to carry a passenger" }
+
+supervisor:
+  experience: { value: "5 of the last 10 years", src: kkl, loc: "4:7" }
+  validity: { value: "5 years", src: kkl, loc: "4:8" }
+  maxLearners: { value: "5", src: ts-supervisor }
+  introCourseRemoved: { value: "1 August 2026", src: ts-intro-removed }
+
+risk:
+  validity: { value: "5 years", src: ts-risk-car, note: "valid until you get your licence, at most five years" }
+  minMinutes: { value: "180 minutes", src: tsfs-2012-40, note: "minimum teaching time for each part (B), breaks not included" }
+
+probation:
+  length: { value: "2 years", src: kkl, loc: "3:18", note: "counted from the day of the test" }
+
+licence:
+  renewal: { value: "10 years", src: kkl, loc: "3:14", note: "for AM, A1, A2, A, B and BE" }
+  maxWeightB: { value: "3,500 kg", src: kkl, loc: "2:5" }
+  b96Max: { value: "4,250 kg", src: kkl, loc: "2:7a" }
+
+drivingTest:
+  minutesB: { value: "45 minutes", src: tv-driving-b, note: "time set aside for the test" }
+  brakeSpeedB: { value: "50 km/h", src: tv-driving-b, note: "the efficient braking exercise is done from at least 50 km/h" }
+  mcTrafficMinutes: { value: "25 minutes", src: tv-mc, note: "at least 25 minutes of riding in traffic" }
+  mcEvasionSpeed: { value: "50 km/h", src: tv-mc }
+  mcBrakeSpeeds: { value: "70 km/h and 90 km/h", src: tv-mc }
+
+speed:
+  builtUp: { value: "50 km/h", src: tf, loc: "3:17" }
+  outsideBuiltUp: { value: "70 km/h", src: tf, loc: "3:17", note: "called bashastighet (base speed)" }
+  motorway: { value: "110 km/h", src: tf, loc: "9:1", note: "Trafikverket may set 120 km/h" }
+  trailer: { value: "80 km/h", src: tf, loc: "4:20" }
+
+alcohol:
+  limitBlood: { value: "0.2 per mille", src: tbl, loc: "4" }
+  limitBreath: { value: "0.10 mg/l", src: tbl, loc: "4" }
+  grossBlood: { value: "1.0 per mille", src: tbl, loc: "4a" }
+  grossBreath: { value: "0.50 mg/l", src: tbl, loc: "4a" }
+
+tyres:
+  winterPeriod: { value: "1 December – 31 March", src: tf, loc: "4:18a" }
+  winterTread: { value: "3 mm", src: ts-winter-tyres }
+  summerTread: { value: "1.6 mm", src: ts-tyres }
+  studPeriod: { value: "1 October – 15 April", src: ts-winter-tyres }
