@@ -386,6 +386,9 @@ for (const f of qFiles) {
       src: (q.src || []).map((c) => { const [id, loc] = c.split('|'); return citation(id, loc, env).html; }),
       signs: [...env.signs],
       gen: q.generated || undefined,
+      // fix: keep the written option order (e.g. "Both A and B"); noExam: practice only, never in the exam simulator.
+      fix: q.fix ? 1 : undefined,
+      noExam: q.exam === false ? 1 : undefined,
     });
   }
 }

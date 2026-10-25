@@ -1,0 +1,675 @@
+# Questions for the "Getting started" module (the licence process).
+# Fields: id, area, paths (default: all three), lesson, q, options, answer (0-based),
+# explain, src ("source|chapter:section"), image (sign:/photo:/fig:), fix (keep option order),
+# exam: false (practice only – not drawn into the exam simulator).
+
+# ---------------------------------------------------------------- theory test
+- id: st-theory-scored
+  area: rules
+  lesson: theory-test
+  exam: false
+  q: The theory test has 70 questions. How many of them count towards your result?
+  options: ["65", "70", "60", "52"]
+  answer: 0
+  explain: Five of the 70 questions are **trial questions** that do not count, so the most you can score is **65 points**.
+  src: [tv-theory-b]
+
+- id: st-theory-pass
+  area: rules
+  lesson: theory-test
+  exam: false
+  q: How many points do you need to pass the theory test?
+  options: ["At least 52 of 65", "At least 45 of 65", "At least 60 of 70", "All 65"]
+  answer: 0
+  explain: The pass mark is **52 points or more** out of the 65 scored questions.
+  src: [tv-theory-b]
+
+- id: st-theory-time
+  area: rules
+  lesson: theory-test
+  exam: false
+  q: How long do you have for the theory test (without an interpreter)?
+  options: ["50 minutes", "30 minutes", "70 minutes", "100 minutes"]
+  answer: 0
+  explain: The test time is **50 minutes**. With an interpreter it is 100 minutes.
+  src: [tv-theory-b, tv-languages]
+
+- id: st-theory-valid
+  area: rules
+  lesson: theory-test
+  exam: false
+  q: You pass the theory test on 1 October 2026. Until when is the pass valid?
+  options: ["One year – until 1 October 2027", "Four months", "Two years", "Until your learner's permit expires"]
+  answer: 0
+  explain: A theory test passed on or after **19 August 2026** is valid for **one year** from the day of the test. You must pass the driving test within that time.
+  src: ["tsfs-2026-47|5:1"]
+
+- id: st-theory-id
+  area: rules
+  lesson: theory-test
+  exam: false
+  q: Which of these can you **not** use as ID at the theory test?
+  options: ["The digital BankID card on your phone", "A Swedish passport", "A Swedish national ID card", "A Swedish driving licence"]
+  answer: 0
+  explain: You must show a valid **physical** ID document. Digital IDs such as Freja eID and the digital BankID card are not accepted.
+  src: [tv-before]
+
+- id: st-theory-cheat
+  area: rules
+  lesson: theory-test
+  exam: false
+  q: What can happen if you cheat at the theory test?
+  options: ["You are reported to the police and banned from tests for one or two years", "You only have to retake the test the same day", "You lose one point", "Nothing, if it is the first time"]
+  answer: 0
+  explain: Cheating means a police report for a false declaration, a **ban from tests for one or two years**, the test is cancelled and any other booked test is cancelled.
+  src: [tv-general]
+
+- id: st-theory-risk-first
+  area: rules
+  lesson: theory-test
+  exam: false
+  q: What must be done and valid before you may take the theory test for a car or motorcycle?
+  options: ["Both parts of the risk education", "Only part 1 of the risk education", "The driving test", "A first-aid course"]
+  answer: 0
+  explain: Trafikverket checks that **both parts** of the risk education are done and valid when you arrive for the theory test.
+  src: [tv-theory-b, "kkl|3:4b"]
+
+# ---------------------------------------------------------------- learner's permit
+- id: st-permit-what
+  area: rules
+  lesson: learner-permit
+  q: What is a learner's permit (*körkortstillstånd*)?
+  options:
+    - A decision that you meet the medical and personal requirements for a licence
+    - A licence that lets you drive alone for one year
+    - A certificate that you have passed the theory test
+    - A permit for your supervisor to teach you
+  answer: 0
+  explain: The law defines the learner's permit as a decision that the applicant meets the **medical and personal requirements** for a licence. You need it to practise and to take the tests – it does not let you drive alone.
+  src: ["kkl|1:1"]
+
+- id: st-permit-valid
+  area: rules
+  lesson: learner-permit
+  q: How long is a learner's permit valid?
+  options: ["Five years, and it cannot be extended", "Two years, and it can be extended", "Until you are 25", "One year"]
+  answer: 0
+  explain: The permit is valid for **five years** and **cannot be extended**. After that you must apply for a new one.
+  src: [ts-permit]
+
+- id: st-permit-vision
+  area: rules
+  lesson: learner-permit
+  q: What visual acuity do you need for a car or motorcycle licence?
+  options: ["At least 0.5 with both eyes together – glasses or lenses allowed", "At least 1.0 in each eye without glasses", "At least 0.2 in the better eye", "There is no requirement"]
+  answer: 0
+  explain: You need a visual acuity of at least **0.5** when you look with both eyes together. Glasses or contact lenses are allowed.
+  src: [ts-medical]
+
+- id: st-permit-age
+  area: rules
+  lesson: learner-permit
+  exam: false
+  q: From what age can you apply for a learner's permit?
+  options: ["There is no minimum age for applying", "15", "16", "18"]
+  answer: 0
+  explain: There is **no minimum age** for applying. The age limits apply to **practising** and to **getting the licence**.
+  src: [ts-permit]
+
+- id: st-permit-group
+  area: rules
+  lesson: learner-permit
+  exam: false
+  q: You got a learner's permit for a car (B). Can you use the same permit for the motorcycle licence (A)?
+  options: ["Yes, while it is valid – both are in group 1", "No, every category needs its own permit", "Only if you apply within six months", "Only after you have passed the car test"]
+  answer: 0
+  explain: Learner's permits come in groups. **Group 1** covers AM, A1, A2, A, B and BE (and tractors), so the same valid permit covers both.
+  src: [ts-permit]
+
+- id: st-permit-personal
+  area: rules
+  lesson: learner-permit
+  q: What does being "suitable with regard to personal circumstances" require?
+  options:
+    - That you are not unreliable as to sobriety and can be expected to respect the traffic rules
+    - That you own a car
+    - That you have finished school
+    - That you have a job
+  answer: 0
+  explain: The law requires that the applicant is **not unreliable in matters of sobriety** and can be expected to **respect the traffic rules** and show consideration, judgement and responsibility in traffic.
+  src: ["kkl|3:2"]
+
+# ---------------------------------------------------------------- practising
+- id: st-practice-age-car
+  area: rules
+  lesson: practice-driving
+  paths: [car-manual, car-automatic]
+  q: From what age may you practise driving a passenger car (without a trailer)?
+  options: ["16", "15", "17", "18"]
+  answer: 0
+  explain: You may practise driving a passenger car from **16**. With a light trailer, or in a light truck, the age is **17 years and 6 months**.
+  src: ["kkl|4:2", ts-practice]
+
+- id: st-practice-age-trailer
+  area: rules
+  lesson: practice-driving
+  paths: [car-manual, car-automatic]
+  q: From what age may you practise driving a car with a light trailer?
+  options: ["17 years and 6 months", "16 years", "18 years", "17 years"]
+  answer: 0
+  explain: Practice with a **light trailer** – or in a light truck – is allowed from **17 years and 6 months**.
+  src: ["kkl|4:2", ts-practice]
+
+- id: st-practice-age-mc
+  area: rules
+  lesson: practice-driving
+  paths: [motorcycle]
+  q: You are 21 and have no A2 licence. Can you practise privately on a heavy motorcycle (category A)?
+  options: ["No – without A2 you must be 23", "Yes, from 18", "Yes, from 21", "Yes, if your supervisor is over 30"]
+  answer: 0
+  explain: Without A2, practice for category A starts at **23**. With A2 for at least 1 year and 6 months it is **19 years and 6 months**, and only at a driving school (with the instructor on the motorcycle or in a sidecar) from **17 years and 6 months**.
+  src: ["kkl|4:2", "kkl|4:3", ts-a]
+
+- id: st-supervisor-req
+  area: rules
+  lesson: practice-driving
+  q: Which requirements must a private supervisor (*handledare*) meet?
+  options:
+    - At least 24 years old and a licence for the vehicle type for at least 5 of the last 10 years
+    - At least 18 years old and a licence for at least 1 year
+    - At least 21 years old and an instructor's training
+    - At least 30 years old and no traffic fines ever
+  answer: 0
+  explain: A supervisor must be at least **24** and have held a licence for the vehicle type for a total of at least **five of the last ten years**. They must also be approved by Transportstyrelsen for each learner.
+  src: ["kkl|4:7", ts-supervisor]
+
+- id: st-supervisor-driver
+  area: rules
+  lesson: practice-driving
+  q: During private practice, who counts as the driver of the car?
+  options: ["The supervisor", "The learner", "Both equally", "The owner of the car"]
+  answer: 0
+  explain: The **supervisor counts as the driver** and is responsible for the drive.
+  src: [ts-supervisor]
+
+- id: st-supervisor-max
+  area: rules
+  lesson: practice-driving
+  exam: false
+  q: How many learners can one supervisor have approval for at the same time?
+  options: ["Five", "One", "Three", "Ten"]
+  answer: 0
+  explain: A supervisor can have at most **five learners** at the same time.
+  src: [ts-supervisor]
+
+- id: st-supervisor-valid
+  area: rules
+  lesson: practice-driving
+  exam: false
+  q: How long is a supervisor approval valid?
+  options: ["Five years – but it ends at once if the supervisor's licence is revoked", "One year", "Until the learner passes", "Ten years"]
+  answer: 0
+  explain: The approval is valid for **five years**, and it ends **at once** if the supervisor's licence is revoked.
+  src: ["kkl|4:8"]
+
+- id: st-practice-carry
+  area: rules
+  lesson: practice-driving
+  q: What must the learner carry during private practice?
+  options: ["A valid ID document", "The theory test result", "The car's registration certificate", "Nothing"]
+  answer: 0
+  explain: The learner must carry an **ID document**. The supervisor must carry the supervisor certificate (*handledarbevis*), on paper or digitally.
+  src: ["kkl|3:15a", ts-supervisor]
+
+- id: st-practice-sign
+  area: rules
+  lesson: practice-driving
+  q: Where must the ÖVNINGSKÖR sign be during practice?
+  options: ["Clearly visible from behind, without blocking the view", "On the front windscreen", "Inside the car on the dashboard", "It is only needed on motorways"]
+  answer: 0
+  explain: The green and white **ÖVNINGSKÖR** sign must be **clearly visible from behind** and must not block the view.
+  src: [ts-practice]
+
+- id: st-practice-intro
+  area: rules
+  lesson: practice-driving
+  exam: false
+  q: Is an introduction course (*introduktionsutbildning*) required before private practice in a car today?
+  options: ["No – the requirement was removed on 1 August 2026", "Yes, for both learner and supervisor", "Yes, but only for the learner", "Only for motorcycles"]
+  answer: 0
+  explain: Since **1 August 2026** the introduction course is no longer required. The supervisor must still be approved, and the learner still needs a valid learner's permit.
+  src: [ts-intro-removed]
+
+- id: st-practice-mc-supervisor
+  area: rules
+  lesson: practice-driving
+  paths: [motorcycle]
+  q: How may a supervisor follow a motorcycle learner during private practice?
+  options:
+    - As a passenger on the same motorcycle, or on their own motorcycle
+    - In a car right behind the learner
+    - By phone, from home
+    - On a bicycle
+  answer: 0
+  explain: The supervisor must either ride as a **passenger** on the same motorcycle or ride **their own motorcycle** – not follow in a car – and can only practise with **one learner at a time**.
+  src: [ts-practice]
+
+- id: st-practice-paid
+  area: rules
+  lesson: practice-driving
+  q: You practise privately with a friend who is **not** an approved supervisor. What is this?
+  options: ["Unlawful driving", "Allowed if the friend has had a licence for 5 years", "Allowed outside built-up areas", "Allowed if you do not drive faster than 50 km/h"]
+  answer: 0
+  explain: Practising with someone who is not an approved supervisor counts as **unlawful driving** (*olovlig körning*) – and your learner's permit can be revoked.
+  src: ["tbl|3", ts-supervisor]
+
+# ---------------------------------------------------------------- risk education
+- id: st-risk-part1
+  area: rules
+  lesson: risk-education
+  q: What is part 1 of the risk education (*riskettan*) about?
+  options: ["Alcohol, other drugs, tiredness and other risky behaviour", "Skid training on a slippery track", "Parking and reversing", "First aid"]
+  answer: 0
+  explain: Part 1 is about **alcohol, other drugs, tiredness and other risky behaviour**. Part 2 is about speed, safety and driving in difficult conditions.
+  src: ["tsfs-2012-40|1:2", ts-risk-car, ts-risk-mc]
+
+- id: st-risk-valid
+  area: rules
+  lesson: risk-education
+  q: How long is the risk education valid?
+  options: ["Until you get your licence, but at most five years", "One year", "For life", "Two years from part 2"]
+  answer: 0
+  explain: The risk education is valid **until the day you get your licence**, but **at most five years**.
+  src: [ts-risk-car]
+
+- id: st-risk-mc-car
+  area: rules
+  lesson: risk-education
+  q: You did the risk education for a car. Does it count for a motorcycle licence?
+  options: ["No – the motorcycle needs its own risk education", "Yes, it counts for all categories", "Only part 1 counts", "Yes, if it is less than one year old"]
+  answer: 0
+  explain: The car course **does not count** for a motorcycle, and the motorcycle course does not count for a car.
+  src: [ts-risk-car, ts-risk-mc]
+
+- id: st-risk-part2-car
+  area: rules
+  lesson: risk-education
+  paths: [car-manual, car-automatic]
+  q: What does part 2 of the risk education for cars include?
+  options: ["A skid track (*halkbana*)", "A manoeuvre track for motorcycles", "A night drive on the motorway", "A visit to a hospital"]
+  answer: 0
+  explain: For cars, part 2 includes a **skid track** where you feel how much longer it takes to stop on a slippery surface.
+  src: [ts-risk-car]
+
+- id: st-risk-part2-mc
+  area: rules
+  lesson: risk-education
+  paths: [motorcycle]
+  q: What does part 2 of the motorcycle risk education include?
+  options: ["A manoeuvre track (*manöverbana*)", "A skid track in a car", "A theory test", "Riding on a motorway with an instructor"]
+  answer: 0
+  explain: For motorcycles, part 2 includes a **manoeuvre track**. You must wear a helmet and full protective gear.
+  src: [ts-risk-mc]
+
+- id: st-risk-revoked
+  area: rules
+  lesson: risk-education
+  q: Your licence is revoked and you must take new tests. What about the risk education?
+  options: ["You must do it again", "Your old one still counts", "You only need part 2 again", "It is not needed for new tests"]
+  answer: 0
+  explain: The risk education stops being valid on the day you get your licence. If you must take new tests after a revocation, you must also do the **risk education again**.
+  src: [ts-faq, ts-revoked]
+
+# ---------------------------------------------------------------- after the test
+- id: st-probation-length
+  area: rules
+  lesson: after-the-test
+  q: How long is the probation period (*prövotid*) for a new car or motorcycle licence?
+  options: ["Two years from the day of the test", "One year from the day of the test", "Three years from the day you collect the card", "There is no probation"]
+  answer: 0
+  explain: A licence issued after a passed test has a probation period of **two years** from the day of the test (one year for AM).
+  src: ["kkl|3:18"]
+
+- id: st-probation-revoked
+  area: rules
+  lesson: after-the-test
+  q: Your licence is revoked for speeding during your probation period. What must you do to get a licence again?
+  options:
+    - Get a new learner's permit, do the risk education again and pass both tests again
+    - Just wait for the waiting period to end
+    - Only pass a new driving test
+    - Only pay a fee
+  answer: 0
+  explain: A revocation **during probation** means a new **learner's permit**, a new **risk education** and **both the theory test and the driving test** again – whatever the waiting period.
+  src: [ts-revoked, "kkl|5:15"]
+
+- id: st-probation-rules
+  area: rules
+  lesson: after-the-test
+  q: Which traffic rules apply to you during the probation period?
+  options:
+    - The same rules as for every other driver
+    - A lower speed limit of 80 km/h
+    - No passengers after 22:00
+    - A zero alcohol limit, while other drivers have 0.5 per mille
+  answer: 0
+  explain: During probation the traffic rules are **the same** as for everyone else. What differs is the consequence if your licence is **revoked**.
+  src: ["kkl|3:18", ts-revoked]
+
+- id: st-probation-other-licence
+  area: rules
+  lesson: after-the-test
+  paths: [motorcycle]
+  q: You have had a B licence for three years and now pass the test for category A. How long is the probation for the new category?
+  options: ["None – only what is left of the older licence's probation, which has ended", "Two years", "One year", "Until you are 24"]
+  answer: 0
+  explain: If you already have a valid licence with a category other than AM, the new category only gets the probation time that is **left** on the older licence – here none.
+  src: ["kkl|3:18"]
+
+- id: st-carry-licence
+  area: rules
+  lesson: after-the-test
+  q: What must you carry when you drive?
+  options:
+    - Your licence – or, within two months of it being issued but not yet handed out, an ID document
+    - Only the car's registration certificate
+    - Nothing, the police can check the register
+    - Your learner's permit
+  answer: 0
+  explain: The driver must carry the **licence**. If it has been issued but not yet handed out, an **ID document** is enough during the first two months.
+  src: ["kkl|3:15"]
+
+- id: st-renew
+  area: rules
+  lesson: after-the-test
+  q: How often must a licence with categories A and B be renewed?
+  options: ["Every 10 years", "Every 5 years", "Every 15 years", "Never"]
+  answer: 0
+  explain: A licence for AM, A1, A2, A, B and BE must be renewed within **10 years** of being issued or last renewed.
+  src: ["kkl|3:14"]
+
+- id: st-collect-card
+  area: rules
+  lesson: after-the-test
+  exam: false
+  q: What happens if you never collect your new licence card?
+  options: ["It is not valid if it has not been collected within one year", "It is posted to you again every month", "Nothing – the licence is valid anyway", "You must take the driving test again after 6 months"]
+  answer: 0
+  explain: A licence that has not been collected within **one year** from the day it was issued is **not valid**.
+  src: ["kkl|3:13"]
+
+# ---------------------------------------------------------------- driving tests
+- id: st-dt-brake-car
+  area: rules
+  lesson: driving-test-car
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: From what speed is the efficient braking exercise in the car driving test done?
+  options: ["At least 50 km/h", "At least 30 km/h", "At least 70 km/h", "At least 90 km/h"]
+  answer: 0
+  explain: You stop the car in the shortest possible distance from **at least 50 km/h**. The examiner decides the speed.
+  src: [tv-driving-b]
+
+- id: st-dt-own-car
+  area: rules
+  lesson: driving-test-car
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Which car may you use for the category B driving test?
+  options: ["A car from Trafikverket or a driving school", "Your own car", "Any car that is insured", "Your supervisor's car"]
+  answer: 0
+  explain: You must use a car from **Trafikverket** or from a **driving school** – not your own car.
+  src: [tv-driving-b, tv-prices]
+
+- id: st-dt-parts-car
+  area: rules
+  lesson: driving-test-car
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Which three parts does the car driving test have?
+  options:
+    - Safety check, special manoeuvres and driving in traffic
+    - Theory questions, parking and motorway driving
+    - Skid track, parking and a written test
+    - Only driving in traffic
+  answer: 0
+  explain: The driving test has a **safety check**, **special manoeuvres** (for example parking, reversing, hill start and efficient braking) and **driving in traffic**.
+  src: [tv-driving-b]
+
+- id: st-dt-stall
+  area: rules
+  lesson: driving-test-car
+  paths: [car-manual]
+  exam: false
+  q: You stall the engine once during the driving test, without causing danger. What happens?
+  options:
+    - It can be fine – it matters if it happens many times
+    - You fail at once
+    - The test is paused and restarted
+    - You must do the efficient braking again
+  answer: 0
+  explain: Stalling **once** can be fine if it does not cause danger. If it happens many times, it shows you need more practice.
+  src: [tv-driving-b]
+
+- id: st-rt-brake-mc
+  area: rules
+  lesson: riding-test-mc
+  paths: [motorcycle]
+  exam: false
+  q: From which speeds do you brake in the braking part of the motorcycle manoeuvre test?
+  options: ["70 km/h and 90 km/h", "30 km/h and 50 km/h", "50 km/h only", "110 km/h"]
+  answer: 0
+  explain: The manoeuvre test ends with efficient, controlled braking to a stop from **70 km/h and 90 km/h**, using **both** brakes.
+  src: [tv-mc]
+
+- id: st-rt-evasive-mc
+  area: rules
+  lesson: riding-test-mc
+  paths: [motorcycle]
+  exam: false
+  q: At what speed is the evasive manoeuvre in the high-speed part of the motorcycle test done?
+  options: ["At least 50 km/h", "At least 30 km/h", "At least 70 km/h", "At walking pace"]
+  answer: 0
+  explain: You accelerate to **at least 50 km/h**, make an evasive manoeuvre and ride the serpentine at the same speed.
+  src: [tv-mc]
+
+- id: st-rt-lowspeed-mc
+  area: rules
+  lesson: riding-test-mc
+  paths: [motorcycle]
+  exam: false
+  q: In the low-speed part of the motorcycle manoeuvre test, how should you mainly control the speed?
+  options: ["With the clutch", "Only with the rear brake", "Only with the throttle", "With the engine off"]
+  answer: 0
+  explain: The speed should mainly be controlled **with the clutch**; you may support with the throttle and the brake.
+  src: [tv-mc]
+
+- id: st-rt-bike-mc
+  area: rules
+  lesson: riding-test-mc
+  paths: [motorcycle]
+  exam: false
+  q: Which motorcycle meets the requirements for a category A riding test?
+  options:
+    - 55 kW, 190 kg kerb weight, 650 cm³ combustion engine, manual gearbox
+    - 35 kW, 160 kg, 500 cm³
+    - 11 kW, 125 cm³
+    - 50 kW, 170 kg, 600 cm³
+  answer: 0
+  explain: A category A test motorcycle needs at least **50 kW**, a kerb weight **over 175 kg**, and with a combustion engine at least **595 cm³** – and a manual gearbox with a clutch lever.
+  src: [tv-mc]
+
+# ---------------------------------------------------------------- code 78
+- id: st-78-meaning
+  area: rules
+  lesson: code-78
+  paths: [car-manual, car-automatic]
+  q: What does code 78 on a driving licence mean?
+  options:
+    - You may only drive vehicles with automatic transmission
+    - You must wear glasses
+    - You may not drive on motorways
+    - You may only drive electric cars
+  answer: 0
+  explain: Code **78** means the licence is limited to vehicles with **automatic transmission**. You get it if you pass the driving test in a car with an automatic gearbox.
+  src: [tv-theory-b, ts-card]
+
+- id: st-78-electric
+  area: rules
+  lesson: code-78
+  paths: [car-manual, car-automatic]
+  q: You pass the driving test in an electric car with no clutch pedal. What does your licence say?
+  options: ["Code 78 – automatic only", "No code – electric cars count as manual", "Code 78 only for electric cars", "Code 96"]
+  answer: 0
+  explain: A vehicle with an automatic gearbox **without a clutch pedal** counts as automatic – including most electric cars – so the licence gets **code 78**.
+  src: [ts-faq, tv-theory-b]
+
+- id: st-78-remove
+  area: rules
+  lesson: code-78
+  paths: [car-manual, car-automatic]
+  q: You have code 78 (not set for medical reasons) and want to drive manual cars. What do you need?
+  options:
+    - Pass a new driving test in a manual car – no new theory test or learner's permit
+    - Take both the theory test and the driving test again
+    - Apply to Transportstyrelsen – no test is needed
+    - Wait two years after your probation
+  answer: 0
+  explain: You take a **new driving test in a manual car**. No new learner's permit is needed (unless the condition is medical), and no new risk education or theory test.
+  src: ["kkl|3:7a", "kkl|3:4b", tv-theory-b]
+
+- id: st-78-manual-drive
+  area: rules
+  lesson: code-78
+  paths: [car-manual, car-automatic]
+  q: A driver with code 78 drives a manual car. What is this?
+  options: ["A crime punished with a fine", "Allowed if a passenger has a manual licence", "Allowed in an emergency", "Allowed during the probation period"]
+  answer: 0
+  explain: Driving with intentional or careless disregard of a condition on your licence is punished with a **fine**.
+  src: ["tbl|3"]
+
+- id: st-78-supervisor
+  area: rules
+  lesson: code-78
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Your supervisor has code 78. Can you practise privately with them in a manual car?
+  options: ["No", "Yes", "Yes, but only outside built-up areas", "Yes, if you have done the risk education"]
+  answer: 0
+  explain: If you practise in a **manual** car, your supervisor may **not** have code 78 on their own licence.
+  src: [ts-faq]
+
+# ---------------------------------------------------------------- what the licence covers
+- id: st-b-weight
+  area: rules
+  lesson: journey-car
+  paths: [car-manual, car-automatic]
+  q: What is the highest total weight of a car you may drive with a B licence?
+  options: ["3,500 kg", "3,000 kg", "4,250 kg", "2,500 kg"]
+  answer: 0
+  explain: Category B covers passenger cars and light trucks with a **total weight of at most 3,500 kg**.
+  src: ["kkl|2:5", ts-vehicles]
+
+- id: st-b-trailer-calc
+  area: rules
+  lesson: journey-car
+  paths: [car-manual, car-automatic]
+  q: Your car has a total weight of 1,900 kg. Which trailer may you tow with an ordinary B licence?
+  options:
+    - A trailer with a total weight of 1,600 kg
+    - A trailer with a total weight of 1,700 kg
+    - A trailer with a total weight of 2,000 kg
+    - Any trailer, if it is empty
+  answer: 0
+  explain: A trailer is light if its total weight is at most 750 kg, **or** if car + trailer together are at most **3,500 kg**. 1,900 + 1,600 = 3,500 kg is allowed; 1,900 + 1,700 = 3,600 kg needs B96. What counts is the **total weight** in the registration certificate, not the actual load.
+  src: ["kkl|2:5", ts-vehicles]
+
+- id: st-b-light-trailer
+  area: rules
+  lesson: journey-car
+  paths: [car-manual, car-automatic]
+  q: Which trailer is always a light trailer, whatever car tows it?
+  options: ["One with a total weight of at most 750 kg", "One with a total weight of at most 1,000 kg", "Any trailer without brakes", "Any trailer shorter than 3 metres"]
+  answer: 0
+  explain: A trailer with a **total weight of at most 750 kg** always counts as light.
+  src: ["kkl|2:5", ts-vehicles]
+
+- id: st-b-moped
+  area: rules
+  lesson: journey-car
+  paths: [car-manual, car-automatic]
+  q: Which of these may you also drive with a B licence?
+  options: ["A class I moped", "A heavy motorcycle (A)", "A bus", "A truck of 5,000 kg"]
+  answer: 0
+  explain: Every licence category includes **AM** (class I mopeds), and any licence allows class II mopeds.
+  src: ["kkl|2:7b", ts-vehicles]
+
+- id: st-b-requirements
+  area: rules
+  lesson: journey-car
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Which is **not** a requirement for getting a B licence?
+  options:
+    - Having practised with a driving school
+    - Being at least 18
+    - A valid risk education for cars
+    - Living permanently in Sweden or having studied here for at least six months
+  answer: 0
+  explain: You need a learner's permit, residence (or six months of studies) in Sweden, age **18**, a valid **risk education** and passed tests. A driving school is **not** required – you can practise privately with an approved supervisor.
+  src: [ts-b]
+
+- id: st-a-age
+  area: rules
+  lesson: journey-mc
+  paths: [motorcycle]
+  q: When can you get a category A (heavy motorcycle) licence?
+  options:
+    - At 24 – or at 20 if you have held A2 for at least two years
+    - At 18
+    - At 21 – or at 18 with A1
+    - At 25
+  answer: 0
+  explain: Category A needs you to be **24** (direct access), or **20** if you have held **A2 for at least two years** (step access).
+  src: ["kkl|3:1"]
+
+- id: st-a2-power
+  area: rules
+  lesson: journey-mc
+  paths: [motorcycle]
+  q: What is the highest power for a motorcycle in category A2?
+  options: ["35 kW", "11 kW", "50 kW", "There is no limit"]
+  answer: 0
+  explain: A2 covers motorcycles of at most **35 kW** and 0.2 kW per kg; a restricted motorcycle may not come from one with more than 70 kW.
+  src: ["kkl|2:5", ts-mc]
+
+- id: st-a1-limits
+  area: rules
+  lesson: journey-mc
+  paths: [motorcycle]
+  q: Which motorcycle fits category A1?
+  options: ["At most 125 cm³ and 11 kW", "At most 250 cm³ and 25 kW", "At most 50 cm³", "At most 35 kW"]
+  answer: 0
+  explain: A1 (light motorcycle) covers motorcycles of at most **125 cm³** and **11 kW**, with at most 0.1 kW per kg.
+  src: ["kkl|2:5", ts-mc]
+
+- id: st-a-step-theory
+  area: rules
+  lesson: journey-mc
+  paths: [motorcycle]
+  exam: false
+  q: You have held A2 for two years and are 20. What do you need to take for category A?
+  options: ["Only a riding test", "Both the theory test and the riding test", "Only the theory test", "A new risk education and both tests"]
+  answer: 0
+  explain: With step access from **A2** you only take a **riding test** – no new theory test, and no new risk education.
+  src: ["kkl|3:4", ts-a, ts-faq]
+
+- id: st-a-covers-car
+  area: rules
+  lesson: journey-mc
+  paths: [motorcycle]
+  q: Does an A licence let you drive a passenger car?
+  options: ["No – that needs category B", "Yes, up to 3,500 kg", "Yes, automatic cars only", "Yes, if the car has three wheels"]
+  answer: 0
+  explain: An A licence covers all two- and three-wheeled motorcycles, class I and II mopeds and some tractors and motor implements – but **not cars**.
+  src: [ts-vehicles]

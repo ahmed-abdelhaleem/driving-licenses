@@ -1,0 +1,817 @@
+# Road-sign module questions, part A: sign basics, warning, priority, prohibitory and mandatory signs.
+# (The 229 "what does this sign mean?" questions are generated from the sign catalogue.)
+
+# ---------------------------------------------------------------- how signs work
+- id: sb-shape-warning
+  area: rules
+  lesson: signs-basics
+  q: A sign is a **triangle with the point up**, yellow with a red border. What kind of sign is it?
+  options: ["A warning sign", "A prohibitory sign", "A mandatory sign", "An information sign"]
+  answer: 0
+  explain: Warning signs (group A) are almost all yellow triangles with a red border and the point up. They warn of a danger ahead – they do not forbid anything by themselves.
+  src: ["vmf|2:4", "vmf|2:1"]
+
+- id: sb-shape-mandatory
+  area: rules
+  lesson: signs-basics
+  q: A **round blue** sign with a white symbol is …
+  options: ["a mandatory sign – it tells you what you must do", "a prohibitory sign – it tells you what you may not do", "a warning sign", "a recommendation you may ignore"]
+  answer: 0
+  explain: Mandatory signs (*påbudsmärken*, group D) are round and blue with white symbols. Prohibitory signs are round with a **red** edge.
+  src: ["vmf|2:9", "vmf|2:10"]
+
+- id: sb-prohibition-end
+  area: rules
+  lesson: signs-basics
+  q: Where does a prohibition shown by a prohibitory sign normally end?
+  options:
+    - At the next junction – unless an end sign or a panel shows something else
+    - After exactly one kilometre
+    - At the next built-up area
+    - Only at an end sign
+  answer: 0
+  explain: A prohibitory sign applies from the sign **to the next junction**, or to an earlier end sign or a matching sign with a downward-arrow panel (T11). Some signs have their own rules, for example speed limits and no overtaking.
+  src: ["vmf|2:7"]
+
+- id: sb-exit-not-junction
+  area: rules
+  lesson: signs-basics
+  q: You pass a "no stopping" sign and then the exit from a petrol station. Does the ban end at the exit?
+  options:
+    - No – exits from petrol stations, car parks and properties do not count as junctions
+    - Yes – every road that joins ends the ban
+    - Yes, but only on the left side of the road
+    - Only if there is a give-way sign at the exit
+  answer: 0
+  explain: Exits from car parks, petrol stations, properties, small tracks and similar places are **not** junctions for this purpose, so the prohibition continues.
+  src: ["vmf|2:7", "tf|3:21"]
+
+- id: sb-speed-end
+  area: rules
+  lesson: signs-basics
+  image: sign:C31-5
+  q: How long does this speed limit apply?
+  options:
+    - Until a new speed limit, an end-of-temporary-limit sign, a pedestrian street or a walking-speed area
+    - Until the next junction
+    - For one kilometre
+    - Until the next built-up area sign
+  answer: 0
+  explain: Unlike most prohibitory signs, **C31 does not end at a junction**. It applies until a different speed limit, **C32**, **E7** (pedestrian street) or **E9** (walking-speed area).
+  src: ["vmf|2:8"]
+
+- id: sb-overhead-lane
+  area: rules
+  lesson: signs-basics
+  q: A prohibitory sign hangs **over the left lane** of a motorway. Who does it apply to?
+  options: ["Only the drivers in the left lane", "All lanes", "Only heavy trucks", "Only the right lane"]
+  answer: 0
+  explain: Prohibitory and mandatory signs placed over the carriageway apply only to the **lane they are placed over**. A speed limit sign (C31) also covers the shoulder next to that lane.
+  src: ["vmf|2:3"]
+
+- id: sb-police-first
+  area: rules
+  lesson: signs-basics
+  q: The traffic light shows red, but a police officer waves you on. What do you do?
+  options: ["Drive on – the police officer's direction comes first", "Wait for green", "Drive on only if the junction is empty", "Turn around"]
+  answer: 0
+  explain: A police officer's directions apply **before** traffic signals, signs, markings and the traffic rules.
+  src: ["tf|2:3"]
+
+- id: sb-light-before-sign
+  area: rules
+  lesson: signs-basics
+  q: At a junction there is both a working traffic light (steady light) and a give-way sign. Which do you follow?
+  options: ["The traffic light", "The give-way sign", "The right-hand rule", "Whichever is nearer"]
+  answer: 0
+  explain: A steady light in a traffic signal applies **before** a stop or give-way sign. The signs apply when the signal is switched off or only flashes yellow.
+  src: ["tf|2:2"]
+
+- id: sb-light-off
+  area: rules
+  lesson: signs-basics
+  q: The traffic lights at a junction only flash yellow. What applies?
+  options:
+    - The road signs and the general traffic rules – take special care
+    - Everyone must stop
+    - The main road always has priority
+    - Treat it as green
+  answer: 0
+  explain: Flashing yellow means the signal is out of order or temporarily not working. Then the **signs** at the junction – and otherwise the general rules such as the right-hand rule – apply.
+  src: ["tf|2:2", "vmf|3:6"]
+
+- id: sb-sign-before-rule
+  area: rules
+  lesson: signs-basics
+  q: In a built-up area there is a 40 km/h sign. What is the speed limit?
+  options: ["40 km/h – the sign applies before the general rule", "50 km/h – the general rule for built-up areas", "30 km/h", "60 km/h"]
+  answer: 0
+  explain: If a sign differs from a general traffic rule, the **sign applies before the rule**. The general limit of 50 km/h in built-up areas is replaced by the 40 km/h sign.
+  src: ["tf|2:2", "tf|3:17"]
+
+- id: sb-with-e5
+  area: rules
+  lesson: signs-basics
+  q: A prohibitory sign is put up **together with the built-up area sign** (E5). Where does the prohibition apply?
+  options: ["In the whole built-up area", "Until the next junction", "Only on the main road", "For one kilometre"]
+  answer: 0
+  explain: A prohibitory sign placed together with **E5** applies in the **whole built-up area**, unless something else is shown for a certain road.
+  src: ["vmf|2:7"]
+
+- id: sb-pushing-bike
+  area: rules
+  lesson: signs-basics
+  q: Does a "no vehicles" sign apply to someone **walking beside** a bicycle?
+  options: ["No – they count as a pedestrian, unless a panel says otherwise", "Yes, always", "Only at night", "Only for electric bicycles"]
+  answer: 0
+  explain: A person who walks with a bicycle or moped counts as a **pedestrian**, so a ban aimed at vehicles does not apply to them – unless a panel says so.
+  src: ["vmf|2:7", "tf|1:4"]
+
+- id: sb-panels-several
+  area: rules
+  lesson: signs-basics
+  q: Under a sign there are **two separate panels**. How do you read them?
+  options:
+    - Each panel adds its own condition to the sign
+    - Only the lower panel applies
+    - Only the upper panel applies
+    - The panels cancel each other out
+  answer: 0
+  explain: With several panels, each one applies as a **separate addition** to the sign. If **one** panel holds several instructions, they apply **together**.
+  src: ["vmf|2:2"]
+
+# ---------------------------------------------------------------- warning signs
+- id: ws-distance-50
+  area: rules
+  lesson: warning-signs
+  q: On a road with a speed limit of 50 km/h, how far before the danger does a warning sign normally stand?
+  options: ["5–75 metres", "150–250 metres", "200–400 metres", "Exactly 100 metres"]
+  answer: 0
+  explain: Where the limit is **50 km/h or lower**, warning signs stand **5–75 m** before the danger. At 60–70 km/h it is 50–200 m, at 80–90 km/h 150–250 m, and above 90 km/h 200–400 m.
+  src: ["tsfs-2019-74|2:2"]
+
+- id: ws-distance-90
+  area: rules
+  lesson: warning-signs
+  q: On a road with a speed limit of 90 km/h, how far before the danger does a warning sign normally stand?
+  options: ["150–250 metres", "5–75 metres", "50–100 metres", "500–1,000 metres"]
+  answer: 0
+  explain: At **80 or 90 km/h** a warning sign stands **150–250 m** before the danger. If it has to stand further away, a distance panel (T2) shows the distance.
+  src: ["tsfs-2019-74|2:2"]
+
+- id: ws-no-sign
+  area: rules
+  lesson: warning-signs
+  q: On a road with the base speed of 70 km/h you see **no warning sign** before a bend. What can you conclude?
+  options:
+    - Nothing – warning signs are only used for dangers you cannot be expected to foresee
+    - That the bend can be taken at 70 km/h
+    - That there are no junctions or animals ahead
+    - That the road is never icy
+  answer: 0
+  explain: On roads with the base speed, warning signs may only be used for things road users **cannot be expected to foresee**. Ordinary bends, visible junctions and winter ice are often not signed – you must always adapt your speed to what you see.
+  src: ["tsfs-2019-74|2:1", "tf|3:14"]
+
+- id: ws-a10-winter
+  area: rules
+  lesson: warning-signs
+  image: sign:A10
+  q: In winter you drive a long stretch without seeing this sign. Can the road still be icy?
+  options:
+    - Yes – the sign is used for snow or ice only if there are special reasons
+    - No – the road authority must put it up wherever there is ice
+    - Only if the temperature is below −10 °C
+    - Only on bridges
+  answer: 0
+  explain: Sign **A10 (slippery road)** is used to warn of snow or ice **only if there are special reasons**. In winter you must judge the grip yourself.
+  src: ["vmf|2:5"]
+
+- id: ws-a3-percent
+  area: rules
+  lesson: warning-signs
+  image: sign:A3
+  q: The sign shows 10 %. What does that mean?
+  options:
+    - The road drops 10 metres for every 100 metres
+    - The road drops 10 metres in total
+    - The descent is 10 kilometres long
+    - The speed limit drops by 10 %
+  answer: 0
+  explain: The percentage on the steep-descent and steep-ascent signs is the slope – **10 %** means 10 metres down (or up) per 100 metres. Downhill, use a lower gear so the engine helps to brake.
+  src: ["vmf|2:5"]
+
+- id: ws-a28
+  area: rules
+  lesson: warning-signs
+  image: sign:A28
+  q: What applies at the junction this sign warns of?
+  options:
+    - The right-hand rule – give way to vehicles from your right
+    - You have priority
+    - Everyone must stop
+    - Traffic from the left has priority
+  answer: 0
+  explain: "**A28 (crossroads)** warns of a junction where nobody has priority from signs, so the **right-hand rule** applies."
+  src: ["vmf|2:5", "tf|3:18"]
+
+- id: ws-a29
+  area: rules
+  lesson: warning-signs
+  image: sign:A29-1
+  q: What does this sign tell you?
+  options:
+    - Junction ahead where the side roads must give way – you are on the road with priority
+    - Junction ahead where you must give way
+    - A one-way street joins from the right
+    - The road ahead is closed
+  answer: 0
+  explain: "**A29** shows a junction where traffic on the side roads must give way or stop. The **wide line** in the symbol is your road."
+  src: ["vmf|2:5", "tsfs-2019-74|2:12"]
+
+- id: ws-a38
+  area: rules
+  lesson: warning-signs
+  image: sign:A38-1
+  q: What do the red stripes on these boards count down to?
+  options: ["A level crossing – in thirds of the distance", "A motorway exit – one stripe per 100 m", "A school", "A speed camera"]
+  answer: 0
+  explain: "The distance markers (**A38**) count down to a **level crossing** in thirds: three stripes, then two, then one."
+  src: ["vmf|2:5", "tsfs-2019-74|2:17"]
+
+- id: ws-a39-place
+  area: rules
+  lesson: warning-signs
+  image: sign:A39-1
+  q: Where does this sign stand?
+  options:
+    - Immediately before a railway or tramway crossing – normally at least 5 m before the nearest rail
+    - 150–250 m before the crossing
+    - At the end of a railway crossing
+    - At a railway station car park
+  answer: 0
+  explain: The **St Andrew's cross (A39)** stands **immediately before** the crossing – normally at least five metres before the nearest rail. Where there is more than one track, another train can come as soon as one has passed.
+  src: ["vmf|2:5", "tsfs-2019-74|2:20"]
+
+- id: ws-a41
+  area: rules
+  lesson: warning-signs
+  image: sign:A41
+  q: When is this sign used?
+  options:
+    - Only at a traffic accident that blocks part of the road, for as long as it does
+    - At places where many accidents have happened in the past
+    - At every motorway entry
+    - At road works
+  answer: 0
+  explain: "**A41 (accident)** is put up only at an accident that **blocks part of the road**, and only for as long as it does. The law requires a low enough speed past an accident."
+  src: ["tsfs-2019-74|2:22", "tf|3:15"]
+
+- id: ws-children
+  area: rules
+  lesson: warning-signs
+  image: sign:A15
+  q: You approach children playing beside the road. What does the law require?
+  options:
+    - A speed low enough for the situation, so you can stop if a child runs out
+    - Sounding the horn as a warning
+    - Keeping the speed limit – nothing more
+    - Stopping and waiting until they are gone
+  answer: 0
+  explain: The law requires a **low enough speed** when you approach children on or beside the road. Sign **A15** tells you that children often cross or stay there.
+  src: ["tf|3:15", "vmf|2:5"]
+
+- id: ws-a19
+  area: rules
+  lesson: warning-signs
+  image: sign:A19-1
+  q: What does this sign mark?
+  options:
+    - A place or stretch with a special risk of animals on or beside the road
+    - A hunting area – do not stop
+    - A zoo or wildlife park
+    - A place where elk must be reported to the police
+  answer: 0
+  explain: "**A19** marks a place or stretch where there is a **special risk** of animals on or by the road. The elk is the standard symbol."
+  src: ["vmf|2:5", "tsfs-2019-74|2:8"]
+
+# ---------------------------------------------------------------- priority signs
+- id: ps-giveway-meaning
+  area: rules
+  lesson: priority-signs
+  q: What does the duty to give way (*väjningsplikt*) require of you?
+  options:
+    - Show it early by slowing down or stopping, and only drive on if you cause no danger or obstruction
+    - Always stop completely
+    - Sound the horn and drive on carefully
+    - Drive on if you are faster than the others
+  answer: 0
+  explain: A driver who must give way must **clearly show it in good time** by slowing down or stopping, and may continue only if it causes **no danger or obstruction** – nobody should need to brake or swerve because of you.
+  src: ["tf|3:5"]
+
+- id: ps-stop-empty
+  area: rules
+  lesson: priority-signs
+  image: sign:B2
+  q: You come to this sign and can see that the crossing road is completely empty. What must you do?
+  options: ["Stop completely, then drive on", "Slow down and drive on without stopping", "Stop only if a vehicle is coming", "Sound the horn and drive on"]
+  answer: 0
+  explain: "**Stop means stop** – you must stop completely before entering the crossing road, even if it is empty, and then give way."
+  src: ["vmf|2:6", "tf|3:19"]
+
+- id: ps-stop-where
+  area: rules
+  lesson: priority-signs
+  q: Where must you stop at a stop sign that has **no stop line**?
+  options:
+    - Immediately before you enter the crossing road
+    - At the sign
+    - 10 metres before the junction
+    - In the middle of the crossing road
+  answer: 0
+  explain: Stop **at the stop line**. If there is none, stop **immediately before entering** the crossing road, route or track area.
+  src: ["tf|3:19"]
+
+- id: ps-stop-view
+  area: rules
+  lesson: priority-signs
+  q: You have stopped at the stop line, but buildings hide the crossing road. What do you do?
+  options:
+    - Roll forward slowly until you can see, and give way
+    - Drive straight out – you have already stopped
+    - Reverse and choose another road
+    - Wait until another car comes
+  answer: 0
+  explain: Make your stop **at the stop line**. If you cannot see from there, roll forward slowly and look again – then drive on only when it causes no danger or obstruction.
+  src: ["tf|3:19", "tf|3:5"]
+
+- id: ps-b1-t3
+  area: rules
+  lesson: priority-signs
+  q: A give-way sign has a panel with **"STOPP 200 m"**. What does it mean?
+  options:
+    - A stop sign comes in 200 metres
+    - Give way within 200 metres
+    - Stopping is forbidden for 200 metres
+    - A police check is 200 metres ahead
+  answer: 0
+  explain: Panel **T3 (distance to stop)** is only used under the give-way sign B1. It warns that a **stop sign** comes after the distance shown.
+  src: ["vmf|2:30"]
+
+- id: ps-t13
+  area: rules
+  lesson: priority-signs
+  image: sign:T13
+  q: This panel is under a give-way sign. What does it mean?
+  options:
+    - All drivers entering the junction must give way
+    - Only you must give way
+    - The junction is a roundabout
+    - The main road continues to the right
+  answer: 0
+  explain: "**T13** means **all-way give way** – everyone entering the junction must give way. Nobody has priority, so be extra careful and make yourself understood."
+  src: ["vmf|2:30"]
+
+- id: ps-main-road-park
+  area: rules
+  lesson: priority-signs
+  image: sign:B4
+  q: May you park on this kind of road?
+  options: ["No – parking on a main road is not allowed", "Yes, anywhere", "Yes, but only at night", "Yes, if the hazard lights are on"]
+  answer: 0
+  explain: "**B4** marks a main road (*huvudled*). You may **not park** on a main road. Stopping briefly, for example to let someone out, is allowed where nothing else forbids it."
+  src: ["tf|3:55"]
+
+- id: ps-enter-main
+  area: rules
+  lesson: priority-signs
+  q: You drive from a side road onto a main road that has **no acceleration lane**. Who gives way?
+  options: ["You – to the vehicles on the main road", "The vehicles on the main road – to you", "Whoever comes from the right", "Nobody – drive in at the same speed"]
+  answer: 0
+  explain: A driver who enters a main road, motorway or expressway where there is no acceleration lane must **give way** to vehicles on that road.
+  src: ["tf|3:21"]
+
+- id: ps-priority-care
+  area: rules
+  lesson: priority-signs
+  q: You are on a main road and a car pulls out in front of you from a side road. What must you do?
+  options:
+    - Do what you can to avoid a collision – priority does not mean you may ignore others
+    - Keep your speed – you have priority
+    - Sound the horn and keep going
+    - Speed up to get past first
+  answer: 0
+  explain: Having priority never means you can ignore others. Every road user must take the care needed to **avoid accidents**.
+  src: ["tf|2:1"]
+
+- id: ps-b6
+  area: rules
+  lesson: priority-signs
+  image: sign:B6
+  q: You come to this sign before a narrow bridge. An oncoming car is on the bridge. What do you do?
+  options:
+    - Wait until it has passed – you must give way to oncoming traffic
+    - Drive on – the oncoming car must reverse
+    - Flash your lights and drive on
+    - Drive on if you are already close
+  answer: 0
+  explain: "**B6** means **give way to oncoming traffic** on the narrow stretch: do not drive in if it would hinder vehicles coming towards you."
+  src: ["vmf|2:6"]
+
+- id: ps-obstacle-side
+  area: rules
+  lesson: priority-signs
+  q: On a narrow road without signs, a parked car blocks **your** side, and a car is coming towards you. Who should stop?
+  options:
+    - You – the driver with the obstacle on their side
+    - The oncoming driver
+    - The one who is driving faster
+    - The one who comes from the right
+  answer: 0
+  explain: The general rule is that the driver who has the **obstacle on their side** must stop if necessary to let the oncoming vehicle pass.
+  src: ["tf|3:30"]
+
+- id: ps-crossing-uncontrolled
+  area: rules
+  lesson: priority-signs
+  image: sign:B3-1
+  q: At an **uncontrolled** pedestrian crossing, who must you give way to?
+  options:
+    - Pedestrians who are on the crossing or about to step onto it
+    - Only pedestrians who are already in your half of the crossing
+    - Nobody – pedestrians must wait for a gap
+    - Only children and older people
+  answer: 0
+  explain: At an uncontrolled crossing a driver must **give way** to pedestrians who have stepped onto the crossing **or are just about to**.
+  src: ["tf|3:61"]
+
+- id: ps-crossing-controlled
+  area: rules
+  lesson: priority-signs
+  q: What makes a pedestrian crossing **controlled** (*bevakat*)?
+  options:
+    - Traffic lights or a police officer directing the traffic
+    - A B3 sign on both sides
+    - Street lighting
+    - A school nearby
+  answer: 0
+  explain: A crossing is **controlled** when traffic there is directed by **traffic lights or a police officer**. Without them it is uncontrolled.
+  src: ["vtdf|2"]
+
+- id: ps-crossing-overtake
+  area: rules
+  lesson: priority-signs
+  q: May you overtake just before an uncontrolled pedestrian crossing?
+  options: ["No", "Yes, if no pedestrian is visible", "Yes, if you sound the horn", "Yes, at most 30 km/h"]
+  answer: 0
+  explain: Overtaking just before or on an **uncontrolled** crossing is forbidden – a vehicle you overtake may be hiding a pedestrian.
+  src: ["tf|3:40"]
+
+- id: ps-crossing-park
+  area: rules
+  lesson: priority-signs
+  q: How close to a pedestrian crossing may you stop or park?
+  options:
+    - Not on it, and not within 10 metres before it
+    - Not within 5 metres after it
+    - Anywhere, if the hazard lights are on
+    - Not within 20 metres before it
+  answer: 0
+  explain: You may not stop or park **on** a pedestrian crossing or **within 10 metres before** it, so that pedestrians and drivers can see each other.
+  src: ["tf|3:53"]
+
+- id: ps-crossing-no-stop-on
+  area: rules
+  lesson: priority-signs
+  q: The traffic ahead is queueing beyond a pedestrian crossing. What should you do?
+  options:
+    - Wait before the crossing so you do not have to stop on it
+    - Drive onto the crossing and wait there
+    - Use the hazard lights and stop on the crossing
+    - Overtake the queue
+  answer: 0
+  explain: You must approach a pedestrian crossing so that you **will not have to stop on it**.
+  src: ["tf|3:62"]
+
+- id: ps-cycle-crossing
+  area: rules
+  lesson: priority-signs
+  image: sign:B8
+  q: You come to a cycle crossing with this sign. A cyclist is about to ride onto it. What do you do?
+  options:
+    - Give way to the cyclist
+    - Drive on – cyclists must give way to cars
+    - Sound the horn so the cyclist waits
+    - Give way only if the cyclist is already on the crossing
+  answer: 0
+  explain: At a **cycle crossing** (B8 sign, square markings and a give-way line) drivers must **give way** to cyclists and class II moped riders who are on it or about to ride onto it.
+  src: ["tf|3:61a"]
+
+- id: ps-cycle-passage
+  area: rules
+  lesson: priority-signs
+  q: You have just turned at a junction and reach an uncontrolled **cycle passage** (markings, no B8 sign, no traffic lights). A cyclist is about to ride onto it. What applies?
+  options:
+    - Drive slowly and let the cyclist go first
+    - The cyclist must always wait for you
+    - Sound the horn and drive on
+    - Accelerate so you pass before the cyclist
+  answer: 0
+  explain: At a cycle passage cyclists must cross only when it is safe – but **after turning** at a junction, a driver must drive slowly and let cyclists who are on or about to ride onto the passage go first.
+  src: ["tf|3:61", "tf|6:6"]
+
+# ---------------------------------------------------------------- prohibitory signs
+- id: pr-c1-where
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C1
+  q: Where do you typically see this sign?
+  options:
+    - At the far end of a one-way street, where traffic comes towards you
+    - At the start of a motorway
+    - At a pedestrian street – for all traffic
+    - At a car park exit
+  answer: 0
+  explain: "**C1 (no entry)** stops traffic going **in** from your side. You see it at the far end of a **one-way street**."
+  src: ["tsfs-2019-74|4:3"]
+
+- id: pr-c1-c2
+  area: rules
+  lesson: prohibitory-signs
+  q: What is the difference between C1 (no entry) and C2 (no vehicles)?
+  options:
+    - C1 bans driving in from your side; C2 closes the road to vehicles in both directions
+    - C1 is for cars only; C2 for all vehicles
+    - C2 is temporary; C1 is permanent
+    - There is no difference
+  answer: 0
+  explain: "**C1** stops traffic going in from your side – traffic from the other side may come out. **C2** is a red ring that closes the road to vehicles **in both directions**."
+  src: ["vmf|2:8", "tsfs-2019-74|4:3"]
+
+- id: pr-c4
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C4
+  q: Which of these may drive past this sign?
+  options: ["A two-wheeled motorcycle", "A passenger car", "A light truck", "A car with a trailer"]
+  answer: 0
+  explain: "**C4** bans motor vehicles with **more than two wheels**. Two-wheeled motorcycles and mopeds may pass."
+  src: ["vmf|2:8"]
+
+- id: pr-c27-which
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C27
+  q: Which of these may you overtake under this sign (if it is safe)?
+  options: ["A two-wheeled motorcycle without a sidecar", "A car", "A tractor", "A bus"]
+  answer: 0
+  explain: "**C27** forbids overtaking motor vehicles **other than** two-wheeled mopeds and two-wheeled motorcycles without a sidecar. Bicycles, riders and horse-drawn vehicles are not covered either."
+  src: ["vmf|2:8"]
+
+- id: pr-c27-end
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C27
+  q: Where does this ban end?
+  options: ["At the end sign C28", "At the next junction", "After 1 kilometre", "At the next speed limit sign"]
+  answer: 0
+  explain: The no-overtaking ban applies on the road where it is put up **until sign C28** (end of no overtaking) – it does **not** end at a junction.
+  src: ["vmf|2:8"]
+
+- id: pr-c27-mc
+  area: rules
+  lesson: prohibitory-signs
+  paths: [motorcycle]
+  image: sign:C27
+  q: You ride a motorcycle and pass this sign. May you overtake a car?
+  options: ["No – the ban applies to you too", "Yes – motorcycles are exempt", "Yes, if the car is slower than 70 km/h", "Yes, outside built-up areas"]
+  answer: 0
+  explain: "The ban applies to **all** drivers: you may not overtake a car. But cars may overtake **you**, because you ride a two-wheeled motorcycle without a sidecar."
+  src: ["vmf|2:8"]
+
+- id: pr-c19
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C19
+  q: The sign shows **50 m**. What does it mean?
+  options:
+    - You may not drive closer than 50 m to the motor vehicle in front going the same way
+    - The road ends in 50 metres
+    - Overtaking is forbidden for 50 metres
+    - Parking is allowed 50 metres from here
+  answer: 0
+  explain: "**C19 (minimum distance)** forbids driving closer than the distance shown to the **motor vehicle in front**. It is often used on bridges and in tunnels."
+  src: ["vmf|2:8"]
+
+- id: pr-weight
+  area: rules
+  lesson: prohibitory-signs
+  q: A weight sign (C20) shows **3.5 t**. Which weight counts?
+  options:
+    - The vehicle's actual gross weight right now, with people and load
+    - The total weight in the registration certificate
+    - The kerb weight without a driver
+    - The weight of the load only
+  answer: 0
+  explain: The weight signs are about the **gross weight** – the weight the wheels actually put on the road at that moment, people and load included.
+  src: ["vtdl|2", "vmf|2:8"]
+
+- id: pr-c17
+  area: rules
+  lesson: prohibitory-signs
+  q: A height limit sign shows **3.0 m**. With a box on the roof your car is 3.2 m high. What do you do?
+  options: ["Do not drive in – choose another way", "Drive in slowly", "Drive in if the box is empty", "Drive in on the shoulder"]
+  answer: 0
+  explain: The height limit sign (**C17**) gives the maximum height allowed. Remember roof boxes, bikes on the roof and high loads.
+  src: ["vmf|2:8"]
+
+- id: pr-stop-or-park
+  area: rules
+  lesson: prohibitory-signs
+  q: Which of these counts as **stopping** (*stannande*) and not parking?
+  options:
+    - Letting a passenger get out
+    - Waiting in the car with the engine running for a friend to come
+    - Leaving the car for two minutes to buy a newspaper
+    - Sitting in the car to make a phone call
+  answer: 0
+  explain: Stopping is standing still briefly **to let people get in or out or to load or unload goods**. Anything else – even waiting in the car with the engine running – is **parking**.
+  src: ["vtdf|2"]
+
+- id: pr-c35
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C35
+  q: May you let a passenger out where this sign applies?
+  options: ["Yes – stopping is allowed, parking is not", "No – neither stopping nor parking", "Only at night", "Only for taxis"]
+  answer: 0
+  explain: "**C35 (no parking)** has one red slash: you may **stop** to let someone in or out or to load, but you may **not park**."
+  src: ["vmf|2:8", "vtdf|2"]
+
+- id: pr-c35-side
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C35
+  q: On which side of the road does this sign apply?
+  options: ["On the side where it stands", "On both sides", "On the opposite side", "In the whole street"]
+  answer: 0
+  explain: The stopping and parking signs apply on **the side of the road where they stand**, from the sign to the next junction or another stopping or parking sign.
+  src: ["vmf|2:8"]
+
+- id: pr-c39
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C39
+  q: May you stop here to let a passenger out?
+  options: ["No", "Yes, for at most one minute", "Yes, if the engine is running", "Yes, if the hazard lights are on"]
+  answer: 0
+  explain: "**C39 (no stopping or parking)** forbids even a short stop for passengers. Only standing still because of the traffic or to avoid danger is allowed."
+  src: ["vmf|2:8"]
+
+- id: pr-c38
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C38
+  q: Today is **14 May**. Where does this sign say you may **not** park?
+  options:
+    - On the side of the street with even house numbers
+    - On the side with odd house numbers
+    - On both sides
+    - Nowhere – the sign only applies in winter
+  answer: 0
+  explain: "**C38 (date parking)**: on **even** dates you may not park on the side with **even** house numbers; on odd dates not on the side with odd numbers."
+  src: ["vmf|2:8"]
+
+- id: pr-c36
+  area: rules
+  lesson: prohibitory-signs
+  image: sign:C36
+  q: It is the 7th of the month. May you park where this sign applies?
+  options: ["No – parking is banned on odd dates", "Yes – parking is banned on even dates", "Yes, but only for 2 hours", "Only at night"]
+  answer: 0
+  explain: "**C36** bans parking on **odd** dates (1st, 3rd, 5th, 7th …). C37 bans parking on even dates."
+  src: ["vmf|2:8"]
+
+- id: pr-c40-lastplats
+  area: rules
+  lesson: prohibitory-signs
+  q: A special-purpose place (C40) is marked **LASTPLATS**. What is it for?
+  options:
+    - Loading or unloading heavy or bulky goods
+    - Parking for trucks overnight
+    - Short-term parking for everyone
+    - Taxis waiting for customers
+  answer: 0
+  explain: "*Lastplats* means a place for loading or unloading **heavy or bulky goods**. You may only park or stop there for that purpose – though a brief stop to let people in or out is allowed if it does not hinder the purpose."
+  src: ["vmf|2:8", "tf|3:54"]
+
+- id: pr-time-panel-none
+  area: rules
+  lesson: prohibitory-signs
+  q: A no-parking sign has **no time panel**. When does it apply?
+  options: ["All the time", "Weekdays 8–18", "Only during the day", "Only on weekdays"]
+  answer: 0
+  explain: Without a time panel, the ban applies **all the time**. A panel such as 8–18 limits it to those times.
+  src: ["vmf|2:30"]
+
+# ---------------------------------------------------------------- mandatory signs
+- id: md-forbids
+  area: rules
+  lesson: mandatory-signs
+  image: sign:D4
+  q: May you drive a car on a path marked with this sign?
+  options: ["No – only cross it", "Yes, at walking pace", "Yes, if no cyclists are there", "Yes, to park"]
+  answer: 0
+  explain: A mandatory sign for a certain kind of traffic also **forbids all other traffic**. **D4** marks a cycle track for cyclists and class II moped riders; other vehicles may only **cross** it.
+  src: ["vmf|2:9", "tf|3:6"]
+
+- id: md-cross-cycle-track
+  area: rules
+  lesson: mandatory-signs
+  q: You cross a cycle track to reach a property. Who goes first?
+  options:
+    - Cyclists and class II moped riders on the cycle track
+    - You, because you are in a car
+    - Whoever comes from the right
+    - Whoever arrives first
+  answer: 0
+  explain: When you cross a cycle track, you must **give way** to cyclists and class II moped riders on it.
+  src: ["tf|3:59"]
+
+- id: md-d2
+  area: rules
+  lesson: mandatory-signs
+  image: sign:D2-1
+  q: What does this sign on a traffic island tell you?
+  options:
+    - Pass the sign on the side the arrow shows
+    - Turn right at the next junction
+    - The road turns sharply to the right
+    - One-way traffic to the right
+  answer: 0
+  explain: "**D2 (pass this side)** means vehicles may only pass the sign on the side the arrow shows."
+  src: ["vmf|2:10"]
+
+- id: md-island
+  area: rules
+  lesson: mandatory-signs
+  q: There is an island in the middle of a two-way road and no sign on it. On which side do you pass?
+  options: ["On the right", "On the left", "On either side", "You must stop before it"]
+  answer: 0
+  explain: Without a D2 sign, you pass an island in the middle of a two-way road on the **right**. On a one-way road, or if the island is right of the centre, either side is allowed unless a sign says otherwise.
+  src: ["tf|3:13"]
+
+- id: md-roundabout-giveway
+  area: rules
+  lesson: mandatory-signs
+  image: sign:D3
+  q: You drive into a roundabout. Who must give way?
+  options:
+    - You – to every vehicle already in the roundabout
+    - The vehicles in the roundabout – to you
+    - Whoever comes from the right
+    - Nobody
+  answer: 0
+  explain: A driver entering a roundabout must **give way to every vehicle already in it**. D3 is always put up together with a give-way or stop sign.
+  src: ["tf|3:22", "tsfs-2019-74|5:8"]
+
+- id: md-roundabout-direction
+  area: rules
+  lesson: mandatory-signs
+  q: In which direction do you drive around a roundabout in Sweden?
+  options: ["Anticlockwise – keeping the centre on your left", "Clockwise", "Either way", "It depends on the lane"]
+  answer: 0
+  explain: In a roundabout you drive **anticlockwise**, around the central island on your left.
+  src: ["tf|3:13"]
+
+- id: md-bus-lane
+  area: rules
+  lesson: mandatory-signs
+  image: sign:D10
+  q: A bus lane on the right-hand side has this sign and no panel. Who may drive in it?
+  options:
+    - Buses in scheduled services, cyclists and class II moped riders
+    - All vehicles outside rush hour
+    - Taxis and motorcycles
+    - Electric cars
+  answer: 0
+  explain: In a lane for vehicles in scheduled services only those vehicles may be driven – and, if the lane is on the right, **bicycles and class II mopeds**. A panel can let others in, for example taxis.
+  src: ["tf|8:2", "vmf|2:10"]
+
+- id: md-bus-lane-cross
+  area: rules
+  lesson: mandatory-signs
+  q: What may you do with a car in a bus lane?
+  options: ["Only cross it, for example to turn", "Drive in it for up to 100 metres", "Stop briefly to let passengers out", "Park in it at night"]
+  answer: 0
+  explain: Other drivers may only **cross** a bus lane, and you may not stop or park in it.
+  src: ["tf|3:10", "tf|3:53"]
+
+- id: md-bus-lane-mc
+  area: rules
+  lesson: mandatory-signs
+  paths: [motorcycle]
+  q: May you ride a motorcycle in a bus lane?
+  options: ["No – unless a panel allows motorcycles", "Yes, always", "Yes, in queues", "Yes, outside built-up areas"]
+  answer: 0
+  explain: A motorcycle is not a vehicle in scheduled services. Unless a **panel** allows motorcycles, you may only cross the bus lane.
+  src: ["tf|8:2"]

@@ -22,7 +22,7 @@ function optionOrder(q) {
 }
 
 function assembleExam(path) {
-  const pool = questionsFor(path);
+  const pool = questionsFor(path).filter((q) => !q.noExam);
   const used = new Set();
   const picked = [];
   const take = (list, n) => {

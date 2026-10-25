@@ -1,0 +1,828 @@
+# Road-sign module questions, part B: information and direction signs, panels, road markings,
+# traffic signals, police and guard signals, marker devices.
+
+# ---------------------------------------------------------------- information signs
+- id: is-e5-speed
+  area: rules
+  lesson: information-signs
+  image: sign:E5
+  q: You pass this sign and see no speed limit sign. What is the speed limit?
+  options: ["50 km/h", "30 km/h", "70 km/h", "40 km/h"]
+  answer: 0
+  explain: "**E5** marks the start of a built-up area, where the general limit is **50 km/h** unless signs show something else."
+  src: ["tf|3:17", "vmf|2:12"]
+
+- id: is-f10-not-e5
+  area: rules
+  lesson: direction-signs
+  q: You pass a **place name sign** (F10) with the name of a village, but no built-up area sign (E5). Does the 50 km/h rule for built-up areas start?
+  options: ["No – only the E5 sign starts a built-up area", "Yes – all place name signs start it", "Yes, if there are houses on both sides", "Only at night"]
+  answer: 0
+  explain: The place name sign only tells you the **name** of the place. A built-up area is decided in a local traffic regulation and marked with **E5**.
+  src: ["vmf|2:17", "vmf|2:12", "tf|10:1"]
+
+- id: is-pedestrian-street
+  area: rules
+  lesson: information-signs
+  image: sign:E7
+  q: Which rules apply on a street with this sign?
+  options:
+    - Walking pace, no parking, give way to pedestrians – and motor vehicles may only cross, except for deliveries and some other needs
+    - 30 km/h and parking on the right side only
+    - Only bicycles may be ridden there
+    - Normal traffic rules, but pedestrians have priority at crossings
+  answer: 0
+  explain: "On a **pedestrian street** (E7): vehicles at most **walking pace**, **no parking**, drivers **give way to pedestrians**. Motor vehicles may only cross it, except when needed for deliveries, goods or residents' transport, hotel guests, or sick or disabled people."
+  src: ["tf|8:1"]
+
+- id: is-walking-area
+  area: rules
+  lesson: information-signs
+  image: sign:E9
+  q: May you drive through an area with this sign?
+  options:
+    - Yes – at walking pace, giving way to pedestrians and without parking
+    - No – only residents may drive there
+    - Yes – at most 30 km/h
+    - Only to deliver goods
+  answer: 0
+  explain: "In a **walking-speed area** (E9) you may drive through, but at most at **walking pace**, you must **give way to pedestrians**, and you may **not park**."
+  src: ["tf|8:1"]
+
+- id: is-cycle-street
+  area: rules
+  lesson: information-signs
+  image: sign:E33
+  q: What is the highest speed on a street with this sign?
+  options: ["30 km/h", "Walking pace", "20 km/h", "50 km/h"]
+  answer: 0
+  explain: "On a **cycle street** (E33): at most **30 km/h**, parking only in arranged parking places, drivers entering from another road give way to vehicles on it, and motor vehicle drivers must adapt their speed to the cyclists."
+  src: ["tf|8:1a"]
+
+- id: is-leave-area
+  area: rules
+  lesson: information-signs
+  q: You drive out of a walking-speed area onto an ordinary street. Who gives way?
+  options: ["You – to the traffic on the street", "The traffic on the street – to you", "Whoever comes from the right", "Nobody"]
+  answer: 0
+  explain: A driver who leaves a pedestrian street, walking-speed area or cycle street must **give way** to the traffic on the road they enter.
+  src: ["tf|3:21"]
+
+- id: is-recommended
+  area: rules
+  lesson: information-signs
+  image: sign:E11
+  q: What is this sign?
+  options:
+    - A recommended lower speed – but you must always adapt your speed to the conditions
+    - A speed limit that is checked by camera
+    - A minimum speed
+    - The speed limit for heavy vehicles only
+  answer: 0
+  explain: "**E11** is a **recommendation** – a stretch where it is suitable to drive slower than the limit. The law still requires you to adapt your speed to the conditions, so ignoring it can still be breaking the law."
+  src: ["vmf|2:12", "tf|3:14"]
+
+- id: is-merging
+  area: rules
+  lesson: information-signs
+  image: sign:E15
+  q: Two lanes merge into one. What does the law require?
+  options:
+    - Both drivers adapt to each other with mutual consideration
+    - The left lane always has priority
+    - The right lane always has priority
+    - The faster vehicle goes first
+  answer: 0
+  explain: Where lanes merge, the drivers must adapt with **mutual consideration**. If you see someone wanting to move into your lane, adjust your speed to make it easier for them. Taking turns (the zip principle) is common practice.
+  src: ["vmf|2:12", "tf|3:44", "tf|3:43"]
+
+- id: is-passing-place
+  area: rules
+  lesson: information-signs
+  image: sign:E18
+  q: May you park at a place with this sign?
+  options: ["No – it is for meeting and letting others pass", "Yes, for up to 24 hours", "Yes, at night", "Yes, if you leave the hazard lights on"]
+  answer: 0
+  explain: "**E18** marks a **passing place** on a narrow road. Parking there is not allowed."
+  src: ["tf|3:55"]
+
+- id: is-bus-stop
+  area: rules
+  lesson: information-signs
+  image: sign:E22
+  q: A bus stop is shown only with this sign – nothing is marked on the road. Where may you **not** stop or park?
+  options:
+    - From 20 metres before to 5 metres after the sign – except briefly for passengers if buses are not hindered
+    - Within 10 metres on both sides
+    - Within 50 metres before the sign
+    - Only right next to the sign
+  answer: 0
+  explain: If the stop is not marked on the road, you may not stop or park from **20 m before to 5 m after** the sign – except briefly to let people in or out, if it does not hinder the buses.
+  src: ["tf|3:54"]
+
+- id: is-bus-leaving
+  area: rules
+  lesson: information-signs
+  q: On a 50 km/h street, a bus at a stop signals that it is pulling out. What must you do?
+  options:
+    - Slow down and stop if needed, so the bus can get out
+    - Overtake the bus quickly
+    - Sound the horn and keep going
+    - Nothing – the bus must wait for a gap
+  answer: 0
+  explain: Where the limit is **50 km/h or lower**, you must slow down – and stop if needed – to let a bus that signals it is leaving a bus stop get out.
+  src: ["tf|3:45"]
+
+- id: is-24h
+  area: rules
+  lesson: information-signs
+  q: On a public street in a built-up area where parking is allowed, how long may a car stay parked in a row on weekdays?
+  options: ["At most 24 hours", "At most 2 hours", "At most 72 hours", "As long as you like"]
+  answer: 0
+  explain: Even where parking is allowed, a vehicle may not stay parked **more than 24 hours in a row** on weekdays (except the day before a Sunday or public holiday) on municipal streets in built-up areas and on public roads.
+  src: ["tf|3:49a"]
+
+- id: is-camera
+  area: rules
+  lesson: information-signs
+  image: sign:E24
+  q: What does this sign tell you?
+  options:
+    - That a camera may check your speed or other rules ahead
+    - That filming is forbidden
+    - That a speed camera stands exactly at the sign
+    - That a tourist viewpoint is ahead
+  answer: 0
+  explain: "**E24 (automatic traffic surveillance)** tells you a camera may check speed or other rules – or register you for taxes or fees. It normally stands 40–300 m before the camera."
+  src: ["vmf|2:12", "tsfs-2019-74|6:30"]
+
+- id: is-motorway-rules
+  area: rules
+  lesson: information-signs
+  image: sign:E1
+  q: Which of these is forbidden on a road with this sign?
+  options: ["Reversing", "Driving at 100 km/h", "Overtaking on the left", "Driving a motorcycle"]
+  answer: 0
+  explain: On a **motorway** you may not turn around, **reverse**, stop or park (except at signed parking places and rest areas). Only motor vehicles built for and allowed at least 40 km/h may use it.
+  src: ["tf|9:1"]
+
+# ---------------------------------------------------------------- direction signs
+- id: ds-green
+  area: rules
+  lesson: direction-signs
+  q: A direction sign has a **green** background. Where does it lead?
+  options: ["Along or to a motorway or expressway", "To a park", "To a temporary diversion", "To a private road"]
+  answer: 0
+  explain: Green direction signs lead along or to a **motorway or expressway**. Blue ones lead to public roads, white ones to local destinations.
+  src: ["vmf|2:14"]
+
+- id: ds-yellow-red
+  area: rules
+  lesson: direction-signs
+  q: A direction sign is **yellow with a red border**. What does it lead to?
+  options: ["A private road (*enskild väg*)", "A motorway", "A hospital", "A temporary diversion"]
+  answer: 0
+  explain: Yellow with a red border means the sign leads along or to a **private road**.
+  src: ["vmf|2:14"]
+
+- id: ds-orange
+  area: rules
+  lesson: direction-signs
+  q: What does an **orange** direction sign show?
+  options: ["A temporary diversion", "A tourist attraction", "A motorway", "A road for heavy vehicles"]
+  answer: 0
+  explain: Orange signs with black text show a **temporary diversion**.
+  src: ["vmf|2:14"]
+
+- id: ds-brown
+  area: rules
+  lesson: direction-signs
+  q: What does a **brown** direction sign lead to?
+  options: ["A destination of tourist interest", "A private road", "A temporary diversion", "A railway station"]
+  answer: 0
+  explain: Brown signs with white text lead to destinations of **tourist interest**.
+  src: ["vmf|2:14"]
+
+- id: ds-white
+  area: rules
+  lesson: direction-signs
+  q: What does a **white** direction sign with black text lead to?
+  options: ["A local destination, institution or facility", "A motorway", "A private road", "A diversion"]
+  answer: 0
+  explain: White signs lead to **local destinations** in a town, or to institutions and facilities.
+  src: ["vmf|2:14"]
+
+- id: ds-lanes-not-overtaking
+  area: rules
+  lesson: direction-signs
+  q: The lanes are assigned to different destinations with lane direction signs over the road. You drive faster in your lane than the cars in the next lane. Is that overtaking?
+  options: ["No", "Yes – and it is only allowed on the left", "Yes – and it is forbidden", "Only if you change lanes"]
+  answer: 0
+  explain: Where the carriageway is divided into lanes for different destinations with lane direction signs, passing vehicles in another lane is **not counted as overtaking**.
+  src: ["tf|3:41"]
+
+- id: ds-dashed-number
+  area: rules
+  lesson: direction-signs
+  q: A road number on a direction sign has a **dashed border**. What does that mean?
+  options:
+    - The road leads to the road with that number
+    - The road is temporarily closed
+    - The road is a private road
+    - The road has a low weight limit
+  answer: 0
+  explain: A **dashed border** around a road number means the road **leads to** the road with that number.
+  src: ["vmf|2:17"]
+
+- id: ds-f26
+  area: rules
+  lesson: direction-signs
+  image: sign:F26-1
+  q: What does this sign mean?
+  options:
+    - A lane is closed and traffic is led into the lane for the opposite direction
+    - Move over to the other lane in your direction
+    - Two lanes become three
+    - A motorway exit ahead
+  answer: 0
+  explain: "**F26** means a lane is temporarily closed and **no other lane in your direction** can be used, so traffic is led into the opposite lane. F25 means you can move to another lane in your direction."
+  src: ["vmf|2:17"]
+
+- id: ds-f1-distance
+  area: rules
+  lesson: direction-signs
+  exam: false
+  q: Outside built-up areas, how far before a junction does the advance direction sign (F1) normally stand?
+  options: ["300–400 metres", "50–100 metres", "1–2 kilometres", "Right at the junction"]
+  answer: 0
+  explain: F1 stands **300–400 m** before the junction outside built-up areas and 50–100 m before it in a built-up area – so you can choose direction and lane in time.
+  src: ["tsfs-2019-74|8:5"]
+
+# ---------------------------------------------------------------- additional panels
+- id: ap-saturday
+  area: rules
+  lesson: additional-panels
+  q: A no-parking sign has the panel **8–17 (8–14)** and **8–13** in red. Is parking banned on a normal **Saturday at 15:00**?
+  options: ["No – on Saturdays the ban ends at 14:00", "Yes – until 17:00", "Yes – all day", "Yes – until 13:00"]
+  answer: 0
+  explain: Numbers **in brackets** apply on a weekday before a Sunday or public holiday – usually Saturday – so the ban is 08:00–14:00. At 15:00 you may park.
+  src: ["vmf|2:30"]
+
+- id: ap-sunday-no-red
+  area: rules
+  lesson: additional-panels
+  q: A no-parking sign has the panel **8–18 (8–15)** – no red numbers. Is parking banned on a **Sunday at 12:00**?
+  options: ["No – without red numbers the ban does not apply on Sundays and holidays", "Yes – 08:00–18:00", "Yes – 08:00–15:00", "Yes – all day"]
+  answer: 0
+  explain: "**Red numbers** are for Sundays and public holidays. If there are none, the rule does **not** apply on those days."
+  src: ["vmf|2:30"]
+
+- id: ap-red-numbers
+  area: rules
+  lesson: additional-panels
+  q: On a time panel, what do the **red** numbers mean?
+  options: ["Sundays and public holidays", "Saturdays", "Night time", "The time when parking costs money"]
+  answer: 0
+  explain: "On a time panel: numbers **without brackets** = normal weekdays; numbers **in brackets** = a weekday before a Sunday or public holiday; **red numbers** = Sundays and public holidays."
+  src: ["vmf|2:30"]
+
+- id: ap-midnight
+  area: rules
+  lesson: additional-panels
+  q: A no-parking sign has the panel **20–06** (black, no brackets). Is parking banned on a **Tuesday at 03:00**?
+  options:
+    - Yes – the period after midnight belongs to the following day
+    - No – the ban only applies 20:00–24:00
+    - No – night times are never banned
+    - Only on Saturdays
+  answer: 0
+  explain: If the time on a panel runs past midnight, the period after midnight applies on the **following day**. Monday 20:00 to Tuesday 06:00 is banned.
+  src: ["vmf|2:30"]
+
+- id: ap-arrow-down
+  area: rules
+  lesson: additional-panels
+  image: sign:T11-3
+  q: A no-parking sign has this panel with an arrow pointing down. What does it mean?
+  options: ["The ban ends here", "The ban starts here", "The ban applies below the sign only", "Park with the front down the slope"]
+  answer: 0
+  explain: On the extent panel (**T11**), an arrow pointing **down** means the rule **ends here**. Arrows in both directions mean the rule applies on both sides of the sign.
+  src: ["vmf|2:30"]
+
+- id: ap-symbol
+  area: rules
+  lesson: additional-panels
+  q: Under a no-parking sign there is a panel with a **truck** symbol. Who may not park?
+  options: ["Only trucks", "Everyone except trucks", "Everyone", "Only cars"]
+  answer: 0
+  explain: A panel with a vehicle symbol (**T8**) means the sign applies **only** to that vehicle type.
+  src: ["vmf|2:30"]
+
+- id: ap-disc
+  area: rules
+  lesson: additional-panels
+  q: You park at **10:10** where a parking disc is required. What time do you set on the disc?
+  options: ["10:30", "10:00", "10:10", "11:00"]
+  answer: 0
+  explain: The disc is set to the **next half hour** after you parked – 10:30.
+  src: ["tf|3:49a"]
+
+- id: ap-disc-before
+  area: rules
+  lesson: additional-panels
+  q: You park at **07:40**. A 2-hour limit with a parking disc applies from **08:00**, and you will stay until 09:30. What time do you set on the disc?
+  options: ["08:00", "07:40", "08:30", "You do not need a disc"]
+  answer: 0
+  explain: If you park **before** a time limit starts and stay after it starts, set the disc to the time the limit **begins** – here 08:00.
+  src: ["tf|3:49a"]
+
+- id: ap-charging
+  area: rules
+  lesson: additional-panels
+  image: sign:T24
+  q: This panel is under a parking sign. Who may park there?
+  options:
+    - Only vehicles that can be charged externally for their propulsion
+    - All electric and hybrid cars, including hybrids that cannot be plugged in
+    - Everyone, for at most 2 hours
+    - Only taxis
+  answer: 0
+  explain: "At a **charging place** only vehicles that can be **charged externally** for their propulsion may be parked. Others – including ordinary hybrids that cannot be plugged in – may only stop to let people in or out."
+  src: ["vmf|2:30", "tf|3:54"]
+
+- id: ap-combined-panel
+  area: rules
+  lesson: additional-panels
+  q: Under a P sign there is **one** panel with a parking-disc symbol, **"2 tim"** and **"8–18 (8–15)"**. You park on a Saturday at 16:00. What applies?
+  options:
+    - No time limit and no disc – the conditions apply only 08:00–15:00 on Saturdays
+    - At most 2 hours with a disc
+    - Parking is forbidden
+    - At most 2 hours without a disc
+  answer: 0
+  explain: Instructions on the **same panel** apply together. On a Saturday the conditions apply 08:00–15:00, so at 16:00 neither the time limit nor the disc applies.
+  src: ["vmf|2:2", "vmf|2:30"]
+
+- id: ap-t5
+  area: rules
+  lesson: additional-panels
+  q: A panel under a sign shows **3.5 t** with the "total weight" wording (T5). Which vehicles does the sign apply to?
+  options:
+    - Vehicles whose registered total weight is above 3.5 tonnes
+    - Vehicles that weigh more than 3.5 tonnes right now
+    - All vehicles with a trailer
+    - All vehicles lighter than 3.5 tonnes
+  answer: 0
+  explain: "Panel **T5** refers to the **total weight** – the highest weight the vehicle is registered for – not what it weighs at the moment."
+  src: ["vmf|2:30"]
+
+# ---------------------------------------------------------------- road markings
+- id: rm-warning-line
+  area: rules
+  lesson: road-markings
+  q: A line along the middle of the road has **long dashes and short gaps**. What is it?
+  options:
+    - A warning line – crossing is allowed but unsuitable
+    - A centre line – crossing is fine
+    - A solid line – crossing is forbidden
+    - An edge line
+  answer: 0
+  explain: "The **warning line** (M3, line 3 : gap 1) separates opposite directions where it is unsuitable to cross, and can warn that a solid line is coming."
+  src: ["vmf|4:4"]
+
+- id: rm-centre-line
+  area: rules
+  lesson: road-markings
+  q: A line in the middle of the road has **short dashes and long gaps**. What is it?
+  options: ["A centre line", "A warning line", "A solid line", "A cycle lane line"]
+  answer: 0
+  explain: "Short lines with long gaps (1 : 3 or 1 : 1) are a **centre line** (between opposite directions) or a **lane line** (between lanes in the same direction)."
+  src: ["vmf|4:4"]
+
+- id: rm-solid-wheel
+  area: rules
+  lesson: road-markings
+  q: How much of your vehicle may cross a solid centre line when nothing special applies?
+  options: ["Not even one wheel", "One wheel", "Half the vehicle", "The whole vehicle if no one is coming"]
+  answer: 0
+  explain: A vehicle may not be driven **with any wheel** on a restricted area or over a solid line – unless one of the exceptions applies, and then only with special care.
+  src: ["tf|3:11"]
+
+- id: rm-solid-exception
+  area: rules
+  lesson: road-markings
+  q: In which situation may you cross a solid line, with special care?
+  options:
+    - To get past an obstacle on the road
+    - To overtake a slow car
+    - To overtake a tractor going at 30 km/h
+    - To turn around because you missed your exit
+  answer: 0
+  explain: "Exceptions: to **pass an obstacle on the road**, when a junction is otherwise too narrow for the vehicle, to drive to or from a **property**, or where a **broken line** runs immediately to the right of the solid line in your direction. Overtaking is not an exception."
+  src: ["tf|3:11"]
+
+- id: rm-combined-broken
+  area: rules
+  lesson: road-markings
+  q: A double line in the middle of the road is **broken on your side and solid on the other side**. May you cross it?
+  options: ["Yes, with care – the line nearest you decides", "No – the solid line forbids it", "Only in daylight", "Only to turn left"]
+  answer: 0
+  explain: With combined lines, **the line nearest to you decides**. A broken line on your side means you may cross – with care.
+  src: ["vmf|4:7", "tf|3:11"]
+
+- id: rm-combined-solid
+  area: rules
+  lesson: road-markings
+  q: A double line is **solid on your side and broken on the other side**. May you cross it to overtake?
+  options: ["No", "Yes, if it is safe", "Yes, at most 70 km/h", "Yes, for motorcycles"]
+  answer: 0
+  explain: The line nearest you decides. A **solid** line on your side means you may **not** cross it.
+  src: ["vmf|4:7", "tf|3:11"]
+
+- id: rm-shoulder-solid
+  area: rules
+  lesson: road-markings
+  q: A faster car wants to overtake you. The **edge line is solid**. May you move out onto the shoulder for a moment?
+  options: ["No – not over a solid edge line", "Yes, to make it easier for the faster car", "Yes, if you indicate", "Yes, outside built-up areas"]
+  answer: 0
+  explain: Ordinary vehicles may use the shoulder temporarily to let others pass – but **not** when the carriageway is bordered by a **solid** edge line.
+  src: ["tf|3:12"]
+
+- id: rm-shoulder-broken
+  area: rules
+  lesson: road-markings
+  q: The edge line is **broken**. A faster car comes up behind you. What may you do?
+  options:
+    - Move onto the shoulder for a moment to let it pass, if the shoulder is suitable
+    - Nothing – the shoulder is only for cyclists
+    - Speed up to the speed limit
+    - Stop on the carriageway
+  answer: 0
+  explain: If needed to make it easier for other traffic, the shoulder may be used **temporarily** by other vehicles too – when the edge line is not solid.
+  src: ["tf|3:12"]
+
+- id: rm-back-from-shoulder
+  area: rules
+  lesson: road-markings
+  q: You drive back onto the carriageway from the shoulder. Who gives way?
+  options: ["You – to vehicles on the carriageway", "Vehicles on the carriageway – to you", "Whoever is faster", "Nobody"]
+  answer: 0
+  explain: A driver who comes onto the carriageway from the shoulder must **give way** to the vehicles there.
+  src: ["tf|3:21"]
+
+- id: rm-yellow-temp
+  area: rules
+  lesson: road-markings
+  q: At road works there are **yellow** lines as well as the normal white lines. Which do you follow?
+  options: ["The yellow lines", "The white lines", "Whichever is nearer the middle", "Neither – follow the car in front"]
+  answer: 0
+  explain: Temporary yellow lines at road works apply **instead of** the ordinary white markings.
+  src: ["vmf|4:3"]
+
+- id: rm-yellow-solid
+  area: rules
+  lesson: road-markings
+  image: sign:M21
+  q: A **solid yellow line** is painted along the kerb. What does it mean?
+  options: ["No stopping or parking", "No parking, but stopping is allowed", "Parking for disabled people", "Bus lane"]
+  answer: 0
+  explain: "**M21**, a solid yellow line at the edge of the carriageway, means **no stopping or parking**. A broken yellow line (M22) means no parking."
+  src: ["vmf|4:9"]
+
+- id: rm-yellow-broken
+  area: rules
+  lesson: road-markings
+  image: sign:M22
+  q: A **broken yellow line** is painted along the kerb. What does it mean?
+  options: ["No parking – stopping is allowed", "No stopping or parking", "Parking allowed for 2 hours", "Cycle lane"]
+  answer: 0
+  explain: "**M22**, a broken yellow line, means **no parking**. It can also show the extent of a bus stop."
+  src: ["vmf|4:9"]
+
+- id: rm-arrows-solid
+  area: rules
+  lesson: road-markings
+  q: Your lane is separated from the next by a **solid** lane line and has a left-turn arrow painted in it. What applies?
+  options:
+    - You must turn left
+    - The arrow is only advice
+    - You may go straight on if no one is coming
+    - You may turn right
+  answer: 0
+  explain: If the lane is bordered by a **solid** lane line, drivers **must follow** the direction(s) the arrow shows. Between broken lane lines the arrows are advice.
+  src: ["vmf|4:9"]
+
+- id: rm-stop-solid-3m
+  area: rules
+  lesson: road-markings
+  q: You want to stop next to a **solid line between lanes**. What is required?
+  options:
+    - At least 3 metres between your vehicle and the line, unless a broken line runs between you and it
+    - At least 1 metre
+    - Your hazard lights must be on
+    - Nothing special
+  answer: 0
+  explain: You may not stop or park along a solid lane line if there is **less than 3 metres** between your vehicle and the line – unless a broken line runs between them. Otherwise others would have to cross the solid line to pass.
+  src: ["tf|3:53"]
+
+- id: rm-cycle-box
+  area: rules
+  lesson: road-markings
+  image: sign:M17a
+  q: At a junction there is a marked box like this in front of the stop line for cars. What do you do as a driver?
+  options:
+    - Stop at your own stop line and leave the box free
+    - Stop in the box
+    - Use the box when you turn right
+    - Park in the box at night
+  answer: 0
+  explain: "**M17a (cycle box)** shows a suitable place for cyclists and class II moped riders to wait. Drivers stop at their stop line and leave the box free."
+  src: ["vmf|4:8"]
+
+- id: rm-parking-bays
+  area: rules
+  lesson: road-markings
+  q: Parking spaces are marked on the road. How must you park?
+  options: ["With no wheel outside the marked space", "With at least two wheels inside", "As close to the kerb as possible, ignoring the lines", "Diagonally across two spaces"]
+  answer: 0
+  explain: Where parking spaces are marked (M24), the vehicle must be parked **inside** the marking – no wheel outside.
+  src: ["tf|3:49"]
+
+# ---------------------------------------------------------------- traffic signals
+- id: sig-yellow
+  area: rules
+  lesson: signals-and-police
+  image: sign:SIG4
+  q: The light changes from green to this when you are far enough away to stop safely. What must you do?
+  options: ["Stop", "Speed up to get through", "Drive on carefully", "Stop only if a car is coming"]
+  answer: 0
+  explain: Yellow means **stop** – you may only continue if you were so close when it changed that you **cannot stop without danger**.
+  src: ["vmf|3:6"]
+
+- id: sig-red-yellow
+  area: rules
+  lesson: signals-and-police
+  image: sign:SIG2
+  q: What does red and yellow together mean?
+  options:
+    - Green is coming immediately – but you may not start yet
+    - You may start if the junction is empty
+    - The signal is out of order
+    - Stop if you can, otherwise drive on
+  answer: 0
+  explain: Red + yellow means green is coming **immediately**. Otherwise it means the same as red – you may **not** start yet.
+  src: ["vmf|3:6"]
+
+- id: sig-order
+  area: rules
+  lesson: signals-and-police
+  q: In which order do the lights of an ordinary Swedish traffic light change?
+  options:
+    - Red → red + yellow → green → yellow → red
+    - Red → green → yellow → red
+    - Red → yellow → green → red
+    - Green → red + yellow → red
+  answer: 0
+  explain: The order is **red → red + yellow → green → yellow → red**.
+  src: ["vmf|3:5"]
+
+- id: sig-green-arrow
+  area: rules
+  lesson: signals-and-police
+  q: The main light shows **red**, and a **green arrow to the left** is lit next to it. What may you do?
+  options:
+    - Turn left – the green arrow applies to its direction
+    - Nothing – red applies to everything
+    - Go straight on
+    - Turn right
+  answer: 0
+  explain: A **green arrow** means you may drive in the arrow's direction **even if another light is shown at the same time**.
+  src: ["vmf|3:6"]
+
+- id: sig-green-turn
+  area: rules
+  lesson: signals-and-police
+  q: You have green and turn right. Pedestrians are crossing the road you turn into on their green light. What do you do?
+  options:
+    - Drive slowly and give way to the pedestrians
+    - Drive on – you have green too
+    - Sound the horn so they hurry
+    - Stop in the middle of the junction until all lights change
+  answer: 0
+  explain: After turning at a junction you must drive slowly and **give way to pedestrians** who are crossing correctly – even when you have green.
+  src: ["tf|3:60"]
+
+- id: sig-block-junction
+  area: rules
+  lesson: signals-and-police
+  q: You have green, but the traffic beyond the junction is standing still. What should you do?
+  options:
+    - Wait – do not drive in if you risk having to stop in the junction
+    - Drive in and wait in the junction
+    - Drive in and use the hazard lights
+    - Turn instead
+  answer: 0
+  explain: You must not drive into a junction in a way that makes you stop there and block the crossing traffic.
+  src: ["tf|3:20"]
+
+- id: sig-flashing-yellow
+  area: rules
+  lesson: signals-and-police
+  image: sign:SIG5
+  q: The traffic light only flashes yellow. What does that mean?
+  options:
+    - The signal is not working – take special care and follow the signs and general rules
+    - Stop and wait for green
+    - You have priority
+    - The light will turn green within 10 seconds
+  answer: 0
+  explain: Flashing yellow is shown when the signal is out of order or temporarily not working. It means **take special care** – the signs and the general rules apply.
+  src: ["vmf|3:5", "vmf|3:6"]
+
+- id: sig-pedestrian-flash
+  area: rules
+  lesson: signals-and-police
+  q: The green pedestrian light **flashes**. What should drivers expect?
+  options:
+    - That pedestrians may still be on the crossing after their light turns red
+    - That pedestrians must run
+    - That drivers get green at once
+    - That the crossing closes
+  answer: 0
+  explain: A flashing green person means red is coming soon. A pedestrian still on the road when it turns red should **continue** to the other side – so expect people on the crossing.
+  src: ["vmf|3:8"]
+
+- id: sig-lane-cross
+  area: rules
+  lesson: signals-and-police
+  image: sign:SIG12
+  q: This signal is lit over your lane on a motorway. What must you do?
+  options:
+    - Leave the lane – it and the shoulder beside it may not be used
+    - Slow down to 70 km/h
+    - Stop in the lane
+    - Continue – it is only a warning
+  answer: 0
+  explain: A **red cross** over a lane means the lane – and the shoulder beside it – may **not** be used.
+  src: ["vmf|3:15"]
+
+- id: sig-lane-yellow
+  area: rules
+  lesson: signals-and-police
+  image: sign:SIG13
+  q: This yellow arrow is lit over your lane. What does it mean?
+  options: ["Change lane in the direction of the arrow", "Exit the motorway", "The lane ends in 1 km", "Overtaking is allowed"]
+  answer: 0
+  explain: A **yellow arrow** lane signal means **change lane** in the direction of the arrow.
+  src: ["vmf|3:15"]
+
+- id: sig-two-red
+  area: rules
+  lesson: signals-and-police
+  image: sign:SIG16
+  q: Two red lights flash in turn outside a fire station. What do you do?
+  options: ["Stop at the stop line or before the signal", "Slow down and drive on carefully", "Drive on – it is only for fire engines", "Sound the horn"]
+  answer: 0
+  explain: Two red lights flashing in turn mean **stop** – at the stop line or before the signal. They are used at fire and ambulance stations, opening bridges, airfields, tunnels and similar places.
+  src: ["vmf|3:19", "vmf|3:20"]
+
+- id: sig-steady-red
+  area: rules
+  lesson: signals-and-police
+  image: sign:SIG17
+  q: A single **steady red light** is shown on the road ahead. What does it mean?
+  options: ["The road is completely closed", "Stop, then drive on carefully", "A bus is leaving", "The road is partly closed"]
+  answer: 0
+  explain: A steady red light means the road is **completely closed**. A flashing yellow light means partly closed (or draws attention to a sign or device).
+  src: ["vmf|3:21"]
+
+- id: sig-bus-signal
+  area: rules
+  lesson: signals-and-police
+  q: Next to the ordinary traffic light there is a signal with **white symbols** (S, bars). You drive a car in an ordinary lane. Who is that signal for?
+  options:
+    - Buses and trams in scheduled services, and those using the bus lane – not you
+    - All vehicles
+    - Only taxis
+    - Cyclists
+  answer: 0
+  explain: Signals with white symbols apply to **vehicles in scheduled services and trams**, and to everyone using a bus lane where they stand. In an ordinary lane, follow your own traffic light.
+  src: ["vmf|3:9", "vmf|3:10"]
+
+- id: sig-cycle-signal
+  area: rules
+  lesson: signals-and-police
+  q: A traffic light has a white bicycle on blue above the red light. For a cyclist, which signal applies?
+  options:
+    - The cycle signal, before the vehicle signal
+    - The vehicle signal
+    - Whichever shows green
+    - Neither – cyclists follow pedestrian signals
+  answer: 0
+  explain: For cyclists and class II moped riders, the **cycle signal** applies before the vehicle signal.
+  src: ["vmf|3:2", "vmf|3:3"]
+
+# ---------------------------------------------------------------- police, guards, marker devices
+- id: pol-p1-side
+  area: rules
+  lesson: signals-and-police
+  image: sign:P1
+  q: A police officer stands in the junction with the arms stretched out. You see the officer's **side**. What do you do?
+  options: ["Drive on", "Stop", "Turn right", "Reverse"]
+  answer: 0
+  explain: "**P1**: traffic coming from the **front or behind** the officer must stop. If you see the officer's **side**, the road along the outstretched arms is free – you may drive."
+  src: ["vmf|7:2"]
+
+- id: pol-p1-front
+  area: rules
+  lesson: signals-and-police
+  image: sign:P1
+  q: A police officer with the arms stretched out faces **towards you**. What do you do?
+  options: ["Stop", "Drive on slowly", "Turn left", "Flash your lights"]
+  answer: 0
+  explain: With the arm sign **P1**, traffic coming from the officer's **front or back** must stop.
+  src: ["vmf|7:2"]
+
+- id: pol-raised-hand
+  area: rules
+  lesson: signals-and-police
+  image: sign:P2
+  q: A police officer raises one hand with the palm towards you. What does it mean?
+  options: ["Stop", "Drive on", "Slow down", "Pull over for a check"]
+  answer: 0
+  explain: "**P2**, a raised hand, means **stop** for the road user the palm faces."
+  src: ["vmf|7:2"]
+
+- id: pol-p11
+  area: rules
+  lesson: signals-and-police
+  q: A police car behind you shows **blue and red lights flashing in turn**. What must you do?
+  options: ["Pull over to the side and stop", "Speed up and let it pass", "Follow it", "Nothing – it is on its way somewhere else"]
+  answer: 0
+  explain: Blue and red lights flashing in turn from a police vehicle behind you (**P11**) mean the vehicle **in front** must **pull over to the side and stop**.
+  src: ["vmf|7:2"]
+
+- id: pol-p10
+  area: rules
+  lesson: signals-and-police
+  image: sign:P10
+  q: The police car in front of you shows this sign. What must you do?
+  options: ["Follow it and stop when it stops", "Overtake it", "Keep a 100 m distance", "Turn off at the next exit"]
+  answer: 0
+  explain: "**P10** means the vehicle **behind** the police car must **follow it** and stop when it stops."
+  src: ["vmf|7:2"]
+
+- id: pol-check
+  area: rules
+  lesson: signals-and-police
+  q: A police officer signals you to stop for a check. What does the law say?
+  options: ["The driver of a motor vehicle must stop", "You may continue if you are in a hurry", "You only stop if you have done something wrong", "You may drive on and call the police later"]
+  answer: 0
+  explain: The driver of a motor vehicle **must stop** when a police officer – or another person authorised to check traffic – signals to stop.
+  src: ["tf|4:1"]
+
+- id: pol-guard
+  area: rules
+  lesson: signals-and-police
+  q: At road works a guard holds up a sign saying **STOPP VAKT**. What do you do?
+  options: ["Stop", "Drive on slowly", "Overtake on the shoulder", "Flash your lights"]
+  answer: 0
+  explain: A guard at road works can direct traffic, and you must follow the guard's signs. **STOPP VAKT** means stop.
+  src: ["vmf|5:2", "tf|2:2"]
+
+- id: mk-x3
+  area: rules
+  lesson: signals-and-police
+  image: sign:X3-1
+  q: How do you pass this side obstacle marker?
+  options:
+    - On the side the yellow fields slope down towards
+    - On the side the yellow fields slope up towards
+    - On either side
+    - You must stop before it
+  answer: 0
+  explain: "**X3**: pass on the side the yellow fields **slope down towards**. With horizontal fields (a temporary version) you may pass on both sides."
+  src: ["vmf|5:1"]
+
+- id: mk-x1
+  area: rules
+  lesson: signals-and-police
+  image: sign:X1
+  q: What do these yellow arrows on a blue board tell you?
+  options: ["You must turn sharply in the direction of the arrows", "A motorway exit", "Overtaking is allowed to the right", "The road becomes one-way"]
+  answer: 0
+  explain: "**X1 (marker arrows)** means you must turn **sharply** in the direction of the arrows – for example at a sharp bend."
+  src: ["vmf|5:1"]
+
+- id: mk-red-background
+  area: rules
+  lesson: signals-and-police
+  q: The marker boards X1–X3 sometimes have a **red** background instead of blue. Why?
+  options:
+    - They are used at road works or for another temporary reason
+    - They warn of a railway crossing
+    - They mark a motorway
+    - They are old and faded
+  answer: 0
+  explain: When X1, X2 or X3 are used at **road works** or for another **temporary** reason, the background is red instead of blue.
+  src: ["vmf|5:1"]
