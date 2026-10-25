@@ -111,9 +111,10 @@ export function createMarkdown(site) {
     render(tokens, idx, _opts, env) {
       if (tokens[idx].nesting === 1) {
         const info = tokens[idx].info.trim().replace(/^law\s*/, '');
-        const [srcId, loc] = info.split(/\s+/);
+        const [srcId, loc, ...rest] = info.split(/\s+/);
         const cite = site.citation(srcId, loc, env);
-        return `<aside class="law"><p class="law-label"><span>The rule</span>${cite.html}</p>\n`;
+        const note = rest.length ? ` <span class="law-note">${escapeHtml(rest.join(' '))}</span>` : '';
+        return `<aside class="law"><p class="law-label"><span>The rule</span><span class="law-ref">${cite.html}${note}</span></p>\n`;
       }
       return '</aside>\n';
     },

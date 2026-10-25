@@ -274,11 +274,11 @@ A38:
 A39:
   en: St Andrew's cross (level crossing)
   text: Marks a crossing with a railway or tramway with one or more tracks. It is placed immediately before a level crossing. It may be left out on a private road with little traffic, where that can be done without danger. It can also be used at other crossings with a railway or tramway.
-  tip: A double cross means there is more than one track. When one train has passed, another may be coming.
+  tip: Stop and look both ways. Where there is more than one track, another train can come – from either direction – as soon as one has passed.
   variants:
-    A39-2: One track – narrow, upright version
-    A39-3: More than one track (double cross)
-    A39-4: More than one track – narrow, upright version
+    A39-2: Narrow, upright version
+    A39-3: Version with a double cross
+    A39-4: Double cross – narrow, upright version
   kw: [railway crossing, cross buck, kryssmärke, level crossing]
   related: [A35, A36]
   lesson: railway-crossings

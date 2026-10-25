@@ -924,7 +924,7 @@ function citeHtml(id, loc) {
   if (loc) {
     const [k, p] = loc.includes(':') ? loc.split(':') : [null, loc];
     if (s.section) href = s.section.replace('{k}', k ?? '').replace('{p}', p);
-    label = s.kind === 'law' ? (k ? `${s.short} ${k} kap. ${p} §` : `${s.short} ${p} §`) : `${s.short} ${loc}`;
+    label = (s.kind === 'law' || s.kind === 'regulation') ? (k ? `${s.short} ${k} kap. ${p} §` : `${s.short} ${p} §`) : `${s.short} ${loc}`;
   }
   return `<a class="cite" href="${esc(href)}" target="_blank" rel="noopener">${esc(label)}</a>`;
 }
