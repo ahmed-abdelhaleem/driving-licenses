@@ -371,3 +371,48 @@
   url: https://www.transportstyrelsen.se/TSFS/TSFS%202019_74.pdf
   accessed: 2026-10-25
   note: Detailed rules on how signs are placed and used, for example how far before a danger a warning sign stands.
+
+- id: ts-faq
+  short: Transportstyrelsen – frågor och svar
+  title: Frågor och svar – Ta körkort
+  titleEn: Questions and answers about getting a licence
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/ta-korkort/
+  accessed: 2026-10-25
+
+- id: ts-delivery
+  short: Transportstyrelsen – utlämning
+  title: Utlämning av ditt nya körkort
+  titleEn: How a new licence card is delivered
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fornya-korkortet/utlamning-av-ditt-nya-korkort/
+  accessed: 2026-10-25
+
+- id: ts-card
+  short: Transportstyrelsen – körkortets innehåll
+  title: Körkortets innehåll och utformning
+  titleEn: What the licence card shows
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/korkortets-innehall-och-utformning/
+  accessed: 2026-10-25
+
+- id: ts-vehicles
+  short: Transportstyrelsen – fordon du får köra
+  title: Fordon du får köra
+  titleEn: Vehicles you may drive with each licence category
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fordon-du-far-kora/
+  accessed: 2026-10-25
+
+- id: ts-revoked
+  short: Transportstyrelsen – nytt körkort efter återkallelse
+  title: Nytt körkort efter återkallelse
+  titleEn: Getting a new licence after revocation (with and without probation)
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/forlorat-korkort/nytt-korkort-efter-aterkallelse/
+  accessed: 2026-10-25

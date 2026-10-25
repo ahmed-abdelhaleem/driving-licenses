@@ -873,7 +873,8 @@ function viewLesson(id, sectionId) {
   const sources = l.sources.map((s) => {
     const src = sourceMap.get(s.id);
     if (!src) return '';
-    return `<li>${citeHtml(s.id, s.loc)} ${esc(src.titleEn || src.title)} — ${esc(src.publisher)}${src.consolidated ? `, ${esc(src.consolidated)}` : ''}. <a href="${esc(src.url)}" target="_blank" rel="noopener">Official text</a></li>`;
+    const sections = s.locs.length ? ` Cited: ${s.locs.map((loc) => citeHtml(s.id, loc)).join(' ')}` : '';
+    return `<li><strong>${esc(src.title)}</strong>${src.titleEn && src.titleEn !== src.title ? ` (${esc(src.titleEn)})` : ''} — ${esc(src.publisher)}${src.consolidated ? `, ${esc(src.consolidated)}` : ''}. <a href="${esc(src.url)}" target="_blank" rel="noopener">Open the official source</a>.${sections}</li>`;
   }).join('');
   const qs = questionsFor(State.path).filter((q) => q.lesson === id);
   $('#main').innerHTML = `<article class="lesson">

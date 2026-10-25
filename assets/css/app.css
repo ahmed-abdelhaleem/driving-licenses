@@ -411,8 +411,8 @@ i[lang="sv"] { font-style: italic; }
 
 .steps { counter-reset: s; }
 .steps > ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
-.steps > ol > li { counter-increment: s; display: grid; grid-template-columns: 2rem 1fr; gap: 0.75rem; }
-.steps > ol > li::before { content: counter(s); width: 1.9rem; height: 1.9rem; border-radius: 50%; display: grid; place-items: center; background: var(--blue); color: var(--surface); font-weight: 700; font-family: var(--font-display); }
+.steps > ol > li { counter-increment: s; position: relative; padding-left: 2.8rem; min-height: 1.9rem; }
+.steps > ol > li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 1.9rem; height: 1.9rem; border-radius: 50%; display: grid; place-items: center; background: var(--blue); color: var(--surface); font-weight: 700; font-family: var(--font-display); }
 .steps > ol > li > * + * { margin-top: 0.4rem; }
 
 figure { margin: 0; }

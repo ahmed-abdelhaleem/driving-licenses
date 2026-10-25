@@ -139,6 +139,7 @@ function factValue(key, env) {
   const parts = key.split('.');
   let v = facts;
   for (const p of parts) v = v?.[p];
+  if (typeof v === 'string') return v;
   if (!v || v.value === undefined) { problem(env.where, `unknown fact "${key}"`); return `[${key}]`; }
   if (v.src) env.sources?.add(v.loc ? `${v.src}|${v.loc}` : v.src);
   return v.value;
@@ -255,11 +256,15 @@ const lessons = lessonsRaw.map((l) => {
   const firstH2 = html.indexOf('<h2');
   sections.push({ id: '', title: l.title, html: firstH2 >= 0 ? html.slice(0, firstH2) : html });
   while ((m = re.exec(html))) sections.push({ id: m[1], title: m[2].replace(/<[^>]+>/g, ''), html: m[3] });
-  const sourceList = [...env.sources].map((s) => {
+  // One entry per source, with every paragraph the lesson cites from it.
+  const grouped = new Map();
+  for (const s of env.sources) {
     const [id, loc] = s.split('|');
     if (!sourceById.has(id)) problem(l.file, `unknown source "${id}"`);
-    return { id, loc: loc || '' };
-  });
+    if (!grouped.has(id)) grouped.set(id, new Set());
+    if (loc) grouped.get(id).add(loc);
+  }
+  const sourceList = [...grouped].map(([id, locs]) => ({ id, locs: [...locs] }));
   if (!sourceList.length) problem(l.file, 'lesson cites no sources');
   return {
     id: l.id,

@@ -1,17 +1,714 @@
+# Dictionary: Swedish traffic and licence words in plain English.
+#   sv:     the Swedish word      en: English headword      also: other English names
+#   def:    one or two plain sentences (Markdown inline allowed)
+#   more:   optional longer text (Markdown)
+#   image:  sign:<code> | photo:<id> | fig:<id>
+#   law:    citations "source|chapter:section"
+#   related / lessons: links
+
+# ------------------------------------------------------------------ the licence process
 - id: korkortstillstand
   sv: körkortstillstånd
   en: learner's permit
   also: [licence permit, provisional permit]
-  def: "A decision from Transportstyrelsen that you meet the health and personal requirements to get a licence. You need it before you may practise or take any test."
-  law: ["kkl|1:1"]
+  def: "A decision from Transportstyrelsen that you meet the health and personal requirements to get a licence. You need it before you may practise or take any test. It is valid for five years."
+  law: ["kkl|1:1", "kkl|3:2"]
+  related: [halsodeklaration, synintyg, handledare]
   lessons: [learner-permit]
+
+- id: korkort
+  sv: körkort
+  en: driving licence
+  also: [licence]
+  def: "The document that shows which vehicles you may drive. Its categories (behörigheter) are listed on the card."
+  law: ["kkl|2:1"]
+  related: [behorighet, korkortstillstand]
+  lessons: [after-the-test]
+
+- id: behorighet
+  sv: behörighet
+  en: licence category
+  also: [entitlement]
+  def: "A letter code on the licence that says which kind of vehicle you may drive, for example B for cars and A for motorcycles."
+  law: ["kkl|2:5"]
+  related: [korkort]
+  lessons: [journey-car, journey-mc]
+
+- id: halsodeklaration
+  sv: hälsodeklaration
+  en: health declaration
+  def: "A form with questions about your health that you answer yourself when you apply for a learner's permit."
+  related: [korkortstillstand, synintyg]
+  lessons: [learner-permit]
+
+- id: synintyg
+  sv: synintyg
+  en: eyesight certificate
+  also: [vision certificate]
+  def: "A certificate from an optician or doctor about your eyesight. For a car or motorcycle you need a visual acuity of at least 0.5 with both eyes together (glasses or lenses allowed). It may not be more than two months old when you apply for a learner's permit."
+  related: [korkortstillstand, halsodeklaration]
+  lessons: [learner-permit]
+
+- id: handledare
+  sv: handledare
+  en: supervisor (for private practice)
+  also: [private instructor]
+  def: "A person approved by Transportstyrelsen to supervise your private practice. They must be at least 24 and have held a licence for the vehicle type for at least five of the last ten years. During practice the supervisor counts as the driver."
+  law: ["kkl|4:7"]
+  related: [ovningskorning, handledarbevis, korkortstillstand]
+  lessons: [practice-driving]
+
+- id: handledarbevis
+  sv: handledarbevis
+  en: supervisor certificate
+  def: "The document showing that someone is approved as your supervisor. The supervisor must carry it during private practice (on paper or in a digital mailbox)."
+  related: [handledare]
+  lessons: [practice-driving]
+
+- id: ovningskorning
+  sv: övningskörning
+  en: practice driving
+  also: [learner driving]
+  def: "Driving while you learn, before you have the licence. It needs a learner's permit and, if private, an approved supervisor. The vehicle must show the green and white ÖVNINGSKÖR sign at the back."
+  law: ["kkl|4:1", "kkl|4:5"]
+  related: [handledare, korkortstillstand, trafikskola]
+  lessons: [practice-driving]
+
+- id: trafikskola
+  sv: trafikskola
+  en: driving school
+  def: "A business with a permit from Transportstyrelsen to teach people to drive for payment."
+  related: [ovningskorning]
+  lessons: [practice-driving]
+
+- id: riskutbildning
+  sv: riskutbildning
+  en: risk education
+  def: "A compulsory two-part course before the licence tests. Part 1 covers alcohol, drugs, tiredness and other risks; part 2 covers speed, safety and difficult conditions on a skid track (car) or manoeuvre track (motorcycle). Valid until you get your licence, at most five years."
+  law: ["kkl|3:4b"]
+  related: [halkbana]
+  lessons: [risk-education]
+
+- id: halkbana
+  sv: halkbana
+  en: skid track
+  also: [skid pan, slippery track]
+  def: "A practice area with a very slippery surface, used in part 2 of the car risk education so you feel how far a car slides and how long it takes to stop."
+  related: [riskutbildning, vaggrepp]
+  lessons: [risk-education, skids-and-traction]
+
+- id: kunskapsprov
+  sv: kunskapsprov
+  en: theory test
+  also: [teoriprov, knowledge test]
+  def: "The written part of the licence test at Trafikverket: 70 multiple-choice questions in 50 minutes, of which 65 count. You pass with 52 points or more."
+  related: [korprov, forarprov]
+  lessons: [theory-test]
+
+- id: korprov
+  sv: körprov
+  en: driving test
+  also: [practical test, riding test]
+  def: "The practical part of the licence test, where an examiner from Trafikverket assesses your driving or riding."
+  related: [kunskapsprov, forarprov, forarprovare]
+  lessons: [driving-test-car, riding-test-mc]
+
+- id: forarprov
+  sv: förarprov
+  en: licence test
+  def: "The whole test for a licence: the theory test and the driving test together (for AM only a theory test)."
+  law: ["kkl|3:4"]
+  related: [kunskapsprov, korprov]
+  lessons: [theory-test]
+
+- id: forarprovare
+  sv: förarprövare
+  en: driving examiner
+  def: "The person from Trafikverket who carries out your driving test."
+  related: [korprov]
+  lessons: [driving-test-car]
+
+- id: provotid
+  sv: prövotid
+  en: probation period
+  def: "The first two years after you pass the test (one year for AM). If your licence is revoked for an offence during this time, you must take the tests again."
+  law: ["kkl|3:18"]
+  related: [aterkallelse, sparrtid]
+  lessons: [after-the-test, consequences]
+
+- id: aterkallelse
+  sv: återkallelse
+  en: revocation (of the licence)
+  also: [licence withdrawal, losing your licence]
+  def: "When the authorities take away your right to drive, for example after speeding, drink-driving or running a red light. A waiting period (spärrtid) is set."
+  law: ["kkl|5:3"]
+  related: [sparrtid, provotid, varning]
+  lessons: [consequences]
 
 - id: sparrtid
   sv: spärrtid
   en: waiting period (ban period)
   also: [disqualification period]
-  def: "A period set by the authorities during which you cannot get a licence. It is set when a licence is revoked, or when a learner's permit is refused for personal reasons."
-  more: "After a revocation the period is at least one month and at most three years. For a serious offence covered by the first ground for revocation (for example drink driving) it is at least one year."
+  def: "A period during which you cannot get a licence. It is set when a licence is revoked, or when a learner's permit is refused for personal reasons."
+  more: "After a revocation the period is at least one month and at most three years. If the licence is revoked for a grave offence such as aggravated drink-driving, it is at least one year."
   law: ["kkl|3:9", "kkl|5:6"]
-  related: [korkortstillstand]
+  related: [aterkallelse, korkortstillstand]
   lessons: [consequences]
+
+- id: varning
+  sv: varning
+  en: warning (instead of revocation)
+  def: "A milder decision than revocation, used for less serious cases. You keep your licence."
+  law: ["kkl|5:9"]
+  related: [aterkallelse]
+  lessons: [consequences]
+
+- id: villkor-78
+  sv: villkor 78 (automat)
+  en: code 78 – automatic only
+  also: [automatic restriction]
+  def: "A condition on the licence after a driving test in a car without a clutch pedal. You may only drive vehicles with automatic transmission until you pass a test in a manual car."
+  related: [automatlada, behorighet]
+  lessons: [code-78]
+
+- id: olovlig-korning
+  sv: olovlig körning
+  en: unlawful driving
+  def: "The crime of driving a vehicle that you are not entitled to drive, for example without a licence or during a ban."
+  law: ["tbl|3"]
+  related: [aterkallelse]
+  lessons: [consequences]
+
+# ------------------------------------------------------------------ vehicles and weights
+- id: personbil
+  sv: personbil
+  en: passenger car
+  def: "A car made mainly to carry people, with at most eight seats besides the driver's seat. Motorhomes are class II passenger cars."
+  law: ["vtdl|2"]
+  related: [lastbil, totalvikt]
+  lessons: [journey-car]
+
+- id: lastbil
+  sv: lastbil
+  en: truck
+  also: [lorry]
+  def: "A car made mainly to carry goods. A light truck (lätt lastbil) has a total weight of at most 3,500 kg; heavier ones are heavy trucks."
+  law: ["vtdl|2"]
+  related: [personbil, totalvikt]
+  lessons: [journey-car]
+
+- id: motorcykel
+  sv: motorcykel
+  en: motorcycle
+  def: "A motor vehicle more powerful or faster than a moped, with two wheels, or three symmetrical wheels (up to 1,000 kg), or four wheels with limits on weight and power. Divided into light and heavy motorcycles."
+  law: ["vtdl|2"]
+  related: [moped]
+  lessons: [journey-mc]
+
+- id: moped
+  sv: moped
+  en: moped
+  def: "A small motor vehicle built for at most 45 km/h. Class I mopeds (EU mopeds) need licence AM; class II mopeds are built for at most 25 km/h."
+  law: ["vtdl|2"]
+  related: [motorcykel]
+  lessons: [pedestrians-and-cyclists]
+
+- id: totalvikt
+  sv: totalvikt
+  en: total weight
+  also: [gross vehicle weight rating, maximum authorised mass]
+  def: "The vehicle's kerb weight plus the heaviest load of people and goods it is built for. It is written in the registration certificate and does not change with what you carry today."
+  law: ["vtdl|2"]
+  related: [tjanstevikt, bruttovikt, latt-slapfordon]
+  lessons: [journey-car, towing-trailers]
+
+- id: tjanstevikt
+  sv: tjänstevikt
+  en: kerb weight
+  also: [curb weight, service weight]
+  def: "The weight of the vehicle ready to drive, with fuel, oil, water, tools and spare wheel – and for a car, the driver."
+  law: ["vtdl|2"]
+  related: [totalvikt, maxlast]
+  lessons: [towing-trailers]
+
+- id: maxlast
+  sv: maxlast
+  en: maximum load
+  def: "How much the vehicle may carry: the total weight minus the kerb weight."
+  law: ["vtdl|2"]
+  related: [totalvikt, tjanstevikt]
+  lessons: [passengers-and-loads]
+
+- id: bruttovikt
+  sv: bruttovikt
+  en: gross weight (actual weight)
+  def: "What the vehicle actually weighs at a given moment, with everything in it. Weight-limit signs C20 and C21 are about gross weight."
+  image: "sign:C20-1"
+  law: ["vtdl|2"]
+  related: [totalvikt]
+  lessons: [prohibitory-signs]
+
+- id: latt-slapfordon
+  sv: lätt släpfordon
+  en: light trailer
+  def: "A trailer with a total weight of at most 750 kg – or a heavier trailer, as long as the towing car and the trailer together have a total weight of at most 3,500 kg. A B licence allows one light trailer."
+  law: ["vtdl|2", "kkl|2:5"]
+  related: [totalvikt, slapkarra]
+  lessons: [towing-trailers]
+
+- id: slapkarra
+  sv: släpkärra
+  en: light trailer with a fixed drawbar
+  def: "A trailer with a rigid drawbar whose vertical load on the towing vehicle is at most 10 % of the trailer's total weight or 1 tonne – the usual small car trailer."
+  law: ["vtdl|2"]
+  related: [latt-slapfordon]
+  lessons: [towing-trailers]
+
+# ------------------------------------------------------------------ road and places
+- id: vag
+  sv: väg
+  en: road
+  def: "In law, any road, street, square or other place generally used for motor traffic, plus cycle routes and footpaths or bridle paths next to them."
+  law: ["vtdf|2"]
+  related: [korbana, vagren]
+  lessons: [road-position]
+
+- id: korbana
+  sv: körbana
+  en: carriageway
+  also: [roadway]
+  def: "The part of the road meant for vehicles – not the cycle track and not the shoulder."
+  law: ["vtdf|2"]
+  related: [korfalt, vagren]
+  lessons: [road-position]
+
+- id: korfalt
+  sv: körfält
+  en: lane
+  def: "A strip of the carriageway along the road, marked with lines, or wide enough for one line of four-wheeled vehicles if there are no lines."
+  law: ["vtdf|2"]
+  related: [korbana]
+  lessons: [road-position, turning-and-lanes]
+
+- id: vagren
+  sv: vägren
+  en: road shoulder
+  also: [hard shoulder, verge strip]
+  def: "The part of the road outside the edge line, meant for vehicles but not part of the carriageway. Slow vehicles, cyclists without a cycle track and class I mopeds must use it if it is wide enough."
+  law: ["vtdf|2", "tf|3:12"]
+  related: [korbana, kantlinje]
+  lessons: [road-position]
+
+- id: kantlinje
+  sv: kantlinje
+  en: edge line
+  def: "The line marking the outer edge of the carriageway. A broken edge line may be crossed; a solid one may only be crossed in special cases."
+  image: "sign:M2-1"
+  related: [vagren, heldragen-linje]
+  lessons: [road-markings]
+
+- id: mittlinje
+  sv: mittlinje
+  en: centre line
+  def: "A broken line between lanes for traffic in opposite directions."
+  image: "sign:M1-1"
+  related: [varningslinje, heldragen-linje]
+  lessons: [road-markings]
+
+- id: varningslinje
+  sv: varningslinje
+  en: warning line
+  def: "A broken line with long dashes and short gaps. It tells you that crossing it is unsuitable because of traffic conditions, or that a solid line is coming."
+  image: "sign:M3-1"
+  related: [mittlinje, heldragen-linje]
+  lessons: [road-markings]
+
+- id: heldragen-linje
+  sv: heldragen linje
+  en: solid line
+  also: [continuous line]
+  def: "An unbroken line that you may not drive across with any wheel, except in special cases such as passing an obstacle or turning into a property."
+  image: "sign:M8-1"
+  law: ["tf|3:11"]
+  related: [sparromrade, varningslinje]
+  lessons: [road-markings]
+
+- id: sparromrade
+  sv: spärrområde
+  en: restricted area (hatched area)
+  def: "An area painted with diagonal or angled stripes and bordered by a solid line. Vehicles may not drive on it."
+  image: "sign:M9-1"
+  law: ["tf|3:11"]
+  related: [heldragen-linje]
+  lessons: [road-markings]
+
+- id: vagkorsning
+  sv: vägkorsning
+  en: junction
+  also: [intersection, crossroads]
+  def: "A place where roads meet or cross. Exits from car parks, petrol stations, properties and similar places do not count as junctions: drivers coming out of them must give way to everyone, and signs such as speed limits continue past them."
+  related: [hogerregeln, vajningsplikt]
+  lessons: [right-of-way, turning-and-lanes]
+
+- id: cirkulationsplats
+  sv: cirkulationsplats
+  en: roundabout
+  def: "A junction where traffic drives anticlockwise around a central island, marked with sign D3. You give way to vehicles already in the roundabout when you enter."
+  image: "sign:D3-1"
+  law: ["tf|3:13", "tf|3:22"]
+  related: [vajningsplikt]
+  lessons: [right-of-way]
+
+- id: huvudled
+  sv: huvudled
+  en: main road (priority road)
+  def: "A road marked with sign B4 where traffic coming from side roads must give way. You may not park on a main road."
+  image: "sign:B4-1"
+  law: ["tf|3:21", "tf|3:55"]
+  related: [vajningsplikt, hogerregeln]
+  lessons: [right-of-way, priority-signs]
+
+- id: motorvag
+  sv: motorväg
+  en: motorway
+  def: "A road for fast motor traffic with separate carriageways for each direction and no level junctions, marked with sign E1. The speed limit is 110 km/h unless signs say 120 or lower."
+  image: "sign:E1"
+  law: ["tf|9:1"]
+  related: [motortrafikled, pafart]
+  lessons: [motorways]
+
+- id: motortrafikled
+  sv: motortrafikled
+  en: expressway (motor traffic road)
+  def: "A road for motor traffic with no level junctions, marked with sign E3. Most motorway rules apply, but it may have oncoming traffic on the same carriageway."
+  image: "sign:E3-1"
+  law: ["tf|9:2"]
+  related: [motorvag]
+  lessons: [motorways]
+
+- id: pafart
+  sv: påfart / accelerationsfält
+  en: slip road / acceleration lane
+  also: [on-ramp, merging lane]
+  def: "The lane you use to reach the speed of the traffic before joining a motorway or other road. Leave it as soon as you can do so without danger or causing obstruction."
+  law: ["tf|3:23", "vtdf|2"]
+  related: [motorvag, avfart]
+  lessons: [motorways]
+
+- id: avfart
+  sv: avfart / retardationsfält
+  en: exit / deceleration lane
+  also: [off-ramp]
+  def: "The lane for leaving a road. Move into it as early as possible and slow down there, not on the main carriageway."
+  law: ["tf|3:23", "vtdf|2"]
+  related: [pafart]
+  lessons: [motorways]
+
+- id: tattbebyggt-omrade
+  sv: tättbebyggt område
+  en: built-up area
+  def: "An area decided by the municipality to be built-up, usually a town or village. The general speed limit is 50 km/h. It starts at sign E5."
+  image: "sign:E5-1"
+  law: ["tf|3:17", "vtdf|2"]
+  related: [bashastighet]
+  lessons: [speed-limits]
+
+- id: bashastighet
+  sv: bashastighet
+  en: base speed limit
+  def: "The general speed limit of 70 km/h outside built-up areas, which applies where no other limit is signed."
+  law: ["tf|3:17"]
+  related: [tattbebyggt-omrade]
+  lessons: [speed-limits]
+
+- id: overgangsstalle
+  sv: övergångsställe
+  en: pedestrian crossing
+  also: [zebra crossing]
+  def: "A part of the road for pedestrians to cross, shown with markings or sign B3. It is guarded if traffic lights or a police officer control it, otherwise unguarded."
+  image: "sign:B3-1"
+  law: ["tf|3:61", "vtdf|2"]
+  related: [cykeloverfart, cykelpassage]
+  lessons: [pedestrians-and-cyclists]
+
+- id: cykeloverfart
+  sv: cykelöverfart
+  en: cycle crossing
+  def: "A crossing for cyclists and class II mopeds marked with sign B8 and shark's teeth. Drivers must give way to cyclists on it or about to ride onto it. The road there is designed so that vehicles do not go faster than 30 km/h."
+  image: "sign:B8-1"
+  law: ["tf|3:61a", "vtdf|2"]
+  related: [cykelpassage, overgangsstalle]
+  lessons: [pedestrians-and-cyclists]
+
+- id: cykelpassage
+  sv: cykelpassage
+  en: cycle passage
+  def: "A place marked on the road where cyclists cross, without sign B8. Drivers must adapt their speed so cyclists on it are not put in danger."
+  law: ["tf|3:61", "vtdf|2"]
+  related: [cykeloverfart]
+  lessons: [pedestrians-and-cyclists]
+
+- id: cykelbana
+  sv: cykelbana
+  en: cycle track
+  def: "A path or part of a road for bicycles and class II mopeds. Cars may only cross it, and must give way to cyclists when they do."
+  image: "sign:D4-1"
+  law: ["tf|3:59", "vtdf|2"]
+  related: [cykelfalt]
+  lessons: [pedestrians-and-cyclists, special-areas]
+
+- id: cykelfalt
+  sv: cykelfält
+  en: cycle lane
+  def: "A lane on the carriageway marked for cyclists and class II mopeds. You may not stop or park in it."
+  law: ["tf|3:53", "vtdf|2"]
+  related: [cykelbana]
+  lessons: [stopping-and-parking]
+
+- id: gagata
+  sv: gågata
+  en: pedestrian street
+  def: "A street marked with sign E7. Vehicles drive at walking speed only, give way to pedestrians and may not park; motor vehicles may only enter for certain purposes such as deliveries."
+  image: "sign:E7-1"
+  law: ["tf|8:1"]
+  related: [gangfartsomrade]
+  lessons: [special-areas]
+
+- id: gangfartsomrade
+  sv: gångfartsområde
+  en: walking-speed area
+  also: [home zone, shared space]
+  def: "An area marked with sign E9. Vehicles may drive at walking speed only, must give way to pedestrians and may not park."
+  image: "sign:E9-1"
+  law: ["tf|8:1"]
+  related: [gagata]
+  lessons: [special-areas]
+
+- id: plankorsning
+  sv: plankorsning
+  en: level crossing
+  also: [railway crossing]
+  def: "A place where a road crosses a railway or tramway at the same level."
+  image: "sign:A39-1"
+  law: ["tf|2:7", "vtdf|2"]
+  related: []
+  lessons: [railway-crossings]
+
+# ------------------------------------------------------------------ rules
+- id: vajningsplikt
+  sv: väjningsplikt
+  en: duty to give way
+  also: [yield, give way]
+  def: "You must let other traffic go first. Show it in good time by slowing down or stopping, and drive on only if it causes no danger or obstruction."
+  image: "sign:B1-1"
+  law: ["tf|3:5"]
+  related: [stopplikt, hogerregeln, huvudled]
+  lessons: [right-of-way, priority-signs]
+
+- id: stopplikt
+  sv: stopplikt
+  en: duty to stop
+  def: "You must stop completely – at the stop line, or just before the crossing road – and then give way before you continue."
+  image: "sign:B2-1"
+  law: ["tf|3:19"]
+  related: [vajningsplikt]
+  lessons: [right-of-way, priority-signs]
+
+- id: hogerregeln
+  sv: högerregeln
+  en: right-hand rule
+  def: "When two vehicles' paths cross and nothing else decides priority, the driver who has the other vehicle on their right must give way."
+  image: "sign:A28-1"
+  law: ["tf|3:18"]
+  related: [vajningsplikt]
+  lessons: [right-of-way]
+
+- id: omkorning
+  sv: omkörning
+  en: overtaking
+  def: "Driving past a vehicle going in the same direction. Normally on the left; on the right if the vehicle ahead is turning left."
+  law: ["tf|3:31", "tf|3:32"]
+  related: [mote]
+  lessons: [meeting-and-overtaking]
+
+- id: mote
+  sv: möte
+  en: meeting oncoming traffic
+  def: "When vehicles going in opposite directions pass each other. Keep to the right and leave a safe gap at the side."
+  law: ["tf|3:30"]
+  related: [omkorning]
+  lessons: [meeting-and-overtaking]
+
+- id: parkering
+  sv: parkering
+  en: parking
+  def: "Leaving a vehicle standing, with or without the driver, for any reason other than the traffic, avoiding danger, letting people in or out, or loading and unloading goods."
+  law: ["vtdf|2"]
+  related: [stannande]
+  lessons: [stopping-and-parking]
+
+- id: stannande
+  sv: stannande
+  en: stopping
+  def: "Standing still with a vehicle for a short time, for example to let a passenger out or to load – but not because of the traffic or to avoid danger, and not parking."
+  law: ["vtdf|2"]
+  related: [parkering]
+  lessons: [stopping-and-parking]
+
+- id: halvljus
+  sv: halvljus
+  en: dipped headlights
+  also: [low beam]
+  def: "Headlights angled down so they do not dazzle others. Motor vehicles must normally use them when driving on the road, day and night."
+  law: ["tf|3:69", "vtdf|2"]
+  related: [helljus, varselljus]
+  lessons: [vehicle-lights]
+
+- id: helljus
+  sv: helljus
+  en: main beam
+  also: [high beam, full beam]
+  def: "Headlights that light far ahead. Use them when dipped headlights do not let you see far enough, but not on well-lit roads, when they would dazzle oncoming drivers, or close behind another vehicle."
+  law: ["tf|3:70", "vtdf|2"]
+  related: [halvljus]
+  lessons: [vehicle-lights]
+
+- id: varselljus
+  sv: varselljus
+  en: daytime running lights
+  def: "Lights that make the vehicle easier to see in daylight. They may be used instead of dipped headlights in daylight, but not in darkness, at dawn or dusk, or in bad weather."
+  law: ["tf|3:71"]
+  related: [halvljus]
+  lessons: [vehicle-lights]
+
+- id: vinterdack
+  sv: vinterdäck
+  en: winter tyres
+  def: "Tyres made for snow and ice, with or without studs. From 1 December to 31 March cars must have winter tyres or equivalent when there are winter road conditions; tread depth at least 3 mm."
+  law: ["tf|4:18a"]
+  related: [dubbdack, monsterdjup, vinterväglag]
+  lessons: [tyres, winter-driving]
+
+- id: dubbdack
+  sv: dubbdäck
+  en: studded tyres
+  def: "Winter tyres with metal studs for grip on ice. Allowed from 1 October to 15 April, and outside that period if there is or may be winter road conditions."
+  related: [vinterdack]
+  lessons: [tyres]
+
+- id: monsterdjup
+  sv: mönsterdjup
+  en: tread depth
+  def: "How deep the grooves in the tyre are. At least 1.6 mm, and at least 3 mm for winter tyres in the winter period."
+  related: [vinterdack]
+  lessons: [tyres]
+
+- id: vinterväglag
+  sv: vinterväglag
+  en: winter road conditions
+  def: "Snow, ice, slush or frost on any part of the road. The police decide whether it applies where you are."
+  related: [vinterdack]
+  lessons: [tyres, winter-driving]
+
+- id: vaggrepp
+  sv: väggrepp
+  en: road grip
+  also: [friction, traction]
+  def: "How well the tyres hold the road. It falls sharply on wet, icy or snowy roads, which makes braking distances much longer."
+  related: [halkbana, vattenplaning]
+  lessons: [skids-and-traction, winter-driving]
+
+- id: vattenplaning
+  sv: vattenplaning
+  en: aquaplaning
+  also: [hydroplaning]
+  def: "When a layer of water lifts the tyres off the road, so the car or motorcycle cannot be steered or braked. More likely at high speed, with worn tyres and in deep water."
+  related: [vaggrepp]
+  lessons: [darkness-and-weather]
+
+- id: reaktionstid
+  sv: reaktionstid
+  en: reaction time
+  def: "The time from when you see a danger until you start to brake. During that time the vehicle keeps going at full speed."
+  related: [reaktionsstracka, stoppstracka]
+  lessons: [speed-and-stopping-distance]
+
+- id: reaktionsstracka
+  sv: reaktionssträcka
+  en: reaction distance
+  def: "The distance travelled during your reaction time, before the brakes start to work. It grows in step with your speed."
+  related: [reaktionstid, bromsstracka, stoppstracka]
+  lessons: [speed-and-stopping-distance]
+
+- id: bromsstracka
+  sv: bromssträcka
+  en: braking distance
+  def: "The distance from when the brakes start to work until the vehicle stops. Double the speed and it becomes about four times as long."
+  related: [reaktionsstracka, stoppstracka]
+  lessons: [speed-and-stopping-distance]
+
+- id: stoppstracka
+  sv: stoppsträcka
+  en: stopping distance
+  def: "Reaction distance plus braking distance: the whole distance you travel from seeing a danger until you stand still."
+  related: [reaktionsstracka, bromsstracka]
+  lessons: [speed-and-stopping-distance]
+
+- id: dodvinkel
+  sv: döda vinkeln
+  en: blind spot
+  def: "An area around the vehicle that you cannot see in the mirrors. Turn your head and look before you change lanes or pull out."
+  related: []
+  lessons: [seeing-and-planning]
+
+- id: rattfylleri
+  sv: rattfylleri
+  en: drink-driving / drug-driving
+  also: [driving under the influence, DUI]
+  def: "Driving a motor vehicle with at least 0.2 per mille alcohol in the blood (0.10 mg per litre in breath), with any narcotic substance in the blood that was not prescribed, or so affected that you cannot drive safely."
+  law: ["tbl|4"]
+  related: [grovt-rattfylleri]
+  lessons: [alcohol-and-drugs]
+
+- id: grovt-rattfylleri
+  sv: grovt rattfylleri
+  en: aggravated drink-driving
+  def: "Drink- or drug-driving judged as grave, especially with at least 1.0 per mille in the blood (0.50 mg/l in breath), when clearly affected, or when the driving clearly endangered traffic safety. Up to two years in prison."
+  law: ["tbl|4a"]
+  related: [rattfylleri]
+  lessons: [alcohol-and-drugs]
+
+- id: smitning
+  sv: smitning
+  en: leaving the scene of an accident
+  also: [hit and run]
+  def: "Driving away from an accident you were involved in without helping or without giving your name and address. It is a crime."
+  law: ["tbl|5", "tf|2:8"]
+  related: []
+  lessons: [accidents-first-aid]
+
+- id: miljozon
+  sv: miljözon
+  en: environmental zone
+  also: [low emission zone]
+  def: "An area in a town where only vehicles meeting certain emission standards may drive. It is marked with sign E31."
+  image: "sign:E31-1"
+  law: ["tf|4:22"]
+  related: []
+  lessons: [environment-and-vehicles]
+
+- id: utryckningsfordon
+  sv: utryckningsfordon
+  en: emergency vehicle
+  def: "A police car, ambulance, fire engine or similar registered as an emergency vehicle. When it uses blue lights and siren you must make way, and stop if needed."
+  law: ["tf|2:5"]
+  related: []
+  lessons: [basic-duties]
+
+- id: varningstriangel
+  sv: varningstriangel
+  en: warning triangle
+  def: "A red reflective triangle placed on the road behind a broken-down vehicle to warn traffic, when the vehicle must carry one and the rules say it should be used."
+  law: ["tf|3:57"]
+  related: []
+  lessons: [accidents-first-aid]
