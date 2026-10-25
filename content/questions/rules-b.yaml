@@ -1,0 +1,802 @@
+# Traffic-rules module questions, part B: motorways, stopping and parking, lights, passengers
+# and loads, trailers and towing, phones, special streets and areas.
+
+# ---------------------------------------------------------------- motorways and expressways
+- id: mw-difference
+  area: rules
+  lesson: motorways
+  q: What is the main difference between a motorway and an expressway?
+  options:
+    - A motorway has separate carriageways for each direction; an expressway can have oncoming traffic on the same carriageway
+    - An expressway has a 120 km/h limit
+    - Motorcycles may only use expressways
+    - Expressways have level junctions
+  answer: 0
+  explain: Both have no level junctions and slip roads only. A **motorway** has **two separate carriageways**; an **expressway** can have traffic in both directions on the **same carriageway**.
+  src: ["tf|10:7"]
+
+- id: mw-who
+  area: rules
+  lesson: motorways
+  q: Which of these may **not** be driven on a motorway?
+  options: ["A class I moped", "A motorcycle", "A car with a braked trailer", "A bus"]
+  answer: 0
+  explain: Only motor vehicles built for and allowed to go **at least 40 km/h** may use a motorway – and **class I mopeds** are expressly banned.
+  src: ["tf|9:1"]
+
+- id: mw-expressway-limit
+  area: rules
+  lesson: motorways
+  q: You drive on an expressway (*motortrafikled*) and have seen no speed limit sign. What is the limit?
+  options: ["70 km/h – the base speed", "110 km/h", "90 km/h", "100 km/h"]
+  answer: 0
+  explain: An expressway has **no limit of its own**. Without signs, the base speed of **70 km/h** applies. (The 110 km/h rule is only for motorways.)
+  src: ["tf|3:17", "tf|9:1"]
+
+- id: mw-missed-exit
+  area: rules
+  lesson: motorways
+  q: You miss your exit on the motorway. What do you do?
+  options:
+    - Drive on to the next exit
+    - Stop on the shoulder and reverse
+    - Turn around at the next gap in the central reserve
+    - Stop and ask for help
+  answer: 0
+  explain: On a motorway you may **never reverse or turn around**, and never drive on the central reserve. Drive on to the next exit.
+  src: ["tf|9:1"]
+
+- id: mw-stop
+  area: rules
+  lesson: motorways
+  q: Where may you stop on a motorway or expressway (when your vehicle works)?
+  options:
+    - Only at places signed as parking or rest areas
+    - On the shoulder for at most 5 minutes
+    - Anywhere with hazard lights on
+    - At slip roads
+  answer: 0
+  explain: Vehicles may not be stopped or parked except at places **signed as parking places or rest areas**. This applies on expressways and slip roads too.
+  src: ["tf|9:1", "tf|9:2"]
+
+- id: mw-joining
+  area: rules
+  lesson: motorways
+  q: You join a motorway from a slip road **without** an acceleration lane. Who gives way?
+  options: ["You – to the traffic on the motorway", "The traffic on the motorway – to you", "Whoever is on the right", "Nobody"]
+  answer: 0
+  explain: A driver coming onto a motorway, expressway or main road where there is **no acceleration lane** must give way to the traffic on it.
+  src: ["tf|3:21"]
+
+- id: mw-helping-join
+  area: rules
+  lesson: motorways
+  q: You drive in the right-hand lane of a motorway. A car on the acceleration lane is about to join. What does the law ask of you?
+  options:
+    - Adjust your speed to make it easier for it to join
+    - Keep your speed – you have priority
+    - Sound the horn
+    - Brake to a stop
+  answer: 0
+  explain: A driver who sees that someone wants to move into their lane must **adjust the speed** to make it easier. If it is safe, moving to the left lane also helps.
+  src: ["tf|3:43"]
+
+- id: mw-leaving
+  area: rules
+  lesson: motorways
+  q: Where should you slow down when leaving a motorway?
+  options: ["In the deceleration lane", "In the right-hand lane before the exit", "In the left-hand lane", "On the shoulder"]
+  answer: 0
+  explain: Move into the right-hand lane in good time, then into the **deceleration lane** as soon as possible – and slow down there, not on the motorway.
+  src: ["tf|3:23"]
+
+- id: mw-breakdown-triangle
+  area: rules
+  lesson: motorways
+  q: Your car breaks down on the shoulder of a 110 km/h motorway. Must you put out a warning triangle?
+  options:
+    - Yes – the limit is above 50 km/h and the car stands where stopping is not allowed
+    - No – hazard lights are enough on motorways
+    - Only at night
+    - Only if the car stands in a lane
+  answer: 0
+  explain: Where the limit is **above 50 km/h** and the vehicle stands on the carriageway or shoulder where stopping is not allowed, a **warning triangle** must be put out. Get everyone out on the side away from traffic, behind the barrier if there is one.
+  src: ["tf|3:57"]
+
+- id: mw-towing
+  area: rules
+  lesson: motorways
+  paths: [car-manual, car-automatic]
+  q: May you tow a broken-down car on a tow rope along a motorway?
+  options:
+    - No – a towed car may go at most 30 km/h, and only vehicles allowed at least 40 km/h may use motorways
+    - Yes, at most 30 km/h on the shoulder
+    - Yes, if the rope is marked
+    - Yes, in the right-hand lane
+  answer: 0
+  explain: A car on a tow rope or bar may go at most **30 km/h**, but only vehicles allowed to go **at least 40 km/h** may be driven on motorways and expressways.
+  src: ["tf|4:20", "tf|9:1"]
+
+# ---------------------------------------------------------------- stopping and parking
+- id: sp-waiting
+  area: rules
+  lesson: stopping-and-parking
+  q: You wait in the car with the engine running while a friend runs into a shop. Is that stopping or parking?
+  options: ["Parking", "Stopping", "Neither", "Stopping, if it is shorter than 5 minutes"]
+  answer: 0
+  explain: Stopping means standing still to let people in or out or to load or unload. **Everything else** – also waiting in the car with the engine running – is **parking**.
+  src: ["vtdf|2"]
+
+- id: sp-queue
+  area: rules
+  lesson: stopping-and-parking
+  q: You stand still in a queue at a red light. Is that stopping or parking?
+  options: ["Neither – it is caused by the traffic", "Stopping", "Parking", "Both"]
+  answer: 0
+  explain: Standing still because of the **traffic** – a queue or a red light – or to avoid danger is neither stopping nor parking.
+  src: ["vtdf|2"]
+
+- id: sp-junction-10
+  area: rules
+  lesson: stopping-and-parking
+  q: How close to the edge of a crossing road at a junction may you stop?
+  options: ["Not within 10 metres", "Not within 5 metres", "Not within 20 metres", "Right at the junction is fine"]
+  answer: 0
+  explain: You may not stop or park **in a junction** or within **10 metres** of the nearest edge of a crossing carriageway.
+  src: ["tf|3:53"]
+
+- id: sp-cycle-track-10
+  area: rules
+  lesson: stopping-and-parking
+  q: May you stop to let a passenger out 5 metres before a crossing cycle track?
+  options: ["No – not on it or within 10 metres before it", "Yes – stopping is always allowed", "Yes, if it is quick", "Only on Sundays"]
+  answer: 0
+  explain: Stopping and parking is forbidden **on, or within 10 metres before**, a crossing cycle track or footpath – and the same before pedestrian crossings, cycle passages and cycle crossings.
+  src: ["tf|3:53"]
+
+- id: sp-crest
+  area: rules
+  lesson: stopping-and-parking
+  q: Where of these may you **never** stop?
+  options: ["Near a hill crest where the view is blocked", "On a straight residential street", "In a marked parking space", "At a petrol station"]
+  answer: 0
+  explain: You may not stop or park on or near a **hill crest**, or in or near a **bend** where the view is blocked.
+  src: ["tf|3:53"]
+
+- id: sp-roundabout-tunnel
+  area: rules
+  lesson: stopping-and-parking
+  q: In which of these places is stopping always forbidden?
+  options: ["In a roundabout", "On a one-way street", "Next to a park", "Outside a school, in a marked parking space"]
+  answer: 0
+  explain: You may never stop or park in a **roundabout**, a tunnel or underpass, a cycle lane, a restricted (hatched) area or a bus lane.
+  src: ["tf|3:53"]
+
+- id: sp-side
+  area: rules
+  lesson: stopping-and-parking
+  q: On a two-way road, on which side may you stop or park?
+  options:
+    - The right-hand side in your direction
+    - Either side
+    - The left-hand side, facing the traffic
+    - The side with the most space
+  answer: 0
+  explain: Vehicles may only be stopped or parked on the **right** side in the direction of travel – on a one-way road also on the left.
+  src: ["tf|3:52"]
+
+- id: sp-main-road
+  area: rules
+  lesson: stopping-and-parking
+  q: Which is true on a main road (*huvudled*)?
+  options:
+    - You may stop briefly, but not park
+    - You may park for up to 2 hours
+    - You may neither stop nor park
+    - You may park at night only
+  answer: 0
+  explain: Parking is forbidden on a **main road**. Stopping briefly – for example to let someone out – is allowed if nothing else forbids it.
+  src: ["tf|3:55"]
+
+- id: sp-driveway
+  area: rules
+  lesson: stopping-and-parking
+  q: May you park in front of the entrance to someone's property?
+  options:
+    - No – not in front of it, or so that traffic to and from it is seriously hindered
+    - Yes, for up to one hour
+    - Yes, if you leave a phone number
+    - Yes, outside working hours
+  answer: 0
+  explain: You may not park on a road **in front of the entrance to a property**, or so that vehicles going to or from it are seriously hindered.
+  src: ["tf|3:55"]
+
+- id: sp-double
+  area: rules
+  lesson: stopping-and-parking
+  q: May you park on the carriageway beside a car that is already parked along the kerb?
+  options:
+    - No – unless the other vehicle is a two-wheeled bicycle, moped or motorcycle
+    - Yes, for a short time
+    - Yes, with hazard lights on
+    - Yes, in a one-way street
+  answer: 0
+  explain: Parking beside another vehicle stopped or parked along the edge (double parking) is forbidden – unless it is a **two-wheeled** bicycle, moped or motorcycle without a sidecar.
+  src: ["tf|3:55"]
+
+- id: sp-lawn
+  area: rules
+  lesson: stopping-and-parking
+  q: In a built-up area, may you park on a public lawn next to the road?
+  options: ["No", "Yes, if all parking spaces are taken", "Yes, at weekends", "Yes, if the wheels are close to the kerb"]
+  answer: 0
+  explain: In a built-up area you may not stop or park on public ground that is **not road** – for example a lawn, a park or a ditch.
+  src: ["tf|3:48"]
+
+- id: sp-footpath
+  area: rules
+  lesson: stopping-and-parking
+  q: Which vehicles may be parked on a footpath or cycle track?
+  options: ["Only two-wheeled bicycles and two-wheeled class II mopeds", "All vehicles for up to 10 minutes", "Motorcycles", "Small cars"]
+  answer: 0
+  explain: On a **footpath or cycle track**, only two-wheeled bicycles and two-wheeled class II mopeds may stop or park.
+  src: ["tf|3:48"]
+
+- id: sp-leave-car
+  area: rules
+  lesson: stopping-and-parking
+  q: What must you do when you leave a parked car?
+  options:
+    - Make sure it cannot start rolling and that nobody else can use it
+    - Leave the key in it so it can be moved
+    - Turn on the hazard lights
+    - Nothing in particular
+  answer: 0
+  explain: The driver must make sure the vehicle **cannot start moving by itself** (parking brake and gear or P), and take steps so that **nobody can use it** without permission – lock it and take the key.
+  src: ["tf|3:50"]
+
+- id: sp-dark-lights
+  area: rules
+  lesson: stopping-and-parking
+  q: You park on an unlit country road in darkness, on the carriageway. Which lights must show?
+  options: ["Parking lights and rear lights", "Main beam", "Hazard lights only", "No lights"]
+  answer: 0
+  explain: In darkness, a vehicle stopped or parked **on a road** must show **parking lights and rear lights** – unless the road is well lit or the vehicle stands outside the carriageway and shoulder.
+  src: ["tf|3:74", "tf|3:75"]
+
+- id: sp-breakdown
+  area: rules
+  lesson: stopping-and-parking
+  q: Your car breaks down in a place where parking is not allowed. What does the law say?
+  options:
+    - Have it moved to a suitable place as soon as possible
+    - You may leave it there for 24 hours
+    - You may leave it until the next weekday
+    - Nothing – a broken-down car is exempt
+  answer: 0
+  explain: If an accident or engine failure leaves the vehicle where stopping or parking is not allowed, it must be moved to a suitable place **as soon as possible**.
+  src: ["tf|3:51"]
+
+- id: sp-fine-owner
+  area: rules
+  lesson: stopping-and-parking
+  exam: false
+  q: Who must pay a parking fine (*felparkeringsavgift*) on a public street?
+  options: ["The vehicle owner", "The person who drove", "The municipality", "Nobody, if you appeal"]
+  answer: 0
+  explain: The **vehicle owner** is responsible for paying the parking fine – even if they want to appeal.
+  src: [ts-parking]
+
+- id: sp-ticket
+  area: rules
+  lesson: stopping-and-parking
+  q: Where must you place a parking ticket?
+  options:
+    - At the front of the vehicle, easy to read from outside
+    - In the glove compartment
+    - On the rear window
+    - In your pocket
+  answer: 0
+  explain: A parking ticket must be put at the **front** of the vehicle (or on it if not possible) so it can easily be read from outside.
+  src: ["tf|3:49a"]
+
+# ---------------------------------------------------------------- lights
+- id: li-default
+  area: rules
+  lesson: vehicle-lights
+  q: Which lights are the basic choice when you drive?
+  options: ["Dipped beam", "Main beam", "Parking lights", "Rear fog light"]
+  answer: 0
+  explain: When driving on a road the prescribed lights must be on, and the basic choice is **dipped beam**.
+  src: ["tf|3:68", "tf|3:69"]
+
+- id: li-drl-dark
+  area: rules
+  lesson: vehicle-lights
+  q: May you drive with only daytime running lights at dusk?
+  options:
+    - No – in darkness, dusk, dawn or bad weather you need dipped beam
+    - Yes, always
+    - Yes, in built-up areas
+    - Yes, if the street lights are on
+  answer: 0
+  explain: Daytime running lights may only replace dipped beam **in daylight** with good visibility – not in **darkness, dusk, dawn** or when the weather makes dipped beam necessary.
+  src: ["tf|3:71"]
+
+- id: li-drl-rear
+  area: rules
+  lesson: vehicle-lights
+  q: Why can daytime running lights be dangerous in rain or fog?
+  options:
+    - On many cars they do not light the rear lamps, so the car is hard to see from behind
+    - They dazzle oncoming drivers
+    - They use too much electricity
+    - They are not allowed on motorways
+  answer: 0
+  explain: On many cars the daytime running lights do **not** light the rear lamps. In rain, snow or fog the car can be almost invisible from behind – so switch to **dipped beam**.
+  src: ["tf|3:71", ts-lighting]
+
+- id: li-main-must
+  area: rules
+  lesson: vehicle-lights
+  q: When **must** you use main beam?
+  options:
+    - When your field of vision with dipped beam is not enough to drive safely at your speed
+    - Always outside built-up areas at night
+    - Only on motorways
+    - Never – main beam is optional
+  answer: 0
+  explain: Main beam **must** be used when the driver's field of vision, given the speed, is otherwise not enough to drive safely.
+  src: ["tf|3:70"]
+
+- id: li-main-not
+  area: rules
+  lesson: vehicle-lights
+  q: In which situation may you **not** use main beam?
+  options:
+    - On a road that is adequately lit by street lights
+    - On a dark country road with no other traffic
+    - When there is a risk of animals
+    - On a motorway at night with no traffic ahead
+  answer: 0
+  explain: Main beam may not be used on a **well-lit** stretch, when it can **dazzle** an oncoming driver, when meeting a train or ship along the road if dazzle is possible, or **close behind** another vehicle.
+  src: ["tf|3:70"]
+
+- id: li-meeting
+  area: rules
+  lesson: vehicle-lights
+  q: A car comes towards you on a dark road. When do you switch to dipped beam?
+  options:
+    - In good time, before its driver can be dazzled
+    - When the cars are side by side
+    - Only if the other driver flashes you
+    - Never – you need to see
+  answer: 0
+  explain: Main beam may not be used at a distance where the oncoming driver can be **dazzled**. Dip in good time and look towards the right edge of the road.
+  src: ["tf|3:70", "tf|3:67"]
+
+- id: li-rear-fog
+  area: rules
+  lesson: vehicle-lights
+  q: When may you use the **rear fog light**?
+  options:
+    - Only in fog, heavy precipitation or similarly poor visibility – and not so that it dazzles drivers behind
+    - Whenever it is dark
+    - Whenever it rains a little
+    - When someone drives too close behind
+  answer: 0
+  explain: The rear fog light may only be used in **fog, heavy precipitation or similarly poor visibility**, and in a way that does not dazzle drivers behind you.
+  src: ["tf|3:72"]
+
+- id: li-fog-front
+  area: rules
+  lesson: vehicle-lights
+  paths: [car-manual, car-automatic]
+  q: In thick fog, which lights may you use at the front of a car instead of dipped beam?
+  options: ["Front fog lights", "Main beam and fog lights together", "Daytime running lights", "Parking lights"]
+  answer: 0
+  explain: In **fog and heavy precipitation** you may use **front fog lights** instead of dipped beam. On a car, dipped beam and front fog lights may not be used at the same time.
+  src: ["tf|3:71"]
+
+- id: li-mc-together
+  area: rules
+  lesson: vehicle-lights
+  paths: [motorcycle]
+  q: Which lights may a motorcycle use **together** in daylight?
+  options:
+    - Dipped beam, daytime running lights and fog lights
+    - Only dipped beam
+    - Only daytime running lights
+    - Main beam and rear fog light
+  answer: 0
+  explain: In daylight a motorcycle may use dipped beam, daytime running lights and fog lights **at the same time** – an exception that does not apply to cars.
+  src: ["tf|3:71"]
+
+- id: li-white-back
+  area: rules
+  lesson: vehicle-lights
+  q: Which colour of light may a vehicle show **backwards** while driving (not reversing)?
+  options: ["Not white – except when reversing or working", "White", "Blue", "Any colour"]
+  answer: 0
+  explain: A vehicle may only show white or yellow light **forwards**, and **no white light backwards** except when reversing or working.
+  src: ["tf|3:76"]
+
+- id: li-amber
+  area: rules
+  lesson: vehicle-lights
+  q: A road maintenance vehicle ahead has **amber flashing beacons**. What should you do?
+  options: ["Slow down and be ready to stop", "Overtake it quickly", "Pull over and stop", "Nothing special"]
+  answer: 0
+  explain: Amber warning beacons are used by vehicles such as road maintenance vehicles. **Slow down and be ready to stop.**
+  src: [ts-lighting]
+
+- id: li-hazard
+  area: rules
+  lesson: vehicle-lights
+  q: When are the hazard warning lights meant to be used?
+  options:
+    - When your vehicle stands still after a breakdown or accident and temporarily obstructs traffic
+    - When you park illegally for a short time
+    - When you drive slowly in rain
+    - When you thank another driver
+  answer: 0
+  explain: Hazard warning lights are for when your vehicle is **standing still after a breakdown or accident** and temporarily obstructs traffic.
+  src: [ts-lighting, "tf|3:76"]
+
+# ---------------------------------------------------------------- passengers and loads
+- id: pl-belt
+  area: rules
+  lesson: passengers-and-loads
+  q: Who must use a seat belt in a car?
+  options: ["Everyone, if a seat with a belt is available", "Only the driver", "Only passengers in the front", "Only on motorways"]
+  answer: 0
+  explain: Everyone travelling in a vehicle with seat belts must use a seat with a belt, if one is available, and **use the belt**.
+  src: ["tf|4:10"]
+
+- id: pl-belt-responsible
+  area: rules
+  lesson: passengers-and-loads
+  q: A 12-year-old passenger does not wear the seat belt. Who is responsible?
+  options: ["The driver", "The child", "The car owner", "Nobody"]
+  answer: 0
+  explain: The **driver** must make sure that passengers **under 15** use a seat belt or child restraint. Passengers aged 15 or over are responsible themselves.
+  src: ["tf|4:10c"]
+
+- id: pl-belt-exception
+  area: rules
+  lesson: passengers-and-loads
+  q: When do you **not** have to wear the seat belt?
+  options: ["When reversing", "In built-up areas", "On short trips", "Below 30 km/h"]
+  answer: 0
+  explain: The belt does not have to be used when the vehicle is **not moving**, when **reversing**, or when driving inside a car park, petrol station or workshop area and similar.
+  src: ["tf|4:10d"]
+
+- id: pl-135
+  area: rules
+  lesson: passengers-and-loads
+  q: Up to what height must a child use a child seat, booster seat or booster cushion?
+  options: ["Shorter than 135 cm", "Shorter than 120 cm", "Shorter than 150 cm", "Until 7 years old"]
+  answer: 0
+  explain: Children **shorter than 135 cm** must use a child seat, booster cushion or other special child restraint.
+  src: ["tf|4:10"]
+
+- id: pl-airbag
+  area: rules
+  lesson: passengers-and-loads
+  paths: [car-manual, car-automatic]
+  q: Where must you **never** put a rear-facing baby seat?
+  options:
+    - On a seat with an active passenger airbag
+    - In the back seat
+    - Behind the driver
+    - In the middle of the back seat
+  answer: 0
+  explain: Never put a child in a baby seat, child seat or booster on a seat with an **active passenger airbag** – it can be deadly.
+  src: [ts-children]
+
+- id: pl-rear-facing
+  area: rules
+  lesson: passengers-and-loads
+  paths: [car-manual, car-automatic]
+  q: Until about what age does Transportstyrelsen advise children to travel rear-facing?
+  options: ["About four years", "About one year", "About two years", "About seven years"]
+  answer: 0
+  explain: Children are safest **rear-facing** until about **four years** old. Small children in forward-facing seats run five times the risk of being killed or seriously injured.
+  src: [ts-children]
+
+- id: pl-mc-passenger-age
+  area: rules
+  lesson: passengers-and-loads
+  paths: [motorcycle]
+  q: How old must you be to carry a passenger on a motorcycle?
+  options: ["18", "16", "20", "24"]
+  answer: 0
+  explain: A passenger may only be carried if the rider is at least **18**, the motorcycle is built for a passenger, and at most one passenger is carried.
+  src: ["tf|4:6b"]
+
+- id: pl-mc-helmet
+  area: rules
+  lesson: passengers-and-loads
+  paths: [motorcycle]
+  q: Who must wear a helmet on a motorcycle?
+  options:
+    - Everyone on it – with exceptions such as a passenger under seven using other suitable head protection
+    - Only the rider
+    - Only passengers under 15
+    - Only outside built-up areas
+  answer: 0
+  explain: Everyone on a motorcycle or moped must wear a protective helmet. The rider must make sure passengers under 15 wear one.
+  src: ["tf|4:9"]
+
+- id: pl-load-behind
+  area: rules
+  lesson: passengers-and-loads
+  q: A load sticks out **more than 1 metre behind** your car in darkness. How must it be marked?
+  options: ["With a red light and red reflectors", "With a white light", "With an orange flag only", "It does not need marking"]
+  answer: 0
+  explain: A load sticking out more than 1 m behind must be marked; in darkness, dusk, dawn or bad weather with a **red light and red reflectors** at the back (white at the front).
+  src: ["tf|3:82"]
+
+- id: pl-load-secure
+  area: rules
+  lesson: passengers-and-loads
+  q: What does the law say about a load?
+  options:
+    - It may not be a danger, fall off, drag behind or make the vehicle harder to drive – secure and cover it if needed
+    - It only needs to be secured on motorways
+    - Only trucks must secure loads
+    - It may stick out any distance if it is light
+  answer: 0
+  explain: A load may not be carried so that it can **endanger people, damage property, drag behind or fall off**, cause dust, make driving harder or cause noise. It must be **secured** and **covered** when needed.
+  src: ["tf|3:80"]
+
+- id: pl-load-view
+  area: rules
+  lesson: passengers-and-loads
+  q: Which of these is **not** allowed when you load your car?
+  options: ["The load hides the brake lights", "The load is in the boot", "The load is strapped down", "The load is on a roof rack"]
+  answer: 0
+  explain: A load may not block your **view**, make the vehicle hard to manoeuvre, or hide **indicators, brake lights, lamps or headlights**.
+  src: ["tf|3:78"]
+
+- id: pl-overweight
+  area: rules
+  lesson: passengers-and-loads
+  q: Five adults and heavy luggage are going in your car. What must you check?
+  options:
+    - That the car's total weight in the registration certificate is not exceeded
+    - Only the tyre tread
+    - That the seats are comfortable
+    - Nothing – passengers do not count
+  answer: 0
+  explain: The vehicle's **total weight** may never be exceeded – people and luggage count. Check the registration certificate.
+  src: ["tf|4:4"]
+
+- id: pl-moving
+  area: rules
+  lesson: passengers-and-loads
+  q: May a passenger get out while the car is still rolling slowly?
+  options: ["No", "Yes, below 5 km/h", "Yes, in a car park", "Yes, if the door is on the pavement side"]
+  answer: 0
+  explain: Nobody may get on or off a **moving** vehicle.
+  src: ["tf|3:3"]
+
+# ---------------------------------------------------------------- trailers and towing
+- id: tt-total-weight
+  area: rules
+  lesson: towing-trailers
+  paths: [car-manual, car-automatic]
+  q: Which weights decide whether your B licence covers a car and trailer?
+  options:
+    - The total weights in the registration certificates
+    - What they actually weigh with the load right now
+    - The kerb weights
+    - The weight of the load only
+  answer: 0
+  explain: For the **licence**, what counts is the **total weights** in the registration certificates – an empty trailer with a high total weight counts with its total weight.
+  src: ["kkl|2:5", "vtdl|2"]
+
+- id: tt-calc-no
+  area: rules
+  lesson: towing-trailers
+  paths: [car-manual, car-automatic]
+  q: Your car's total weight is 2,400 kg. The trailer's total weight is 1,300 kg. May you tow it with a plain B licence?
+  options: ["No – together 3,700 kg, so you need B96 or BE", "Yes – the trailer is under 3,500 kg", "Yes, if it is empty", "Yes, at most 40 km/h"]
+  answer: 0
+  explain: The trailer is over 750 kg, so car + trailer total weights must be **at most 3,500 kg**. 2,400 + 1,300 = 3,700 kg → you need **B96** (up to 4,250 kg combined) or **BE**.
+  src: ["kkl|2:5", "vtdl|2", "kkl|2:7a"]
+
+- id: tt-kerb
+  area: rules
+  lesson: towing-trailers
+  paths: [car-manual, car-automatic]
+  q: What is **kerb weight** (*tjänstevikt*)?
+  options:
+    - The vehicle ready to drive – fuel, oil, tools and, for a car, the driver
+    - The heaviest the vehicle may weigh
+    - The weight of the load
+    - The weight on the rear axle
+  answer: 0
+  explain: Kerb weight is the vehicle **ready to drive**, with fuel, oil, water, tools and spare wheel – and for a car the **driver**.
+  src: ["vtdl|2"]
+
+- id: tt-maxload
+  area: rules
+  lesson: towing-trailers
+  paths: [car-manual, car-automatic]
+  q: A car has a total weight of 2,000 kg and a kerb weight of 1,550 kg. How much may you load (passengers and goods)?
+  options: ["450 kg", "2,000 kg", "1,550 kg", "3,550 kg"]
+  answer: 0
+  explain: "The **maximum load** is total weight minus kerb weight: 2,000 − 1,550 = **450 kg** (the driver is already in the kerb weight)."
+  src: [ts-weights, "vtdl|2"]
+
+- id: tt-cert-fields
+  area: rules
+  lesson: towing-trailers
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Where do you find the maximum weight of a **braked** trailer your car may tow?
+  options: ["Field O.1 in the registration certificate", "Field O.2", "On the tow bar", "In the driving licence"]
+  answer: 0
+  explain: In the registration certificate, **O.1** is the maximum braked trailer weight, **O.2** unbraked, and **F.3** the maximum combined weight.
+  src: [ts-trailer-weights]
+
+- id: tt-rope-mark
+  area: rules
+  lesson: towing-trailers
+  paths: [car-manual, car-automatic]
+  q: You tow a car with a tow rope and there is more than 2 metres between the cars. What must you do?
+  options:
+    - Mark the rope clearly, for example with a flag
+    - Nothing
+    - Drive with the hazard lights on only
+    - Use a rope at least 10 metres long
+  answer: 0
+  explain: If the distance between the towing and towed vehicle is more than **2.0 m**, the rope or bar must be **clearly marked**.
+  src: ["tf|4:5"]
+
+- id: tt-unbraked-speed
+  area: rules
+  lesson: towing-trailers
+  paths: [car-manual, car-automatic]
+  q: Your car's kerb weight is 1,600 kg. You tow an unbraked trailer with a total weight of 600 kg. What is the maximum speed?
+  options: ["80 km/h", "40 km/h", "30 km/h", "90 km/h"]
+  answer: 0
+  explain: A trailer whose total weight is **at most half the car's kerb weight and at most 750 kg** may be towed at **80 km/h** (600 ≤ 800 and ≤ 750).
+  src: ["tf|4:20"]
+
+# ---------------------------------------------------------------- phones
+- id: ph-hold
+  area: rules
+  lesson: phones-and-distraction
+  q: What does the law say about using a mobile phone while driving?
+  options:
+    - You may not hold it in your hand while using it, and any use must not affect your driving
+    - It is allowed if you drive slowly
+    - It is allowed at red lights with the phone in your hand
+    - Only texting is forbidden
+  answer: 0
+  explain: A driver may **never hold** a phone or other communication device in the hand while using it, and may only use it hands-free if it **does not affect the driving**.
+  src: ["tf|4:10e"]
+
+- id: ph-handsfree
+  area: rules
+  lesson: phones-and-distraction
+  q: Is talking on a hands-free phone while driving risk-free?
+  options:
+    - No – the conversation itself takes attention; end the call if it affects your driving
+    - Yes – hands-free is completely safe
+    - Yes, if the call is short
+    - It is forbidden
+  answer: 0
+  explain: Hands-free is allowed but **not required**, and it does not remove the risk – the **conversation itself** takes your attention. End the call if it affects your driving.
+  src: [ts-mobile, "tf|4:10e"]
+
+- id: ph-metres
+  area: rules
+  lesson: phones-and-distraction
+  q: You look down at your phone for 2 seconds at 40 km/h. How far does the car travel without your control?
+  options: ["About 22 metres", "About 5 metres", "About 10 metres", "About 50 metres"]
+  answer: 0
+  explain: At **40 km/h** you travel about 11 m per second, so **2 seconds = 22 metres** blind. At 90 km/h it is 50 m.
+  src: [ts-mobile]
+
+- id: ph-supervisor
+  area: rules
+  lesson: phones-and-distraction
+  q: During private practice, the supervisor holds a phone to read a message. Is that allowed?
+  options: ["No – the supervisor counts as the driver", "Yes – the supervisor is not driving", "Yes, if the learner drives slowly", "Only in built-up areas"]
+  answer: 0
+  explain: The phone rule also applies to the **supervisor**, because the supervisor counts as the driver during practice.
+  src: [ts-mobile]
+
+- id: ph-navigator
+  area: rules
+  lesson: phones-and-distraction
+  q: What is the best way to use the phone as a navigator?
+  options:
+    - In a holder, with the route set before you leave
+    - In your hand, typing the address while driving slowly
+    - On your lap
+    - Let it lie on the passenger seat
+  answer: 0
+  explain: Using the phone in a **holder** is not banned since you do not hold it – but set the route **before** you leave, and stop if you must change it.
+  src: [ts-mobile, "tf|4:10e"]
+
+# ---------------------------------------------------------------- special areas
+- id: sa-walking-area-surface
+  area: rules
+  lesson: special-areas
+  q: In a walking-speed area, where can you expect pedestrians?
+  options: ["Anywhere – the whole surface is for them", "Only on the pavement", "Only at crossings", "Nowhere – it is for cars"]
+  answer: 0
+  explain: A walking-speed area is designed so that pedestrians use the **whole surface** – expect people and children playing anywhere.
+  src: ["tf|10:8", "tf|8:1"]
+
+- id: sa-pedestrian-delivery
+  area: rules
+  lesson: special-areas
+  q: When may you drive a car along a pedestrian street (not just across it)?
+  options:
+    - When needed for deliveries, or transport of goods, residents, hotel guests or sick or disabled people to an address there
+    - Whenever you go slowly
+    - At night
+    - To find a parking space
+  answer: 0
+  explain: On a pedestrian street motor vehicles may only **cross** – except when needed for **deliveries** to shops, **goods or residents** to an address, **hotel guests**, or **sick or disabled** people.
+  src: ["tf|8:1"]
+
+- id: sa-cycle-street-enter
+  area: rules
+  lesson: special-areas
+  q: You turn onto a cycle street from another road. Who gives way?
+  options: ["You – to vehicles on the cycle street", "The cyclists – to you", "Whoever comes from the right", "Nobody"]
+  answer: 0
+  explain: A driver who comes **onto** a cycle street from another road must **give way** to vehicles on it.
+  src: ["tf|8:1a"]
+
+- id: sa-zone-class2
+  area: rules
+  lesson: special-areas
+  paths: [car-manual, car-automatic]
+  q: May you drive a **diesel** car that meets Euro 5 in an environmental zone of class 2?
+  options: ["No – diesel cars need Euro 6", "Yes – Euro 5 is enough for all cars", "Yes, outside rush hour", "Only if it is a hybrid"]
+  answer: 0
+  explain: In class 2 zones, **petrol** vehicles need at least **Euro 5**, but **diesel** vehicles need **Euro 6**.
+  src: ["tf|4:22b", ts-zones]
+
+- id: sa-zone-class3
+  area: rules
+  lesson: special-areas
+  paths: [car-manual, car-automatic]
+  q: Which cars may be driven in an environmental zone of **class 3**?
+  options:
+    - Mainly electric, fuel-cell and certain gas cars
+    - All cars meeting Euro 6
+    - All hybrids
+    - Only taxis
+  answer: 0
+  explain: Class 3 is the strictest. For cars it allows mainly **electric**, **hydrogen fuel-cell** and certain **gas** vehicles.
+  src: ["tf|4:22d", ts-zones]
+
+- id: sa-tunnel
+  area: rules
+  lesson: special-areas
+  q: May you stop in a road tunnel to look at the map?
+  options: ["No – stopping and parking are forbidden in tunnels", "Yes, with hazard lights on", "Yes, in the right-hand lane", "Yes, if traffic is light"]
+  answer: 0
+  explain: You may not stop or park in a **tunnel or underpass**. Emergency lay-bys are only for breakdowns and emergencies.
+  src: ["tf|3:53"]
+
+- id: sa-car-park-rules
+  area: rules
+  lesson: special-areas
+  q: Do the traffic rules apply in a public car park or at a petrol station?
+  options:
+    - Yes – places generally used for motor traffic count as roads
+    - No – they are private property
+    - Only the speed limits apply
+    - Only at night
+  answer: 0
+  explain: Every road, street, square or other place **generally used for motor traffic** counts as a road, so the normal rules apply in public car parks and at petrol stations.
+  src: ["vtdf|2"]

@@ -1,0 +1,1006 @@
+# Traffic-rules module questions, part A: basic duties, position, speed, right of way,
+# turning, meeting and overtaking, pedestrians and cyclists, level crossings.
+
+# ---------------------------------------------------------------- basic duties
+- id: bd-care-special
+  area: rules
+  lesson: basic-duties
+  q: Who does the law say you must show **special consideration** for?
+  options:
+    - Children, older people, school crossing patrols and people with a visible disability or illness
+    - Only pedestrians at crossings
+    - Drivers of emergency vehicles only
+    - Cyclists on cycle tracks only
+  answer: 0
+  explain: The duty of care requires special consideration for **children, older people, school crossing patrols** and people who clearly have a **disability or illness** that hinders them in traffic.
+  src: ["tf|2:1"]
+
+- id: bd-white-cane
+  area: rules
+  lesson: basic-duties
+  q: A person with a **white cane** is about to cross the street. What does the cane tell you?
+  options: ["The person has impaired sight", "The person is a school crossing patrol", "The person has priority only at night", "The person is deaf"]
+  answer: 0
+  explain: A white cane shows that the person has **impaired sight**. Show special consideration and be ready to stop.
+  src: ["tf|2:1"]
+
+- id: bd-fit
+  area: rules
+  lesson: basic-duties
+  q: You are below the alcohol limit but feel clearly affected after one drink. May you drive?
+  options:
+    - No – nobody may drive who cannot drive safely, whatever the limit
+    - Yes – you are below the limit
+    - Yes, if you drive slowly
+    - Yes, if a passenger has a licence
+  answer: 0
+  explain: A vehicle may not be driven by anyone who – because of illness, tiredness, alcohol or other substances, or any other reason – **cannot drive safely**. This applies whatever the limits say.
+  src: ["tf|3:1"]
+
+- id: bd-distance
+  area: rules
+  lesson: basic-duties
+  q: What does the law say about the distance to the vehicle in front?
+  options:
+    - It must be long enough to avoid running into it if it slows down or stops, and make overtaking easier for others
+    - At least 3 seconds
+    - At least 50 metres outside built-up areas
+    - At least one car length per 10 km/h
+  answer: 0
+  explain: The law gives **no number**. The distance must be adapted so there is **no risk of running into** the vehicle in front if it slows down or stops, and so that others can **overtake** more easily. 3 seconds is only a rule of thumb.
+  src: ["tf|3:2"]
+
+- id: bd-emergency
+  area: rules
+  lesson: basic-duties
+  q: An ambulance with siren and blue lights comes up behind you. What does the law require?
+  options:
+    - Make way for it – and stop if necessary
+    - Speed up to the speed limit
+    - Stop at once wherever you are
+    - Nothing, if you are on a main road
+  answer: 0
+  explain: A road user must **make way** for an emergency vehicle using its siren and blue lights, and **stop if necessary**. Usually you move as far right as you safely can and slow down.
+  src: ["tf|2:5"]
+
+- id: bd-emergency-junction
+  area: rules
+  lesson: basic-duties
+  q: You wait at a red light. A fire engine with siren and blue lights needs to get past you. What should you do?
+  options:
+    - Make room as well as you safely can without creating new danger – check the traffic around you
+    - Drive straight out into the junction against red
+    - Stay still – red always means stop
+    - Turn off the engine
+  answer: 0
+  explain: You must make way and stop if necessary – but do what you **safely** can. A sudden move into a junction can cause a collision; the duty of care still applies.
+  src: ["tf|2:5", "tf|2:1"]
+
+- id: bd-column
+  area: rules
+  lesson: basic-duties
+  q: A funeral procession is passing through a junction. May you drive into a gap in it?
+  options: ["No", "Yes, if you have green", "Yes, if the gap is large", "Yes, if you sound the horn"]
+  answer: 0
+  explain: You may not break into or obstruct a **military column**, a **rescue service** column, a **group of children** led by an adult, a **funeral procession** or another procession.
+  src: ["tf|2:6"]
+
+- id: bd-signal-right
+  area: rules
+  lesson: basic-duties
+  q: You indicate that you are going to change lanes. Does that give you the right to move over?
+  options:
+    - No – you must still make sure it can be done without danger or unnecessary obstruction
+    - Yes – after three flashes
+    - Yes, if you indicate in good time
+    - Yes, on a motorway
+  answer: 0
+  explain: Signalling **does not give you the right** to go. You must still make sure the manoeuvre can be done without danger or unnecessary obstruction.
+  src: ["tf|3:66", "tf|3:43"]
+
+- id: bd-signal-when
+  area: rules
+  lesson: basic-duties
+  q: When must you use the direction indicator?
+  options:
+    - When you start from the roadside, turn, turn around, change lanes or otherwise move sideways noticeably
+    - Only when there are other vehicles around
+    - Only when turning left
+    - Only in built-up areas
+  answer: 0
+  explain: You must signal when you intend to **start from the roadside, turn around, turn, change lanes** or otherwise move sideways in a way that is not insignificant – in good time, clearly, and stop when the manoeuvre is done.
+  src: ["tf|3:65"]
+
+- id: bd-horn
+  area: rules
+  lesson: basic-duties
+  q: When may you use the horn?
+  options:
+    - When needed to prevent danger – and no longer than necessary
+    - To greet friends
+    - To tell a slow driver to hurry up
+    - Whenever you overtake
+  answer: 0
+  explain: The horn – and a flash of the headlights – may only be used when needed to **prevent danger**, and not longer than necessary.
+  src: ["tf|3:64"]
+
+- id: bd-object-road
+  area: rules
+  lesson: basic-duties
+  q: Part of your load falls onto the road. What must you do?
+  options:
+    - Remove it at once – or, if you cannot, warn others until it is removed
+    - Drive on and report it the next day
+    - Nothing if it is small
+    - Call a tow truck and drive on
+  answer: 0
+  explain: Whoever has caused something dangerous to be on the road must **remove it immediately**. If that is not possible, they must **warn others** – for example by marking it – until it has been removed.
+  src: ["tf|2:10"]
+
+- id: bd-sign-knocked
+  area: rules
+  lesson: basic-duties
+  q: You accidentally knock over a road sign. What should you do?
+  options:
+    - Put it back, or tell the police or road authority at once
+    - Leave it – it is the municipality's job
+    - Take it with you
+    - Put it anywhere at the roadside
+  answer: 0
+  explain: You may never move or change a road sign or other traffic device. If you have knocked one over, put it back or tell the **police or road authority** at once.
+  src: ["tf|2:9"]
+
+- id: bd-noise
+  area: rules
+  lesson: basic-duties
+  q: Which of these is against the rules?
+  options:
+    - Letting the engine make more noise than necessary near homes
+    - Driving at the speed limit at night
+    - Using dipped beam in daylight
+    - Stopping at a red light
+  answer: 0
+  explain: A motor vehicle may not make more **noise** or exhaust fumes than necessary, and you may not drive around needlessly near homes.
+  src: ["tf|4:7", "tf|4:8"]
+
+- id: bd-owner
+  area: rules
+  lesson: basic-duties
+  exam: false
+  q: A friend borrows your car in January and it has summer tyres in winter conditions. Who can be responsible?
+  options: ["Also you, as the owner", "Only your friend", "Only the tyre shop", "Nobody"]
+  answer: 0
+  explain: The **owner** is responsible for making sure the vehicle is not used in breach of certain rules – for example winter tyres when required, or overloading – even when someone else drives it.
+  src: ["tf|1:5"]
+
+# ---------------------------------------------------------------- position on the road
+- id: rp-keep-right
+  area: rules
+  lesson: road-position
+  q: You drive on a road outside a built-up area with two lanes in your direction and a 100 km/h limit. Which lane should you normally use?
+  options: ["The right-hand lane", "The left-hand lane", "Either lane", "The lane with less traffic"]
+  answer: 0
+  explain: The basic rule is to use the lane **furthest to the right** that is intended for your vehicle. The free choice of lane only applies on roads of **70 km/h or lower** with two marked lanes, or where lanes are signed for destinations.
+  src: ["tf|3:7"]
+
+- id: rp-free-lane
+  area: rules
+  lesson: road-position
+  q: In town, a street has a 50 km/h limit and two marked lanes in your direction. Which lane may you use?
+  options:
+    - The lane most suitable for your onward journey
+    - Only the right-hand lane
+    - Only the left-hand lane
+    - Only the lane with the least traffic
+  answer: 0
+  explain: On roads with a limit of **70 km/h or lower** and at least two marked lanes in your direction, you may use the lane that is **most suitable** for your onward journey.
+  src: ["tf|3:7"]
+
+- id: rp-weaving
+  area: rules
+  lesson: road-position
+  q: On a 50 km/h street with two lanes in your direction, when may you change lanes?
+  options:
+    - Only to stop or park, to overtake, or to get into the right lane before a junction
+    - Whenever the other lane moves faster
+    - Never
+    - Only in queues
+  answer: 0
+  explain: Where you may choose your lane freely, you may change lanes **only** to stop or park, to overtake, or to get into a suitable lane before turning.
+  src: ["tf|3:9"]
+
+- id: rp-queue
+  area: rules
+  lesson: road-position
+  q: There are dense queues in **all** lanes in your direction. Who may change lanes?
+  options:
+    - Only the driver in the right-hand lane – others only to stop, park or get into the right lane for a junction
+    - Everyone, if they indicate
+    - Only the driver in the left-hand lane
+    - Nobody
+  answer: 0
+  explain: In dense queues in all lanes, only the driver in the **rightmost** lane may change lanes. Others may only do so to stop or park, or to get into a suitable lane before a junction.
+  src: ["tf|3:9"]
+
+- id: rp-three-lanes
+  area: rules
+  lesson: road-position
+  q: A two-way road has **three lanes** in total. Which lane may you not use?
+  options: ["The leftmost lane", "The middle lane", "The rightmost lane", "You may use all three"]
+  answer: 0
+  explain: On a road with traffic in both directions and three lanes, you may not drive in the **leftmost** lane. With four or more lanes, you may not use the lanes left of the centre.
+  src: ["tf|3:8"]
+
+- id: rp-solid-lanes
+  area: rules
+  lesson: road-position
+  q: Two lanes in the same direction are separated by a **solid** line. May you change lanes?
+  options: ["No", "Yes, if you indicate", "Yes, if there is no traffic", "Yes, to overtake"]
+  answer: 0
+  explain: If a **solid line** separates lanes in the same direction, you may not change lanes.
+  src: ["tf|3:9"]
+
+- id: rp-reverse
+  area: rules
+  lesson: road-position
+  q: When may you reverse?
+  options:
+    - Only when it can be done without danger or obstruction to others
+    - Only in car parks
+    - Never on public roads
+    - Whenever you have your hazard lights on
+  answer: 0
+  explain: You may reverse or turn around only if it can be done **without danger or obstruction**. On motorways and expressways it is never allowed.
+  src: ["tf|3:46", "tf|9:1"]
+
+- id: rp-path
+  area: rules
+  lesson: road-position
+  q: May you drive a car on a footpath to reach a parking space?
+  options: ["No – you may only cross it", "Yes, at walking pace", "Yes, outside opening hours", "Yes, if no one is walking there"]
+  answer: 0
+  explain: A path meant for certain traffic – such as a footpath or cycle track – may only be **crossed** by other traffic.
+  src: ["tf|3:6"]
+
+# ---------------------------------------------------------------- speed
+- id: sl-adapt
+  area: rules
+  lesson: speed-limits
+  q: The limit is 90 km/h, but thick fog lets you see only 60 metres. How fast may you drive?
+  options:
+    - Only so fast that you can stop within the distance you can see
+    - 90 km/h – the limit applies
+    - 70 km/h – the base speed
+    - 80 km/h if you use fog lights
+  answer: 0
+  explain: Your speed must always be adapted to the conditions, and never so high that you **cannot stop within the distance you can see**. The limit is a maximum, not a target.
+  src: ["tf|3:14"]
+
+- id: sl-builtup
+  area: rules
+  lesson: speed-limits
+  q: What is the speed limit in a built-up area when no sign shows anything else?
+  options: ["50 km/h", "30 km/h", "40 km/h", "60 km/h"]
+  answer: 0
+  explain: Within a built-up area the limit is **50 km/h**. The municipality can set 30 or 40 km/h with signs.
+  src: ["tf|3:17"]
+
+- id: sl-base
+  area: rules
+  lesson: speed-limits
+  q: What is the **base speed** (*bashastighet*) outside built-up areas?
+  options: ["70 km/h", "80 km/h", "90 km/h", "60 km/h"]
+  answer: 0
+  explain: Outside built-up areas the limit is **70 km/h** – the base speed – unless signs show something else.
+  src: ["tf|3:17"]
+
+- id: sl-motorway
+  area: rules
+  lesson: speed-limits
+  q: What is the speed limit on a motorway when no sign shows anything else?
+  options: ["110 km/h", "120 km/h", "100 km/h", "130 km/h"]
+  answer: 0
+  explain: On a motorway the limit is **110 km/h**. Trafikverket may set **120 km/h** with signs.
+  src: ["tf|9:1"]
+
+- id: sl-low-speed-situations
+  area: rules
+  lesson: speed-limits
+  q: In which of these situations does the law specifically require a low enough speed?
+  options:
+    - When approaching a bus that has stopped to let passengers on or off
+    - On a straight motorway in good weather
+    - When overtaking
+    - When driving downhill on a dry road
+  answer: 0
+  explain: The law lists situations needing low speed – among them approaching a **tram, bus or school bus** that has stopped for passengers, built-up areas, crossings, sharp bends, hill crests, dazzle, slippery roads, children and animals, road works and accidents.
+  src: ["tf|3:15"]
+
+- id: sl-splash
+  area: rules
+  lesson: speed-limits
+  q: The road is full of puddles and slush, and pedestrians walk on the pavement. What must you do?
+  options: ["Slow down so you do not splash them", "Keep the speed limit", "Sound the horn as a warning", "Drive in the middle of the road"]
+  answer: 0
+  explain: On **dirty roads** where others risk being splashed, the law requires a low enough speed.
+  src: ["tf|3:15"]
+
+- id: sl-too-slow
+  area: rules
+  lesson: speed-limits
+  q: Is it allowed to drive unnecessarily slowly or brake suddenly without reason?
+  options: ["No – not if it hinders others", "Yes, always", "Yes, below 30 km/h", "Only on motorways"]
+  answer: 0
+  explain: You may not drive **unnecessarily slowly** or brake suddenly without good reason in a way that hinders others.
+  src: ["tf|3:16"]
+
+- id: sl-trailer-braked
+  area: rules
+  lesson: speed-limits
+  paths: [car-manual, car-automatic]
+  q: You tow a trailer with a total weight of 1,200 kg that has an **overrun brake**, on a road with a 100 km/h limit. What is your maximum speed?
+  options: ["80 km/h", "100 km/h", "90 km/h", "70 km/h"]
+  answer: 0
+  explain: A car with a braked trailer (for example with an overrun brake and rigid drawbar, at most 3.5 tonnes) may go at most **80 km/h** – even where the road limit is higher.
+  src: ["tf|4:20"]
+
+- id: sl-towing-rope
+  area: rules
+  lesson: speed-limits
+  paths: [car-manual, car-automatic]
+  q: You tow a broken-down car with a tow rope. What is the maximum speed?
+  options: ["30 km/h", "40 km/h", "50 km/h", "70 km/h"]
+  answer: 0
+  explain: Towing another vehicle with a rope or tow bar – and other cases not listed elsewhere – means at most **30 km/h**.
+  src: ["tf|4:20"]
+
+- id: sl-mc-trailer
+  area: rules
+  lesson: speed-limits
+  paths: [motorcycle]
+  q: What is the maximum speed for a motorcycle with a trailer?
+  options: ["80 km/h", "70 km/h", "90 km/h", "The road's speed limit"]
+  answer: 0
+  explain: A **motorcycle with a trailer** may go at most **80 km/h**.
+  src: ["tf|4:20"]
+
+- id: sl-mc-trailer-rules
+  area: rules
+  lesson: speed-limits
+  paths: [motorcycle]
+  q: Which trailer may a two-wheeled motorcycle tow?
+  options:
+    - One at most 125 cm wide, weighing at most half the motorcycle's kerb weight – and never with passengers in it
+    - Any light trailer up to 750 kg
+    - Any trailer if the motorcycle has more than 50 kW
+    - Motorcycles may never tow trailers
+  answer: 0
+  explain: A two-wheeled motorcycle may tow a trailer of at most **125 cm** width that weighs at most **half the motorcycle's kerb weight**. Passengers may never ride in it.
+  src: ["tf|4:15a", "tf|4:15b"]
+
+- id: sl-pedestrian-street
+  area: rules
+  lesson: speed-limits
+  q: What is the highest speed on a pedestrian street?
+  options: ["Walking pace", "20 km/h", "30 km/h", "10 km/h"]
+  answer: 0
+  explain: On a pedestrian street and in a walking-speed area, vehicles may go at most **walking pace**.
+  src: ["tf|8:1"]
+
+# ---------------------------------------------------------------- right of way
+- id: rw-right-hand
+  area: rules
+  lesson: right-of-way
+  q: You come to a junction **without signs or signals**. A car approaches from your right. Who goes first?
+  options: ["The car from the right", "You", "Whoever is faster", "Whoever is on the wider road"]
+  answer: 0
+  explain: When two vehicles' paths cross, a driver must give way to the vehicle **approaching from the right** – the **right-hand rule**.
+  src: ["tf|3:18"]
+
+- id: rw-right-hand-bike
+  area: rules
+  lesson: right-of-way
+  q: At a junction without signs, a **cyclist** comes from your right on the carriageway. Who goes first?
+  options: ["The cyclist", "You – cars have priority", "Whoever arrives first", "You, if you are turning right"]
+  answer: 0
+  explain: A bicycle is a vehicle too. In an unsigned junction, the **right-hand rule** applies to cyclists as well.
+  src: ["tf|3:18"]
+
+- id: rw-from-left
+  area: rules
+  lesson: right-of-way
+  q: At a junction without signs you have a car on your left. Its driver does not seem to slow down. What do you do?
+  options:
+    - Be ready to stop – having priority never means you may ignore the risk
+    - Keep going – you have priority
+    - Sound the horn and accelerate
+    - Flash your headlights and keep going
+  answer: 0
+  explain: "The car on your left must give way to you, but the **duty of care** still applies: if the other driver does not give way, you must do what you can to avoid a collision."
+  src: ["tf|3:18", "tf|2:1"]
+
+- id: rw-car-park
+  area: rules
+  lesson: right-of-way
+  q: You drive out of a car park onto a street. A car comes from your **left**. Who goes first?
+  options:
+    - The car on the street – you give way to everyone when leaving a car park
+    - You – the car comes from the left
+    - Whoever is faster
+    - You, if you indicate
+  answer: 0
+  explain: When you come onto a road from a **car park, property, petrol station** or similar, you must give way to **every vehicle** whose path crosses yours – the right-hand rule does not apply.
+  src: ["tf|3:21"]
+
+- id: rw-across-pavement
+  area: rules
+  lesson: right-of-way
+  q: You drive out of a driveway, across a pavement, onto the street. Who must you give way to?
+  options:
+    - Pedestrians on the pavement and all vehicles on the street
+    - Only vehicles from the right
+    - Only vehicles from the left
+    - Nobody – the driveway is yours
+  answer: 0
+  explain: Driving out from a **property** across a footpath, you give way to **pedestrians** on it and to **all vehicles** on the road.
+  src: ["tf|3:21", "tf|3:58"]
+
+- id: rw-order
+  area: rules
+  lesson: right-of-way
+  q: In which order do these decide who goes first at a junction?
+  options:
+    - Police officer → traffic lights → signs and markings → general rules
+    - Signs → police officer → traffic lights → general rules
+    - Traffic lights → police officer → general rules → signs
+    - General rules → signs → traffic lights → police officer
+  answer: 0
+  explain: A **police officer** overrides everything; a working **traffic light** overrides give-way and stop signs; **signs and markings** override the **general rules** such as the right-hand rule.
+  src: ["tf|2:3", "tf|2:2"]
+
+- id: rw-turn-left
+  area: rules
+  lesson: right-of-way
+  q: You turn left at a junction. An oncoming car is going straight on. Who goes first?
+  options: ["The oncoming car", "You", "Whoever indicates first", "Whoever comes from the right"]
+  answer: 0
+  explain: A driver turning at a junction must make sure it can be done **without obstructing oncoming traffic** – so the oncoming car goes first.
+  src: ["tf|3:24"]
+
+- id: rw-four-way
+  area: rules
+  lesson: right-of-way
+  q: Four cars arrive at the same time at an unsigned crossroads, one from each direction. What happens?
+  options:
+    - Nobody can go by the right-hand rule alone – the drivers must agree carefully
+    - The car going straight on goes first
+    - The biggest vehicle goes first
+    - The car from the north goes first
+  answer: 0
+  explain: Everyone has a car on their right, so the **right-hand rule** cannot decide. The drivers must **agree** – carefully, with eye contact and clear signals.
+  src: ["tf|3:18", "tf|2:1"]
+
+- id: rw-tram
+  area: rules
+  lesson: right-of-way
+  q: A tram approaches a junction where no sign gives the tram driver a duty to give way. What do you do?
+  options: ["Give the tram free way", "The tram must give way to you if you come from the right", "Sound the horn", "Drive first if you are faster"]
+  answer: 0
+  explain: You must give **free way** to trains and trams – unless a road sign gives the tram driver a duty to give way.
+  src: ["tf|2:5"]
+
+- id: rw-block-junction
+  area: rules
+  lesson: right-of-way
+  q: The queue ahead continues through the junction. When may you drive into the junction?
+  options:
+    - When there is room for your whole vehicle on the other side
+    - Whenever you have green
+    - When the car in front starts moving
+    - Never in a queue
+  answer: 0
+  explain: Drive so that you **will not block** crossing traffic if you have to stop. Wait before the junction until there is room on the other side.
+  src: ["tf|3:20"]
+
+- id: rw-bus-stop-island
+  area: rules
+  lesson: right-of-way
+  q: A bus has stopped at a stop **without a traffic island**, and passengers are getting off. You pass on its right side (for example a tram in the middle of the street). What must you do?
+  options: ["Stop and let the passengers get on and off", "Drive past slowly", "Sound the horn", "Pass on the left instead"]
+  answer: 0
+  explain: When you pass a tram or bus stopped at a stop **without a traffic island**, on its right side, you must **stop** and let passengers get on and off.
+  src: ["tf|3:58"]
+
+- id: rw-pedestrians-meet
+  area: rules
+  lesson: right-of-way
+  q: You meet pedestrians walking on a narrow road without a footpath. What must you do?
+  options: ["Give them enough room and time to step aside", "Sound the horn so they move", "Keep your speed – they must move", "Flash your lights"]
+  answer: 0
+  explain: When you **meet or overtake** pedestrians, you must give them enough **room and time** to step aside.
+  src: ["tf|3:58"]
+
+# ---------------------------------------------------------------- turning and lanes
+- id: tl-left-lane
+  area: rules
+  lesson: turning-and-lanes
+  q: The road before a junction has two lanes in your direction. You will turn left. Which lane do you use?
+  options: ["The leftmost lane", "The rightmost lane", "Either lane", "The lane with the shortest queue"]
+  answer: 0
+  explain: To turn **left**, place the vehicle in good time in the **leftmost** lane; to turn right, in the rightmost lane.
+  src: ["tf|3:25"]
+
+- id: tl-right-turn-position
+  area: rules
+  lesson: turning-and-lanes
+  q: How do you position the car when you turn right at a junction?
+  options:
+    - As close to the right edge of the carriageway as is suitable
+    - In the middle of the road
+    - Close to the centre line
+    - It does not matter
+  answer: 0
+  explain: When turning right, keep as close to the **right edge** as is suitable – then a cyclist cannot end up on your right.
+  src: ["tf|3:26"]
+
+- id: tl-left-turn-position
+  area: rules
+  lesson: turning-and-lanes
+  q: On a two-way road, where should you be when you turn left?
+  options:
+    - As close to the centre of the carriageway as possible
+    - Close to the right edge
+    - In the oncoming lane
+    - Anywhere, if you indicate
+  answer: 0
+  explain: When turning left on a two-way road, keep as close to the **centre** as possible – on a one-way road, close to the left edge – and end up on the right side of the road you turn into.
+  src: ["tf|3:26"]
+
+- id: tl-look-back
+  area: rules
+  lesson: turning-and-lanes
+  q: Before you turn right, what does the law say you must pay special attention to?
+  options: ["The traffic behind you – for example cyclists on your right", "The traffic signals only", "The traffic on your left", "Pedestrians on the other side of the road"]
+  answer: 0
+  explain: A driver may turn only without danger or unnecessary obstruction to others going the same way, and **special attention** must be paid to the **traffic behind**.
+  src: ["tf|3:26"]
+
+- id: tl-cyclist-left
+  area: rules
+  lesson: turning-and-lanes
+  q: A cyclist is on your right before a junction. You will turn right. Which is true?
+  options:
+    - The cyclist may be going straight on – or even left – so check the mirror and blind spot
+    - A cyclist on the right always turns right
+    - The cyclist must give way to you
+    - Cyclists must always wait behind cars
+  answer: 0
+  explain: Cyclists may keep to the **right** before a junction even when going **left** – they cross to the far side and turn there. Check your mirror and **blind spot** before turning right.
+  src: ["tf|3:28"]
+
+- id: tl-two-left
+  area: rules
+  lesson: turning-and-lanes
+  q: You and an oncoming car both turn left at a junction. How do you pass each other?
+  options:
+    - Left side to left side – in front of each other – if it can be done safely
+    - Right side to right side – behind each other
+    - One must wait until the other has turned
+    - It is forbidden for both to turn left at the same time
+  answer: 0
+  explain: Two vehicles from opposite directions that **both turn left** may pass each other on the **left**, in front of each other, if it can be done without danger or inconvenience.
+  src: ["tf|3:27"]
+
+- id: tl-roundabout-in
+  area: rules
+  lesson: turning-and-lanes
+  q: Do you have to signal when you **enter** a roundabout?
+  options:
+    - No – there is only one direction to drive
+    - Yes, always left
+    - Yes, always right
+    - Only in two-lane roundabouts
+  answer: 0
+  explain: Transportstyrelsen's guide says there is **no requirement to signal** when you drive into a roundabout. You must signal **right when you leave** and when you change lanes in it.
+  src: [ts-roundabout]
+
+- id: tl-roundabout-out
+  area: rules
+  lesson: turning-and-lanes
+  q: What must you do when you leave a roundabout?
+  options: ["Signal right", "Signal left", "Sound the horn", "Nothing"]
+  answer: 0
+  explain: When you leave a roundabout you **must signal right**. Plan so that you leave from the right-hand lane if you can.
+  src: [ts-roundabout]
+
+- id: tl-roundabout-left-exit
+  area: rules
+  lesson: turning-and-lanes
+  q: You leave a two-lane roundabout from the **left-hand lane**. What must you watch out for?
+  options:
+    - Vehicles in the right-hand lane that may be going further round – you are changing lanes
+    - Nothing – the left lane has priority
+    - Pedestrians in the middle of the roundabout
+    - Only traffic entering the roundabout
+  answer: 0
+  explain: Leaving from the left-hand lane means you **cross** the right-hand lane – a lane change. Take extra care with vehicles there, which may be going further round.
+  src: [ts-roundabout, "tf|3:43"]
+
+- id: tl-acceleration-lane
+  area: rules
+  lesson: turning-and-lanes
+  q: How do you use an acceleration lane?
+  options:
+    - Match the speed of the traffic you are joining, and move out as soon as it is safe
+    - Stop at the end and wait for a gap
+    - Drive slowly to the end, then move out
+    - Move out immediately, whatever the traffic
+  answer: 0
+  explain: On an acceleration lane, adapt your speed to the traffic in the lane you are entering, and leave the acceleration lane as soon as it can be done without danger or unnecessary obstruction.
+  src: ["tf|3:23"]
+
+# ---------------------------------------------------------------- meeting and overtaking
+- id: mo-overtake-side
+  area: rules
+  lesson: meeting-and-overtaking
+  q: On which side do you normally overtake?
+  options: ["On the left", "On the right", "On either side", "On the side with more room"]
+  answer: 0
+  explain: Overtaking is normally done on the **left**.
+  src: ["tf|3:31"]
+
+- id: mo-overtake-right
+  area: rules
+  lesson: meeting-and-overtaking
+  q: The car in front has moved to the centre and signals left to turn. How do you pass it?
+  options: ["On the right", "On the left", "You must wait behind it", "On the shoulder only"]
+  answer: 0
+  explain: You **must** overtake on the **right** when the vehicle in front turns left or clearly prepares to do so.
+  src: ["tf|3:31"]
+
+- id: mo-conditions
+  area: rules
+  lesson: meeting-and-overtaking
+  q: Which of these stops you from overtaking?
+  options:
+    - The car behind you has already started to overtake you
+    - The car in front drives at the speed limit
+    - The road is dry
+    - It is daytime
+  answer: 0
+  explain: You may not overtake if someone behind you has **started to overtake you**, if the driver in front has signalled to overtake or move left, or if the lane is not free far enough – and only if it can be done without danger.
+  src: ["tf|3:32", "tf|3:36"]
+
+- id: mo-junction
+  area: rules
+  lesson: meeting-and-overtaking
+  q: May you overtake a car just before an **unsigned** junction where the right-hand rule applies?
+  options: ["No", "Yes, if no one is coming", "Yes, at most 50 km/h", "Yes, if you indicate"]
+  answer: 0
+  explain: Overtaking just before or in a junction is forbidden – except when overtaking on the right, when the junction has police or traffic lights, or when the drivers on the crossing road must give way or stop.
+  src: ["tf|3:39"]
+
+- id: mo-junction-main
+  area: rules
+  lesson: meeting-and-overtaking
+  q: You are on a main road. Side roads have give-way signs. May you overtake before a junction (if it is otherwise safe)?
+  options:
+    - Yes – the drivers on the crossing road must give way
+    - No – never before a junction
+    - Only if the junction has traffic lights
+    - Only motorcycles
+  answer: 0
+  explain: The ban on overtaking before junctions does not apply when signs show that drivers on the crossing road must **give way or stop**. It must still be safe.
+  src: ["tf|3:39"]
+
+- id: mo-crest
+  area: rules
+  lesson: meeting-and-overtaking
+  q: May you overtake a car just before a hill crest where you cannot see oncoming traffic, on a road with one lane in each direction?
+  options: ["No", "Yes, if you are quick", "Yes, if you sound the horn", "Yes, if the car is slow"]
+  answer: 0
+  explain: Overtaking is forbidden at a **hill crest or bend with limited view**, unless you have two lanes in your direction or can overtake without using the lane for oncoming traffic.
+  src: ["tf|3:39"]
+
+- id: mo-crest-bike
+  area: rules
+  lesson: meeting-and-overtaking
+  q: Before a hill crest with limited view you come up behind a cyclist. May you overtake if you can do it safely?
+  options:
+    - Yes – two-wheeled vehicles without a sidecar are excepted, but only when it is safe
+    - No – never before a hill crest
+    - Only if the cyclist signals
+    - Only in built-up areas
+  answer: 0
+  explain: The overtaking bans at junctions, level crossings and places with limited view do not apply to **two-wheeled vehicles without a sidecar** – but overtaking must always be **safe**.
+  src: ["tf|3:39", "tf|3:32"]
+
+- id: mo-crossing
+  area: rules
+  lesson: meeting-and-overtaking
+  q: A car has stopped before an uncontrolled pedestrian crossing. What do you do?
+  options:
+    - Stop too – it may be stopping for a pedestrian you cannot see
+    - Overtake it carefully
+    - Sound the horn
+    - Pass on the right
+  answer: 0
+  explain: You may not overtake just before or on an uncontrolled crossing. The car may have stopped for a pedestrian hidden from your view.
+  src: ["tf|3:40"]
+
+- id: mo-being-overtaken
+  area: rules
+  lesson: meeting-and-overtaking
+  q: You notice a car behind is overtaking you. What must you do?
+  options:
+    - Keep as far right as possible and not speed up
+    - Speed up so the overtake is shorter
+    - Brake hard
+    - Move to the left to block it
+  answer: 0
+  explain: When someone overtakes you, keep **as far right as possible** and do **not increase your speed** or make it harder in any other way.
+  src: ["tf|3:38"]
+
+- id: mo-queue-not-overtaking
+  area: rules
+  lesson: meeting-and-overtaking
+  q: On a two-lane road with dense queues in both lanes, your lane moves faster. Is it overtaking when you pass cars in the other lane?
+  options: ["No", "Yes – and it is forbidden", "Yes – but allowed", "Only if you pass on the right"]
+  answer: 0
+  explain: With **dense queues in all lanes**, passing vehicles in another lane is **not** counted as overtaking. Before a pedestrian crossing you must still go slowly enough to stop at once.
+  src: ["tf|3:41"]
+
+- id: mo-back-right
+  area: rules
+  lesson: meeting-and-overtaking
+  q: After overtaking on a road with one lane in each direction, what do you do?
+  options:
+    - Move back to the right as soon as it is safe and convenient
+    - Stay in the left lane until the next junction
+    - Brake to let the overtaken car pass again
+    - Signal left for 3 seconds
+  answer: 0
+  explain: After overtaking, return to the right as soon as it is safe and suitable, and keep a safe sideways distance while you pass.
+  src: ["tf|3:37", "tf|3:33"]
+
+- id: mo-slow-vehicle
+  area: rules
+  lesson: meeting-and-overtaking
+  q: You drive a slow vehicle on a narrow, winding road and a queue builds up behind you. What should you do?
+  options:
+    - Slow down and pull aside as soon as possible to let them pass
+    - Keep going – they must wait
+    - Speed up beyond the vehicle's limits
+    - Stop in the road
+  answer: 0
+  explain: Drivers of slow or wide vehicles on narrow or winding roads should **slow down and pull aside** as soon as possible to let others pass.
+  src: ["tf|3:38"]
+
+- id: mo-cyclist-room
+  area: rules
+  lesson: meeting-and-overtaking
+  q: You want to overtake a cyclist, but oncoming traffic means you cannot leave a safe distance. What do you do?
+  options: ["Wait behind the cyclist", "Overtake closely and quickly", "Sound the horn so the cyclist moves", "Flash your lights"]
+  answer: 0
+  explain: When overtaking you must leave a **safe sideways distance**. If you cannot, wait behind until you can.
+  src: ["tf|3:33"]
+
+# ---------------------------------------------------------------- pedestrians and cyclists
+- id: pc-who-pedestrian
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: Who counts as a **pedestrian** under the rules?
+  options:
+    - A person walking beside and pushing a motorcycle
+    - A person riding an e-scooter at 20 km/h
+    - A person cycling slowly
+    - A moped rider in a queue
+  answer: 0
+  explain: The rules for pedestrians also apply to people who **walk beside and push** a bicycle, moped or motorcycle, ski, skate, push a pram or wheelchair, and similar.
+  src: ["tf|1:4"]
+
+- id: pc-escooter
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: Under Swedish law, what is a typical **e-scooter** (*elsparkcykel*) built for at most 20 km/h?
+  options: ["A cycle", "A class I moped", "A motor vehicle", "A pedestrian aid"]
+  answer: 0
+  explain: Small electric one-person vehicles built for at most **20 km/h** with at most 250 W – most e-scooters – count as **cycles**.
+  src: ["vtdl|2"]
+
+- id: pc-ebike
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: An electrically assisted bicycle counts as a cycle if the motor …
+  options:
+    - only helps when you pedal, stops helping above 25 km/h and has at most 250 W
+    - helps up to 45 km/h
+    - has up to 1,000 W
+    - can drive the bicycle without pedalling
+  answer: 0
+  explain: An e-bike is a **cycle** if the motor only helps when you pedal, gives **no help above 25 km/h**, and has at most **250 watts**.
+  src: ["vtdl|2"]
+
+- id: pc-cyclist-carriageway
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: A 16-year-old cyclist rides on the carriageway on a 50 km/h street even though there is a cycle track. Is that allowed?
+  options:
+    - Yes – cyclists aged 15 or more may use the carriageway with special care where the limit is 50 km/h or lower, if it suits their destination better
+    - No – cyclists must always use the cycle track
+    - Only at night
+    - Only if they wear a helmet
+  answer: 0
+  explain: Bicycles normally use the cycle track, but a cyclist who is **at least 15** may use the carriageway instead, with special care, where the limit is **50 km/h or lower** and it suits the destination better.
+  src: ["tf|3:6"]
+
+- id: pc-side-by-side
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: May cyclists ride side by side on the road?
+  options: ["Yes, when it causes no danger or inconvenience", "Never", "Only on cycle streets", "Only children"]
+  answer: 0
+  explain: Cyclists ride one behind the other, but may ride **side by side** when it can be done without danger or inconvenience.
+  src: ["tf|6:1"]
+
+- id: pc-helmet
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: Who must wear a helmet when cycling?
+  options: ["Cyclists under 15", "Everyone", "Cyclists over 65", "Nobody – it is only recommended"]
+  answer: 0
+  explain: Cyclists **under 15** must wear a helmet.
+  src: ["tf|6:4a"]
+
+- id: pc-child-footpath
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: A 7-year-old cycles on the footpath where there is no cycle track. Is that allowed?
+  options: ["Yes – children up to and including the year they turn 8 may", "No – never", "Only with a parent", "Only on Sundays"]
+  answer: 0
+  explain: Children up to and including the year they turn **eight** may cycle on the **footpath** if there is no cycle track.
+  src: ["tf|3:12a"]
+
+- id: pc-ped-left
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: Where there is no footpath or shoulder, on which side should pedestrians walk if possible?
+  options: ["On the left, facing the traffic", "On the right, with the traffic", "In the middle of the road", "It does not matter"]
+  answer: 0
+  explain: Pedestrians who must use the carriageway should walk on the **left** side where possible, facing the oncoming traffic.
+  src: ["tf|7:1"]
+
+- id: pc-supervised-green
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: At a crossing with traffic lights, your light turns green while a pedestrian who started on green is still crossing. What do you do?
+  options: ["Let the pedestrian finish crossing", "Drive on – you have green", "Sound the horn", "Drive around the pedestrian"]
+  answer: 0
+  explain: At a supervised crossing, obey the signals and give pedestrians who stepped out correctly **time to cross** – even if you have green.
+  src: ["tf|3:60"]
+
+- id: pc-door
+  area: rules
+  lesson: pedestrians-and-cyclists
+  paths: [car-manual, car-automatic]
+  q: You have parked by the kerb on a street with cyclists. What should you do before opening the driver's door?
+  options:
+    - Look in the mirror and over your shoulder – the door may not be opened in a way that causes danger
+    - Open quickly to save time
+    - Sound the horn first
+    - Nothing – cyclists must keep their distance
+  answer: 0
+  explain: Doors may not be opened in a way that causes **danger**. Check the mirror and look over your shoulder – a cyclist may be right beside you.
+  src: ["tf|3:50"]
+
+- id: pc-cyclist-from-track
+  area: rules
+  lesson: pedestrians-and-cyclists
+  q: A cyclist comes off a cycle track onto the road in front of you. Who should give way?
+  options: ["The cyclist", "You", "Whoever is on the right", "Nobody"]
+  answer: 0
+  explain: A road user coming onto a road from a **cycle track** must give way. But always be ready – you must still avoid a collision.
+  src: ["tf|3:21", "tf|2:1"]
+
+# ---------------------------------------------------------------- level crossings
+- id: lc-barrier-up
+  area: rules
+  lesson: railway-crossings
+  q: A train has passed, and the barriers are **going up** but the lights still flash. May you drive onto the crossing?
+  options: ["No – wait until the barriers are fully up and the lights have stopped", "Yes, as soon as the train has passed", "Yes, if no other train is visible", "Yes, slowly"]
+  answer: 0
+  explain: You may not drive in while a barrier is going down, is down **or is going up**, or while the lights flash or the bell rings. Another train may come.
+  src: ["tf|2:7"]
+
+- id: lc-room
+  area: rules
+  lesson: railway-crossings
+  q: A queue stands just beyond a level crossing. When may you drive over?
+  options:
+    - Only when there is room for your whole vehicle on the other side
+    - When the lights are not flashing
+    - When the barriers are up
+    - When the car in front starts
+  answer: 0
+  explain: You may not enter a level crossing if there is a risk you will **have to stop** on it.
+  src: ["tf|2:7"]
+
+- id: lc-warning-late
+  area: rules
+  lesson: railway-crossings
+  q: The lights start flashing just as you reach the crossing. What does Trafikverket advise?
+  options:
+    - Stop before the barriers if you can – if you cannot, drive on. Never stop on the track
+    - Always brake hard
+    - Reverse at once
+    - Stop on the crossing and wait
+  answer: 0
+  explain: "Trafikverket: **stop before the barriers if you can; if you cannot, drive on. Never stop on the track.**"
+  src: [tv-level-crossings]
+
+- id: lc-white-light
+  area: rules
+  lesson: railway-crossings
+  image: sign:Y1
+  q: Below the red lights of this level-crossing signal a **white** light flashes. What does it mean?
+  options:
+    - It makes the crossing easier to notice – it is not a signal to drive
+    - You may drive on
+    - A train is coming in 10 seconds
+    - The signal is broken
+  answer: 0
+  explain: The white flashing light below the red lights is there to make the crossing **easier to notice**. Red flashing lights mean **stop**.
+  src: ["vmf|6:6"]
+
+- id: lc-overtake
+  area: rules
+  lesson: railway-crossings
+  q: May you overtake a car just before a level crossing **without barriers**?
+  options: ["No", "Yes, if no train is coming", "Yes, at most 50 km/h", "Yes, on the right"]
+  answer: 0
+  explain: Overtaking just before or on a level crossing is forbidden – unless it has **barriers** or is controlled by traffic lights like a road junction. (Two-wheeled vehicles without a sidecar may still be overtaken if it is safe.)
+  src: ["tf|3:39"]
+
+- id: lc-parking
+  area: rules
+  lesson: railway-crossings
+  q: How close to a level crossing may you park?
+  options: ["Not within 30 metres before or after it", "Not within 10 metres before it", "Not on it – otherwise anywhere", "Not within 100 metres"]
+  answer: 0
+  explain: Parking is forbidden within **30 metres** of a level crossing – before and after it. Stopping or parking on the crossing is always forbidden.
+  src: ["tf|3:55", "tf|3:47"]
+
+- id: lc-stuck
+  area: rules
+  lesson: railway-crossings
+  q: Your car stops on a level crossing and will not start. What do you do first?
+  options:
+    - Get everyone out and away from the tracks, then call 112
+    - Try to restart the engine again and again
+    - Put out the warning triangle on the track
+    - Stay in the car with the hazard lights on
+  answer: 0
+  explain: "Get everyone out and **well away** from the tracks at once, and call **112**. The crossing's ID number is on the back of the St Andrew's cross. Only try to move the car if there is clearly time."
+  src: ["tf|3:57", tv-level-crossings]
+
+- id: lc-trapped
+  area: rules
+  lesson: railway-crossings
+  q: You are trapped on a level crossing between closed barriers. What may the text on the back of the barrier tell you?
+  options: ["Kör genom bommen – drive through the barrier", "Vänta – wait", "Backa – reverse", "Ring – call"]
+  answer: 0
+  explain: The back of a barrier may say *Kör genom bommen* – **drive through the barrier**. The barrier is built to give way.
+  src: ["vmf|6:8"]
+
+- id: lc-stop-look-listen
+  area: rules
+  lesson: railway-crossings
+  q: Why does Trafikverket tell you to always stop, look and listen at level crossings?
+  options:
+    - Trains are quiet and fast, have a long braking distance and cannot swerve
+    - Trains always sound their horn, so you only need to listen
+    - Level crossings are always guarded
+    - Trains must give way to cars
+  answer: 0
+  explain: Trains are **quiet, fast**, have a **long braking distance** and **cannot swerve or stop suddenly**. They in principle always have priority.
+  src: [tv-level-crossings, "tf|2:5"]
