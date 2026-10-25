@@ -234,8 +234,9 @@
 - id: maxlast
   sv: maxlast
   en: maximum load
-  def: "How much the vehicle may carry: the total weight minus the kerb weight."
-  law: ["vtdl|2"]
+  also: [maximilast, maximum payload]
+  def: "The heaviest load – passengers and goods – a vehicle may carry: the total weight minus the kerb weight. Transportstyrelsen calls it maximilast."
+  law: ["ts-weights"]
   related: [totalvikt, tjanstevikt]
   lessons: [passengers-and-loads]
 
