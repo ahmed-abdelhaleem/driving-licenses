@@ -10,6 +10,7 @@ import MarkdownIt from 'markdown-it';
 import container from 'markdown-it-container';
 
 const BLOCK_SHORTCODES = new Set(['signs', 'photo', 'fig']);
+const PIPE = '';
 
 export const PATH_LABELS = {
   'car-manual': 'Manual car',
@@ -40,6 +41,11 @@ export function createMarkdown(site) {
   const md = new MarkdownIt({ html: true, typographer: true, linkify: false });
 
   // ---- inline [[type:arg]] shortcode ----
+  // A table row is split on "|" before inline parsing, so the "|" inside a
+  // shortcode is swapped for a private-use character first and restored below.
+  md.core.ruler.after('normalize', 'shortcode_pipes', (state) => {
+    state.src = state.src.replace(/\[\[([a-z]+):([^\]\n]*)\]\]/g, (_m, type, arg) => `[[${type}:${arg.replace(/\|/g, PIPE)}]]`);
+  });
   md.inline.ruler.before('link', 'shortcode', (state, silent) => {
     const { src, pos } = state;
     if (src.charCodeAt(pos) !== 0x5b || src.charCodeAt(pos + 1) !== 0x5b) return false;
@@ -50,7 +56,7 @@ export function createMarkdown(site) {
     if (!m) return false;
     if (!silent) {
       const token = state.push('shortcode', '', 0);
-      token.meta = { type: m[1], arg: m[2].trim() };
+      token.meta = { type: m[1], arg: m[2].replaceAll(PIPE, '|').trim() };
     }
     state.pos = end + 2;
     return true;

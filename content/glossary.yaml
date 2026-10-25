@@ -674,7 +674,7 @@
 - id: grovt-rattfylleri
   sv: grovt rattfylleri
   en: aggravated drink-driving
-  def: "Drink- or drug-driving judged as grave, especially with at least 1.0 per mille in the blood (0.50 mg/l in breath), when clearly affected, or when the driving clearly endangered traffic safety. Up to two years in prison."
+  def: "Drink- or drug-driving judged as grave, especially with at least 1.0 per mille in the blood (0.50 mg/l in breath), when considerably affected, or when the driving meant an obvious danger to traffic safety. Up to two years in prison."
   law: ["tbl|4a"]
   related: [rattfylleri]
   lessons: [alcohol-and-drugs]

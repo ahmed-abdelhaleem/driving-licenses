@@ -1167,8 +1167,8 @@ function viewSources(focusId) {
   const groups = [
     ['law', 'Swedish laws and ordinances', 'The legal texts. Lessons quote them in Swedish and translate them.'],
     ['regulation', 'Regulations from Transportstyrelsen (TSFS)', 'Detailed rules issued by the Swedish Transport Agency.'],
-    ['official-web', 'Official web pages', 'Transportstyrelsen (licences, rules) and Trafikverket (the tests).'],
-    ['brochure', 'Official guides from Transportstyrelsen', 'Short brochures that explain some of the rules. Most have an official English version.'],
+    ['official-web', 'Official web pages', 'Swedish authorities: Transportstyrelsen (licences, rules), Trafikverket (the tests, road safety), the Police, 1177 and others.'],
+    ['brochure', 'Official guides and brochures', 'Short guides from Swedish authorities and municipalities. Many of Transportstyrelsen\'s guides have an official English version.'],
   ];
   $('#main').innerHTML = `<div class="page-head"><h1>Sources</h1>
     <p class="lede">Everything on this site is based on these sources. Each lesson lists the ones it uses, and each rule box links to the exact paragraph.</p></div>

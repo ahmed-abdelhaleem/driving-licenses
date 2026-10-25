@@ -558,7 +558,7 @@
   alt: https://eur-lex.europa.eu/eli/reg/2013/168/oj
   altLabel: Full text of the regulation on EUR-Lex
   accessed: 2026-10-25
-  note: Requires ABS on new motorcycles above 125 cc and automatic headlights on new models of mopeds and motorcycles.
+  note: Requires ABS on new motorcycles above 125 cc and automatic headlights on new models of mopeds and motorcycles, and sets the environmental requirements (Euro 5 for new types from 2020).
 
 - id: tv-car-safety
   short: Trafikverket – Säkerhet i bil
@@ -629,3 +629,203 @@
   url: https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/hjart-lungraddning-hlr/
   accessed: 2026-10-25
   note: How to check breathing and give chest compressions and rescue breaths, and how to use a defibrillator.
+
+- id: ts-eco
+  short: Transportstyrelsen – Sparsam körning
+  title: Sparsam körning
+  titleEn: Eco-driving
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/
+  accessed: 2026-10-25
+  note: How speed affects fuel use, and how eco-driving is part of the curriculum, the theory test and the driving test.
+
+- id: ts-zones
+  short: Transportstyrelsen – Miljözoner
+  title: Miljözoner
+  titleEn: Environmental zones
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/
+  accessed: 2026-10-25
+  note: The three classes of environmental zones, which vehicles may enter each class, and the main exceptions.
+
+- id: ts-air
+  short: Transportstyrelsen – Luftkvalitet
+  title: Luftkvalitet
+  titleEn: Air quality
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/
+  accessed: 2026-10-25
+  note: What exhaust gases contain, and the wear particles from brakes, tyres and the road surface.
+
+- id: ts-noise
+  short: Transportstyrelsen – Buller
+  title: Buller
+  titleEn: Noise
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/
+  accessed: 2026-10-25
+  note: How many people are exposed to road traffic noise, the noise from engines and tyres, and noise rules for vehicles and tyres.
+
+- id: ts-climate
+  short: Transportstyrelsen – Klimat och energi
+  title: Klimat och energi
+  titleEn: Climate and energy
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/
+  accessed: 2026-10-25
+  note: Road traffic's share of greenhouse gas emissions from domestic transport, the 2030 target, and alternative fuels.
+
+- id: em-eco
+  short: Energimyndigheten – Kom längre som medveten bilist
+  title: Kom längre som medveten bilist (ET 2012:57)
+  titleEn: Go further as an aware driver
+  publisher: Energimyndigheten (Swedish Energy Agency)
+  kind: brochure
+  url: https://www.energimyndigheten.se/contentassets/9174f17706a9415390df8476191aafc9/kom-langre-som-medveten-bilist.pdf
+  accessed: 2026-10-25
+  note: Trafikverket's nine steps of eco-driving and how much fuel eco-driving and energy-efficient tyres can save.
+
+- id: em-heater
+  short: Energimyndigheten – Använd motorvärmare rätt
+  title: Använd motorvärmare rätt (ET 2010:49)
+  titleEn: Use your engine heater the right way
+  publisher: Energimyndigheten (Swedish Energy Agency); copy published by Östhammar municipality
+  kind: brochure
+  url: https://osthammar.se/link/b3cc4643d8234954ba3f5c8986f20f54.aspx
+  accessed: 2026-10-25
+  note: Why a warm engine uses less fuel and pollutes less, and how long to run an engine heater at different outdoor temperatures.
+
+- id: karlskoga-idling
+  short: Karlskoga kommun – Lokala hälsoskyddsföreskrifter
+  title: Lokala hälsoskyddsföreskrifter (KF § 113 2012)
+  titleEn: Local health protection regulations, Karlskoga municipality
+  publisher: Karlskoga kommun
+  kind: brochure
+  url: https://karlskoga.se/download/18.46c328f31945d6815f0dbc/1737124335270/lokalahalsoskyddsforeskrifter-karlskoga-kommun.pdf
+  accessed: 2026-10-25
+  note: An example of a municipality's local rule on idling (section 5) – at most one minute, with exceptions for queues.
+
+- id: hbg-wash
+  short: Helsingborgs stad – Biltvätt
+  title: Miljöförvaltningen informerar – Biltvätt
+  titleEn: Car washing (Helsingborg environmental office)
+  publisher: Helsingborgs stad, miljöförvaltningen
+  kind: brochure
+  url: https://media.helsingborg.se/uploads/networks/1/2019/04/mf-informerar-biltvatt.pdf
+  accessed: 2026-10-25
+  note: Why you should not wash your car in the street or on the driveway, and why a car wash with water treatment is better.
+
+- id: tv-alcohol
+  short: Trafikverket – Alkohol och narkotika i vägtrafiken
+  title: Alkohol och narkotika i vägtrafiken
+  titleEn: Alcohol and drugs in road traffic
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/
+  accessed: 2026-10-25
+  note: How many people died in alcohol- and drug-related crashes in 2025, and which drugs are most common among drivers killed.
+
+- id: tv-alcohol-effects
+  short: Trafikverket – Alkohol, så påverkar den
+  title: Alkohol – så påverkar den
+  titleEn: Alcohol – how it affects you
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/alkohol---sa-paverkar-den/
+  accessed: 2026-10-25
+  note: How alcohol affects vision, reactions, coordination and attention, how fast the body gets rid of it, and how drugs and medicines affect driving.
+
+- id: tv-dui-law
+  short: Trafikverket – Vad säger lagen om rattfylleri?
+  title: Vad säger lagen om rattfylleri?
+  titleEn: What does the law say about drink-driving?
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/vad-sager-lagen-om-rattfylleri/
+  accessed: 2026-10-25
+  note: The limits for drink-driving and aggravated drink-driving, zero tolerance for drugs, police breath tests and alcolocks.
+
+- id: ts-revocation
+  short: Transportstyrelsen – Återkallat körkort
+  title: Återkallat körkort
+  titleEn: Revoked driving licence
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/forlorat-korkort/aterkallat-korkort/
+  accessed: 2026-10-25
+  note: The nine grounds for revoking a licence and the usual waiting periods – for example two months for 31–40 km/h over the limit.
+
+- id: ts-police-seize
+  short: Transportstyrelsen – Om polisen tar ditt körkort
+  title: Om polisen tar ditt körkort
+  titleEn: If the police take your licence
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/forlorat-korkort/om-polisen-tar-ditt-korkort/
+  accessed: 2026-10-25
+  note: When the police take your licence on the spot, what happens next, and the 48-hour permission to drive.
+
+- id: ts-alcolock
+  short: Transportstyrelsen – Alkolås efter rattfylleri
+  title: Alkolås efter rattfylleri
+  titleEn: Alcolock after drink-driving
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/forlorat-korkort/alkolas-efter-rattfylleri/
+  accessed: 2026-10-25
+  note: Who can drive with an alcolock instead of losing the licence, for how long, what it costs and how the lock works.
+
+- id: ts-warning
+  short: Transportstyrelsen – Varning istället för återkallelse
+  title: Varning istället för återkallelse
+  titleEn: A warning instead of revocation
+  publisher: Transportstyrelsen
+  kind: official-web
+  url: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/varning-istallet-for-aterkallelse/
+  accessed: 2026-10-25
+  note: What a warning means and how long it counts against you (two years, five years for drink-driving).
+
+- id: vti-fatigue
+  short: VTI – Trötthet hos förare
+  title: Trötthet hos förare
+  titleEn: Driver fatigue
+  publisher: VTI (Swedish National Road and Transport Research Institute)
+  kind: official-web
+  url: https://www.vti.se/forskning/trafikslag/vagtrafik/trotthet-hos-forare
+  accessed: 2026-10-25
+  note: How often tiredness contributes to crashes, how many young drivers have fallen asleep at the wheel, and the main risk factors.
+
+- id: vti-fatigue-law
+  short: VTI – Uttröttning, vad säger lagen? (2013)
+  title: Uttröttning – vad säger lagen? (VTI, 2013)
+  titleEn: Driving while exhausted – what does the law say?
+  publisher: VTI, published in Trafikverket's research database
+  kind: brochure
+  url: https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001701_001800/Publikation_001723/Uttr%C3%B6ttning%20-%20VTI.PDF
+  accessed: 2026-10-25
+  note: How Swedish law treats driving while tired, and VTI's recommendations on when not to drive.
+
+- id: tv-vision-zero
+  short: Trafikverket – Nollvisionen
+  title: Nollvisionen är vår ledstjärna
+  titleEn: Vision Zero is our guiding star
+  publisher: Trafikverket
+  kind: official-web
+  url: https://www.trafikverket.se/om-oss/vi-gor-sverige-narmare/nollvisionen-ar-var-ledstjarna/
+  accessed: 2026-10-25
+  note: What Vision Zero means, when the Riksdag decided it, and the target for road deaths in 2030.
+
+- id: trafa-2025
+  short: Trafikanalys – Vägtrafikskador 2025
+  title: Vägtrafikskador 2025 (Trafikanalys Statistik 2026:12)
+  titleEn: Road traffic injuries 2025 – official statistics of Sweden
+  publisher: Trafikanalys
+  kind: brochure
+  url: https://www.trafa.se/globalassets/statistik/vagtrafik/vagtrafikskador/2025/vagtrafikskador-2025.pdf
+  accessed: 2026-10-25
+  note: Official statistics on people killed in road traffic in 2025 – by sex, age, road user group, place and type of crash, and wildlife crashes.
