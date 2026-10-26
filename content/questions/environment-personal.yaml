@@ -1,0 +1,833 @@
+# Environment questions (area: environment) and personal-factor questions (area: personal).
+
+# ---------------------------------------------------------------- eco-driving
+- id: env-tested
+  area: environment
+  lesson: eco-driving
+  q: Where is eco-driving (*sparsam körning*) tested?
+  options: ["In both the theory test and the driving test", "Only in the theory test", "Only in the driving test", "It is not tested"]
+  answer: 0
+  explain: Transportstyrelsen says eco-driving is a competence area for all categories, tested in **both** the theory test and the driving test – the examiner assesses whether your driving gives low fuel consumption.
+  src: [ts-eco]
+
+- id: env-speed-fuel
+  area: environment
+  lesson: eco-driving
+  q: How does fuel consumption change when you drive faster than about 70–75 km/h?
+  options:
+    - It rises by about 0.5–1.0 decilitre per 10 km for every 10 km/h faster
+    - It does not change
+    - It falls, because you reach your goal sooner
+    - It rises only for diesel cars
+  answer: 0
+  explain: For every **10 km/h** above about 70–75 km/h, consumption rises by **0.5–1.0 dl per Swedish mile** (10 km). Air resistance grows quickly with speed.
+  src: [ts-eco]
+
+- id: env-saving
+  area: environment
+  lesson: eco-driving
+  q: According to Trafikverket, about how much fuel does eco-driving save on average?
+  options: ["About 7 %", "About 50 %", "About 1 %", "Nothing"]
+  answer: 0
+  explain: Eco-driving saves on average about **7 %** of the fuel – typically 4–10 %, sometimes more.
+  src: [em-eco]
+
+- id: env-gear
+  area: environment
+  lesson: eco-driving
+  paths: [car-manual, motorcycle]
+  q: Which gear technique saves fuel?
+  options:
+    - Change up early and drive in as high a gear as the engine pulls without struggling
+    - Drive in a low gear with high revs
+    - Change gear as late as possible
+    - Drive in neutral downhill
+  answer: 0
+  explain: Trafikverket's eco-driving steps include **changing up early** and driving in as **high a gear as possible**.
+  src: [em-eco]
+
+- id: env-automatic
+  area: environment
+  lesson: eco-driving
+  paths: [car-automatic]
+  q: How do you drive an automatic car economically?
+  options:
+    - Press the accelerator gently so the gearbox changes up early, and release it early before you stop
+    - Use kick-down often
+    - Always use the lowest drive range
+    - Drive with the left foot on the brake
+  answer: 0
+  explain: A gentle accelerator lets the gearbox **change up early**. Plan ahead, keep an even speed and use engine braking – Trafikverket's eco-driving steps.
+  src: [em-eco]
+
+- id: env-plan
+  area: environment
+  lesson: eco-driving
+  q: The traffic light far ahead turns red. What is the most economical way to drive?
+  options:
+    - Release the accelerator early and let the vehicle roll in gear
+    - Keep your speed and brake hard at the light
+    - Speed up to get through
+    - Change to neutral and coast
+  answer: 0
+  explain: "Plan ahead to **avoid stopping**, and use **engine braking**: release the accelerator early. Energy you brake away is lost as heat."
+  src: [em-eco]
+
+- id: env-idle
+  area: environment
+  lesson: eco-driving
+  q: Many municipalities have local rules on idling. What does Karlskoga's rule say about a stationary vehicle's engine?
+  options:
+    - It may run outdoors for at most one minute – except in queues or to power other equipment
+    - It may run as long as you are in the car
+    - It may run to heat the car for 15 minutes
+    - There are no rules on idling
+  answer: 0
+  explain: In Karlskoga a combustion engine in a stationary vehicle may run outdoors for **at most one minute**. The exceptions are traffic queues and powering other equipment – not heating or cooling the vehicle. Rules vary between municipalities.
+  src: [karlskoga-idling]
+
+- id: env-heater-why
+  area: environment
+  lesson: eco-driving
+  paths: [car-manual, car-automatic]
+  q: Why use an engine heater (*motorvärmare*) in cold weather?
+  options:
+    - A warm engine uses less fuel and lets out less harmful exhaust than a cold one
+    - It makes the car go faster
+    - It is required by law below 0 °C
+    - It charges the battery
+  answer: 0
+  explain: A **warm engine uses less fuel** than a cold one, and emissions of carbon dioxide and other harmful substances fall. The heat also reduces wear.
+  src: [em-heater]
+
+- id: env-heater-time
+  area: environment
+  lesson: eco-driving
+  paths: [car-manual, car-automatic]
+  q: It is around 0 °C. How long before you leave should the engine heater be switched on?
+  options: ["About 1 hour", "All night", "5 minutes", "3 hours"]
+  answer: 0
+  explain: "Energimyndigheten's guide – around **0 °C: 1 hour**; colder than −15 °C: 1.5 hours; up to +10 °C: 30 minutes. All night costs more electricity than it saves."
+  src: [em-heater]
+
+- id: env-cabin-heater
+  area: environment
+  lesson: eco-driving
+  paths: [car-manual, car-automatic]
+  q: How much electricity does a cabin heater usually use compared with an engine heater?
+  options: ["About three times as much", "The same", "Half as much", "Ten times less"]
+  answer: 0
+  explain: A cabin heater normally uses about **three times** as much electricity as an engine heater.
+  src: [em-heater]
+
+- id: env-tyre-check
+  area: environment
+  lesson: eco-driving
+  q: How often does Trafikverket's eco-driving advice say you should check the tyre pressure?
+  options: ["At least every other time you fill up", "Once a year", "Only at the annual inspection", "Never – modern tyres keep their pressure"]
+  answer: 0
+  explain: Service the vehicle regularly and check the tyre pressure **at least every other time you fill up**.
+  src: [em-eco]
+
+- id: env-roofbox
+  area: environment
+  lesson: eco-driving
+  q: What should you do with an empty roof box after the holiday?
+  options: ["Take it off – it adds air resistance and fuel use", "Keep it on all year", "Fill it with heavy things", "Open it while driving"]
+  answer: 0
+  explain: Removing the **roof box and roof rack** when you do not need them is one of the eco-driving steps – they add air resistance.
+  src: [ts-eco, em-eco]
+
+- id: env-short-trips
+  area: environment
+  lesson: eco-driving
+  q: Why are many short trips with a car especially bad for fuel use and emissions?
+  options:
+    - The engine is cold for a large part of each trip
+    - Short trips use no fuel
+    - The tyres wear less
+    - The car runs better when cold
+  answer: 0
+  explain: A **cold engine** uses more fuel and pollutes more – on short trips it is cold for much of the way. Combine errands, walk, cycle or take public transport when you can.
+  src: [em-heater, "tsfs-2011-20|4:2"]
+
+- id: env-downhill
+  area: environment
+  lesson: eco-driving
+  q: What is one of Trafikverket's eco-driving steps for hills?
+  options:
+    - Roll downhill and keep an even accelerator uphill
+    - Accelerate hard uphill to keep the speed
+    - Brake all the way downhill
+    - Drive downhill in neutral
+  answer: 0
+  explain: "Trafikverket's steps: **roll** in descents and keep an **even accelerator** in ascents – accept that the speed drops a little uphill."
+  src: [em-eco]
+
+# ---------------------------------------------------------------- vehicles and the environment
+- id: env-exhaust
+  area: environment
+  lesson: environment-and-vehicles
+  q: What does exhaust from vehicles contain, according to Transportstyrelsen?
+  options:
+    - Particles, nitrogen dioxide and organic substances that help form ground-level ozone
+    - Only water vapour
+    - Only carbon dioxide
+    - Nothing harmful in modern cars
+  answer: 0
+  explain: Exhaust contains **particles, nitrogen dioxide and organic substances**, and contributes to **ground-level ozone**. Traffic also releases wear particles from brakes, tyres and the road surface.
+  src: [ts-air]
+
+- id: env-wear
+  area: environment
+  lesson: environment-and-vehicles
+  q: Where do **wear particles** from road traffic come from?
+  options: ["Brakes, tyres and the road surface", "Only the exhaust pipe", "Only diesel engines", "The windscreen washer fluid"]
+  answer: 0
+  explain: Road traffic releases wear particles from **brakes, tyres and the road surface** – also from electric vehicles.
+  src: [ts-air]
+
+- id: env-studs-particles
+  area: environment
+  lesson: environment-and-vehicles
+  q: Why do some city streets ban studded tyres?
+  options:
+    - To reduce road wear and the particles (PM10) in the air
+    - Because studded tyres are illegal in towns
+    - To protect tram rails
+    - Because studded tyres give too much grip
+  answer: 0
+  explain: Levels of inhalable particles (PM10) are high in some larger towns and can be lowered by reducing the **wear between tyres and road**. Municipalities can ban studded tyres on certain streets (sign C44).
+  src: [ts-air, "tf|10:2"]
+
+- id: env-noise-most
+  area: environment
+  lesson: environment-and-vehicles
+  q: Which environmental problem from traffic affects the **most people** in Sweden?
+  options: ["Noise", "Oil spills", "Light pollution", "Litter"]
+  answer: 0
+  explain: Noise is the environmental impact that affects the most people in Sweden – almost **2 million** are exposed to traffic noise above 55 dBA outside their homes.
+  src: [ts-noise]
+
+- id: env-noise-speed
+  area: environment
+  lesson: environment-and-vehicles
+  q: At **higher speeds**, what makes most of the noise from a car?
+  options: ["The tyres on the road", "The engine", "The radio", "The air conditioning"]
+  answer: 0
+  explain: At low speeds the **engine** dominates – there electric cars are much quieter. At higher speeds the noise from **tyres on the road** dominates.
+  src: [ts-noise]
+
+- id: env-climate
+  area: environment
+  lesson: environment-and-vehicles
+  q: What is the national target for greenhouse gas emissions from domestic transport in Sweden?
+  options: ["At least 70 % lower in 2030 than in 2010", "Zero by 2025", "10 % lower by 2050", "No target"]
+  answer: 0
+  explain: Emissions from domestic transport (excluding domestic flights) shall fall by at least **70 % by 2030** compared with 2010. Road traffic causes most of these emissions.
+  src: [ts-climate]
+
+- id: env-climate-factors
+  area: environment
+  lesson: environment-and-vehicles
+  q: Which of these affects how large road traffic's climate emissions are?
+  options:
+    - How much we drive, biofuels, energy efficiency and electrification
+    - Only the colour of the cars
+    - Only the number of traffic lights
+    - Only the weather
+  answer: 0
+  explain: Emissions depend on the **amount of traffic**, the use of **biofuels**, the vehicles' **energy efficiency** and how many are **electric**.
+  src: [ts-climate]
+
+- id: env-euro
+  area: environment
+  lesson: environment-and-vehicles
+  q: What does Transportstyrelsen advise if you want to be sure you can drive everywhere in towns?
+  options:
+    - Choose a vehicle with the latest Euro class
+    - Choose the biggest engine
+    - Choose a diesel car
+    - Choose an old car
+  answer: 0
+  explain: Because of environmental zones, Transportstyrelsen advises choosing a vehicle with the **latest Euro class**.
+  src: [ts-zones]
+
+- id: env-zone-mc
+  area: environment
+  lesson: environment-and-vehicles
+  paths: [motorcycle]
+  q: Do the environmental zone rules cover motorcycles?
+  options:
+    - No – the classes apply to cars, buses and trucks
+    - Yes – all motorcycles need Euro 5
+    - Yes – motorcycles may never enter
+    - Only electric motorcycles
+  answer: 0
+  explain: The environmental zone classes apply to heavy trucks and buses (class 1), cars, light trucks and light buses (class 2), and both groups (class 3) – **not motorcycles**.
+  src: ["tf|4:22"]
+
+- id: env-mc-euro5
+  area: environment
+  lesson: environment-and-vehicles
+  paths: [motorcycle]
+  q: Which environmental requirement applies to new types of motorcycles from 1 January 2020?
+  options: ["Euro 5", "Euro 3", "No requirement", "Electric drive only"]
+  answer: 0
+  explain: EU rules made the second stage of environmental requirements – **Euro 5** – mandatory for new types of motorcycles from **1 January 2020**, with on-board diagnostics monitoring the emission control system.
+  src: [eu-168-2013]
+
+- id: env-wash
+  area: environment
+  lesson: environment-and-vehicles
+  q: Where should you wash your car?
+  options:
+    - At a car wash with water treatment, or a self-service hall with oil separators
+    - On the street, where the rain washes it away
+    - On the driveway, with lots of detergent
+    - In a lake
+  answer: 0
+  explain: Dirty wash water from the street or driveway goes straight to **streams, lakes or the sea**. It contains oil, detergents and asphalt residues that harm plants and animals.
+  src: [hbg-wash]
+
+- id: env-degreaser
+  area: environment
+  lesson: environment-and-vehicles
+  q: You need a degreaser for the car. What should you choose?
+  options: ["One without aromatic substances", "The strongest one available", "Petrol", "Any – they are all the same"]
+  answer: 0
+  explain: Degreasers can contain aromatic substances that are harmful to the environment and to people – choose an **aromatic-free** one, and eco-labelled car care products.
+  src: [hbg-wash]
+
+- id: env-fuels
+  area: environment
+  lesson: environment-and-vehicles
+  q: Which of these are alternative fuels for vehicles?
+  options: ["Electricity, biofuels, HVO, biogas and hydrogen", "Only petrol and diesel", "Only coal", "Only electricity"]
+  answer: 0
+  explain: Transportstyrelsen names **electricity, biofuels, HVO, hydrogen and biogas** as alternative fuels. Always use a fuel your vehicle is made for.
+  src: [ts-climate]
+
+# ---------------------------------------------------------------- alcohol and drugs
+- id: pf-limit
+  area: personal
+  lesson: alcohol-and-drugs
+  q: From what blood alcohol level is it drink-driving (*rattfylleri*)?
+  options: ["0.2 per mille", "0.5 per mille", "0.8 per mille", "1.0 per mille"]
+  answer: 0
+  explain: Drink-driving starts at **0.2 per mille** in the blood or **0.10 mg/l** in the breath – during or after driving.
+  src: ["tbl|4"]
+
+- id: pf-gross
+  area: personal
+  lesson: alcohol-and-drugs
+  q: From what blood alcohol level is drink-driving normally judged as **aggravated** (*grovt rattfylleri*)?
+  options: ["1.0 per mille", "0.5 per mille", "0.2 per mille", "2.0 per mille"]
+  answer: 0
+  explain: It is judged especially as aggravated with at least **1.0 per mille** in the blood (0.50 mg/l breath), when the driver is considerably affected, or when the driving was an obvious danger to traffic safety. Up to two years in prison.
+  src: ["tbl|4a"]
+
+- id: pf-penalty
+  area: personal
+  lesson: alcohol-and-drugs
+  q: What is the penalty for drink-driving (not aggravated)?
+  options: ["Fines or prison for up to six months", "Only a warning", "Prison for at least two years", "Only a fine"]
+  answer: 0
+  explain: Drink-driving gives **fines or prison for up to six months**. Aggravated drink-driving gives prison for up to two years.
+  src: ["tbl|4", "tbl|4a"]
+
+- id: pf-after
+  area: personal
+  lesson: alcohol-and-drugs
+  q: Your breath test is taken an hour **after** you stopped driving and shows 0.12 mg/l. Does it count?
+  options: ["Yes – the level during or after the journey counts", "No – only the level while driving counts", "Only if you admit it", "Only on motorways"]
+  answer: 0
+  explain: The law says the alcohol concentration **during or after** the journey counts. 0.12 mg/l is above the 0.10 mg/l breath limit.
+  src: ["tbl|4"]
+
+- id: pf-burn
+  area: personal
+  lesson: alcohol-and-drugs
+  q: On average, how fast does the body get rid of alcohol?
+  options: ["About 0.15 per mille an hour – and nothing speeds it up", "About 1 per mille an hour", "Faster if you drink coffee", "Faster if you sleep"]
+  answer: 0
+  explain: The body gets rid of on average about **0.15 per mille per hour** – it varies between people. **Only time** helps.
+  src: [tv-alcohol-effects]
+
+- id: pf-next-day
+  area: personal
+  lesson: alcohol-and-drugs
+  q: You drank a lot last night. This morning a breath test would show zero. Are you fit to drive?
+  options:
+    - Not necessarily – your ability can be clearly reduced the day after
+    - Yes – zero means fit
+    - Yes, after a strong coffee
+    - Yes, if you slept 8 hours
+  answer: 0
+  explain: Trafikverket warns that your ability can be **clearly reduced the day after**, even when the alcohol level is zero – avoid driving then.
+  src: [tv-alcohol-effects]
+
+- id: pf-effects
+  area: personal
+  lesson: alcohol-and-drugs
+  q: Which of these is an effect of alcohol on a driver?
+  options:
+    - Tunnel vision, longer reaction time and worse judgement of distance
+    - Better night vision
+    - Faster reactions
+    - Less sensitivity to glare
+  answer: 0
+  explain: Alcohol gives **tunnel vision**, a **longer reaction time** even at low levels, worse **coordination**, worse judgement of **distances**, and more sensitivity to **glare** in the dark.
+  src: [tv-alcohol-effects]
+
+- id: pf-drugs
+  area: personal
+  lesson: alcohol-and-drugs
+  q: What is the limit for narcotics in the blood when driving?
+  options:
+    - Zero – any narcotic substance in the blood counts, unless taken as prescribed
+    - The same as for alcohol, 0.2 per mille
+    - There is no limit for drugs
+    - Only cannabis is counted
+  answer: 0
+  explain: "For narcotics there is **zero tolerance**: it is drug-driving if any narcotic substance remains in the blood – unless it was taken as prescribed by a doctor."
+  src: ["tbl|4", tv-dui-law]
+
+- id: pf-medicine
+  area: personal
+  lesson: alcohol-and-drugs
+  q: Your doctor prescribed a strong painkiller that makes you drowsy. Who is responsible if you drive?
+  options:
+    - You – you can be convicted if you are so affected that you cannot drive safely
+    - The doctor
+    - The pharmacy
+    - Nobody, since it is prescribed
+  answer: 0
+  explain: Even with a prescription, you can be convicted of drink-driving if you are so affected that you cannot drive safely. **You** are responsible for how a medicine affects you.
+  src: ["tbl|4", tv-alcohol-effects]
+
+- id: pf-breath-test
+  area: personal
+  lesson: alcohol-and-drugs
+  q: May the police stop you for a breath test even if you have done nothing wrong?
+  options: ["Yes – screening tests need no suspicion", "No – only after an accident", "Only at night", "Only with a court order"]
+  answer: 0
+  explain: The police may carry out **breath screening tests without any prior suspicion**.
+  src: [tv-dui-law]
+
+- id: pf-revoked
+  area: personal
+  lesson: alcohol-and-drugs
+  q: What usually happens to the licence after drink-driving?
+  options: ["It is revoked", "Nothing", "A warning only", "It is renewed"]
+  answer: 0
+  explain: Drink-driving **almost always** leads to the licence being revoked.
+  src: [tv-dui-law, "kkl|5:3"]
+
+- id: pf-alcolock
+  area: personal
+  lesson: alcohol-and-drugs
+  q: After drink-driving with alcohol, what can you apply for instead of losing the licence?
+  options:
+    - A licence with an alcolock condition for one or two years
+    - A shorter waiting period if you pay a fee
+    - A licence valid only at night
+    - Nothing – revocation is the only option
+  answer: 0
+  explain: You can apply for a licence with an **alcolock condition** – **1 year**, or **2 years** after aggravated or repeated drink-driving. You may then only drive vehicles with your own approved alcolock, and only in Sweden.
+  src: ["kkl|5:20", "kkl|5:22", ts-alcolock]
+
+- id: pf-alcolock-drugs
+  area: personal
+  lesson: alcohol-and-drugs
+  q: Can you get an alcolock licence after drug-driving?
+  options: ["No – only after drink-driving with alcohol", "Yes, always", "Yes, after one year", "Yes, if you pay for it"]
+  answer: 0
+  explain: The alcolock alternative is only for drink-driving caused by **alcohol** – not if narcotics were in the blood, or if you use narcotics.
+  src: [ts-alcolock, "kkl|5:16"]
+
+- id: pf-spirits
+  area: personal
+  lesson: alcohol-and-drugs
+  q: Which factors affect how high your alcohol level gets?
+  options:
+    - Sex, body weight, food, what you drank and over how long
+    - Only the number of drinks
+    - Only the time of day
+    - Nothing – everyone gets the same level
+  answer: 0
+  explain: "**Sex, body weight, what and how much you have eaten**, what you drank and **over how long** all affect the level. Spirits give a higher level than the same amount of alcohol in wine or beer."
+  src: [tv-alcohol-effects]
+
+- id: pf-killed
+  area: personal
+  lesson: alcohol-and-drugs
+  q: About what share of people killed in Swedish road traffic in 2025 died in alcohol- or drug-related crashes?
+  options: ["About 17 %", "About 1 %", "About 50 %", "About 90 %"]
+  answer: 0
+  explain: In 2025, **35 people** – **17 %** of everyone killed in road traffic – died in alcohol- or drug-related crashes.
+  src: [tv-alcohol]
+
+# ---------------------------------------------------------------- tiredness
+- id: pf-tired-rule
+  area: personal
+  lesson: fatigue
+  q: Does the law say anything about driving tired?
+  options:
+    - Yes – you may not drive if you cannot drive safely because of exhaustion
+    - No – only alcohol is regulated
+    - Only for truck drivers
+    - Only at night
+  answer: 0
+  explain: A vehicle may not be driven by anyone who, because of illness, **exhaustion**, alcohol or other substances, cannot drive it safely.
+  src: ["tf|3:1"]
+
+- id: pf-tired-share
+  area: personal
+  lesson: fatigue
+  q: According to VTI, how common is it for young drivers to fall asleep, or nearly, at the wheel?
+  options:
+    - About 30 % of drivers aged 20–24 report it during the past year
+    - Almost never
+    - About 1 %
+    - All drivers have done it
+  answer: 0
+  explain: In surveys, about **30 %** of drivers aged **20–24** say they have fallen asleep or nearly fallen asleep while driving during the past year. Tiredness may contribute to about 10–40 % of all crashes.
+  src: [vti-fatigue]
+
+- id: pf-tired-limits
+  area: personal
+  lesson: fatigue
+  q: VTI recommends avoiding driving if you have …
+  options:
+    - been awake 19 hours or more, or slept less than 5 hours
+    - slept 7 hours
+    - had a coffee
+    - driven for 30 minutes
+  answer: 0
+  explain: VTI's recommendation is to avoid driving after being **awake 19 hours or more**, or after **less than 5 hours** of sleep – and to avoid driving at about **03–06**, when the body clock is at its lowest.
+  src: [vti-fatigue-law]
+
+- id: pf-tired-night
+  area: personal
+  lesson: fatigue
+  q: At what time of day is the body clock at its lowest, so that driving is most risky for tiredness?
+  options: ["Late at night, about 03:00–06:00", "At noon", "In the afternoon, 14:00–16:00", "In the evening, 18:00–20:00"]
+  answer: 0
+  explain: VTI advises avoiding driving when the body clock is at its lowest – **late at night between about 03 and 06**.
+  src: [vti-fatigue-law]
+
+- id: pf-tired-action
+  area: personal
+  lesson: fatigue
+  q: You notice you are yawning a lot and drifting in the lane. What should you do?
+  options:
+    - Stop as soon as you safely can and rest or sleep
+    - Open the window and turn up the music
+    - Speed up to get home sooner
+    - Drink an energy drink and drive on
+  answer: 0
+  explain: VTI's advice is to **stop at once** when you feel tired. Fresh air or music may help for a moment but do not remove the tiredness – rest and sleep do.
+  src: [vti-fatigue-law]
+
+- id: pf-tired-groups
+  area: personal
+  lesson: fatigue
+  q: Which groups does VTI name as being at special risk of tiredness-related crashes?
+  options:
+    - Young drivers, professional drivers, shift workers and people with sleep disorders
+    - Only older drivers
+    - Only motorcyclists
+    - Only drivers of electric cars
+  answer: 0
+  explain: Risk groups are **young drivers, professional drivers, shift workers** and drivers with **sleep disorders**.
+  src: [vti-fatigue]
+
+- id: pf-tired-careless
+  area: personal
+  lesson: fatigue
+  q: You know you are very tired but drive anyway, and cause a crash. Can you be convicted?
+  options:
+    - Yes – driving while knowingly tired can lead to liability for careless driving
+    - No – tiredness is never punished
+    - Only if you were also drunk
+    - Only professional drivers
+  answer: 0
+  explain: The preparatory works of the Traffic Offences Act describe driving while knowingly tired as a conscious risk that can lead to liability for **careless driving** (*vårdslöshet i trafik*).
+  src: [vti-fatigue-law, "tbl|1"]
+
+- id: pf-tired-alcohol
+  area: personal
+  lesson: fatigue
+  q: How do alcohol and tiredness affect each other?
+  options:
+    - Alcohol dampens the body, so you do not notice the tiredness creeping in
+    - Alcohol makes you more alert
+    - They cancel each other out
+    - They have nothing to do with each other
+  answer: 0
+  explain: Alcohol has a dampening effect – you **do not notice** that tiredness is creeping in.
+  src: [tv-alcohol-effects]
+
+- id: pf-rumble
+  area: personal
+  lesson: fatigue
+  q: The rumble strips at the road edge wake you as you drift onto them. What should you do?
+  options:
+    - Stop at the next safe place and rest – it is a sign you are too tired
+    - Continue – the strips will keep you awake
+    - Drive in the middle of the road
+    - Speed up
+  answer: 0
+  explain: Rumble strips are effective against run-off crashes, but if they wake you, you are **too tired to drive** – stop and rest.
+  src: [vti-fatigue-law]
+
+# ---------------------------------------------------------------- attitudes and risk
+- id: pf-vision-zero
+  area: personal
+  lesson: attitudes-and-risk
+  q: What does **Vision Zero** (*Nollvisionen*) mean?
+  options:
+    - That no one should be killed or seriously injured in traffic
+    - That no one should get a speeding fine
+    - That cars should use zero fuel
+    - That there should be zero traffic in cities
+  answer: 0
+  explain: Vision Zero means that **no one should be killed or seriously injured** in traffic. The Riksdag decided on it in **1997**.
+  src: [tv-vision-zero]
+
+- id: pf-men
+  area: personal
+  lesson: attitudes-and-risk
+  q: In 2025, what share of the people killed in Swedish road traffic were men?
+  options: ["About 71 %", "About 50 %", "About 30 %", "About 95 %"]
+  answer: 0
+  explain: Of the 203 people killed in 2025, **144 – 71 %** – were men.
+  src: [trafa-2025]
+
+- id: pf-young
+  area: personal
+  lesson: attitudes-and-risk
+  q: Counted per inhabitant, which age groups have the highest risk of being killed in Swedish road traffic?
+  options: ["People 75 and older, and young adults aged 18–24", "Children under 10", "People aged 40–50", "Everyone has the same risk"]
+  answer: 0
+  explain: Averaged over 2016–2025, the risk per inhabitant is highest for people **75 and older**, followed by **young adults aged 18–24**.
+  src: [trafa-2025]
+
+- id: pf-rural
+  area: personal
+  lesson: attitudes-and-risk
+  q: Where did most people killed in road traffic in 2025 die?
+  options: ["Outside built-up areas – most often on 70 and 80 km/h roads", "In towns on 30 km/h streets", "On motorways", "In car parks"]
+  answer: 0
+  explain: "**73 %** died outside built-up areas, most often on roads with **70 or 80 km/h** limits."
+  src: [trafa-2025]
+
+- id: pf-group-pressure
+  area: personal
+  lesson: attitudes-and-risk
+  q: Your friends in the car cheer you on to drive faster. What does the curriculum want you to be able to do?
+  options:
+    - Resist group pressure – you decide how you drive
+    - Drive faster so they are happy
+    - Let a friend drive instead, whatever their state
+    - Turn up the music
+  answer: 0
+  explain: The curriculum asks how **group pressure** affects drivers, and that you can judge your ability to **resist group pressure** and impulsive actions.
+  src: ["tsfs-2011-20|5:2", "tsfs-2011-20|5:3"]
+
+- id: pf-thrill
+  area: personal
+  lesson: attitudes-and-risk
+  q: What does the curriculum say about using the car for excitement?
+  options:
+    - You should know how to avoid using the vehicle to seek thrills
+    - It is a good way to learn
+    - It is fine outside towns
+    - It is only a problem for motorcyclists
+  answer: 0
+  explain: The curriculum asks how to avoid using the vehicle as a means of **seeking thrills**, and how impulsive actions, adventure-seeking and play affect safety.
+  src: ["tsfs-2011-20|5:2"]
+
+- id: pf-overconfidence
+  area: personal
+  lesson: attitudes-and-risk
+  q: Why does the curriculum stress a realistic picture of your own driving ability?
+  options:
+    - Over-estimating your ability leads to too small safety margins
+    - To make driving lessons longer
+    - Because confident drivers drive slowly
+    - It is not mentioned in the curriculum
+  answer: 0
+  explain: The curriculum wants you to develop a **realistic picture of your own ability**, and the risk education covers the reasons for and consequences of **over-estimating** it.
+  src: ["tsfs-2011-20|2:1", "tsfs-2012-40|5:6"]
+
+- id: pf-passenger-role
+  area: personal
+  lesson: attitudes-and-risk
+  q: As a passenger, what does the risk education want you to think about?
+  options:
+    - How to avoid riding with a driver affected by alcohol or drugs
+    - Nothing – passengers have no responsibility
+    - How to help the driver go faster
+    - How to use the phone for the driver
+  answer: 0
+  explain: The risk education asks what you can do to avoid that **you or others** drive or **ride with** a driver affected by alcohol or other drugs.
+  src: ["tsfs-2012-40|5:3"]
+
+- id: pf-target-2030
+  area: personal
+  lesson: attitudes-and-risk
+  exam: false
+  q: What is the target for the number of people killed in Swedish road traffic in 2030?
+  options: ["At most 133", "At most 500", "Zero", "At most 250"]
+  answer: 0
+  explain: The target is at most **133** deaths in road traffic in **2030** – half the average of 2017–2019.
+  src: [tv-vision-zero]
+
+# ---------------------------------------------------------------- consequences
+- id: pf-two-consequences
+  area: personal
+  lesson: consequences
+  q: You are caught speeding by 35 km/h. Which two things can follow?
+  options:
+    - A fine and a decision on your licence from Transportstyrelsen
+    - Only a fine
+    - Only a licence decision
+    - Only a letter of warning from the police
+  answer: 0
+  explain: A penalty (fine) and a **licence decision** (revocation or warning) are two separate consequences. Speeding 31–40 km/h over the limit normally means **2 months** without a licence.
+  src: ["kkl|5:1", ts-revocation]
+
+- id: pf-speed-31
+  area: personal
+  lesson: consequences
+  q: What is the usual waiting period after speeding by 31–40 km/h over the limit?
+  options: ["2 months", "1 week", "1 year", "No waiting period"]
+  answer: 0
+  explain: The most common revocation case is speeding by **31–40 km/h** – normally a **2-month** waiting period. More serious speeding gives a longer period.
+  src: [ts-revocation]
+
+- id: pf-speed-30-zone
+  area: personal
+  lesson: consequences
+  q: Where the limit is 30 km/h, how much over the limit normally leads to a 2-month revocation?
+  options: ["21–30 km/h", "5–10 km/h", "41–50 km/h", "Any amount"]
+  answer: 0
+  explain: Where the limit is **30 km/h or lower**, speeding by **21–30 km/h** normally gives a waiting period of two months.
+  src: [ts-revocation]
+
+- id: pf-red-light
+  area: personal
+  lesson: consequences
+  q: What is the usual waiting period for driving against a red light?
+  options: ["2 months", "1 day", "2 years", "Only a fine"]
+  answer: 0
+  explain: Driving against a **red light** normally gives a waiting period of **2 months**.
+  src: [ts-revocation]
+
+- id: pf-probation-revoked
+  area: personal
+  lesson: consequences
+  q: Your licence is revoked for two months during your probation period. What must you do to get it back?
+  options:
+    - New learner's permit, new risk education and pass both tests again
+    - Just wait two months
+    - Pay a fee
+    - Pass only the driving test
+  answer: 0
+  explain: A revocation **during probation** – even a short one – means a new learner's permit, a new risk education and **both** the theory and driving tests again. The new licence gets a new probation.
+  src: [ts-revoked, "kkl|5:15"]
+
+- id: pf-over-year
+  area: personal
+  lesson: consequences
+  q: A driver not on probation gets a waiting period longer than one year. What is needed for a new licence?
+  options: ["A learner's permit, the risk education again and both tests", "Only a photo", "Only the theory test", "Nothing"]
+  answer: 0
+  explain: With a waiting period **longer than one year**, you need a learner's permit, a new risk education and to pass the theory and driving tests again.
+  src: [ts-revoked]
+
+- id: pf-48h
+  area: personal
+  lesson: consequences
+  q: The police take your licence for speeding and let you drive for 48 hours. You drive on day three. What is that?
+  options: ["Unlawful driving", "Allowed until Transportstyrelsen decides", "A minor offence with no penalty", "Allowed if you are on your way home"]
+  answer: 0
+  explain: After the **48 hours**, all driving is **unlawful driving** – even if Transportstyrelsen has not decided yet. The permission cannot be extended.
+  src: [ts-police-seize, "kkl|5:7"]
+
+- id: pf-warning
+  area: personal
+  lesson: consequences
+  q: What does a **warning** (*varning*) on your licence mean?
+  options:
+    - You keep the licence, but it counts against you for 2 years (5 for drink-driving)
+    - You lose the licence for one month
+    - You must take a new test
+    - Nothing at all
+  answer: 0
+  explain: A warning is a milder decision – you **keep** the licence. It counts against you for **2 years** (5 years for traffic sobriety offences), and new offences are likely to lead to revocation.
+  src: [ts-warning]
+
+- id: pf-waiting-limits
+  area: personal
+  lesson: consequences
+  q: What are the shortest and longest waiting periods after a revocation?
+  options: ["1 month and 3 years", "1 week and 1 year", "6 months and 10 years", "There are no limits"]
+  answer: 0
+  explain: The waiting period is at least **1 month** and at most **3 years** – at least 1 year for a grave crime such as aggravated drink-driving.
+  src: ["kkl|5:6"]
+
+- id: pf-careless
+  area: personal
+  lesson: consequences
+  q: What is the maximum penalty for **gross** careless driving (*grov vårdslöshet i trafik*)?
+  options: ["Prison for up to 2 years", "A fine only", "Prison for up to 10 years", "A warning"]
+  answer: 0
+  explain: Gross negligence or obvious indifference to others' lives or property when driving a motor vehicle gives **prison for up to two years**. Ordinary careless driving gives day-fines.
+  src: ["tbl|1"]
+
+- id: pf-hit-run
+  area: personal
+  lesson: consequences
+  q: What can leaving the scene of an accident you were involved in (*smitning*) lead to?
+  options:
+    - Fines or prison up to 6 months (1 year if grave) – and normally revocation for 2–6 months
+    - Nothing if no one saw it
+    - Only a parking fine
+    - Only a warning
+  answer: 0
+  explain: Leaving the scene gives **fines or prison up to six months** (one year if grave), and the licence is normally revoked for **2–6 months** – even if you were not to blame.
+  src: ["tbl|5", ts-revocation]
+
+- id: pf-unlawful
+  area: personal
+  lesson: consequences
+  q: You drive while your licence is revoked. What is that?
+  options: ["Unlawful driving – fines, or up to 6 months in prison", "Allowed in an emergency", "Only a parking matter", "Allowed during the day"]
+  answer: 0
+  explain: Driving without the right to drive is **unlawful driving** (*olovlig körning*). If the licence had been revoked, the penalty can be **prison for up to six months**.
+  src: ["tbl|3"]
+
+- id: pf-repeated
+  area: personal
+  lesson: consequences
+  q: You commit several minor offences within two years, for example small speeding offences and not wearing a seat belt. What can happen?
+  options:
+    - The licence can be revoked – normally for 2 months
+    - Nothing – minor offences never affect the licence
+    - Only fines, whatever happens
+    - Your car is taken away
+  answer: 0
+  explain: "**Repeated** offences within a two-year period can lead to revocation – normally a 2-month waiting period, or a warning if there is no earlier warning or revocation."
+  src: [ts-revocation, "kkl|5:3"]
+
+- id: pf-confiscate
+  area: personal
+  lesson: consequences
+  q: Someone keeps driving without a licence with the same car. What can the court do?
+  options: ["Confiscate the car, if needed to prevent more crimes", "Nothing", "Only give a warning", "Paint the car"]
+  answer: 0
+  explain: A vehicle used in a traffic crime can be **confiscated** if it is needed to prevent further crimes – especially after repeated unlawful driving or drink-driving.
+  src: ["tbl|7"]

@@ -8,7 +8,7 @@ goals:
   - Explain why grip matters even more on two wheels
   - Spot the surface hazards that reduce grip, and where they are found
   - Ride over a slippery patch without losing control
-sources: [tsfs-2011-19, tv-mc-safety, vmf, tf]
+sources: [tsfs-2011-19, tv-mc-safety, vmf, tf, uk-hc-weather]
 ---
 
 ## Two small patches of rubber
@@ -31,13 +31,13 @@ The curriculum requires you to explain how the **road condition** (*väglag*) af
 | **Road markings** – lines, arrows, pedestrian crossings | Especially when **wet** | Do not brake or lean hard on them. Cross them upright |
 | **Metal** – manhole covers, steel plates at road works, tram and railway rails, joints on bridges | Very slippery when **wet** | Ride over upright. Cross rails at as near a **right angle** as you safely can |
 | **Tar repairs** – shiny black strips that seal cracks | Slippery when wet, and can be **soft** on hot days | Avoid leaning or braking on them |
-| **Diesel and oil** | Where vehicles stand, turn and fill up – near **petrol stations, bus stops, roundabouts** and junctions | Look for a **rainbow sheen** on a wet road, and notice the smell. Ride round it if you can |
+| **Diesel and oil** | Where vehicles stand, turn and fill up – near **petrol stations, bus stops, roundabouts** and junctions. Spilt diesel makes the surface **very slippery** [[src:uk-hc-weather|rule 227]] | Look for a **rainbow sheen** on a wet road, and notice the smell. Ride round it if you can |
 | **Wet leaves and mud** | **Autumn** leaves under trees. Mud at field exits, farms and building sites | Slow down. Keep upright on them |
 | **Water** | Puddles can hide **potholes**. Ruts in the road can fill with water | Avoid puddles. Ride in the drier part of the lane |
 | **Cold** | In spring and autumn, **bridges and shaded places** can be icy even when the air feels mild. Cold tyres grip less | Ride gently until the tyres are warm. Expect ice where the road is in shade |
 
 ::: key Rain after a dry spell
-When it starts to rain after a long dry period, dust, rubber and oil on the asphalt mix with the water, and the road can be **especially slippery at first**. Ride extra gently in the first rain.
+If it rains after a **dry spell**, the road can become **slippery** [[src:uk-hc-weather|rule 237]]. Ride extra gently in the first rain.
 :::
 
 ## Signs that warn you

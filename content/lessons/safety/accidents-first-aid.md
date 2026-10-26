@@ -8,7 +8,7 @@ goals:
   - Know your legal duties if you are involved in a traffic accident
   - Protect the scene and call for help correctly
   - Give basic first aid until the ambulance arrives
-sources: [tf, tbl, 1177-cpr, 1177-bleeding, 1177-shock, tsfs-2011-20]
+sources: [tf, tbl, 1177-cpr, 1177-bleeding, 1177-shock, tsfs-2011-20, uk-hc-incidents]
 ---
 
 The curriculum requires you to know **what measures can be taken at a traffic accident** and **first aid** [[src:tsfs-2011-20|3:2]].
@@ -73,7 +73,7 @@ After serious injuries and bleeding, a person can go into **shock**: fast weak p
 - Give them **nothing to eat or drink** [[src:1177-shock]].
 
 ::: only motorcycle
-**An injured rider's helmet:** do not remove it unless it is necessary to keep the airway open or to give CPR. If you must, do it carefully, ideally with two people, keeping the head and neck still.
+**An injured rider's helmet:** do not remove a motorcyclist's helmet unless it is **essential** – for example to keep the airway open or to give CPR – and you know how to do it [[src:uk-hc-incidents|rule 283]]. Then do it carefully, keeping the head and neck as still as possible.
 :::
 
 ::: note Your own safety first

@@ -8,7 +8,7 @@ goals:
   - Recognise the typical risks of different road environments
   - Adapt speed and position to the environment
   - Drive safely on roads with a central barrier and on gravel roads
-sources: [tf, tsfs-2011-20, tv-mc-safety, vmf]
+sources: [tf, tsfs-2011-20, tv-mc-safety, vmf, uk-hc-general]
 ---
 
 The curriculum asks you to explain how **different road environments** affect driver behaviour and safety, and to adapt **speed, position and driving** to the conditions [[src:tsfs-2011-20|4:2]] [[src:tsfs-2011-20|3:2]].
@@ -49,7 +49,7 @@ For motorcyclists, a central barrier means far fewer head-on crashes – Trafikv
 ## Gravel roads
 
 - **Grip is lower** and the surface can change suddenly – loose gravel collects at the **edges** and in **bends**.
-- **Braking distances are longer.** On loose gravel, ABS can make the stopping distance longer still – see [[lesson:brakes-and-abs]].
+- **Braking distances are longer** – and do not assume that ABS will make them shorter [[src:uk-hc-general|rule 120]]. See [[lesson:brakes-and-abs]].
 - **Stones** are thrown up by passing vehicles – keep your distance and slow down when you meet others.
 - **Dust** can hide oncoming vehicles completely – slow down and wait until you can see.
 - Gravel roads are often **narrow**: drive on the right, and slow down before hill crests and bends.

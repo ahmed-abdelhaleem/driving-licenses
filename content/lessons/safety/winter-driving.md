@@ -8,7 +8,7 @@ goals:
   - Prepare the car and yourself for winter conditions
   - Recognise where and when the road is most slippery
   - Drive smoothly with large margins on snow and ice
-sources: [tf, tsfs-2009-19, ts-winter-tyres, ts-lighting, tsfs-2011-20]
+sources: [tf, tsfs-2009-19, ts-winter-tyres, ts-lighting, tsfs-2011-20, uk-hc-weather]
 ---
 
 Winter in Sweden means darkness, snow, ice and quickly changing grip. The curriculum asks you to explain how **road conditions** affect the car's behaviour and to avoid travelling in risky conditions such as **slippery roads and bad weather** when you can [[src:tsfs-2011-20|2:2]] [[src:tsfs-2011-20|4:1]].
@@ -17,9 +17,9 @@ Winter in Sweden means darkness, snow, ice and quickly changing grip. The curric
 
 ::: steps
 1. **Winter tyres** when they are required – 1 December to 31 March when there are winter road conditions – with at least **3 mm** tread [[src:tf|4:18a]] [[src:tsfs-2009-19|5]]. See [[lesson:tyres]].
-2. **Clear all windows completely** – not just a peephole. You need a clear view in all directions.
-3. **Clear snow from the roof, bonnet and lights.** Snow from the roof can slide down over the windscreen when you brake, or blow into the faces of drivers behind.
-4. **Clean the lights and number plates.**
+2. **Clear all windows completely** – not just a peephole. You must be able to see, and the mirrors must be clear [[src:uk-hc-weather|rule 229]].
+3. **Clear snow from the roof, bonnet and lights.** Remove all snow that might fall off into the path of others [[src:uk-hc-weather|rule 229]] – snow from the roof can also slide down over your windscreen when you brake.
+4. **Clean the lights and number plates** [[src:uk-hc-weather|rule 229]].
 5. **Washer fluid** that does not freeze, and wiper blades that work.
 :::
 
@@ -39,13 +39,13 @@ On a winter road you can go from good grip to almost none within a few metres. W
 
 ## How to drive
 
-- **Smoothly**: gentle on the accelerator, the brake and the steering. Every sudden movement can break the grip.
-- **Long distances**: braking distances on snow and ice are **many times** longer than on dry asphalt. See [[lesson:speed-and-stopping-distance]].
-- **Brake before bends**, never in them; slow down earlier before junctions and crossings.
-- **Test the grip**: on a straight stretch with **no traffic behind you**, brake firmly for a moment at low speed to feel how slippery it is.
+- **Smoothly**: drive slowly in as **high a gear** as possible, and accelerate and brake **very gently**. Sudden actions can make you lose control [[src:uk-hc-weather|rule 231]].
+- **Long distances**: stopping distances on snow and ice can be **ten times** longer than on dry roads [[src:uk-hc-weather|rule 230]]. See [[lesson:speed-and-stopping-distance]].
+- **Brake before bends**, on the straight, then steer smoothly round [[src:uk-hc-weather|rule 231]]; slow down earlier before junctions and crossings.
+- **Test the grip**: at a safe place with **no traffic behind you**, brake gently to feel how slippery it is. Unresponsive steering, and tyres that suddenly go **quiet**, can mean ice [[src:uk-hc-weather|rule 231]].
 - **Downhill**: use a lower gear so the engine helps; brake early and gently.
 - **Moving off** on snow: give very little gas. In a manual car it can help to start in **second gear**. Spinning wheels dig the car down and polish the ice.
-- **Snow ploughs and gritting trucks** have amber flashing lights – slow down and be ready to stop [[src:ts-lighting]]. Do not overtake a plough unless you can see that the road ahead is clear and wide enough.
+- **Snow ploughs and gritting trucks** have amber flashing lights – slow down and be ready to stop [[src:ts-lighting]]. Do not overtake a plough unless the lane you will use has been cleared [[src:uk-hc-weather|rule 230]].
 
 ## Visibility and light
 

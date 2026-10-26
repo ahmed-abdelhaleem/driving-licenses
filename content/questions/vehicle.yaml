@@ -1,0 +1,825 @@
+# Vehicle knowledge questions (area: vehicle) – tyres, brakes, skids, safety systems,
+# electric cars, the manual gearbox, and the motorcycle's brakes, helmet and gear.
+
+# ---------------------------------------------------------------- tyres (cars)
+- id: ty-tread-summer
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: What is the minimum tread depth for car tyres in summer conditions?
+  options: ["1.6 mm", "3 mm", "1 mm", "4 mm"]
+  answer: 0
+  explain: The main tread pattern may not be worn below **1.6 mm** in the middle 75 % of the tread width. Grip on wet roads gets much worse long before that.
+  src: ["tsfs-2009-19|4"]
+
+- id: ty-tread-winter
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: What is the minimum tread depth on winter tyres from 1 December to 31 March when there are winter road conditions?
+  options: ["3 mm", "1.6 mm", "5 mm", "2 mm"]
+  answer: 0
+  explain: When winter tyres are required, they must have at least **3 mm** of tread.
+  src: ["tsfs-2009-19|5", ts-winter-tyres]
+
+- id: ty-winter-when
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: When must a car have winter tyres (or equivalent equipment)?
+  options:
+    - From 1 December to 31 March, when there are winter road conditions
+    - From 1 October to 15 April, always
+    - Whenever the temperature is below 0 °C
+    - From 1 November to 31 March, always
+  answer: 0
+  explain: Cars, light trucks, light buses and trailers they tow must have winter tyres or equivalent equipment **1 December – 31 March** when **winter road conditions** apply.
+  src: ["tf|4:18a"]
+
+- id: ty-winter-conditions
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: What counts as **winter road conditions** (*vinterväglag*)?
+  options:
+    - Snow, ice, slush or frost on any part of the road
+    - Snow covering the whole road
+    - Temperatures below −5 °C
+    - Only ice on bridges
+  answer: 0
+  explain: Winter road conditions means **snow, ice, slush or frost on any part** of the road.
+  src: ["tsfs-2009-19|3", ts-winter-tyres]
+
+- id: ty-who-decides
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: Who decides whether winter road conditions apply at a certain place?
+  options: ["The police", "The driver", "The municipality", "Trafikverket's weather service"]
+  answer: 0
+  explain: Transportstyrelsen says the **police** decide whether winter road conditions apply at a given place.
+  src: [ts-winter-tyres]
+
+- id: ty-ms
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: A car tyre is marked only **M+S**. Does it count as a winter tyre?
+  options:
+    - No – it needs the alpine symbol (3PMSF), the POR marking or studs
+    - Yes – M+S means winter tyre
+    - Yes, if the tread is at least 3 mm
+    - Only on the rear axle
+  answer: 0
+  explain: A winter tyre for a car must have the **alpine symbol** (mountain with three peaks and a snowflake), be marked **POR**, or be **studded**. M+S alone is not enough.
+  src: ["tsfs-2009-19|3", ts-winter-tyres]
+
+- id: ty-chains
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: What can count as "equivalent equipment" instead of winter tyres?
+  options: ["Snow chains", "Wider summer tyres", "Lower tyre pressure", "Sand in the boot"]
+  answer: 0
+  explain: The rules allow winter tyres **or equivalent equipment** – for example **snow chains**.
+  src: ["tsfs-2009-19|3"]
+
+- id: ty-studs-period
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: When may you drive with studded tyres?
+  options:
+    - 1 October to 15 April – and outside that period only if there are, or may be, winter road conditions
+    - All year
+    - Only 1 December to 31 March
+    - Only when there is ice on the road
+  answer: 0
+  explain: Studded tyres are allowed **1 October – 15 April**, and outside that period only when there are – or may be – winter road conditions.
+  src: ["tsfs-2009-19|8", ts-winter-tyres]
+
+- id: ty-mix
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: You have studded tyres only on the front wheels and non-studded winter tyres at the back. Is that allowed?
+  options: ["No – a car may not have studded and non-studded tyres at the same time", "Yes", "Yes, on front-wheel-drive cars", "Yes, if all have 3 mm tread"]
+  answer: 0
+  explain: A car may **not** use studded and non-studded tyres at the same time.
+  src: ["tsfs-2009-19|10"]
+
+- id: ty-trailer-studs
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: Your car has studded tyres and there are winter road conditions. What applies to the trailer you tow?
+  options: ["It must also have studded tyres", "It may have summer tyres", "It needs snow chains", "Nothing"]
+  answer: 0
+  explain: If the car has studded tyres and there are winter road conditions, a trailer it tows must **also have studded tyres**.
+  src: ["tsfs-2009-19|11"]
+
+- id: ty-best-rear
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: Where should you fit the two tyres with the deepest tread?
+  options: ["On the rear axle – also on a front-wheel-drive car", "On the front axle", "On the driving wheels", "It does not matter"]
+  answer: 0
+  explain: Transportstyrelsen advises fitting the tyres with the **best grip on the rear axle** – also on front-wheel-drive cars – to reduce the risk of skidding when braking and in bends.
+  src: [ts-tyres]
+
+- id: ty-pressure
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: How should you check the tyre pressure?
+  options:
+    - When the tyres are cold, against the values in the owner's manual
+    - After a long drive, when the tyres are warm
+    - By looking at the tyres
+    - Only when a warning light comes on
+  answer: 0
+  explain: Find the right pressure in the **owner's manual** and check it when the tyres are **cold**. Wrong pressure affects handling, fuel consumption and the life of the tyre.
+  src: [ts-tyres]
+
+- id: ty-pressure-effect
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: What can wrong tyre pressure affect?
+  options: ["Handling, fuel consumption and the life of the tyre", "Only comfort", "Only the tyre's colour", "Nothing, on modern cars"]
+  answer: 0
+  explain: Wrong tyre pressure affects the car's **handling**, its **fuel consumption** and the **life** of the tyre.
+  src: [ts-tyres]
+
+- id: ty-damage
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  q: A tyre has a cut that shows the inner reinforcement. May you drive on it?
+  options: ["No", "Yes, if the tread is deep enough", "Yes, in summer", "Yes, on the rear axle"]
+  answer: 0
+  explain: A tyre may not have cracks, holes or other damage that exposes its **inner reinforcement**.
+  src: ["tsfs-2009-19|6"]
+
+- id: ty-old-car
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Which cars are exempt from the winter tyre requirement?
+  options: ["Cars that are 30 years old or more", "Electric cars", "Four-wheel-drive cars", "Cars with ABS"]
+  answer: 0
+  explain: The requirement does not apply to vehicles that are **30 years old or more** (by model year).
+  src: ["tf|4:18c"]
+
+- id: ty-store
+  area: vehicle
+  lesson: tyres
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: How should you store tyres between seasons?
+  options: ["Cool, dry and dark", "Warm and sunny", "Outside in the rain", "Next to the heater"]
+  answer: 0
+  explain: Transportstyrelsen advises storing tyres **cool, dry and dark**.
+  src: [ts-tyres]
+
+# ---------------------------------------------------------------- brakes and ABS (cars)
+- id: br-abs-steer
+  area: vehicle
+  lesson: brakes-and-abs
+  paths: [car-manual, car-automatic]
+  q: In an emergency in a car with ABS, how do you brake?
+  options:
+    - Press the brake pedal firmly and keep the pressure – ABS should let you keep steering control
+    - Pump the pedal quickly
+    - Brake gently to avoid activating the ABS
+    - Pull the parking brake
+  answer: 0
+  explain: With ABS, apply the footbrake **firmly** and do not release the pressure. ABS should ensure that **steering control is retained**. A pulsing pedal is normal.
+  src: ["uk-hc-general|rule 120"]
+
+- id: br-abs-distance
+  area: vehicle
+  lesson: brakes-and-abs
+  paths: [car-manual, car-automatic]
+  q: Does ABS always give a shorter stopping distance?
+  options:
+    - No – its main benefit is that you can steer while braking hard
+    - Yes, on all surfaces
+    - Yes, on ice
+    - Yes, if the tyres are new
+  answer: 0
+  explain: Do **not** assume that a vehicle with ABS will stop in a shorter distance. ABS keeps the wheels from locking so that you **keep steering control**.
+  src: ["uk-hc-general|rule 120"]
+
+- id: br-lock
+  area: vehicle
+  lesson: brakes-and-abs
+  paths: [car-manual, car-automatic]
+  q: Why should you avoid braking so hard that the wheels lock (in a car without ABS)?
+  options:
+    - Locked wheels can lead to loss of control – the car cannot be steered
+    - It wears the brake pads
+    - It is forbidden
+    - It turns off the engine
+  answer: 0
+  explain: In an emergency, brake immediately, but try not to brake so harshly that you lock the wheels – **locked wheels can lead to loss of control**.
+  src: ["uk-hc-general|rule 118"]
+
+- id: br-wet
+  area: vehicle
+  lesson: brakes-and-abs
+  paths: [car-manual, car-automatic]
+  q: You have just driven through deep water. What should you do?
+  options:
+    - Test the brakes gently at the first safe opportunity – they may be less effective
+    - Brake hard at once to dry them
+    - Nothing – brakes are not affected by water
+    - Pull the parking brake while driving
+  answer: 0
+  explain: After deep water the brakes may be **less effective**. Test them gently when it is safe; if they are weak, apply light pressure while driving slowly to dry them.
+  src: ["uk-hc-general|rule 121"]
+
+- id: br-aeb
+  area: vehicle
+  lesson: brakes-and-abs
+  paths: [car-manual, car-automatic]
+  q: According to Trafikverket's research summary, roughly how much did collision warning plus automatic emergency braking reduce rear-end collisions with injuries?
+  options: ["By about half", "By about 5 %", "By about 90 %", "Not at all"]
+  answer: 0
+  explain: Several studies show that **FCW + AEB** reduced injury rear-end collisions by about **53–56 %** – roughly half. But the systems cannot see everything; you are still the driver.
+  src: [tv-vehicle-safety]
+
+# ---------------------------------------------------------------- grip and skids (cars)
+- id: sk-cause
+  area: vehicle
+  lesson: skids-and-traction
+  paths: [car-manual, car-automatic]
+  q: What usually causes a skid?
+  options:
+    - Braking, accelerating or steering too harshly, or driving too fast for the conditions
+    - Driving in too high a gear
+    - Driving with dipped beam
+    - Having the windows open
+  answer: 0
+  explain: Skidding is usually caused by the driver **braking, accelerating or steering too harshly** or driving **too fast** for the road conditions.
+  src: ["uk-hc-general|rule 119"]
+
+- id: sk-recover
+  area: vehicle
+  lesson: skids-and-traction
+  paths: [car-manual, car-automatic]
+  q: The rear of your car starts to skid to the **right**. What do you do?
+  options:
+    - Release the brake or ease off the accelerator, and steer to the right
+    - Brake hard and steer to the left
+    - Accelerate hard
+    - Pull the parking brake
+  answer: 0
+  explain: "Remove the cause – release the brake fully or ease off the accelerator – and **steer in the direction of the skid**: if the rear skids to the right, steer right."
+  src: ["uk-hc-general|rule 119"]
+
+- id: sk-aquaplane
+  area: vehicle
+  lesson: skids-and-traction
+  paths: [car-manual, car-automatic]
+  q: In heavy rain the steering suddenly feels light and unresponsive. What is happening, and what do you do?
+  options:
+    - Water is stopping the tyres from gripping – ease off the accelerator and slow down gradually
+    - The power steering has failed – brake hard
+    - The tyres are too hard – speed up
+    - Nothing – it is normal in rain
+  answer: 0
+  explain: Unresponsive steering in the wet probably means **water is preventing the tyres from gripping** (aquaplaning). **Ease off the accelerator** and slow down gradually – no hard braking or sharp steering.
+  src: ["uk-hc-weather|rule 227"]
+
+- id: sk-wet-distance
+  area: vehicle
+  lesson: skids-and-traction
+  paths: [car-manual, car-automatic]
+  q: How much longer are stopping distances on a wet road compared with a dry road?
+  options: ["At least double", "About 10 % longer", "The same with ABS", "Half as long"]
+  answer: 0
+  explain: In wet weather, stopping distances will be **at least double** those on dry roads, because the tyres have less grip.
+  src: ["uk-hc-weather|rule 227"]
+
+- id: sk-ice-distance
+  area: vehicle
+  lesson: skids-and-traction
+  q: On icy roads, how much longer can stopping distances be than on dry roads?
+  options: ["Up to ten times longer", "About twice as long", "About 20 % longer", "The same with winter tyres"]
+  answer: 0
+  explain: In icy and snowy weather, stopping distances can be **ten times greater** than on dry roads. Keep well back from the road user in front.
+  src: ["uk-hc-weather|rule 230"]
+
+- id: sk-ice-technique
+  area: vehicle
+  lesson: skids-and-traction
+  paths: [car-manual, car-automatic]
+  q: How should you drive on an icy road?
+  options:
+    - At a slow speed in as high a gear as possible, accelerating and braking very gently
+    - In a low gear with high engine speed
+    - At normal speed if you have ABS
+    - With sharp steering movements to keep control
+  answer: 0
+  explain: On ice, avoid sudden actions. Drive **slowly in as high a gear as possible**, accelerate and brake **very gently**, and brake on the straight **before** bends.
+  src: ["uk-hc-weather|rule 231"]
+
+- id: sk-ice-noise
+  area: vehicle
+  lesson: skids-and-traction
+  q: Which sign can tell you that you are driving on ice?
+  options:
+    - The tyres become almost silent and the steering feels light
+    - The tyres get louder
+    - The engine speed drops
+    - The car pulls to the left
+  answer: 0
+  explain: Unresponsive steering may indicate ice, and **on ice the tyres make virtually no noise**. Check the grip by braking gently at a safe place.
+  src: ["uk-hc-weather|rule 231"]
+
+- id: sk-test-grip
+  area: vehicle
+  lesson: skids-and-traction
+  q: How can you check the grip when there is snow or ice?
+  options:
+    - Brake gently at a safe place with no traffic behind you
+    - Brake hard in a bend
+    - Accelerate hard from standstill at a junction
+    - Turn the steering wheel sharply at speed
+  answer: 0
+  explain: Check your grip on snow or ice by **choosing a safe place to brake gently**.
+  src: ["uk-hc-weather|rule 231"]
+
+- id: sk-esc
+  area: vehicle
+  lesson: skids-and-traction
+  paths: [car-manual, car-automatic]
+  q: According to Trafikverket's research summary, roughly how much did ESC (anti-skid) reduce single-vehicle, head-on and overtaking crashes with injuries?
+  options: ["About 31 %", "About 3 %", "About 90 %", "It had no effect"]
+  answer: 0
+  explain: ESC reduced such injury crashes by about **31 %** – about 41 % where someone was killed or seriously injured – and the effect was largest on **wet roads (56 %)**.
+  src: [tv-vehicle-safety]
+
+- id: sk-esc-limits
+  area: vehicle
+  lesson: skids-and-traction
+  paths: [car-manual, car-automatic]
+  q: Your car has ESC. Which is true?
+  options:
+    - It helps, but if you drive too fast for the grip you can still leave the road
+    - It lets you take bends at any speed
+    - It replaces winter tyres
+    - It makes the braking distance on ice normal
+  answer: 0
+  explain: ESC can reduce the risk of skidding, but it cannot change physics. The law still requires a speed at which you keep **control** of the vehicle.
+  src: [tv-vehicle-safety, "tf|3:14"]
+
+# ---------------------------------------------------------------- safety systems (cars)
+- id: ss-belt
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: According to Trafikverket's research summary, how much did the seat belt reduce deaths among front-seat car occupants?
+  options: ["About 45 %", "About 5 %", "About 15 %", "About 95 %"]
+  answer: 0
+  explain: The seat belt reduced deaths among front-seat occupants by about **45 %** in all types of car crashes.
+  src: [tv-vehicle-safety]
+
+- id: ss-belt-airbag
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: Why should you always wear the seat belt even in a car with airbags?
+  options:
+    - The airbag is made to work together with the belt – together they cut deaths in frontal crashes far more
+    - Airbags only work at low speed
+    - The belt switches the airbag on
+    - It is only a recommendation
+  answer: 0
+  explain: Belt and driver airbag **together** reduced driver deaths in frontal crashes by about **61 %**, compared with about 29 % for the airbag alone. Using the belt is also the law.
+  src: [tv-vehicle-safety, "tf|4:10"]
+
+- id: ss-reminder
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: What happens to seat belt use in the front seats of cars with an effective seat belt reminder?
+  options: ["It rises to about 99 %", "It falls", "It stays at about 50 %", "It does not change"]
+  answer: 0
+  explain: Studies cited by Trafikverket found belt use in the front seats of about **99 %** in cars with an effective seat belt reminder.
+  src: [tv-vehicle-safety]
+
+- id: ss-airbag-child
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: From about what height is a child safe sitting in front of an active passenger airbag?
+  options: ["About 140 cm", "About 100 cm", "About 120 cm", "Never, at any height"]
+  answer: 0
+  explain: A child is not safe in front of an active airbag until about **140 cm** tall. Never put a child seat or booster in front of an active airbag.
+  src: [ts-children]
+
+- id: ss-side-airbag
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: Are **side airbags** a danger to a child in a child seat?
+  options: ["No", "Yes – they must be switched off", "Yes, for rear-facing seats", "Only in winter"]
+  answer: 0
+  explain: Transportstyrelsen says **side airbags** and curtains are **no danger** to children in child seats. The danger is an active **front** passenger airbag.
+  src: [ts-children]
+
+- id: ss-ldw
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: What does a **lane departure warning** (LDW) do?
+  options:
+    - Warns you when the car is about to leave its lane – generally from about 65 km/h
+    - Steers the car back by itself at any speed
+    - Brakes the car automatically in a queue
+    - Shows the speed limit
+  answer: 0
+  explain: LDW **warns** when the car is about to leave its lane, generally from about **65 km/h**. In Swedish data it reduced injuries in head-on and single-vehicle crashes by about 40 %.
+  src: [tv-vehicle-safety]
+
+- id: ss-isa
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: What is **ISA** (intelligent speed assistance)?
+  options:
+    - A system that informs you about the speed limit and helps you keep within it – standard in new EU cars from 2024
+    - A system that brakes for pedestrians
+    - A cruise control that ignores speed limits
+    - An anti-skid system
+  answer: 0
+  explain: ISA informs the driver about the current **speed limit** and supports keeping within it. It is **standard equipment in all new cars in the EU from 2024**.
+  src: [tv-vehicle-safety]
+
+- id: ss-assist-limits
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: Your car has lane keeping assist and automatic emergency braking. Who is responsible for driving it?
+  options: ["You – the systems only work in certain conditions", "The car manufacturer", "The systems, when switched on", "Nobody, above 65 km/h"]
+  answer: 0
+  explain: Assistance systems only work in certain conditions – many only above or below certain speeds. **You** are always responsible for driving the car safely.
+  src: [tv-vehicle-safety, "tf|3:14"]
+
+- id: ss-ncap
+  area: vehicle
+  lesson: safety-systems-car
+  paths: [car-manual, car-automatic]
+  q: What did research cited by Trafikverket find about cars with 5 stars in Euro NCAP's tests?
+  options:
+    - The risk of serious and fatal injury in car-to-car collisions was clearly lower than in 2-star cars
+    - They have no crashes at all
+    - They need no seat belts
+    - They are only safer for pedestrians
+  answer: 0
+  explain: The risk of serious and fatal injury in collisions between cars was clearly **lower in 5-star cars** than in 2-star cars. Using a safe car is part of Trafikverket's basic safety advice.
+  src: [tv-vehicle-safety, tv-car-safety]
+
+# ---------------------------------------------------------------- electric and hybrid cars
+- id: ev-hybrid-charging
+  area: vehicle
+  lesson: electric-and-hybrid
+  paths: [car-manual, car-automatic]
+  q: May an ordinary hybrid car that **cannot be plugged in** park at a charging place?
+  options: ["No – only vehicles that can be charged externally", "Yes – all hybrids may", "Yes, for 2 hours", "Yes, at night"]
+  answer: 0
+  explain: At a charging place only vehicles that can be **charged externally** for their propulsion may park or stop. Others may only stop to let people in or out.
+  src: ["tf|3:54"]
+
+- id: ev-quiet
+  area: vehicle
+  lesson: electric-and-hybrid
+  paths: [car-manual, car-automatic]
+  q: What should you keep in mind when you drive an electric car slowly in a car park?
+  options:
+    - It is much quieter than a petrol car at low speed – pedestrians may not hear you
+    - It is louder than a petrol car
+    - It cannot reverse
+    - It has no brakes at low speed
+  answer: 0
+  explain: Electric cars are **quieter** than conventional cars at **low speeds**, where engine noise dominates. Pedestrians – especially children and people with impaired sight – may not hear you.
+  src: [ts-noise]
+
+- id: ev-weight
+  area: vehicle
+  lesson: electric-and-hybrid
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Under the EU's new licence directive, what will a B licence holder with two years' experience be allowed to drive from 26 November 2027?
+  options:
+    - Cars running fully or partly on alternative fuels up to 4,250 kg (not motorhomes)
+    - Any truck up to 7,500 kg
+    - Buses with 16 passengers
+    - Heavy motorcycles
+  answer: 0
+  explain: From **26 November 2027**, after two years with B, cars running fully or partly on **alternative fuels** (for example electricity) up to **4,250 kg** – not motorhomes. Until then, 3,500 kg applies.
+  src: [ts-future]
+
+# ---------------------------------------------------------------- manual gearbox
+- id: mg-coasting
+  area: vehicle
+  lesson: manual-gearbox
+  paths: [car-manual]
+  q: Why should you not drive downhill with the gear in neutral or the clutch pressed down (coasting)?
+  options:
+    - There is no engine braking, the speed rises quickly and you lose control
+    - It damages the gearbox immediately
+    - It is forbidden on all roads
+    - It uses more electricity
+  answer: 0
+  explain: Coasting **removes engine braking**, makes the speed downhill increase quickly, makes you use the footbrake more (which can reduce its effect), affects steering in bends, and makes it harder to select the right gear when needed.
+  src: ["uk-hc-general|rule 122"]
+
+- id: mg-licence
+  area: vehicle
+  lesson: manual-gearbox
+  paths: [car-manual]
+  q: You pass the driving test in a manual car. Which cars may you drive?
+  options: ["Both manual and automatic cars", "Only manual cars", "Only cars with five gears", "Automatic cars only after one year"]
+  answer: 0
+  explain: A licence from a test in a manual car lets you drive **both** manual and automatic cars. A test in an automatic car gives code 78.
+  src: [tv-theory-b]
+
+# ---------------------------------------------------------------- car controls and checks
+- id: cc-lane-change
+  area: vehicle
+  lesson: car-controls
+  paths: [car-manual, car-automatic]
+  q: What should you do before changing lanes?
+  options:
+    - Use the mirrors and, if necessary, take a quick glance over your shoulder into the blind spot
+    - Signal and move over at once
+    - Only look in the inside mirror
+    - Sound the horn
+  answer: 0
+  explain: First use your **mirrors** and, if necessary, take a **quick sideways glance** (the blind spot), so you do not force anyone to change course or speed. Then signal, and move over when it is clear.
+  src: ["uk-hc-general|rule 133", "tf|3:43"]
+
+- id: cc-adjust
+  area: vehicle
+  lesson: car-controls
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: What must you adjust when you get into the car at the driving test?
+  options:
+    - Seat, head restraint, steering wheel, mirrors and seat belt
+    - Only the mirrors
+    - The radio and the climate control
+    - Nothing – the examiner does it
+  answer: 0
+  explain: Trafikverket says you adjust the **seat, head restraint, steering wheel, mirrors and seat belt** when you get in.
+  src: [tv-driving-b]
+
+- id: sc-items
+  area: vehicle
+  lesson: safety-check-car
+  paths: [car-manual, car-automatic]
+  exam: false
+  q: Which of these can the examiner ask you to check in the safety check of the car driving test?
+  options:
+    - Fluids such as coolant, engine oil and washer fluid
+    - The car's registration number
+    - The radio
+    - The fuel price
+  answer: 0
+  explain: The safety check can include lights, indicators, reflectors and horn, wipers and washers, steering, brakes, tyres and rims, **fluids** and warning systems. If you find a fault, suggest what to do.
+  src: [tv-driving-b]
+
+# ---------------------------------------------------------------- motorcycle: helmet, gear, brakes
+- id: mcv-helmet-ece
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: Which helmet may you use on a motorcycle?
+  options:
+    - One that is E-marked and type-approved under ECE Regulation 22, series 05 or later
+    - Any helmet that covers the head
+    - A bicycle helmet, if you ride slowly
+    - Any helmet bought in the EU
+  answer: 0
+  explain: The helmet must be **E-marked** and type-approved under **UN ECE Regulation 22, amendment series 05 or later** (22.05 or 22.06).
+  src: ["tsfs-2017-94|3"]
+
+- id: mcv-helmet-stickers
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: You want to paint your helmet and drill holes for a camera mount. Is that a problem?
+  options:
+    - Yes – a helmet may not be used if something has been done that can reduce its protection
+    - No – helmets are very strong
+    - Only paint is a problem
+    - Only if the helmet is new
+  answer: 0
+  explain: A helmet may not be used if something has been done to it that can reduce its protection – Transportstyrelsen gives **stickers, protruding objects, holes in the shell and paint** as examples.
+  src: ["tsfs-2017-94|6"]
+
+- id: mcv-helmet-fastened
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: How must the helmet be worn?
+  options: ["Securely fastened so it sits firmly on the head", "With the strap loose for comfort", "Pushed back so you see more", "Only fastened outside built-up areas"]
+  answer: 0
+  explain: The helmet must be **securely fastened** so that it sits firmly on the head.
+  src: ["tsfs-2017-94|5"]
+
+- id: mcv-visor
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: Why should you replace a badly scratched visor?
+  options:
+    - Scratches limit your view, especially in bright sunshine and in darkness
+    - It is only a cosmetic problem
+    - It is required every year
+    - It makes the helmet heavier
+  answer: 0
+  explain: Scratched or poorly fitting eye protection can **limit your view**, particularly in **bright sunshine and in darkness**. Check your visor before each ride.
+  src: ["uk-hc-mc|rule 84"]
+
+- id: mcv-be-seen
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: You wear a bright helmet, fluorescent clothing and ride with the headlight on. Can you be sure drivers have seen you?
+  options:
+    - No – they may still not see you, or misjudge your distance or speed, especially at junctions
+    - Yes, always
+    - Yes, in daylight
+    - Yes, if you also sound the horn
+  answer: 0
+  explain: Bright and fluorescent gear and dipped headlights make you more conspicuous, but other drivers **may still not have seen you** or judged your distance or speed correctly – especially at **junctions**.
+  src: ["uk-hc-mc|rule 86", "tsfs-2011-19|3:2"]
+
+- id: mcv-dark
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: What helps other road users see you on a motorcycle in the dark?
+  options: ["Reflective clothing or strips", "Black clothing", "A tinted visor", "Riding close behind cars"]
+  answer: 0
+  explain: "**Reflective** clothing or strips reflect light from other vehicles' headlamps, so you are seen from further away."
+  src: ["uk-hc-mc|rule 87"]
+
+- id: mcv-gear
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: Which gear may help protect you in a motorcycle crash?
+  options: ["Strong boots, gloves and protective clothing", "Trainers and a T-shirt", "Shorts in summer", "Sunglasses instead of a visor"]
+  answer: 0
+  explain: Strong **boots, gloves** and suitable **protective clothing** may help protect you in a collision. Trafikverket lists helmet and other protective equipment among the key safety measures for riders.
+  src: ["uk-hc-mc|rule 84", tv-mc-safety]
+
+- id: mcv-abs-rule
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: Which new motorcycles must have ABS under EU rules?
+  options: ["Motorcycles over 125 cc", "All motorcycles, including 50 cc", "Only motorcycles over 1,000 cc", "None – ABS is optional"]
+  answer: 0
+  explain: New motorcycles **over 125 cc** must have ABS. For smaller ones the manufacturer may choose between ABS and a combined brake system.
+  src: [eu-168-2013]
+
+- id: mcv-abs-measure
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: Which vehicle technology does Trafikverket name among the most important safety measures for motorcycles?
+  options: ["ABS – also on light motorcycles – and cornering ABS", "Loud exhausts", "Larger fuel tanks", "Wider handlebars"]
+  answer: 0
+  explain: Trafikverket lists **ABS (also for light motorcycles)**, **cornering ABS**, speed-warning systems and better crash safety among the measures for motorcycles.
+  src: [tv-mc-safety]
+
+- id: mcv-both-brakes
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: How must you brake in the braking part of the motorcycle riding test?
+  options: ["Efficiently and controlled, with both the front and the rear brake", "Only with the rear brake", "Only with the front brake", "With engine braking only"]
+  answer: 0
+  explain: The test ends with efficient, controlled braking to a stop from **70 km/h and 90 km/h**, using **both** the front and the rear brake.
+  src: [tv-mc]
+
+- id: mcv-lock
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: Why should you avoid locking the wheels when you brake hard?
+  options: ["Locked wheels can lead to loss of control", "It damages the chain", "It is forbidden", "It turns the lights off"]
+  answer: 0
+  explain: In an emergency, brake at once – but avoid braking so harshly that you **lock the wheels**, because locked wheels can lead to loss of control. On a motorcycle, a locked front wheel almost always means a fall.
+  src: ["uk-hc-general|rule 118"]
+
+- id: mcv-auto-lights
+  area: vehicle
+  lesson: mc-controls
+  paths: [motorcycle]
+  q: What do EU rules require for the headlights of new models of motorcycles?
+  options: ["That they switch on automatically", "That they are yellow", "That they can be switched off in daylight", "Nothing"]
+  answer: 0
+  explain: New models of motorcycles and mopeds must have **lights that switch on automatically**, to increase visibility.
+  src: [eu-168-2013]
+
+- id: mcv-kill
+  area: vehicle
+  lesson: mc-safety-check
+  paths: [motorcycle]
+  exam: false
+  q: Which of these can be part of the safety check at the motorcycle riding test?
+  options: ["The chain, the stand and the kill switch", "The fuel price", "The colour of the motorcycle", "The insurance papers only"]
+  answer: 0
+  explain: The check can include lights, brakes, tyres, the **power transmission (chain, belt or shaft)**, the **stand**, mirrors, bearings, suspension, engine oil and the **kill switch**.
+  src: [tv-mc]
+
+- id: mcv-test-bike
+  area: vehicle
+  lesson: mc-controls
+  paths: [motorcycle]
+  exam: false
+  q: What kind of gearbox must the motorcycle have at an ordinary category A riding test?
+  options: ["A manual gearbox with a clutch lever", "An automatic gearbox", "Either – it does not matter", "An electric motor only"]
+  answer: 0
+  explain: The motorcycle must have a **manual gearbox and a clutch lever** – unless the test is for an automatic-only licence.
+  src: [tv-mc]
+
+- id: mcv-pillion
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: How should a passenger sit on a motorcycle?
+  options:
+    - Astride a proper seat, facing forward, with both feet on the footrests
+    - Side-saddle, if the trip is short
+    - On the tank in front of the rider
+    - Standing on the footrests
+  answer: 0
+  explain: A passenger may only be carried if the motorcycle is built for it – at most one, and the rider must be 18. The passenger sits **astride a proper seat**, **facing forward**, with **both feet on the footrests**.
+  src: ["tf|4:6b", "uk-hc-mc|rule 85"]
+
+- id: mcv-crawl
+  area: vehicle
+  lesson: mc-controls
+  paths: [motorcycle]
+  q: How do you best control a motorcycle at walking pace, for example in a tight turn?
+  options:
+    - Control the speed mainly with the clutch, supported by throttle and brake
+    - Only with the front brake
+    - With the engine switched off
+    - With the throttle fully open
+  answer: 0
+  explain: At very low speed, control the speed mainly with the **clutch**, supported by the throttle and brake – exactly what the low-speed part of the manoeuvre test checks. The curriculum calls it good balance when crawling.
+  src: [tv-mc, "tsfs-2011-19|2:2"]
+
+- id: mcv-risk-gear
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: Which protective gear must you wear in the practical part of the motorcycle risk education?
+  options:
+    - Helmet, protective clothing of leather or other strong material, eye protection, strong boots, gloves and a back protector
+    - Only a helmet
+    - A helmet and a reflective vest
+    - Whatever you like, if it is summer
+  answer: 0
+  explain: Transportstyrelsen requires a **helmet** and protective equipment – **clothes of leather or other strong material, goggles or similar, strong boots, gloves and a back protector** – all free from damage.
+  src: [ts-risk-mc]
+
+- id: mcv-evasive
+  area: vehicle
+  lesson: mc-cornering
+  paths: [motorcycle]
+  exam: false
+  q: What does the evasive manoeuvre in the motorcycle test show?
+  options:
+    - That you use the right riding and steering technique when you cannot stop before an obstacle
+    - That you can ride fast on a motorway
+    - That you can park between two cars
+    - That you can ride with no hands
+  answer: 0
+  explain: The examiner assesses that you can use the **right riding and steering technique** in an emergency where you **cannot stop before an obstacle** – done at about 50 km/h.
+  src: [tv-mc]
+
+- id: mcv-ppe-curriculum
+  area: vehicle
+  lesson: mc-protective-gear
+  paths: [motorcycle]
+  q: What does the motorcycle curriculum say about personal protective equipment?
+  options:
+    - You must explain why it matters and use it
+    - It is optional and not part of the training
+    - Only the helmet is mentioned
+    - Only for racing
+  answer: 0
+  explain: The curriculum requires you to explain **the importance of personal protective equipment** – and to use it. Trafikverket lists the helmet and other protective equipment among the key safety measures.
+  src: ["tsfs-2011-19|2:2", tv-mc-safety]

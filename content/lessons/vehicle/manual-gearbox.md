@@ -8,7 +8,7 @@ goals:
   - Explain what the clutch does and what the biting point is
   - Move off, change gear and stop smoothly
   - Use the gears for engine braking and economical driving
-sources: [tv-driving-b, tsfs-2011-20]
+sources: [tv-driving-b, tsfs-2011-20, uk-hc-general]
 ---
 
 ## Why a car needs gears
@@ -72,7 +72,7 @@ When you take your foot off the gas **with a gear engaged**, the engine slows th
 - When you slow down for a junction, you can stay in gear with the clutch up until the engine speed gets low, and then press the clutch before the engine stalls.
 
 ::: warning Do not coast in neutral
-Driving with the gear in **neutral** or the **clutch pressed down** for a long time (coasting) removes engine braking, uses no less fuel in a modern car, and gives you less control – you may not be in the right gear when you suddenly need power.
+Driving with the gear in **neutral** or the **clutch pressed down** (coasting) **removes engine braking**, lets the speed downhill increase quickly, makes you use the footbrake more (which can reduce its effect), affects the steering in bends, and makes it harder to select the right gear when you need it [[src:uk-hc-general|rule 122]].
 :::
 
 ## Stopping

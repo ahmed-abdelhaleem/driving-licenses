@@ -1,0 +1,751 @@
+# Traffic safety questions (area: safety) – speed and stopping, seeing risks, road environments,
+# darkness and weather, winter, wildlife, vulnerable road users, accidents and first aid,
+# and the motorcycle safety lessons.
+
+# ---------------------------------------------------------------- speed and stopping distance
+- id: sd-total
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: What does the **stopping distance** consist of?
+  options:
+    - The distance you travel while reacting plus the braking distance
+    - Only the braking distance
+    - The distance to the vehicle in front
+    - The distance shown on the speedometer
+  answer: 0
+  explain: The overall stopping distance is the **reaction (thinking) distance** – travelled before you even start braking – plus the **braking distance**. Never get closer to the vehicle in front than you can stop.
+  src: ["uk-hc-general|rule 126"]
+
+- id: sd-double
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: You double your speed. What happens to the braking distance, roughly?
+  options: ["It becomes about four times longer", "It doubles", "It stays the same with ABS", "It becomes three times longer"]
+  answer: 0
+  explain: The energy of a moving vehicle grows with the **square** of the speed, so double the speed gives about **four times** the braking distance – and much harder crash forces.
+  src: [tv-safety-facts]
+
+- id: sd-reaction-90
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: You drive at 90 km/h and need one second to react. About how far do you travel before you start braking?
+  options: ["About 25 metres", "About 9 metres", "About 50 metres", "About 90 metres"]
+  answer: 0
+  explain: "Metres per second = km/h ÷ 3.6, so 90 km/h is about **25 m per second**. Transportstyrelsen uses the same calculation: two seconds at 40 km/h is 22 metres."
+  src: [ts-mobile]
+
+- id: sd-older
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: According to Trafikverket, how does the risk of injury for an unprotected road user over 65 change between 30 and 50 km/h?
+  options: ["It is three times higher at 50 km/h", "It is about the same", "It is 10 % higher at 50 km/h", "It is lower at 50 km/h"]
+  answer: 0
+  explain: Trafikverket reports that the risk of injury for unprotected road users over 65 is **three times higher at 50 km/h** than at 30 km/h.
+  src: [tv-safety-facts]
+
+- id: sd-car-front
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: Modern car fronts are designed to protect pedestrians. Up to about what impact speed does that help?
+  options: ["Below about 50 km/h", "Up to 110 km/h", "At all speeds", "Only below 10 km/h"]
+  answer: 0
+  explain: Pedestrian-friendly car fronts only help at impact speeds **below about 50 km/h**. Above that, the forces are so great that the design hardly matters.
+  src: [tv-safety-facts]
+
+- id: sd-gap-law
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: Does Swedish law set the following distance as a number of seconds or metres?
+  options:
+    - No – it must be long enough to avoid running into the vehicle in front if it slows down or stops
+    - Yes – 3 seconds
+    - Yes – 2 seconds
+    - Yes – 50 metres outside built-up areas
+  answer: 0
+  explain: The law gives **no number**. The distance must be adapted so you do not run into the vehicle in front if it slows down or stops. Counting seconds is a practical rule of thumb.
+  src: ["tf|3:2"]
+
+- id: sd-wet-gap
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: How should your following distance change on a wet road?
+  options: ["It should be at least doubled", "It can stay the same", "It can be shorter with ABS", "Only trucks need more distance"]
+  answer: 0
+  explain: Make the gap **at least double** on wet roads – and up to **ten times** greater on icy roads.
+  src: ["uk-hc-general|rule 126"]
+
+- id: sd-see
+  area: safety
+  lesson: speed-and-stopping-distance
+  q: You drive at night with dipped beam. Your stopping distance is longer than the stretch your lights show. What does that mean?
+  options:
+    - You are driving too fast – you must be able to stop within the distance you can see
+    - Nothing, if you keep the speed limit
+    - You must switch on the fog lights
+    - You should drive closer to the car in front to use its lights
+  answer: 0
+  explain: The speed may never be so high that you cannot **stop within the distance you can see**. Slow down, and use main beam when it is allowed and needed.
+  src: ["tf|3:14", "tf|3:70"]
+
+# ---------------------------------------------------------------- seeing and planning
+- id: spn-curriculum
+  area: safety
+  lesson: seeing-and-planning
+  q: Which of these does the curriculum require you to show when you drive?
+  options:
+    - Good scanning routines and sufficient safety margins
+    - The ability to drive fast in bends
+    - Knowledge of car prices
+    - Driving without using the mirrors
+  answer: 0
+  explain: The curriculum requires **good scanning routines**, **sufficient safety margins**, identifying risks and foreseeing how situations can develop.
+  src: ["tsfs-2011-20|3:2", "tsfs-2011-19|3:2"]
+
+- id: spn-ball
+  area: safety
+  lesson: seeing-and-planning
+  q: A ball rolls out into the street from between parked cars. What should you expect?
+  options:
+    - That a child may run out after it – slow down and be ready to stop
+    - Nothing – just drive around the ball
+    - That the ball will stop by itself
+    - That a dog is playing
+  answer: 0
+  explain: "Read the clues: a ball means a **child** may follow. The law requires a low enough speed when you approach children, and care to avoid accidents."
+  src: ["tf|3:15", "tf|2:1"]
+
+- id: spn-bus
+  area: safety
+  lesson: seeing-and-planning
+  q: You approach a bus that has stopped to let passengers off. What does the law require?
+  options:
+    - A low enough speed – people may cross in front of or behind the bus
+    - Overtaking it quickly
+    - Sounding the horn
+    - Nothing special
+  answer: 0
+  explain: The law requires a low enough speed when approaching a **tram, bus or school bus** that has stopped to let passengers on or off. People may step out in front of or behind it.
+  src: ["tf|3:15"]
+
+# ---------------------------------------------------------------- road environments
+- id: re-2plus1
+  area: safety
+  lesson: roads-and-environments
+  q: On a road with a central barrier that alternates between one and two lanes in your direction, where can you overtake?
+  options:
+    - Only where you have two lanes in your direction
+    - Anywhere, if no one is coming
+    - Only on the shoulder
+    - Nowhere
+  answer: 0
+  explain: The barrier separates the directions, so you can only overtake where **two lanes** run in your direction – the lane you use must be free for a long enough distance. Do not start just before the two lanes end.
+  src: ["tf|3:36", "tf|3:44"]
+
+- id: re-roadworks
+  area: safety
+  lesson: roads-and-environments
+  q: What does the law demand when you drive past road works?
+  options: ["A low enough speed", "Keeping the normal limit", "Driving on the shoulder", "Sounding the horn"]
+  answer: 0
+  explain: The law lists **road works** among the places where you must keep a low enough speed. Expect narrow lanes, gravel and people working.
+  src: ["tf|3:15"]
+
+# ---------------------------------------------------------------- darkness and weather
+- id: dw-reduced
+  area: safety
+  lesson: darkness-and-weather
+  q: Visibility is reduced by heavy snowfall. What does the law say about your speed?
+  options:
+    - It must be low enough for the circumstances
+    - You may keep the speed limit
+    - You must drive at most 30 km/h
+    - You must stop and wait
+  answer: 0
+  explain: The law specifically demands a low enough speed when **visibility is reduced** by light or weather, and you must always be able to stop within the distance you can see.
+  src: ["tf|3:15", "tf|3:14"]
+
+- id: dw-dazzled
+  area: safety
+  lesson: darkness-and-weather
+  q: You are dazzled by a low sun or oncoming lights and can hardly see. What do you do?
+  options: ["Slow down – and stop if necessary", "Keep your speed and steer straight", "Speed up to get past quickly", "Switch on the hazard lights and continue"]
+  answer: 0
+  explain: If you are dazzled, **slow down and, if necessary, stop**. Where there is a risk of dazzle, the law demands a low enough speed.
+  src: ["uk-hc-weather|rule 237", "tf|3:15"]
+
+- id: dw-rain-dry
+  area: safety
+  lesson: darkness-and-weather
+  q: It starts to rain after a long dry, warm spell. What should you expect?
+  options: ["The road may become slippery", "Better grip than usual", "No change", "Shorter braking distances"]
+  answer: 0
+  explain: If it rains after a **dry spell**, the road may become **slippery**.
+  src: ["uk-hc-weather|rule 237"]
+
+- id: dw-fog
+  area: safety
+  lesson: darkness-and-weather
+  q: In fog, a car stays close behind you. What should you do?
+  options:
+    - Keep a speed at which you can stop within what you can see – do not speed up to get away
+    - Speed up to get away from it
+    - Brake hard to warn it
+    - Switch off your rear lights
+  answer: 0
+  explain: In fog, be able to stop **well within the distance you can see**, keep a safe distance, and **do not accelerate** to get away from a vehicle that is too close behind you.
+  src: ["uk-hc-weather|rule 235", "tf|3:14"]
+
+- id: dw-fog-patches
+  area: safety
+  lesson: darkness-and-weather
+  q: The fog seems to be clearing. What should you keep in mind?
+  options:
+    - Fog often lies in patches – you can suddenly be in thick fog again
+    - You can speed up to the limit at once
+    - Fog never comes back on the same road
+    - You can switch off all lights
+  answer: 0
+  explain: Fog can drift in patches. Even if it seems to be clearing, you can suddenly find yourself in **thick fog** again.
+  src: ["uk-hc-weather|rule 234"]
+
+- id: dw-wind
+  area: safety
+  lesson: darkness-and-weather
+  q: Where are strong side-wind gusts most likely to push a vehicle off course?
+  options:
+    - On open stretches, on bridges and at gaps in hedges or forest
+    - In tunnels
+    - In town centres between tall buildings only
+    - On roads with many bends
+  answer: 0
+  explain: Strong gusts can blow a car, cyclist or motorcyclist off course on **open stretches**, on **bridges** and at **gaps** in hedges or forest. Sign A24 warns of places where side wind is common.
+  src: ["uk-hc-weather|rule 232", "vmf|2:5"]
+
+- id: dw-spray
+  area: safety
+  lesson: darkness-and-weather
+  q: Why should you keep further back from the vehicle in front in heavy rain?
+  options:
+    - Rain and spray make it hard to see and be seen, and stopping distances are at least double
+    - To save fuel
+    - Because the law sets 100 m in rain
+    - To avoid getting the car dirty
+  answer: 0
+  explain: In wet weather keep well back – **spray** makes it hard to see and be seen, and stopping distances are **at least double** those on dry roads.
+  src: ["uk-hc-weather|rule 227"]
+
+# ---------------------------------------------------------------- winter
+- id: wd-windows
+  area: safety
+  lesson: winter-driving
+  paths: [car-manual, car-automatic]
+  q: Your windscreen is covered in ice. What should you do before driving?
+  options:
+    - Clear all windows completely, and the lights and mirrors
+    - Scrape a small peephole in front of the driver
+    - Drive slowly until the heater melts the ice
+    - Only clear the front side windows
+  answer: 0
+  explain: "You must be able to see: clear snow and ice from **all** windows, make sure the **mirrors** are clear, and clean the **lights** and number plates."
+  src: ["uk-hc-weather|rule 229", "tf|3:14"]
+
+- id: wd-roof
+  area: safety
+  lesson: winter-driving
+  paths: [car-manual, car-automatic]
+  q: Why should you clear snow from the roof of the car before you drive?
+  options:
+    - It can fall off into the path of other road users, or slide over your windscreen when you brake
+    - It makes the car heavier
+    - It is only for looks
+    - It damages the paint
+  answer: 0
+  explain: Remove all snow that might **fall off into the path of other road users** – it can also slide down over your windscreen when you brake.
+  src: ["uk-hc-weather|rule 229"]
+
+- id: wd-plough
+  area: safety
+  lesson: winter-driving
+  q: A snow plough is clearing the road ahead. When may you overtake it?
+  options:
+    - Only when the lane you will use has been cleared
+    - Whenever there is no oncoming traffic
+    - Never
+    - When it signals with amber lights
+  answer: 0
+  explain: Snow ploughs may throw out snow on both sides. Do **not overtake** unless the lane you intend to use **has been cleared**. Their amber lights mean slow down and be ready to stop.
+  src: ["uk-hc-weather|rule 230", ts-lighting]
+
+- id: wd-avoid
+  area: safety
+  lesson: winter-driving
+  q: What does the curriculum say about travelling in risky conditions such as slippery roads and bad weather?
+  options: ["Avoid them when you can – plan your trip", "They are good practice", "Only professional drivers should avoid them", "Nothing"]
+  answer: 0
+  explain: The curriculum wants you to plan your travel so that trips in risky conditions – **dense traffic, slippery roads and bad weather** – are avoided when possible.
+  src: ["tsfs-2011-20|4:1", "tsfs-2011-19|4:1"]
+
+- id: wd-dipped
+  area: safety
+  lesson: winter-driving
+  paths: [car-manual, car-automatic]
+  q: It is snowing in the afternoon and getting dark. Which lights do you use?
+  options: ["Dipped beam", "Daytime running lights", "Only the rear fog light", "Parking lights"]
+  answer: 0
+  explain: Daytime running lights may not replace dipped beam in dusk, darkness or when the weather makes dipped beam necessary.
+  src: ["tf|3:71"]
+
+# ---------------------------------------------------------------- wildlife
+- id: wl-when
+  area: safety
+  lesson: wildlife
+  q: When are you most likely to meet wild animals on the road?
+  options: ["At dawn and dusk", "At midday", "Only at night in summer", "Only in winter"]
+  answer: 0
+  explain: The animals are most active at **dawn and dusk** – at the same time as many people drive to and from work.
+  src: [polisen-wildlife-2025, polisen-wildlife]
+
+- id: wl-months
+  area: safety
+  lesson: wildlife
+  q: In which months do most wildlife crashes happen?
+  options: ["October and November", "June and July", "January and February", "April and May"]
+  answer: 0
+  explain: The Police report that most wildlife crashes happen in **October and November**.
+  src: [polisen-wildlife-2025]
+
+- id: wl-species
+  area: safety
+  lesson: wildlife
+  q: Which animal is involved in most reported wildlife crashes on Swedish roads?
+  options: ["Roe deer", "Elk", "Reindeer", "Wild boar"]
+  answer: 0
+  explain: In 2025, **69 %** of the more than 70,000 reported wildlife crashes involved **roe deer**, followed by wild boar, fallow deer and elk.
+  src: [trafa-2025]
+
+- id: wl-prevent
+  area: safety
+  lesson: wildlife
+  q: What is the Police's first piece of advice for avoiding wildlife crashes?
+  options: ["Lower your speed", "Sound the horn in forests", "Drive in the middle of the road", "Use fog lights"]
+  answer: 0
+  explain: Lowering the speed gives you more time to react and a **shorter braking distance**. Also watch the ditch edges, take warning signs seriously and be extra alert at dawn and dusk.
+  src: [polisen-wildlife-2025]
+
+- id: wl-roe-ran
+  area: safety
+  lesson: wildlife
+  q: You hit a roe deer. It gets up and runs into the forest, apparently unhurt. What must you do?
+  options:
+    - Mark the place and call 112 to notify the police
+    - Nothing – it was not hurt
+    - Follow it to check that it is fine
+    - Report it to your insurance company only
+  answer: 0
+  explain: The duty to **mark the place and notify the police** applies **even if the animal does not look injured** or lies dead at the spot.
+  src: [polisen-wildlife]
+
+- id: wl-mark-side
+  area: safety
+  lesson: wildlife
+  q: On which side of the road should you mark the place after a wildlife crash?
+  options: ["The side where the animal disappeared", "The side where you stopped", "Always the right side", "Both sides"]
+  answer: 0
+  explain: Mark the place – with the special marking strip or something clearly visible like a plastic bag – on the side of the road where the animal **disappeared**.
+  src: [polisen-wildlife, viltolycka-krock]
+
+- id: wl-track
+  area: safety
+  lesson: wildlife
+  q: An injured elk disappears into the forest after a collision. What should you do?
+  options:
+    - Do not follow it – the police send a specially trained tracker
+    - Follow it to end its suffering
+    - Wait for it to come back
+    - Drive away – it is the hunters' job
+  answer: 0
+  explain: Do **not** follow or track an injured animal yourself. The police contact a specially trained tracker. Stay reachable by phone.
+  src: [polisen-wildlife, viltolycka-krock]
+
+- id: wl-reindeer
+  area: safety
+  lesson: wildlife
+  q: Must you notify the police if you hit a **reindeer**?
+  options: ["Yes – even though reindeer are not wild animals", "No – reindeer are domestic animals", "Only if it dies", "Only in Norrbotten"]
+  answer: 0
+  explain: You must also notify the police if you have hit a **reindeer**, even though reindeer do not count as wild animals.
+  src: [polisen-wildlife, viltolycka-faq]
+
+- id: wl-fox
+  area: safety
+  lesson: wildlife
+  q: Must you notify the police after hitting a **fox or a hare**?
+  options: ["No – they are not covered by the duty to report", "Yes, always", "Only in daylight", "Only if the car is damaged"]
+  answer: 0
+  explain: The duty to report covers bear, wolf, wolverine, lynx, elk, deer, roe deer, otter, wild boar, mouflon and eagle (and reindeer). A **hare, badger or fox** does not have to be reported.
+  src: [viltolycka-faq, polisen-wildlife]
+
+- id: wl-boar-strip
+  area: safety
+  lesson: wildlife
+  q: After a collision with a **wild boar**, where should you put the marking strip?
+  options: ["About 100 metres from the place – and tell the police", "Right at the place", "On the car", "No marking is needed"]
+  answer: 0
+  explain: For **wild boar, bear, wolf and lynx**, put the marking strip about **100 m** from the place and inform the police that you have done so.
+  src: [viltolycka-krock]
+
+- id: wl-not-report
+  area: safety
+  lesson: wildlife
+  q: What happens if you do not notify the police after hitting an elk?
+  options: ["It is an offence and can give a fine", "Nothing", "Only your insurance is affected", "You lose your licence for a year"]
+  answer: 0
+  explain: Not notifying the police after a collision with these animals is an **offence** under the hunting regulations and can give **day-fines**. Insurance companies also usually require that it was reported via 112.
+  src: [polisen-wildlife, viltolycka-faq]
+
+- id: wl-pass-site
+  area: safety
+  lesson: wildlife
+  q: You pass a place where a wildlife crash has just happened. What should you do?
+  options:
+    - Slow down – a tracker and dog may be working there, and an injured animal may be near
+    - Speed up to get past quickly
+    - Stop and take photos
+    - Sound the horn to scare animals away
+  answer: 0
+  explain: Slow down and pass carefully – a **tracker with a dog** may be working on or beside the road, and an injured animal may be nearby.
+  src: [viltolycka-faq]
+
+# ---------------------------------------------------------------- vulnerable road users
+- id: vr-mc-look
+  area: safety
+  lesson: vulnerable-road-users
+  q: Why should you look twice for motorcycles before turning or pulling out at a junction?
+  options:
+    - They are hard to see, and their speed and distance are easily misjudged
+    - Because they always have priority
+    - Because they are slower than cars
+    - Because they must give way to you
+  answer: 0
+  explain: Other road users often have difficulty seeing motorcyclists – and drivers may not see them at all, or misjudge their **distance or speed**, especially at **junctions**.
+  src: ["tsfs-2011-19|3:2", "uk-hc-mc|rule 86"]
+
+- id: vr-children
+  area: safety
+  lesson: vulnerable-road-users
+  q: You approach children walking beside the road. What does the law require?
+  options: ["A speed low enough for the situation", "Sounding the horn", "Keeping the limit", "Flashing the headlights"]
+  answer: 0
+  explain: The law requires a low enough speed when approaching **children** on or beside the road, and special consideration for them.
+  src: ["tf|3:15", "tf|2:1"]
+
+- id: vr-overtake-cyclist
+  area: safety
+  lesson: vulnerable-road-users
+  q: How much room should you leave when you overtake a cyclist?
+  options:
+    - A safe sideways distance – if you cannot, wait behind
+    - At least 10 cm
+    - The same as when overtaking a car
+    - It does not matter if you are fast
+  answer: 0
+  explain: When overtaking, leave a **safe sideways distance**. Cyclists can wobble or swerve round potholes. If oncoming traffic prevents it, wait.
+  src: ["tf|3:33"]
+
+# ---------------------------------------------------------------- accidents and first aid
+- id: fa-stay
+  area: safety
+  lesson: accidents-first-aid
+  q: You are involved in a traffic accident, but it was not your fault. What does the law require?
+  options:
+    - Stay at the scene, help the injured as far as you can, and give your name and address if asked
+    - You may leave, since it was not your fault
+    - Only call your insurance company
+    - Leave your phone number on the windscreen
+  answer: 0
+  explain: A road user involved in a traffic accident – **with or without being at fault** – must **stay**, help the injured as far as they can, and give name, address and information about the event if asked.
+  src: ["tf|2:8"]
+
+- id: fa-property
+  area: safety
+  lesson: accidents-first-aid
+  q: You damage a parked car and nobody is there. What must you do?
+  options:
+    - Inform the owner or the police as soon as possible
+    - Nothing if the damage is small
+    - Wait until the next day
+    - Drive away and send a letter later if you want
+  answer: 0
+  explain: If property is damaged and nobody is there to receive your details, inform the **owner** or the **police** as soon as possible.
+  src: ["tf|2:8"]
+
+- id: fa-injury-police
+  area: safety
+  lesson: accidents-first-aid
+  q: Someone is injured in an accident you were involved in (not an insignificant injury). Who must be informed?
+  options: ["The police, as soon as possible", "Only the injured person's family", "Only your insurance company", "Nobody, if an ambulance came"]
+  answer: 0
+  explain: If someone has been **injured** – and the injury is not insignificant – the **police** must be informed as soon as possible.
+  src: ["tf|2:8"]
+
+- id: fa-traces
+  area: safety
+  lesson: accidents-first-aid
+  q: Someone has been seriously injured in a crash. When may you move the vehicles?
+  options:
+    - Only if they are a danger to other traffic – and do not remove traces that can matter for the investigation
+    - Always at once, to clear the road
+    - Never, even if they block a motorway
+    - Only after one hour
+  answer: 0
+  explain: Normally a vehicle that is a danger or obstruction should be moved at once – but if someone has been **killed or seriously injured**, move it only if it is a **danger** to other traffic, and do not remove **traces** that matter for the investigation.
+  src: ["tf|2:8"]
+
+- id: fa-order
+  area: safety
+  lesson: accidents-first-aid
+  q: You arrive first at a crash on a country road. What is the right order?
+  options:
+    - Protect the scene, call 112, help the injured
+    - Help the injured, then think about traffic
+    - Call 112 and drive on
+    - Take photos, then call 112
+  answer: 0
+  explain: "**Protect** the scene (hazard lights, warning triangle, reflective vest), **alert** 112, then **help** the injured – starting with the most life-threatening. Make sure the scene is safe for you too."
+  src: ["tf|3:57", 1177-cpr]
+
+- id: fa-cpr
+  area: safety
+  lesson: accidents-first-aid
+  q: How do you give chest compressions to an adult during CPR?
+  options:
+    - 5–6 cm deep, 100–120 times a minute, 30 compressions then 2 breaths
+    - 1–2 cm deep, 60 times a minute
+    - 10 cm deep, 30 times a minute
+    - 15 compressions then 15 breaths
+  answer: 0
+  explain: "Press in the **middle of the chest**, **5–6 cm** deep, **100–120 times a minute**: 30 compressions, then 2 rescue breaths, and continue 30:2."
+  src: [1177-cpr]
+
+- id: fa-breathing
+  area: safety
+  lesson: accidents-first-aid
+  q: An unconscious person takes rare, gasping breaths. What does that mean?
+  options:
+    - It is not normal breathing – call 112 and start CPR
+    - The person is breathing normally – recovery position
+    - The person is sleeping
+    - Wait and see if it gets better
+  answer: 0
+  explain: Rare, gasping breaths are **not normal breathing**. Call 112 and start **CPR**.
+  src: [1177-cpr]
+
+- id: fa-recovery
+  area: safety
+  lesson: accidents-first-aid
+  q: A person is unconscious but breathes normally. What do you do?
+  options:
+    - Place them in the recovery position, keep them warm and watch their breathing
+    - Start chest compressions
+    - Sit them up
+    - Give them water
+  answer: 0
+  explain: Put them in the **recovery position** (*stabilt sidoläge*) – on the side, so the tongue cannot block the airway – keep them warm and keep watching the breathing.
+  src: [1177-shock]
+
+- id: fa-bleeding
+  area: safety
+  lesson: accidents-first-aid
+  q: An injured person is bleeding heavily from the leg. What do you do?
+  options:
+    - Press hard directly on the wound and keep pressing until the ambulance staff take over
+    - Raise the leg and wait
+    - Wash the wound first
+    - Give the person something to drink
+  answer: 0
+  explain: Press **hard and directly** on the wound – with a cloth or your bare hands – and keep pressing until the ambulance staff tell you to stop.
+  src: [1177-bleeding]
+
+- id: fa-object
+  area: safety
+  lesson: accidents-first-aid
+  q: A piece of glass is stuck in a bleeding wound. What do you do?
+  options: ["Leave it and press around it", "Pull it out at once", "Push it in further", "Pour water over it"]
+  answer: 0
+  explain: Do **not remove** objects stuck in a wound – press beside them.
+  src: [1177-bleeding]
+
+- id: fa-shock
+  area: safety
+  lesson: accidents-first-aid
+  q: A conscious injured person is pale, cold, sweaty and has a fast weak pulse – signs of shock. What do you do?
+  options:
+    - Lay them on their back with the legs raised, keep them warm, do not leave them, give nothing to eat or drink
+    - Give them something sweet to drink
+    - Make them walk around
+    - Sit them up and leave to get help
+  answer: 0
+  explain: For shock in a conscious person, lay them on their **back with the legs raised**, keep them **warm** and **calm**, do not leave them alone, and give **nothing to eat or drink**.
+  src: [1177-shock]
+
+- id: fa-aed
+  area: safety
+  lesson: accidents-first-aid
+  q: A defibrillator (*hjärtstartare*) is available during CPR. What do you do?
+  options:
+    - Use it as soon as possible – it gives spoken instructions and cannot harm the person
+    - Only a doctor may use it
+    - Use it only if CPR has failed for 30 minutes
+    - Never use it outdoors
+  answer: 0
+  explain: Use a **defibrillator** as soon as one is available. It gives spoken instructions and cannot harm the person.
+  src: [1177-cpr]
+
+- id: fa-helmet
+  area: safety
+  lesson: accidents-first-aid
+  q: An injured motorcyclist lies on the road wearing a helmet. Should you take it off?
+  options:
+    - Not unless it is essential, for example to keep the airway open
+    - Yes, always, so the rider can breathe
+    - Yes, to check for head injuries
+    - Only if the rider asks
+  answer: 0
+  explain: Do **not remove** a motorcyclist's helmet unless it is **essential** and you know how. Then keep the head and neck as still as possible.
+  src: ["uk-hc-incidents|rule 283"]
+
+- id: fa-112
+  area: safety
+  lesson: accidents-first-aid
+  q: What number do you call for an ambulance, the police or the fire service in Sweden?
+  options: ["112", "911", "999", "114 14"]
+  answer: 0
+  explain: Call **112**. Say what has happened, where, how many are injured, and if anyone is trapped. The 112 app can show your position.
+  src: [1177-cpr, polisen-wildlife]
+
+# ---------------------------------------------------------------- motorcycle safety
+- id: mcs-bends
+  area: safety
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: According to Trafikverket's analyses, where do motorcycle crashes most often happen?
+  options: ["In bends", "In roundabouts", "In car parks", "At pedestrian crossings"]
+  answer: 0
+  explain: The most common **place** for motorcycle crashes is in **bends**. The most common type of fatal crash is the single-vehicle crash.
+  src: [tv-mc-safety]
+
+- id: mcs-single
+  area: safety
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: What is the most common type of crash in which motorcyclists are killed?
+  options: ["Single-vehicle crashes", "Rear-end collisions", "Crashes with pedestrians", "Crashes in car parks"]
+  answer: 0
+  explain: The most common crash type for killed motorcyclists is the **single-vehicle crash**; the second most common is the **junction crash**.
+  src: [tv-mc-safety]
+
+- id: mcs-speed
+  area: safety
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: In fatal motorcycle crashes, how many riders were judged to have kept to the speed limit?
+  options: ["Only about three in ten", "About nine in ten", "All of them", "About half"]
+  answer: 0
+  explain: Trafikverket's analyses show that only **three in ten** riders were judged to have kept to the limit. Speeding can both cause the crash and make the injuries worse.
+  src: [tv-mc-safety]
+
+- id: mcs-headon
+  area: safety
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: In 8 of 10 fatal head-on crashes involving a motorcyclist, what happened?
+  options: ["The motorcycle crossed into the oncoming lane", "A car crossed into the motorcycle's lane", "A truck overtook", "An animal ran out"]
+  answer: 0
+  explain: In **8 of 10** fatal head-on crashes with motorcyclists, the **motorcycle crossed into the oncoming lane** – often in bends or when overtaking.
+  src: [tv-mc-safety]
+
+- id: mcs-junction
+  area: safety
+  lesson: mc-visibility-and-position
+  paths: [motorcycle]
+  q: What is the second most common type of fatal motorcycle crash?
+  options: ["The junction crash", "The rear-end crash", "Hitting a pedestrian", "A crash in a tunnel"]
+  answer: 0
+  explain: After single-vehicle crashes, the **junction crash** is the second most common – often a car turning across or pulling out in front of the rider.
+  src: [tv-mc-safety]
+
+- id: mcs-mirrors
+  area: safety
+  lesson: mc-visibility-and-position
+  paths: [motorcycle]
+  q: In a traffic queue, where should you position your motorcycle?
+  options:
+    - So that the driver in front can see you in their mirrors
+    - Directly behind the car, in the middle
+    - In the blind spot beside the car
+    - On the shoulder
+  answer: 0
+  explain: Position yourself so that drivers in front **can see you in their mirrors**, and watch for pedestrians crossing between vehicles and cars changing lanes.
+  src: ["uk-hc-mc|rule 88"]
+
+- id: mcs-headlight
+  area: safety
+  lesson: mc-visibility-and-position
+  paths: [motorcycle]
+  q: Must a motorcycle ride with its headlight on in daylight?
+  options: ["Yes – a motor vehicle with headlights must use them", "No – only at night", "Only outside built-up areas", "Only in rain"]
+  answer: 0
+  explain: A motor vehicle that has headlights must use them when driving on a road – and dipped headlights make you more conspicuous.
+  src: ["tf|3:68", "uk-hc-mc|rule 86"]
+
+- id: mcs-turbulence
+  area: safety
+  lesson: mc-road-surface
+  paths: [motorcycle]
+  q: What should you expect when you overtake a large truck on a motorcycle in strong wind?
+  options:
+    - Turbulence from the truck can push the motorcycle sideways
+    - Better grip in the truck's slipstream
+    - Nothing special
+    - The wind will stop completely
+  answer: 0
+  explain: Large vehicles create **turbulence** in windy weather, and motorcyclists are **particularly affected**.
+  src: ["uk-hc-weather|rule 233"]
+
+- id: mcs-diesel
+  area: safety
+  lesson: mc-road-surface
+  paths: [motorcycle]
+  q: You see a rainbow-coloured sheen on the wet road at a roundabout. What is it likely to be, and what do you do?
+  options:
+    - Spilt diesel or oil – very slippery; avoid it or ride over it upright and smoothly
+    - Paint – it gives extra grip
+    - Water – no danger
+    - Ice – brake hard on it
+  answer: 0
+  explain: Spilt **diesel** makes the surface **very slippery**. Ride round it if you can – otherwise upright, with no braking or sudden steering.
+  src: ["uk-hc-weather|rule 227"]
+
+- id: mcs-surface
+  area: safety
+  lesson: mc-road-surface
+  paths: [motorcycle]
+  q: Which road factor does Trafikverket name as important for motorcycle safety?
+  options: ["Even and predictable friction", "Many speed bumps", "Wide road markings", "Dark asphalt"]
+  answer: 0
+  explain: Trafikverket lists **even and predictable friction** among the infrastructure measures for motorcycle safety – and works on maintenance requirements for **loose gravel**.
+  src: [tv-mc-safety]
+
+- id: mcs-curriculum-surface
+  area: safety
+  lesson: mc-road-surface
+  paths: [motorcycle]
+  q: What does the motorcycle curriculum say about road conditions?
+  options:
+    - You must explain how the road condition affects the motorcycle's handling
+    - Road conditions only matter for cars
+    - Motorcycles are not affected by gravel
+    - You may only ride on dry roads
+  answer: 0
+  explain: The curriculum requires you to explain **how the road condition affects the motorcycle's handling**, and how different road conditions and environments affect riding and safety.
+  src: ["tsfs-2011-19|2:2", "tsfs-2011-19|4:2"]

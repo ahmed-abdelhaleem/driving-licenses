@@ -8,7 +8,7 @@ goals:
   - Explain what affects grip and how weight transfer changes it
   - Recognise understeer and oversteer and know how to respond
   - Know how drive type, aquaplaning and ESC affect the car
-sources: [tsfs-2011-20, tv-vehicle-safety, ts-tyres, tf]
+sources: [tsfs-2011-20, tv-vehicle-safety, ts-tyres, tf, uk-hc-general, uk-hc-weather]
 ---
 
 ## Grip
@@ -34,11 +34,13 @@ When you **brake**, the car's weight shifts **forward**: the front wheels press 
 
 ## Understeer and oversteer
 
+Skids are usually caused by **braking, accelerating or steering too harshly**, or by driving **too fast** for the road conditions [[src:uk-hc-general|rule 119]].
+
 | | Understeer | Oversteer |
 |---|---|---|
 | What happens | The **front** wheels slide. The car goes **straighter** – wider – than you steer. | The **rear** wheels slide. The back swings out and the car **turns more** than you steer, or spins. |
 | Common cause | Too much speed into a bend, steering harder and harder | Lifting off or braking hard in a bend, accelerating hard in a rear-wheel-drive car |
-| What to do | **Ease off** the accelerator, **reduce the steering angle** a little so the tyres can grip again, and look where you want to go | **Look and steer** where you want to go – **steer against** the skid. Do not brake hard. |
+| What to do | **Ease off** the accelerator, **reduce the steering angle** a little so the tyres can grip again, and look where you want to go | **Release the brake / ease off** and **steer in the direction of the skid** – if the rear slides to the right, steer right [[src:uk-hc-general|rule 119]]. |
 
 ::: warning Prevention is the only safe method
 Recovering from a skid needs space, practice and luck. Adapt your speed **before** the bend, keep a long distance, and avoid sudden movements on slippery roads. The **skid training** in part 2 of the risk education shows how little grip there is – see [[lesson:risk-education]].
@@ -56,7 +58,7 @@ The curriculum also asks you to explain how different **drive systems** affect h
 
 At speed on a wet road, a **film of water** can build up under the tyres so they lose contact with the road – **aquaplaning** ([[term:vattenplaning|sv]]). The risk grows with **higher speed**, **worn tyres** and **deeper water** – for example in **ruts**.
 
-Signs: the steering suddenly feels **light**, the engine revs may rise. What to do: **ease off the accelerator**, hold the wheel steady, do **not** brake hard or steer sharply until the tyres grip again. See [[lesson:darkness-and-weather]].
+Signs: the steering suddenly feels **light and unresponsive** [[src:uk-hc-weather|rule 227]]. What to do: **ease off the accelerator** and slow down gradually [[src:uk-hc-weather|rule 227]]; do not brake hard or steer sharply until the tyres grip again. See [[lesson:darkness-and-weather]].
 
 ## ESC – the anti-skid system
 

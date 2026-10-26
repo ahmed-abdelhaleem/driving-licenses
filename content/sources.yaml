@@ -829,3 +829,76 @@
   url: https://www.trafa.se/globalassets/statistik/vagtrafik/vagtrafikskador/2025/vagtrafikskador-2025.pdf
   accessed: 2026-10-25
   note: Official statistics on people killed in road traffic in 2025 – by sex, age, road user group, place and type of crash, and wildlife crashes.
+
+# ---------- General driving technique from another official source ----------
+# Used only for technique that is the same in every country (braking with ABS, skids,
+# wet and icy roads). The UK drives on the left and has its own laws – they are not used here.
+- id: uk-hc-general
+  short: UK Highway Code
+  title: The Highway Code – General rules, techniques and advice for all drivers and riders (rules 103 to 158)
+  titleEn: The Highway Code (UK) – general driving techniques
+  publisher: UK Government, Department for Transport (GOV.UK)
+  kind: official-web
+  url: https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158
+  accessed: 2026-10-25
+  note: Used only for general technique – emergency braking, skids, braking with ABS, wet brakes and coasting. UK traffic law itself does not apply in Sweden.
+
+- id: uk-hc-weather
+  short: UK Highway Code
+  title: The Highway Code – Driving in adverse weather conditions (rules 226 to 237)
+  titleEn: The Highway Code (UK) – driving in bad weather
+  publisher: UK Government, Department for Transport (GOV.UK)
+  kind: official-web
+  url: https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237
+  accessed: 2026-10-25
+  note: Used only for general technique on wet, icy and windy roads and in fog. UK traffic law itself does not apply in Sweden.
+
+- id: uk-hc-mc
+  short: UK Highway Code
+  title: The Highway Code – Rules for motorcyclists (rules 83 to 88)
+  titleEn: The Highway Code (UK) – advice for motorcyclists
+  publisher: UK Government, Department for Transport (GOV.UK)
+  kind: official-web
+  url: https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88
+  accessed: 2026-10-25
+  note: Used only for general advice on being seen, visors and clothing. UK traffic law itself does not apply in Sweden.
+
+- id: uk-hc-incidents
+  short: UK Highway Code
+  title: The Highway Code – Breakdowns and incidents (rules 274 to 287)
+  titleEn: The Highway Code (UK) – breakdowns and incidents
+  publisher: UK Government, Department for Transport (GOV.UK)
+  kind: official-web
+  url: https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287
+  accessed: 2026-10-25
+  note: Used only for general first-aid advice at a crash, such as not removing a motorcyclist's helmet unless it is essential. In Sweden the emergency number is 112.
+
+- id: polisen-wildlife-2025
+  short: Polisen – Viltolyckor (2025)
+  title: Idag krockar 50 personer med vilt – se till att det inte blir du (9 October 2025)
+  titleEn: 50 people hit wild animals every day – make sure it is not you
+  publisher: Polismyndigheten
+  kind: official-web
+  url: https://polisen.se/aktuellt/nyheter/ost/2025/oktober/nu-okar-viltolyckorna/
+  accessed: 2026-10-25
+  note: When most wildlife crashes happen, the Police's advice on preventing them, and "stop – call – mark".
+
+- id: viltolycka-krock
+  short: Nationella viltolycksrådet – Om du kolliderar med vilt
+  title: Så här gör du om du kolliderar med vilt
+  titleEn: What to do if you collide with a wild animal
+  publisher: Nationella viltolycksrådet (National Wildlife Accident Council)
+  kind: official-web
+  url: https://www.viltolycka.se/information/krock/
+  accessed: 2026-10-25
+  note: The steps after a collision, how to mark the place, and what to tell the police.
+
+- id: viltolycka-faq
+  short: Nationella viltolycksrådet – Frågor och svar
+  title: Frågor & Svar
+  titleEn: Questions and answers on wildlife collisions
+  publisher: Nationella viltolycksrådet (National Wildlife Accident Council)
+  kind: official-web
+  url: https://www.viltolycka.se/fragor-svar/
+  accessed: 2026-10-25
+  note: Which animals must be reported, which need not (for example hare, badger and fox), and passing a wildlife crash site.
