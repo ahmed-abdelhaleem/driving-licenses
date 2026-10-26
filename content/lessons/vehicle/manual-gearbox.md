@@ -30,6 +30,8 @@ The **clutch** (*koppling*) connects and disconnects the engine and the gearbox:
 - **Pedal fully down** – they are disconnected, so you can change gear or stand still with the engine running.
 - **Biting point** (*frikopplingspunkten*) – the point as you lift the pedal where the clutch starts to grip and the car wants to move. Learning to find it smoothly is the key to moving off.
 
+[[photo:pedals-manual]]
+
 ::: warning Do not "ride" the clutch
 Do not rest your foot on the clutch pedal while driving, and do not hold the car still on a hill by slipping the clutch. Both wear out the clutch quickly. Use the brake or the parking brake instead.
 :::
@@ -55,6 +57,8 @@ At the driving test you must be able to start uphill or downhill [[src:tv-drivin
 Many modern cars have a **hill-start assist** that holds the brake for a moment. Learn to start without it too.
 
 ## Changing gear
+
+[[photo:manual-gear-knob]]
 
 **Changing up:** ease off the gas, **clutch down**, move the lever to the next gear, lift the clutch **smoothly**, give gas.
 

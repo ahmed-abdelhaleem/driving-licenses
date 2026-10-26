@@ -587,7 +587,7 @@
   en: winter tyres
   def: "Tyres made for snow and ice, with or without studs. From 1 December to 31 March cars must have winter tyres or equivalent when there are winter road conditions; tread depth at least 3 mm."
   law: ["tf|4:18a"]
-  related: [dubbdack, monsterdjup, vinterväglag]
+  related: [dubbdack, monsterdjup, vintervaglag]
   lessons: [tyres, winter-driving]
 
 - id: dubbdack
@@ -604,7 +604,7 @@
   related: [vinterdack]
   lessons: [tyres]
 
-- id: vinterväglag
+- id: vintervaglag
   sv: vinterväglag
   en: winter road conditions
   def: "Snow, ice, slush or frost on any part of the road. The police decide whether it applies where you are."
@@ -713,3 +713,890 @@
   law: ["tf|3:57"]
   related: []
   lessons: [accidents-first-aid]
+
+# ------------------------------------------------------------------ the car: controls, gearbox and brakes
+- id: koppling
+  sv: koppling
+  en: clutch
+  def: "The part that connects and disconnects the engine and the gearbox. In a manual car you work it with the left pedal: pedal fully down = disconnected (you can change gear or stand still with the engine running), pedal up = connected."
+  image: "photo:pedals-manual"
+  related: [frikopplingspunkt, manuell-vaxellada, automatlada]
+  lessons: [manual-gearbox, car-controls]
+
+- id: frikopplingspunkt
+  sv: frikopplingspunkt
+  en: biting point
+  def: "The point, as you lift the clutch pedal (or let out the clutch lever on a motorcycle), where the clutch starts to grip and the vehicle wants to move. Finding it smoothly is the key to moving off without stalling."
+  related: [koppling, kopplingshandtag]
+  lessons: [manual-gearbox, mc-controls]
+
+- id: manuell-vaxellada
+  sv: manuell växellåda
+  en: manual gearbox
+  also: [manual transmission, stick shift]
+  def: "A gearbox where the driver chooses each gear with the gear lever and uses the clutch to change. A licence from a driving test in a manual car lets you drive both manual and automatic cars."
+  image: "photo:manual-gear-knob"
+  related: [koppling, automatlada, motorbroms]
+  lessons: [manual-gearbox]
+
+- id: automatlada
+  sv: automatlåda (automatisk växellåda)
+  en: automatic gearbox
+  also: [automatic transmission]
+  def: "A gearbox that changes gear by itself. There is no clutch pedal – only the accelerator and the brake, both worked with the right foot. If you pass the driving test in such a car, your licence gets code 78 (automatic only)."
+  related: [vaxelvaljare, kickdown, villkor-78, manuell-vaxellada]
+  lessons: [automatic-gearbox, code-78]
+
+- id: vaxelvaljare
+  sv: växelväljare
+  en: gear selector
+  def: "The lever, buttons or dial in an automatic car: **P** park (gearbox locked), **R** reverse, **N** neutral (no drive to the wheels) and **D** drive. Select P and R only when the car is standing still."
+  related: [automatlada, kickdown]
+  lessons: [automatic-gearbox]
+
+- id: kickdown
+  sv: kickdown
+  en: kick-down
+  def: "Pressing the accelerator fully down in an automatic car, so that the gearbox changes down quickly and gives maximum power – for example when you overtake."
+  related: [automatlada, omkorning]
+  lessons: [automatic-gearbox]
+
+- id: motorbroms
+  sv: motorbroms
+  en: engine braking
+  def: "Slowing down by lifting off the accelerator with a gear engaged, so that the engine holds the vehicle back. A lower gear gives stronger engine braking. Use it on long descents so the brakes do not overheat."
+  related: [fardbroms, regenerativ-bromsning, manuell-vaxellada]
+  lessons: [manual-gearbox, automatic-gearbox, brakes-and-abs]
+
+- id: fardbroms
+  sv: färdbroms
+  en: service brake (foot brake)
+  def: "The vehicle's main brake, worked with the brake pedal. On a car it brakes all four wheels. It is hydraulic: the pedal pushes brake fluid that presses the brake pads against the discs."
+  related: [parkeringsbroms, bromsservo, abs, bromsvatska]
+  lessons: [brakes-and-abs]
+
+- id: bromsservo
+  sv: bromsservo
+  en: brake servo
+  def: "A device that helps you press the brake pedal. It works when the engine is running – if the engine stops, the pedal feels much heavier and you must press much harder."
+  related: [fardbroms]
+  lessons: [brakes-and-abs]
+
+- id: parkeringsbroms
+  sv: parkeringsbroms (handbroms)
+  en: parking brake (handbrake)
+  def: "The brake that holds the vehicle still when it is parked – a lever, a pedal or an electric button. It is too weak for normal braking while driving, but it helps you start on a hill."
+  related: [fardbroms, vaxelvaljare]
+  lessons: [car-controls, brakes-and-abs, automatic-gearbox]
+
+- id: abs
+  sv: ABS (låsningsfria bromsar)
+  en: ABS – anti-lock brakes
+  def: "A system that stops the wheels from locking when you brake hard, so you can still steer. It does not create more grip, and you must not assume that the vehicle stops in a shorter distance. When it works you feel the pedal pulse – keep pressing."
+  related: [antisladdsystem, fardbroms, automatisk-nodbroms]
+  lessons: [brakes-and-abs, mc-braking]
+
+- id: antisladdsystem
+  sv: antisladdsystem
+  en: ESC – electronic stability control
+  also: [anti-skid system, ESP]
+  def: "A system that senses when the car starts to skid and brakes individual wheels – and may reduce engine power – to keep the car on course. A flashing ESC light means the system is working: the road is slippery, slow down."
+  related: [abs, sladd, understyrning, overstyrning]
+  lessons: [skids-and-traction, safety-systems-car]
+
+- id: automatisk-nodbroms
+  sv: automatisk nödbroms
+  en: AEB – automatic emergency braking
+  def: "A system that brakes by itself to avoid or reduce a collision with a vehicle ahead – in some cars also with pedestrians and cyclists. It works only in certain conditions and cannot see everything: you are still the driver."
+  related: [abs, antisladdsystem]
+  lessons: [safety-systems-car, brakes-and-abs]
+
+- id: bromsvatska
+  sv: bromsvätska
+  en: brake fluid
+  def: "The liquid that carries the force from the brake pedal to the brakes. The level in its reservoir should be between MIN and MAX. A falling level can mean a leak or worn brake pads – go to a workshop."
+  related: [fardbroms, kylvatska, oljesticka]
+  lessons: [safety-check-car]
+
+- id: kylvatska
+  sv: kylvätska
+  en: coolant
+  def: "The liquid that cools the engine. Check the level in the expansion tank, between MIN and MAX, when the engine is cold. Never open the cap on a hot engine – the hot liquid is under pressure."
+  related: [bromsvatska, oljesticka]
+  lessons: [safety-check-car]
+
+- id: oljesticka
+  sv: oljesticka
+  en: dipstick
+  def: "A metal rod for checking the engine oil level. Pull it out, wipe it, push it fully back in, pull it out again: the oil should be between the MIN and MAX marks. Some cars show the oil level on the dashboard instead."
+  image: "photo:oil-dipstick"
+  related: [kylvatska, bromsvatska, varningslampa]
+  lessons: [safety-check-car]
+
+- id: varningslampa
+  sv: varningslampa
+  en: warning light
+  def: "A symbol that lights up on the dashboard. Most cars use colours: **red** = serious fault or danger, stop as soon as it is safe; **yellow/orange** = fault or something to check, get it checked soon; **green/blue** = information. The owner's manual explains each symbol."
+  related: [oljesticka, abs, antisladdsystem]
+  lessons: [car-controls, safety-check-car]
+
+- id: korriktningsvisare
+  sv: körriktningsvisare (blinkers)
+  en: direction indicator
+  also: [indicator, turn signal, blinker]
+  def: "The flashing orange lights you use to show that you will pull out from the roadside, turn, turn around, change lanes or otherwise move noticeably sideways. Signal in good time before the manoeuvre, and make sure the signal stops when it is done."
+  law: ["tf|3:65"]
+  related: [varningsblinkers]
+  lessons: [car-controls, basic-duties]
+
+- id: varningsblinkers
+  sv: varningsblinkers
+  en: hazard warning lights
+  def: "All the indicators flashing at the same time – the button with a red triangle. Use them when your vehicle is standing still after a breakdown or accident and temporarily obstructs traffic."
+  related: [varningstriangel, korriktningsvisare]
+  lessons: [vehicle-lights, accidents-first-aid, motorways]
+
+- id: dimljus
+  sv: dimljus
+  en: front fog lights
+  def: "Extra low, wide lights at the front. In daylight they may be used instead of dipped beam, and in fog or heavy rain or snow instead of dipped beam – but not together with dipped beam (except on a motorcycle in daylight)."
+  law: ["tf|3:71"]
+  related: [dimbakljus, halvljus, varselljus]
+  lessons: [vehicle-lights]
+
+- id: dimbakljus
+  sv: dimbakljus
+  en: rear fog light
+  def: "A very bright red light at the back. It may only be used in fog, heavy rain or snow or similarly poor visibility, and in a way that does not dazzle the drivers behind you. Switch it off when visibility improves."
+  law: ["tf|3:72"]
+  related: [dimljus, halvljus]
+  lessons: [vehicle-lights, darkness-and-weather]
+
+- id: parkeringsljus
+  sv: parkeringsljus (positionsljus)
+  en: parking lights (position lights)
+  def: "Weak lights at the front and back that show the vehicle's position. In darkness, dusk or dawn a vehicle stopped or parked on the road must show parking lights and rear lights, unless an exception applies."
+  law: ["tf|3:74", "tf|3:75"]
+  related: [halvljus, stannande, parkering]
+  lessons: [vehicle-lights]
+
+- id: bilbalte
+  sv: bilbälte
+  en: seat belt
+  def: "The most important protection in a car. Everyone in the vehicle must use it, with few exceptions. Wear it tight: the lap part low over the hips and the diagonal part over the middle of the shoulder."
+  law: ["tf|4:10"]
+  related: [krockkudde, nackstod, bilbarnstol]
+  lessons: [safety-systems-car, passengers-and-loads]
+
+- id: bilbarnstol
+  sv: bilbarnstol / bälteskudde
+  en: child car seat / booster cushion
+  also: [child restraint]
+  def: "Special protection for children in a car. Children shorter than 135 cm must use a child seat, booster seat, booster cushion or other child restraint. Children are safest **rear-facing** until about four years old. Never put a child seat in front of an active passenger airbag."
+  law: ["tf|4:10"]
+  related: [bilbalte, krockkudde]
+  lessons: [passengers-and-loads]
+
+- id: krockkudde
+  sv: krockkudde
+  en: airbag
+  def: "A bag that inflates in a fraction of a second in a collision and catches the head and body. It is made to work together with the seat belt. A child is not safe in front of an active airbag until about 140 cm tall."
+  related: [bilbalte, bilbarnstol]
+  lessons: [safety-systems-car, passengers-and-loads]
+
+- id: nackstod
+  sv: nackstöd
+  en: head restraint
+  def: "The cushion on top of the seat back. Adjusted high enough and close to the back of the head, it protects the neck in a rear-end collision."
+  related: [whiplash, bilbalte]
+  lessons: [car-controls, safety-systems-car]
+
+- id: whiplash
+  sv: whiplashskada
+  en: whiplash injury
+  def: "A neck injury caused when the head is thrown back and forth – common in rear-end collisions. A correctly adjusted head restraint reduces the risk."
+  related: [nackstod]
+  lessons: [safety-systems-car]
+
+- id: aktiv-passiv-sakerhet
+  sv: aktiv och passiv säkerhet
+  en: active and passive safety
+  def: "**Active** safety helps you avoid a crash – for example ABS, ESC and automatic emergency braking. **Passive** safety protects you in a crash – for example seat belts, airbags, head restraints and the car body."
+  related: [abs, antisladdsystem, bilbalte, krockkudde]
+  lessons: [safety-systems-car]
+
+- id: drivning
+  sv: framhjulsdrift / bakhjulsdrift / fyrhjulsdrift
+  en: front-, rear- and four-wheel drive
+  def: "Which wheels the engine drives. Front-wheel drive tends to understeer if you go too fast into a bend; rear-wheel drive can oversteer with too much power; four-wheel drive gives better traction when accelerating, but does **not** help you brake or steer better."
+  related: [understyrning, overstyrning, vaggrepp]
+  lessons: [skids-and-traction]
+
+# ------------------------------------------------------------------ grip and skids
+- id: sladd
+  sv: sladd
+  en: skid
+  def: "When tyres lose their grip and slide, so the vehicle no longer goes where you steer. Skids are usually caused by braking, accelerating or steering too harshly, or by driving too fast for the road conditions."
+  related: [understyrning, overstyrning, vaggrepp, antisladdsystem, halkbana]
+  lessons: [skids-and-traction, winter-driving]
+
+- id: understyrning
+  sv: understyrning
+  en: understeer
+  def: "The **front** wheels slide, so the car goes straighter – wider – than you steer. Ease off the accelerator and reduce the steering angle a little so the tyres can grip again."
+  related: [overstyrning, sladd]
+  lessons: [skids-and-traction]
+
+- id: overstyrning
+  sv: överstyrning
+  en: oversteer
+  def: "The **rear** wheels slide, so the back swings out and the car turns more than you steer, or spins. Release the brake or ease off, and steer in the direction of the skid."
+  related: [understyrning, sladd]
+  lessons: [skids-and-traction]
+
+- id: viktoverforing
+  sv: viktöverföring
+  en: weight transfer
+  def: "How the vehicle's weight moves when you brake, accelerate or turn: forward when you brake, backward when you accelerate, and to the outer wheels in a bend. The wheels with less weight on them grip less."
+  related: [vaggrepp, sladd]
+  lessons: [skids-and-traction, mc-braking]
+
+# ------------------------------------------------------------------ tyres and winter
+- id: slitbana
+  sv: slitbana
+  en: tread
+  def: "The patterned part of the tyre that touches the road. Grip on wet roads, snow and ice gets much worse as the tread wears – long before it reaches the legal minimum depth."
+  related: [monsterdjup, vinterdack, vattenplaning]
+  lessons: [tyres]
+
+- id: alpsymbol
+  sv: alpsymbolen (3PMSF)
+  en: alpine symbol (3PMSF)
+  also: [three-peak mountain snowflake]
+  def: "A mountain with three peaks and a snowflake on the side of a tyre. It shows an approved winter tyre. A tyre marked only M+S (mud and snow) does not count as a winter tyre on a car."
+  image: "photo:winter-tyre-symbol"
+  related: [vinterdack, dubbdack]
+  lessons: [tyres]
+
+- id: lufttryck
+  sv: lufttryck (däcktryck)
+  en: tyre pressure
+  def: "How much air there is in a tyre. The wrong pressure affects handling, fuel consumption and how long the tyre lasts. Find the right pressure in the owner's manual, check it with cold tyres, and increase it as the manual says when the car is fully loaded."
+  related: [slitbana, monsterdjup]
+  lessons: [tyres, safety-check-car]
+
+- id: svartis
+  sv: svartis (blank is)
+  en: black ice
+  def: "Thin, transparent ice that makes the road look just wet. Watch out especially on bridges and viaducts, which freeze earlier than the road around them, and in shaded places, which stay icy longer."
+  related: [vintervaglag, vaggrepp]
+  lessons: [winter-driving]
+
+- id: motorvarmare
+  sv: motorvärmare
+  en: engine block heater
+  def: "An electric heater that warms the engine before you start in cold weather. A warm engine uses less fuel, lets out less carbon dioxide and other harmful substances, and wears less. It is worth using at temperatures up to +10 °C."
+  related: [tomgangskorning, sparsam-korning]
+  lessons: [eco-driving]
+
+# ------------------------------------------------------------------ the motorcycle
+- id: latt-motorcykel
+  sv: lätt motorcykel
+  en: light motorcycle (category A1)
+  def: "A motorcycle with an engine of at most 125 cm³ and at most 11 kW, and at most 0.1 kW per kg of kerb weight. Licence A1, from age 16."
+  law: ["vtdl|2", "kkl|2:5"]
+  related: [mellanstor-motorcykel, tung-motorcykel, behorighet]
+  lessons: [journey-mc]
+
+- id: mellanstor-motorcykel
+  sv: mellanstor motorcykel
+  en: medium motorcycle (category A2)
+  def: "A two-wheeled motorcycle with at most 35 kW and at most 0.2 kW per kg of kerb weight. If it has been restricted, it may not come from a motorcycle with more than double the power (70 kW). Licence A2, from age 18."
+  law: ["kkl|2:5"]
+  related: [latt-motorcykel, tung-motorcykel, behorighet]
+  lessons: [journey-mc]
+
+- id: tung-motorcykel
+  sv: tung motorcykel
+  en: heavy motorcycle (category A)
+  def: "Any two- or three-wheeled motorcycle, whatever its size or power. Licence A, from age 24 – or from 20 if you have held A2 for at least two years."
+  law: ["kkl|2:5", "kkl|3:1"]
+  related: [latt-motorcykel, mellanstor-motorcykel, behorighet]
+  lessons: [journey-mc]
+
+- id: motstyrning
+  sv: motstyrning
+  en: counter-steering
+  def: "How a motorcycle is steered above walking pace. To turn **right**, push the **right** handlebar grip forward: the front wheel turns slightly left for an instant, the motorcycle leans right and turns right. The harder you push, the faster it leans."
+  related: [kurvtagning, undanmanover]
+  lessons: [mc-cornering]
+
+- id: kurvtagning
+  sv: kurvtagning
+  en: cornering
+  def: "Riding through a bend. Slow down before the bend while the motorcycle is upright, look through the bend to where you want to go, lean with a push on the grip and keep a smooth, steady throttle."
+  related: [motstyrning, vaggrepp]
+  lessons: [mc-cornering]
+
+- id: gasreglage
+  sv: gasreglage
+  en: throttle (twist grip)
+  def: "The right handlebar grip on a motorcycle. Twist it towards you for more power."
+  related: [kopplingshandtag, frambroms]
+  lessons: [mc-controls]
+
+- id: kopplingshandtag
+  sv: kopplingshandtag
+  en: clutch lever
+  def: "The lever on the left handlebar of a motorcycle, worked by the left hand. Pull it in to disconnect the engine from the gearbox, for example when you change gear or stop. At the riding test the motorcycle must have a manual gearbox and a clutch lever, unless the licence is for automatic motorcycles only."
+  related: [frikopplingspunkt, vaxelpedal, krypkorning]
+  lessons: [mc-controls]
+
+- id: vaxelpedal
+  sv: växelpedal
+  en: gear lever (motorcycle)
+  def: "The lever by the left footrest of a motorcycle, worked by the left foot. Most motorcycles use the pattern 1 – N – 2 – 3 – 4 – 5 (– 6): press down for first gear, lift up for the others. Neutral is a half step between first and second."
+  related: [kopplingshandtag]
+  lessons: [mc-controls]
+
+- id: frambroms
+  sv: frambroms
+  en: front brake (motorcycle)
+  def: "The motorcycle brake worked by the lever on the right handlebar. When you brake, the weight moves forward, so in a hard stop on a dry road the front brake gives by far the largest part of the braking force. Squeeze it progressively – do not grab it."
+  related: [bakbroms, abs, kombinerade-bromsar]
+  lessons: [mc-braking]
+
+- id: bakbroms
+  sv: bakbroms
+  en: rear brake (motorcycle)
+  def: "The motorcycle brake worked by the pedal by the right footrest. It adds stability and some extra braking force, and helps you control the speed when riding slowly. In an emergency stop you use both brakes."
+  related: [frambroms, krypkorning]
+  lessons: [mc-braking, mc-controls]
+
+- id: kombinerade-bromsar
+  sv: kombinerade bromsar (CBS)
+  en: combined brakes (CBS)
+  def: "A system that links a motorcycle's front and rear brakes, so that one lever or pedal also applies the other brake. Under EU rules, new motorcycles over 125 cm³ must have ABS; for smaller motorcycles the manufacturer may choose between ABS and combined brakes."
+  related: [abs, frambroms, bakbroms]
+  lessons: [mc-braking]
+
+- id: nodstoppreglage
+  sv: nödstoppreglage
+  en: kill switch (engine stop switch)
+  def: "The red switch on the right handlebar of a motorcycle that stops the engine quickly, for example after a fall. It is part of the safety check at the riding test."
+  related: [gasreglage]
+  lessons: [mc-controls, mc-safety-check]
+
+- id: krypkorning
+  sv: krypkörning
+  en: crawling (riding at walking pace)
+  def: "Riding very slowly, where balance is hardest. Control the speed mainly with the clutch at the biting point, with a little steady throttle and light rear brake, and look ahead – not down. Part of the manoeuvre test."
+  related: [kopplingshandtag, bakbroms, manoverprov]
+  lessons: [mc-controls, riding-test-mc]
+
+- id: manoverprov
+  sv: manöverprov
+  en: manoeuvre test (motorcycle)
+  def: "The part of the motorcycle riding test on a closed area: a low-speed part (crawling through a course with turns), a high-speed part (an evasive manoeuvre and a slalom at at least 50 km/h) and braking to a stop from 70 and 90 km/h with both brakes."
+  related: [krypkorning, undanmanover, korprov]
+  lessons: [riding-test-mc]
+
+- id: undanmanover
+  sv: undanmanöver
+  en: evasive manoeuvre
+  def: "Quickly steering around an obstacle you cannot stop in front of. On a motorcycle it is done with counter-steering. In the riding test it is done at at least 50 km/h."
+  related: [motstyrning, manoverprov]
+  lessons: [mc-cornering, riding-test-mc]
+
+- id: skyddshjalm
+  sv: skyddshjälm
+  en: protective helmet
+  def: "Required for the rider and passenger on a motorcycle or moped. It must be E-marked and approved under UN ECE Regulation 22, series 05 or later (look for an E label, often on the chin strap), securely fastened, and not changed in any way that can reduce its protection – for example with stickers or paint."
+  law: ["tf|4:9", "tsfs-2017-94|3"]
+  related: [skyddsklader]
+  lessons: [mc-protective-gear]
+
+- id: skyddsklader
+  sv: skyddskläder
+  en: protective clothing (motorcycle)
+  def: "Jacket and trousers of abrasion-resistant leather or motorcycle textile with protectors at shoulders, elbows, hips and knees, plus a back protector, motorcycle gloves and boots. There is no law on clothing, but the right gear prevents or reduces many injuries."
+  related: [skyddshjalm]
+  lessons: [mc-protective-gear]
+
+- id: drivkedja
+  sv: drivkedja
+  en: drive chain
+  def: "The chain that takes the power from the gearbox to the rear wheel on many motorcycles. Check its slack (the right value is in the manual) and keep it clean and lubricated. Too loose and it can jump off; too tight and it wears the gearbox and wheel bearings."
+  related: [nodstoppreglage]
+  lessons: [mc-safety-check]
+
+# ------------------------------------------------------------------ signs, signals and markings
+- id: varningsmarke
+  sv: varningsmärke
+  en: warning sign (group A)
+  def: "A sign that warns of a danger ahead – for example a bend, a junction, road works or animals. In Sweden it is a triangle with the point up, yellow with a red border."
+  image: "sign:A19"
+  related: [vajningspliktsmarke, forbudsmarke, pabudsmarke, anvisningsmarke]
+  lessons: [signs-basics, warning-signs]
+
+- id: vajningspliktsmarke
+  sv: väjningspliktsmärke
+  en: priority sign (group B)
+  def: "A sign that tells you who has priority – for example give way (a triangle with the point down), stop (an octagon) and main road (a yellow diamond)."
+  image: "sign:B1"
+  related: [vajningsplikt, stopplikt, huvudled, varningsmarke]
+  lessons: [signs-basics, priority-signs]
+
+- id: forbudsmarke
+  sv: förbudsmärke
+  en: prohibitory sign (group C)
+  def: "A sign that forbids something – for example entry, turning, overtaking or driving faster than a speed limit. It is round with a red edge, usually yellow inside."
+  image: "sign:C31"
+  related: [pabudsmarke, tillaggstavla, varningsmarke]
+  lessons: [signs-basics, prohibitory-signs]
+
+- id: pabudsmarke
+  sv: påbudsmärke
+  en: mandatory sign (group D)
+  def: "A sign that tells you what you **must** do – for example which direction to drive, or that a path is for cyclists or pedestrians. It is round and blue with a white symbol."
+  image: "sign:D1"
+  related: [forbudsmarke, anvisningsmarke]
+  lessons: [signs-basics, mandatory-signs]
+
+- id: anvisningsmarke
+  sv: anvisningsmärke
+  en: information sign (group E)
+  def: "A sign that tells you about special rules or conditions on the road – for example motorway, built-up area, parking or a pedestrian crossing. Mostly rectangular or square and blue."
+  image: "sign:E19"
+  related: [pabudsmarke, lokaliseringsmarke, tillaggstavla]
+  lessons: [signs-basics, information-signs]
+
+- id: lokaliseringsmarke
+  sv: lokaliseringsmärke
+  en: direction and facility sign (groups F–I)
+  def: "A sign that shows the way (F), public facilities such as a hospital or railway station (G), services such as fuel or a rest area (H), or tourist destinations (I, brown). The colour of a direction sign shows the type of road."
+  image: "sign:F1"
+  related: [anvisningsmarke, upplysningsmarke]
+  lessons: [signs-basics, direction-signs]
+
+- id: upplysningsmarke
+  sv: upplysningsmärke
+  en: notice sign (group J)
+  def: "A sign that gives other useful information to road users, usually yellow with black text – for example about a detour."
+  image: "sign:J2"
+  related: [lokaliseringsmarke]
+  lessons: [signs-basics, direction-signs]
+
+- id: tillaggstavla
+  sv: tilläggstavla
+  en: additional panel (group T)
+  def: "A small panel under a sign that gives extra information about the sign above it – for example the distance, the times, or the vehicles it applies to."
+  image: "sign:T6"
+  law: ["vmf|2:29"]
+  related: [forbudsmarke, anvisningsmarke, p-skiva]
+  lessons: [additional-panels]
+
+- id: vagmarkering
+  sv: vägmarkering
+  en: road marking (group M)
+  def: "Lines, arrows, symbols and text on the road surface – for example centre lines, give-way lines and pedestrian crossings. They regulate, warn or guide, alone or together with signs. They are white unless something else is stated; temporary yellow lines at road works apply instead of the white ones."
+  image: "sign:M1"
+  law: ["vmf|4:2", "vmf|4:3"]
+  related: [heldragen-linje, mittlinje, kantlinje, sparromrade]
+  lessons: [road-markings]
+
+- id: flerfargssignal
+  sv: flerfärgssignal
+  en: traffic light
+  also: [traffic signal]
+  def: "The ordinary traffic light with three lights: red, yellow and green. It stands on the right side of the road and is repeated just before, in or after the junction."
+  image: "sign:SIG1"
+  law: ["vmf|3:3", "vmf|3:4"]
+  related: [stopplikt]
+  lessons: [signals-and-police]
+
+# ------------------------------------------------------------------ roads and places
+- id: trafikplats
+  sv: trafikplats
+  en: interchange
+  also: [junction (motorway)]
+  def: "A place where roads meet on different levels, with ramps for entering and leaving – typical on motorways. Interchanges have numbers, shown on sign F27."
+  image: "sign:F27"
+  related: [motorvag, pafart, avfart, accelerationsfalt]
+  lessons: [motorways, direction-signs]
+
+- id: accelerationsfalt
+  sv: accelerationsfält
+  en: acceleration lane
+  def: "An extra lane where you join a fast road. Use it to match the speed of the traffic you are joining, and move out of it as soon as you can do so without danger or unnecessary obstruction. Drivers on the road should adjust their speed to help you in."
+  law: ["tf|3:23", "tf|3:43"]
+  related: [pafart, motorvag, motortrafikled]
+  lessons: [motorways, right-of-way]
+
+- id: motesfri-vag
+  sv: mötesfri väg (2+1-väg)
+  en: 2+1 road (road with a central barrier)
+  def: "A road with a central barrier, often a steel cable barrier, that alternates between one and two lanes in each direction. The barrier separates the directions and greatly reduces head-on crashes. Overtake only where you have two lanes."
+  related: [omkorning, varningstriangel]
+  lessons: [roads-and-environments, meeting-and-overtaking]
+
+- id: rafflor
+  sv: räfflor
+  en: rumble strips
+  def: "Grooves milled into the centre or edge of the road that make a loud noise and vibration when a wheel drifts onto them. If they wake you, it is a sign to stop and rest – not to carry on."
+  related: [motesfri-vag]
+  lessons: [fatigue]
+
+- id: linjetrafik
+  sv: linjetrafik
+  en: scheduled service (bus)
+  def: "Buses and other vehicles in regular public transport. A lane or carriageway for vehicles in scheduled services – sign D10 – may only be used by those vehicles and, if it is on the right-hand side, by bicycles and class II mopeds, unless a panel allows others."
+  image: "sign:D10"
+  related: [korfalt]
+  lessons: [special-areas, mandatory-signs]
+
+- id: cykelgata
+  sv: cykelgata
+  en: cycle street
+  def: "A street marked with sign E33. On it you may drive at most 30 km/h and park only in specially arranged parking places, a driver who comes onto it from another road must give way to vehicles on it, and drivers of motor vehicles must adapt their speed to the cyclists."
+  image: "sign:E33"
+  law: ["tf|8:1a"]
+  related: [gangfartsomrade, gagata, cykelbana]
+  lessons: [special-areas]
+
+- id: utfart
+  sv: utfart
+  en: exit (from a property, car park etc.)
+  def: "A way out onto a road from a car park, a property, a petrol station, a path or a similar place. When you drive out from an exit you give way to **every** vehicle on the road – the right-hand rule does not apply. A raised kerb or a pavement that continues across is a typical sign of an exit."
+  law: ["tf|3:21"]
+  related: [vajningsplikt, hogerregeln]
+  lessons: [right-of-way]
+
+- id: lokal-trafikforeskrift
+  sv: lokal trafikföreskrift
+  en: local traffic regulation
+  def: "A special traffic rule decided for a particular road, stretch of road or area – for example that an area is a built-up area or an environmental zone, a different speed limit, a ban on overtaking, or parking rules. They are usually shown with road signs."
+  law: ["tf|10:1"]
+  related: [tattbebyggt-omrade, miljozon]
+  lessons: [speed-limits, special-areas]
+
+- id: enskild-vag
+  sv: enskild väg
+  en: private road
+  def: "A road that is not kept by the state or a municipality. Direction signs to a private road are yellow with a red border."
+  related: [vag]
+  lessons: [direction-signs]
+
+- id: p-skiva
+  sv: P-skiva
+  en: parking disc
+  def: "A disc you set to the time you parked and place visible in the windscreen, where panel T17 says it is required."
+  image: "sign:T17"
+  law: ["vmf|2:30"]
+  related: [parkering, tillaggstavla]
+  lessons: [stopping-and-parking, additional-panels]
+
+- id: felparkeringsavgift
+  sv: felparkeringsavgift
+  en: parking fine
+  def: "The fee for wrong parking on public streets, issued by the police or municipal parking attendants. The **vehicle owner** is responsible for paying it."
+  related: [kontrollavgift, parkering]
+  lessons: [stopping-and-parking]
+
+- id: kontrollavgift
+  sv: kontrollavgift
+  en: private parking charge
+  def: "A fee that a landowner can charge for breaking the parking rules on private land, if the rules are shown on signs."
+  related: [felparkeringsavgift, parkering]
+  lessons: [stopping-and-parking]
+
+- id: skolpatrull
+  sv: skolpatrull
+  en: school crossing patrol
+  def: "A patrol that helps children cross the road near a school. Road users must show special consideration for school patrols."
+  law: ["tf|2:1"]
+  related: [overgangsstalle]
+  lessons: [basic-duties, vulnerable-road-users]
+
+# ------------------------------------------------------------------ seeing, weather and wildlife
+- id: avsokning
+  sv: avsökning
+  en: scanning
+  def: "Looking systematically all around – far ahead, near, to the sides, in the mirrors and over the shoulder – so that you discover risks early. The curriculum requires good scanning routines (*avsökningsrutiner*)."
+  law: ["tsfs-2011-20|3:2", "tsfs-2011-19|3:2"]
+  related: [sakerhetsmarginal, dodvinkel]
+  lessons: [seeing-and-planning]
+
+- id: sakerhetsmarginal
+  sv: säkerhetsmarginal
+  en: safety margin
+  def: "Extra time and space around you – distance to the vehicle in front, to the side and to the road edge – so that you can handle the unexpected. The aim is to drive with such margins that you do not end up in critical situations at all."
+  law: ["tsfs-2011-20|3:1"]
+  related: [avsokning, stoppstracka]
+  lessons: [seeing-and-planning]
+
+- id: blandning
+  sv: bländning
+  en: dazzle (glare)
+  def: "Being blinded by strong light – from oncoming headlights or a low sun. Your eyes need some seconds to recover, and during that time you see very little. If you are dazzled, slow down at once and stop if needed. Dip your own lights in good time so that you do not dazzle others."
+  law: ["tf|3:70", "tf|3:15"]
+  related: [halvljus, helljus]
+  lessons: [darkness-and-weather, vehicle-lights]
+
+- id: reflex
+  sv: reflex
+  en: reflector (for pedestrians)
+  def: "A small reflective tag or band – or reflective clothing – worn in the dark. It makes a person visible from much further away in a vehicle's headlights."
+  related: [halvljus, blandning]
+  lessons: [darkness-and-weather, vulnerable-road-users]
+
+- id: viltolycka
+  sv: viltolycka
+  en: wildlife collision
+  def: "A collision between a vehicle and a wild animal. After a collision with a bear, wolf, wolverine, lynx, elk (moose), deer, roe deer, otter, wild boar, mouflon or eagle, the driver must mark the place and notify the Police (call 112) – even if the animal does not look injured. A collision with a reindeer must also be reported."
+  image: "sign:A19"
+  related: [viltolycksremsa, varningsmarke]
+  lessons: [wildlife]
+
+- id: viltolycksremsa
+  sv: viltolycksremsa
+  en: wildlife accident marking strip
+  def: "A special strip for marking the place of a wildlife collision – preferably on the side of the road where the animal disappeared. If you have none, use anything clearly visible, such as a plastic bag or a scarf."
+  related: [viltolycka]
+  lessons: [wildlife]
+
+# ------------------------------------------------------------------ first aid
+- id: stabilt-sidolage
+  sv: stabilt sidoläge
+  en: recovery position
+  def: "Placing an unconscious person who breathes normally on their side, so that the tongue cannot block the airway and vomit can run out. Keep them warm and watch their breathing."
+  related: [hlr, hjartstartare]
+  lessons: [accidents-first-aid]
+
+- id: hlr
+  sv: HLR (hjärt-lungräddning)
+  en: CPR – cardiopulmonary resuscitation
+  def: "Chest compressions and rescue breaths – 30 compressions, then 2 breaths – for a person who does not respond and does not breathe normally. Call 112 first. If you cannot give rescue breaths, chest compressions alone are much better than nothing."
+  related: [hjartstartare, stabilt-sidolage]
+  lessons: [accidents-first-aid]
+
+- id: hjartstartare
+  sv: hjärtstartare
+  en: defibrillator (AED)
+  def: "A portable device that checks the heart's rhythm and, if needed, gives an electric shock so that the heart can start beating normally again. Use one as soon as it is available – it gives spoken instructions and cannot harm the person."
+  related: [hlr]
+  lessons: [accidents-first-aid]
+
+# ------------------------------------------------------------------ personal factors and consequences
+- id: nollvisionen
+  sv: Nollvisionen
+  en: Vision Zero
+  def: "The basis of Sweden's road safety work, decided by the Riksdag in 1997: no one should be killed or seriously injured in traffic. The current target is at most 133 deaths in road traffic in 2030."
+  related: [grupptryck]
+  lessons: [attitudes-and-risk]
+
+- id: grupptryck
+  sv: grupptryck
+  en: group pressure (peer pressure)
+  def: "When friends or passengers push you – directly or just by being there – to take risks, for example to drive faster. You are the driver: you decide the speed and how you drive."
+  related: [nollvisionen]
+  lessons: [attitudes-and-risk]
+
+- id: trotthet
+  sv: trötthet (uttröttning)
+  en: tiredness (fatigue)
+  def: "A vehicle may not be driven by anyone who, because of illness, exhaustion, alcohol or other substances, cannot drive it safely. Opening a window or loud music does not remove tiredness – only rest and sleep do."
+  law: ["tf|3:1"]
+  related: [rafflor, rattfylleri]
+  lessons: [fatigue]
+
+- id: vardsloshet-i-trafik
+  sv: vårdslöshet i trafik
+  en: careless driving
+  def: "A traffic crime: seriously failing to take the care and caution that the situation requires to avoid an accident. Punished with day-fines."
+  law: ["tbl|1"]
+  related: [grov-vardsloshet, aterkallelse]
+  lessons: [consequences, fatigue]
+
+- id: grov-vardsloshet
+  sv: grov vårdslöshet i trafik
+  en: gross careless driving
+  def: "Careless driving with a motor vehicle that is gross – showing gross negligence or obvious indifference to other people's lives or property. Prison for up to two years."
+  law: ["tbl|1"]
+  related: [vardsloshet-i-trafik, aterkallelse, omhandertagande]
+  lessons: [consequences]
+
+- id: ordningsbot
+  sv: ordningsbot
+  en: on-the-spot fine
+  also: [fixed penalty]
+  def: "A fine the police can give on the spot for many traffic offences, for example speeding. If you accept and sign it, the penalty is settled – but Transportstyrelsen may still act on your licence."
+  related: [aterkallelse, varning, omhandertagande]
+  lessons: [consequences]
+
+- id: omhandertagande
+  sv: omhändertagande av körkort
+  en: the police taking your licence
+  def: "When the police take your licence on the spot – for example when you show clear signs of being affected by alcohol, or when the licence is likely to be revoked. The police send it to Transportstyrelsen within 48 hours, and Transportstyrelsen decides. For some offences, such as speeding, the police may let you drive for 48 hours."
+  law: ["kkl|5:7"]
+  related: [aterkallelse, sparrtid, ordningsbot]
+  lessons: [consequences]
+
+- id: korforbud
+  sv: körförbud
+  en: driving ban (on a vehicle)
+  def: "A ban on using a particular vehicle – for example when serious faults are found at a roadside check or an inspection."
+  related: [sakerhetskontroll]
+  lessons: [safety-check-car]
+
+- id: sakerhetskontroll
+  sv: säkerhetskontroll
+  en: safety check
+  def: "Checking that the vehicle is roadworthy – for example lights, brakes, tyres, steering and fluids. The driving test (car) and the riding test (motorcycle) start with a safety check, where the examiner asks you to check some of these."
+  related: [oljesticka, monsterdjup, korforbud]
+  lessons: [safety-check-car, mc-safety-check]
+
+# ------------------------------------------------------------------ environment and energy
+- id: koldioxid
+  sv: koldioxid (CO₂)
+  en: carbon dioxide (CO₂)
+  def: "The main greenhouse gas from traffic, formed when fuel is burnt in the engine. It causes climate change. Road traffic causes most of the greenhouse gas emissions from domestic transport in Sweden."
+  related: [partiklar, sparsam-korning, euroklass]
+  lessons: [environment-and-vehicles, eco-driving]
+
+- id: partiklar
+  sv: partiklar
+  en: particles (particulate matter)
+  def: "Tiny particles in the air from exhaust and from wear of brakes, tyres and the road surface. They are harmful to health, especially in towns. Reducing the wear between tyres and road is one reason for the rules on studded tyres. PM10 means inhalable particles."
+  related: [dubbdack, kvavedioxid]
+  lessons: [environment-and-vehicles]
+
+- id: kvavedioxid
+  sv: kvävedioxid
+  en: nitrogen dioxide
+  def: "A gas in vehicle exhaust that is harmful to health and helps form ground-level ozone."
+  related: [partiklar, euroklass]
+  lessons: [environment-and-vehicles]
+
+- id: buller
+  sv: buller
+  en: noise
+  def: "Unwanted sound. Noise is the environmental problem that affects the most people in Sweden, and road traffic is by far the largest source. At low speeds the engine makes most of the noise; at higher speeds the tyres on the road dominate."
+  related: [dubbdack]
+  lessons: [environment-and-vehicles]
+
+- id: euroklass
+  sv: euroklass
+  en: Euro class (emission standard)
+  def: "EU limits for exhaust emissions from new vehicles, set in steps such as Euro 5 and Euro 6 – newer classes are stricter. The Euro class decides, for example, whether a car may drive in an environmental zone of class 2."
+  related: [miljozon, kvavedioxid]
+  lessons: [environment-and-vehicles]
+
+- id: tomgangskorning
+  sv: tomgångskörning
+  en: idling
+  def: "Running the engine while the vehicle stands still. It uses fuel without taking you anywhere, and the exhaust ends up where people are. Many municipalities limit idling with local rules – in Karlskoga, for example, to at most one minute."
+  related: [sparsam-korning, motorvarmare]
+  lessons: [eco-driving]
+
+- id: sparsam-korning
+  sv: sparsam körning
+  en: eco-driving
+  def: "Driving in a way that uses less fuel and causes less emissions: plan ahead, change up early, keep an even speed within the limits, use engine braking and do not idle. It is part of the curriculum and is assessed at both the theory test and the driving test. On average it saves about 7 percent of the fuel."
+  related: [motorbroms, tomgangskorning, motorvarmare, koldioxid]
+  lessons: [eco-driving]
+
+- id: regenerativ-bromsning
+  sv: regenerativ bromsning
+  en: regenerative braking
+  def: "In electric and hybrid vehicles, the electric motor works as a generator when you lift off the accelerator, so it slows the vehicle while charging the battery. Use the foot brake whenever you need to stop properly."
+  related: [elbil, motorbroms]
+  lessons: [electric-and-hybrid, brakes-and-abs]
+
+- id: elbil
+  sv: elbil
+  en: battery electric car (BEV)
+  def: "A car with only an electric motor and a large battery, charged from the grid. No exhaust from the car. Most have no clutch pedal and no gears to change, so they are driven like an automatic – a driving test in one gives code 78."
+  related: [laddhybrid, elhybrid, regenerativ-bromsning, laddplats, villkor-78]
+  lessons: [electric-and-hybrid]
+
+- id: laddhybrid
+  sv: laddhybrid
+  en: plug-in hybrid (PHEV)
+  def: "A car with a combustion engine and an electric motor with a battery you can charge from the grid, so shorter trips can be driven on electricity."
+  related: [elbil, elhybrid, laddplats]
+  lessons: [electric-and-hybrid]
+
+- id: elhybrid
+  sv: elhybrid
+  en: hybrid (HEV)
+  def: "A car with a combustion engine plus a small electric motor and battery that are charged while driving and braking. It cannot be plugged in – so it may not park at a charging place."
+  related: [elbil, laddhybrid, laddplats]
+  lessons: [electric-and-hybrid]
+
+- id: laddplats
+  sv: laddplats
+  en: charging place
+  def: "A parking place for charging, shown with the parking sign and panel T24. Only vehicles that can be charged externally with electricity for their propulsion may park or stop there; other vehicles only to let people get in or out."
+  image: "sign:E19,T24"
+  law: ["tf|3:54"]
+  related: [elbil, laddhybrid, parkering]
+  lessons: [electric-and-hybrid]
+
+# ------------------------------------------------------------------ licence process and authorities
+- id: transportstyrelsen
+  sv: Transportstyrelsen
+  en: Swedish Transport Agency
+  def: "The authority that issues learner's permits and licences, approves supervisors, writes many of the detailed rules (regulations marked TSFS), and decides on revocations and warnings."
+  related: [trafikverket, korkortstillstand, aterkallelse]
+  lessons: [learner-permit, consequences]
+
+- id: trafikverket
+  sv: Trafikverket
+  en: Swedish Transport Administration
+  def: "The authority that runs the licence tests – the theory test and the driving or riding test – with its own examiners. It is also responsible for the state roads and much of the road safety work."
+  related: [transportstyrelsen, kunskapsprov, korprov, forarprovare]
+  lessons: [theory-test, driving-test-car, riding-test-mc]
+
+- id: polisen
+  sv: Polisen
+  en: the Swedish Police
+  def: "Checks traffic – speed, alcohol and drugs, vehicles – gives on-the-spot fines, takes licences on the spot when needed, and must be notified after some accidents and wildlife collisions. Emergency number: 112."
+  related: [ordningsbot, omhandertagande, viltolycka]
+  lessons: [consequences, wildlife, accidents-first-aid]
+
+- id: synskarpa
+  sv: synskärpa
+  en: visual acuity
+  def: "How sharply you see. For a car or motorcycle licence you need at least 0.5 when you look with both eyes together. Glasses or contact lenses are allowed."
+  related: [synintyg, korkortstillstand]
+  lessons: [learner-permit]
+
+- id: introduktionsutbildning
+  sv: introduktionsutbildning
+  en: introduction course (abolished)
+  def: "A course that both the supervisor and the learner had to take before private practice in a car. It is no longer required since 1 August 2026. The supervisor must still be approved, and the learner must still have a valid learner's permit."
+  related: [handledare, ovningskorning]
+  lessons: [practice-driving]
+
+- id: b96
+  sv: B96 (utökad behörighet B)
+  en: B96 – extended B
+  def: "A licence code that lets you tow a trailer over 750 kg where the car's and trailer's total weights together are over 3,500 kg but at most 4,250 kg. You get it after a special driving test."
+  law: ["kkl|2:7a"]
+  related: [behorighet, tagvikt, latt-slapfordon]
+  lessons: [towing-trailers]
+
+- id: tagvikt
+  sv: tågvikt
+  en: maximum train weight
+  def: "The highest combined total weight that the car and its trailer may have together, as set for the car. It is shown in the registration certificate (field F.3)."
+  related: [totalvikt, b96, slapkarra]
+  lessons: [towing-trailers]
+
+- id: paskjutsbroms
+  sv: påskjutsbroms
+  en: overrun brake
+  def: "A trailer brake that works by itself: when the car slows down, the trailer pushes against the tow bar, and that push applies the trailer's brakes. Typical on braked caravans and car trailers."
+  related: [slapkarra, tagvikt]
+  lessons: [towing-trailers]

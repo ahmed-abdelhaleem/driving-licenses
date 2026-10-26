@@ -1,3 +1,79 @@
 # Photos used on the site. Every entry records the author, licence and source page.
 # Files: assets/photos/<id>.webp (resized/compressed from the original).
-[]
+
+- id: pedals-manual
+  title: "Pedal Locations in 2007 Subaru Legacy cropped.jpg"
+  alt: "The three pedals in a car with a manual gearbox: clutch on the left, brake in the middle, accelerator on the right."
+  caption: "The three pedals of a manual car: **clutch** (left), **brake** (middle) and **accelerator** (right). The left foot works the clutch; the right foot moves between brake and accelerator."
+  author: "Tckma at English Wikipedia (cropped by Entheta)"
+  license: "Public domain"
+  page: "https://commons.wikimedia.org/wiki/File:Pedal_Locations_in_2007_Subaru_Legacy_cropped.jpg"
+  w: 1000
+  h: 719
+
+- id: manual-gear-knob
+  title: "FIAT 500L gear shift.jpg"
+  alt: "Gear knob of a six-speed manual gearbox, with the gear pattern printed on top."
+  caption: "The pattern on top of the gear knob shows where each gear is. This six-speed car has 1, 3 and 5 forward, 2, 4 and 6 back, and **R** (reverse) to the right. Neutral is the middle position across the pattern."
+  author: "Petar Milošević"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:FIAT_500L_gear_shift.jpg"
+  w: 1000
+  h: 906
+  modified: true
+
+- id: studded-tyre
+  title: "Studded snow tire 20171027.jpg"
+  alt: "Close-up of a winter tyre with small metal studs in the tread."
+  caption: "A **studded tyre** (*dubbdäck*): small metal studs stick out of the tread and grip on ice. In Sweden studded tyres are allowed from 1 October to 15 April, and at other times only when there is or may be winter road conditions."
+  author: "Santeri Viinamäki"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:Studded_snow_tire_20171027.jpg"
+  w: 1000
+  h: 751
+
+- id: winter-tyre-symbol
+  title: "3PSMF.jpg"
+  alt: "Tyre sidewall with the M+S marking and the mountain-with-snowflake symbol."
+  caption: "The **alpine symbol** – a mountain with three peaks and a snowflake (3PMSF) – shows an approved winter tyre. **M+S** (mud and snow) on its own does **not** make a tyre a winter tyre on a car in Sweden."
+  author: "MatthewGhera"
+  license: "CC BY 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:3PSMF.jpg"
+  w: 1000
+  h: 660
+
+- id: oil-dipstick
+  title: "Engine oil dipstick.JPG"
+  alt: "A hand pulling the yellow oil dipstick out of a car engine."
+  caption: "Checking the engine oil: pull out the **dipstick**, wipe it, push it fully back in, pull it out again and read the level between the **min** and **max** marks. Follow the car's handbook – usually the car should stand on level ground with the engine switched off."
+  author: "Dvortygirl"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:Engine_oil_dipstick.JPG"
+  w: 1000
+  h: 750
+
+- id: alcolock
+  title: "Draeger Interlock 7000.jpg"
+  alt: "An alcolock: a hand-held breath unit connected by a cable to a control box."
+  caption: "An **alcolock** (*alkolås*). The driver blows into the hand unit before starting. If the breath sample contains too much alcohol, the vehicle will not start."
+  author: "Ninapayan"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:Draeger_Interlock_7000.jpg"
+  w: 1000
+  h: 558
+
+- id: warning-triangle
+  title: "Triangle de présignalisation.JPG"
+  alt: "A red reflective warning triangle standing on the road surface."
+  caption: "A **warning triangle** (*varningstriangel*) set up on the road. It warns other drivers in good time that a vehicle has stopped ahead."
+  author: "Roulex 45"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:Triangle_de_pr%C3%A9signalisation.JPG"
+  w: 1000
+  h: 665

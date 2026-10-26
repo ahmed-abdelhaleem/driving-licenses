@@ -39,6 +39,8 @@ Leaving the scene of an accident you were involved in, and so avoiding helping o
 3. **Help the injured**, starting with those in the most life-threatening condition.
 :::
 
+[[photo:warning-triangle]]
+
 ## Unconscious and breathing normally
 
 If a person does not respond but **breathes normally**, place them in the **recovery position** (*stabilt sidoläge*) – on their side, so the tongue cannot block the airway and vomit can run out. Keep them warm and watch their breathing [[src:1177-shock]].

@@ -75,6 +75,8 @@ Tyres are explained in detail in [[lesson:tyres]].
 | **Brake fluid** | The reservoir level between MIN and MAX. | A falling level can mean a leak or worn brake pads – go to a workshop. |
 | **Washer fluid** | The tank level. | Top up – with antifreeze washer fluid in winter. |
 
+[[photo:oil-dipstick]]
+
 ## Warning systems
 
 Switch on the ignition: most warning lights come on for a moment as a **self-test** and then go out. A light that **stays on** shows a fault. See the colour rules in [[lesson:car-controls]].

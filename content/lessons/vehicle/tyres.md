@@ -38,7 +38,7 @@ These are **minimums**. Grip on wet roads, snow and ice gets much worse long bef
 **In English:** "When driving on a road from 1 December to 31 March, the following vehicles must have winter tyres or equivalent equipment when there are winter road conditions: 1. class I passenger cars, 2. class II passenger cars, 3. tractors made from converted cars, 4. light trucks, 5. light buses, and 6. trailers towed by any of these."
 :::
 
-- **Winter road conditions** ([[term:vinterväglag|sv]]) means snow, ice, slush or frost on **any part** of the road [[src:tsfs-2009-19|3]] [[src:ts-winter-tyres]]. The **police** decide whether winter road conditions apply at a place [[src:ts-winter-tyres]].
+- **Winter road conditions** ([[term:vintervaglag|sv]]) means snow, ice, slush or frost on **any part** of the road [[src:tsfs-2009-19|3]] [[src:ts-winter-tyres]]. The **police** decide whether winter road conditions apply at a place [[src:ts-winter-tyres]].
 - **Equivalent equipment** can be, for example, **snow chains** [[src:tsfs-2009-19|3]].
 - The requirement does not apply to vehicles that are **30 years old or more** (model year) [[src:tf|4:18c]].
 
@@ -52,7 +52,11 @@ A winter tyre for a car must be [[src:tsfs-2009-19|3]] [[src:ts-winter-tyres]]:
 
 Non-studded winter tyres may also have an **ice-grip marking**, showing that they passed a test on ice. That marking is not required [[src:ts-winter-tyres]]. A tyre marked only **M+S** ("mud and snow") does **not** count as a winter tyre on a car.
 
+[[photo:winter-tyre-symbol]]
+
 ## Studded tyres
+
+[[photo:studded-tyre]]
 
 - Allowed from **1 October to 15 April**, and outside that period only when there are – or may be – winter road conditions [[src:tsfs-2009-19|8]] [[src:ts-winter-tyres]].
 - A car may **not** use **both** studded and non-studded tyres at the same time [[src:tsfs-2009-19|10]].

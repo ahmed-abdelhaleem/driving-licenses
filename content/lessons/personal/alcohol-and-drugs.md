@@ -112,6 +112,8 @@ Drink-driving **almost always** leads to the licence being **revoked** [[src:tv-
 
 After drink-driving with **alcohol** (not drugs), you can apply to keep driving with an **alcolock** (*alkolås*) – a device that stops the vehicle from starting unless you blow a breath sample with less than **0.1 mg/l** (0.2 ‰). You must also blow at random times during the trip [[src:ts-alcolock]].
 
+[[photo:alcolock]]
+
 - The condition lasts **1 year** – or **2 years** after **aggravated** drink-driving or **repeated** drink-driving within five years [[src:kkl|5:20]].
 - You may only drive vehicles with **your own approved alcolock**, and only **in Sweden** [[src:kkl|5:22]]. Your licence shows code **69** [[src:ts-alcolock]].
 - It costs about **20,000–40,000 kronor**, and you still get the **fine or prison sentence** [[src:ts-alcolock]].
