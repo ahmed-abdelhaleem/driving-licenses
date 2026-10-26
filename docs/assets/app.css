@@ -280,16 +280,18 @@ main { min-width: 0; outline: none; }
 .chip.yellow { background: var(--yellow-soft); color: var(--ink); }
 .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .cite {
-  display: inline-block;
+  display: inline;
   font-size: 0.78rem;
   font-weight: 700;
   text-decoration: none;
   color: var(--ink-2);
   background: var(--surface-2);
   border-radius: 5px;
-  padding: 0 0.4rem;
+  padding: 0.05em 0.4rem;
   margin: 0 0.1rem;
-  white-space: nowrap;
+  /* Long citations may wrap on narrow screens; each line keeps the chip look. */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
   vertical-align: 0.08em;
 }
 .cite:hover { color: var(--blue); }
@@ -612,7 +614,8 @@ figure.diagram svg { display: block; width: 100%; min-width: 480px; height: auto
 .bar { height: 12px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
 .bar span { display: block; height: 100%; background: var(--blue); }
 .bar-row .pct { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
-.review { display: grid; gap: 1rem; max-width: 46rem; }
+.review { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; max-width: 46rem; }
+.review details { min-width: 0; overflow-wrap: anywhere; }
 .review details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0.75rem 1rem; }
 .review summary { cursor: pointer; font-weight: 700; display: flex; gap: 0.6rem; align-items: baseline; }
 .review summary .chip { flex: none; }

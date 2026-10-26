@@ -17,6 +17,11 @@ function runSearch(query, limit = 60) {
   if (!res.length) res = idx.search(q, { combineWith: 'OR' });
   const docs = window.DL_SEARCH.docs;
   const out = res.map((r) => ({ id: r.id, score: r.score, ...docs[r.id] }));
+  // A query that is exactly a dictionary word, in Swedish or English, puts that word first.
+  const fold = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\([^)]*\)/g, ' ').replace(/\s+/g, ' ').trim();
+  const fq = fold(q);
+  const word = out.findIndex((r) => r.type === 'term' && [r.sv, r.title].some((v) => fold(v).split(/\s*\/\s*/).includes(fq)));
+  if (word > 0) out.unshift(out.splice(word, 1)[0]);
   // A query that is exactly a sign code (e.g. "c31", "B 1") puts that sign first.
   const code = q.replace(/\s+/g, '').toUpperCase();
   const exact = out.findIndex((r) => r.type === 'sign' && r.id.toUpperCase() === `S:${code}`);

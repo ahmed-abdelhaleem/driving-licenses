@@ -44,7 +44,9 @@ In general, a position slightly **left of the centre** of your lane makes you vi
 ## Lights and clothing
 
 - Ride with the **headlight on** – required [[src:tf|3:68]]. New models of motorcycles have lights that switch on automatically under EU rules [[src:eu-168-2013]], and in daylight a motorcycle may use dipped beam, daytime running lights and fog lights at the same time [[src:tf|3:71]].
-- **Bright colours and reflective material** on jacket and helmet help, especially in town and at dusk – but they do not guarantee that you are seen.
+- **Bright colours and reflective material** on jacket and helmet help, especially in town and at dusk – but they do not guarantee that you are seen [[src:uk-hc-mc|rule 86]] [[src:uk-hc-mc|rule 87]].
+
+[[photo:mc-reflective]]
 
 ## Riding in a group
 

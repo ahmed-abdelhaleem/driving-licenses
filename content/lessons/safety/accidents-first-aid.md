@@ -45,6 +45,8 @@ Leaving the scene of an accident you were involved in, and so avoiding helping o
 
 If a person does not respond but **breathes normally**, place them in the **recovery position** (*stabilt sidoläge*) – on their side, so the tongue cannot block the airway and vomit can run out. Keep them warm and watch their breathing [[src:1177-shock]].
 
+[[photo:recovery-position]]
+
 ## Not breathing normally – CPR
 
 ::: steps

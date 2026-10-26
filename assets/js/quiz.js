@@ -153,12 +153,14 @@ const Practice = {
 
   start(mode, arg) {
     const { title, ids } = this.pick(mode, arg, State.path);
-    this.session = { title, ids, i: 0, right: 0, answered: 0, wrong: [], mode, arg };
+    this.session = { title, ids, i: 0, right: 0, answered: 0, wrong: [], mode, arg, path: State.path };
   },
 };
 
 function viewPracticeRun(mode, arg) {
-  if (!Practice.session || Practice.session.mode !== mode || Practice.session.arg !== (arg || undefined)) {
+  const cur = Practice.session;
+  // A new round when the choice or the licence changed; otherwise continue (or show the result of) the current one.
+  if (!cur || cur.mode !== mode || cur.arg !== (arg || undefined) || cur.path !== State.path) {
     Practice.start(mode, arg || undefined);
   }
   const s = Practice.session;

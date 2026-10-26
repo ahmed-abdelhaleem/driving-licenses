@@ -36,6 +36,8 @@ The warning signs A35–A37 are used outside built-up areas, and in built-up are
 - **[[sign:Y3|Y3 barrier]]** – **full barriers** close the whole road; **half barriers** close only the right-hand lane for traffic approaching the crossing [[src:tv-level-crossings]]. A lamp on the barrier flashes red from when it starts to go down until it is fully up again [[src:vmf|6:7]]. The back of the barrier may say *Kör genom bommen* – "drive through the barrier" [[src:vmf|6:8]].
 
 The warning always **starts with flashing red lights and a bell** before the barriers come down [[src:tv-level-crossings]].
+
+[[photo:level-crossing-tram]]
 - **[[sign:Y4|Y4 marker board]]** – makes the crossing easier to see [[src:vmf|6:9]].
 
 ## When you may not drive onto the crossing

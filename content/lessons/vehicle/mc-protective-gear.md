@@ -35,6 +35,8 @@ A rider has no car body around them. Trafikverket points out that **even at lega
 
 So look for an **E label** in the helmet (often on the chin strap) showing approval to **ECE 22.05 or 22.06**.
 
+[[photo:mc-helmet]]
+
 ::: key Wearing it correctly
 - The helmet must be **securely fastened** so it sits firmly on the head [[src:tsfs-2017-94|5]].
 - A helmet may not be used if something has been done to it that can reduce its protection [[src:tsfs-2017-94|6]] – Transportstyrelsen gives as examples **stickers, protruding objects or covers, holes in the shell, and paint** [[src:tsfs-2017-94|6]].
@@ -55,6 +57,8 @@ There is no law on clothing, but the right gear can prevent or reduce many injur
 | **Gloves** | Real motorcycle gloves that cover the wrist, with reinforced palms – hands go out first in a fall. |
 | **Boots** | Sturdy motorcycle boots that protect the ankle. Ordinary shoes can come off in a crash. |
 | **Airbag vest or jacket** | Inflates in a crash to protect neck, back and chest. |
+
+[[photo:mc-gear-set]]
 
 ::: tip Be seen
 Car drivers often fail to notice motorcycles – the curriculum names the risks of other road users having **difficulty seeing riders** [[src:tsfs-2011-19|3:2]]. **Bright colours and reflective material** on the jacket and helmet help – reflective material shows up in other vehicles' headlights from a longer distance in the dark [[src:uk-hc-mc|rule 86]] [[src:uk-hc-mc|rule 87]]. See [[lesson:mc-visibility-and-position]].

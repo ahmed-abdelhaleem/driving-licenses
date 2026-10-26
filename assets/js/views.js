@@ -385,6 +385,8 @@ function viewTerm(id) {
 // ---------------------------------------------------------------- practice hub
 function viewPractice() {
   hideRail();
+  // A finished round is not resumed: choosing it again from here starts a new one.
+  if (Practice.session && Practice.session.i >= Practice.session.ids.length) Practice.session = null;
   const path = State.path;
   const p = pathById(path);
   const pool = questionsFor(path);
@@ -417,9 +419,10 @@ function viewPractice() {
 
 function viewQuiz(mode, arg) {
   hideRail();
-  if (mode === 'sign') {
-    const qs = (window.DL_QUESTIONS || []).filter((q) => q.signs.includes(arg) && !q.gen);
-    Practice.session = { title: `Questions about ${arg}`, ids: shuffle(qs.map((q) => q.id)), i: 0, right: 0, answered: 0, wrong: [], mode, arg };
+  const cur = Practice.session;
+  if (mode === 'sign' && (!cur || cur.mode !== 'sign' || cur.arg !== arg || cur.path !== State.path)) {
+    const qs = questionsFor(State.path).filter((q) => q.signs.includes(arg) && !q.gen);
+    Practice.session = { title: `Questions about ${arg}`, ids: shuffle(qs.map((q) => q.id)), i: 0, right: 0, answered: 0, wrong: [], mode, arg, path: State.path };
   }
   return viewPracticeRun(mode, arg);
 }
@@ -507,7 +510,7 @@ function viewAbout() {
     <p>Transportstyrelsen's course plans for the car licence (TSFS 2011:20) and the motorcycle licence (TSFS 2011:19) list what you must learn. Trafikverket's theory test checks five areas: vehicle knowledge and handling, environment, traffic safety, traffic rules, and personal factors. Each path on this site covers all five.</p>
     <p>Rules and signs are the same for everyone, so those lessons are shared. Boxes marked <strong>“Only for …”</strong> hold details that apply to one licence. When you choose a licence at the top, the boxes for the other licences are hidden.</p>
     <h2>Accuracy</h2>
-    <p>Every rule is taken from the current Swedish law text or from Transportstyrelsen and Trafikverket, and each lesson lists its sources. Swedish legal wording is translated as literally as plain English allows, and the original is shown next to it. Content was checked on ${esc(C().facts.checkedOn)}.</p>
+    <p>Every rule is taken from the current Swedish law text or from Swedish authorities such as Transportstyrelsen, Trafikverket and the Police, and each lesson lists its sources. For general driving and riding technique – not rules – some lessons also cite the UK Highway Code and the motorcycle handbook of SGI, the licensing authority in Saskatchewan, Canada; those citations are named as such, and those countries' traffic laws do not apply in Sweden. Swedish legal wording is translated as literally as plain English allows, and the original is shown next to it. Content was checked on ${esc(C().facts.checkedOn)}.</p>
     <p>This is not an official site. If anything here differs from Transportstyrelsen, Trafikverket or the law, the official source is right. The practice questions are written for this site; Trafikverket does not publish its test questions.</p>
     <h2>Your data</h2>
     <p>Your chosen licence, finished lessons, answers and exam results are saved only in this browser (local storage). Nothing is sent anywhere. You can clear it on the <a href="#progress">progress page</a>.</p>

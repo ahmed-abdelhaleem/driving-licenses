@@ -88,3 +88,68 @@
   w: 788
   h: 949
   modified: true
+
+- id: road-2plus1
+  title: "E20 2plus1 west of Skara.jpg"
+  alt: "A 2+1 road through farmland, with a steel cable barrier between the two directions."
+  caption: "A 2+1 road (E20 west of Skara). The cable barrier in the middle separates the directions. Here, traffic going away from the camera has **two** lanes and oncoming traffic **one**."
+  author: "Joel Torsson (Leojth)"
+  license: "Public domain"
+  page: "https://commons.wikimedia.org/wiki/File:E20_2plus1_west_of_Skara.jpg"
+  w: 1000
+  h: 750
+
+- id: level-crossing-tram
+  title: "Kottlavägen, juli 2021.jpg"
+  alt: "A tram passes a level crossing with lowered barriers and red lights; a car waits in front of the crossing."
+  caption: "A level crossing on the Lidingö line near Stockholm. The barriers are down and the red lights are on while the tram passes. Wait until the barriers are fully up and the lights have stopped."
+  author: "Holger.Ellgaard"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:Kottlav%C3%A4gen,_juli_2021.jpg"
+  w: 1000
+  h: 721
+
+- id: recovery-position
+  title: "Recovery position.jpg"
+  alt: "Drawing of a person lying on their side in the recovery position, with the upper leg bent forward."
+  caption: "The **recovery position** (*stabilt sidoläge*): on the side, so the tongue cannot block the airway and vomit can run out."
+  author: "Rama"
+  license: "CC BY-SA 3.0 fr"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en"
+  page: "https://commons.wikimedia.org/wiki/File:Recovery_position.jpg"
+  w: 1000
+  h: 426
+
+- id: mc-gear-set
+  title: "MotoEqipments HelmetBootsJacketAndGloves.jpg"
+  alt: "A motorcycle helmet, a leather jacket, gloves and boots laid out on a floor."
+  caption: "Protective gear for a rider: **helmet**, a jacket of abrasion-resistant material, motorcycle **gloves** and **boots** that protect the ankles."
+  author: "サフィル"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:MotoEqipments_HelmetBootsJacketAndGloves.jpg"
+  w: 1000
+  h: 666
+
+- id: mc-helmet
+  title: "Full-Face Helmet 9274.jpg"
+  alt: "A white full-face motorcycle helmet with a clear visor."
+  caption: "A **full-face helmet** covers the chin as well. In Sweden a helmet must be E-marked and approved under UN ECE Regulation 22 (series 05 or later)."
+  author: "Ashley Pomeroy"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:Full-Face_Helmet_9274.jpg"
+  w: 1000
+  h: 958
+
+- id: mc-reflective
+  title: "Motorkleding reflectie.JPG"
+  alt: "A group of motorcyclists at night; reflective strips on their clothing shine brightly in the camera flash."
+  caption: "Reflective strips on riding clothing shine in other vehicles' headlights, so you are seen from further away in the dark."
+  author: "Piero at Dutch Wikipedia"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/"
+  page: "https://commons.wikimedia.org/wiki/File:Motorkleding_reflectie.JPG"
+  w: 1000
+  h: 750

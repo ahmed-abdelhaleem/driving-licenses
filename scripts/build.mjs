@@ -154,7 +154,8 @@ function citation(srcId, loc, env) {
   if (loc) {
     const [k, p] = loc.includes(':') ? loc.split(':') : [null, loc];
     if (s.section) href = s.section.replace('{k}', k ?? '').replace('{p}', p);
-    if (s.kind === 'law' || s.kind === 'regulation') label = k ? `${s.short} ${k} kap. ${p} §` : `${s.short} ${p} §`;
+    // Non-breaking spaces keep "3 kap. 17 §" together when a citation wraps.
+    if (s.kind === 'law' || s.kind === 'regulation') label = k ? `${s.short} ${k}\u00a0kap.\u00a0${p}\u00a0§` : `${s.short} ${p}\u00a0§`;
     else label = `${s.short} ${loc}`;
   }
   const title = `${s.titleEn || s.title}${loc ? ` — ${label}` : ''}`;

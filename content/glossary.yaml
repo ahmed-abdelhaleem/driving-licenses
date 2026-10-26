@@ -490,7 +490,7 @@
   en: level crossing
   also: [railway crossing]
   def: "A place where a road crosses a railway or tramway at the same level."
-  image: "sign:A39-1"
+  image: ["photo:level-crossing-tram", "sign:A39-1"]
   law: ["tf|2:7", "vtdf|2"]
   related: []
   lessons: [railway-crossings]
@@ -1122,6 +1122,7 @@
   sv: skyddshjälm
   en: protective helmet
   def: "Required for the rider and passenger on a motorcycle or moped. It must be E-marked and approved under UN ECE Regulation 22, series 05 or later (look for an E label, often on the chin strap), securely fastened, and not changed in any way that can reduce its protection – for example with stickers or paint."
+  image: "photo:mc-helmet"
   law: ["tf|4:9", "tsfs-2017-94|3"]
   related: [skyddsklader]
   lessons: [mc-protective-gear]
@@ -1130,6 +1131,7 @@
   sv: skyddskläder
   en: protective clothing (motorcycle)
   def: "Jacket and trousers of abrasion-resistant leather or motorcycle textile with protectors at shoulders, elbows, hips and knees, plus a back protector, motorcycle gloves and boots. There is no law on clothing, but the right gear prevents or reduces many injuries."
+  image: "photo:mc-gear-set"
   related: [skyddshjalm]
   lessons: [mc-protective-gear]
 
@@ -1248,7 +1250,7 @@
   sv: mötesfri väg (2+1-väg)
   en: 2+1 road (road with a central barrier)
   def: "A road with a central barrier, often a steel cable barrier, that alternates between one and two lanes in each direction. The barrier separates the directions and greatly reduces head-on crashes. Overtake only where you have two lanes."
-  image: "fig:two-plus-one"
+  image: ["photo:road-2plus1", "fig:two-plus-one"]
   related: [omkorning, varningstriangel]
   lessons: [roads-and-environments, meeting-and-overtaking]
 
@@ -1382,6 +1384,7 @@
   sv: stabilt sidoläge
   en: recovery position
   def: "Placing an unconscious person who breathes normally on their side, so that the tongue cannot block the airway and vomit can run out. Keep them warm and watch their breathing."
+  image: "photo:recovery-position"
   related: [hlr, hjartstartare]
   lessons: [accidents-first-aid]
 
