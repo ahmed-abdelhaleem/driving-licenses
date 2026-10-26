@@ -3,3 +3,47 @@
 - id: stopping-distance
   caption: "Stopping distance = reaction distance + braking distance. Example with a 1-second reaction time on a dry road: the braking part grows with the square of the speed."
   alt: Bar chart of stopping distances at 30, 50, 70, 90 and 110 km/h.
+
+- id: blind-spots
+  caption: "Mirrors and blind spots seen from above. Before every change of position: mirror, signal – and turn your head to look into the blind spot."
+  alt: "Top view of a car with the areas its mirrors show and the blind spots beside the rear corners."
+
+- id: right-hand-rule
+  caption: "The right-hand rule (*högerregeln*): at a junction without signs or signals, give way to vehicles that come from your **right**."
+  alt: "Top view of an unsigned crossroads: car A waits for car B, which comes from A's right."
+
+- id: roundabout
+  caption: "In a roundabout: give way to vehicles already in it, drive anticlockwise, and signal right when you leave."
+  alt: "Top view of a roundabout: a car waits at the entry, a car circulates anticlockwise and a car leaves with its right indicator on."
+
+- id: counter-steering
+  caption: "Counter-steering: push the **right** grip forward – the front wheel turns slightly left for an instant, the motorcycle leans right and turns right. The harder you push, the faster it leans."
+  alt: "Three panels showing how pushing the right handlebar grip forward makes a motorcycle lean and turn right."
+
+- id: understeer-oversteer
+  caption: "Understeer (front wheels slide – the car runs wide) and oversteer (rear wheels slide – the back swings out). The dashed line is the line you want to drive."
+  alt: "Two bends showing understeer, where a car runs wide, and oversteer, where its rear swings out."
+
+- id: tread-depth
+  caption: "Tread depth (*mönsterdjup*) is measured in the main grooves of the tread. The legal minimums are minimums – grip gets much worse long before."
+  alt: "Cross-section of a tyre tread with the groove depth measured, and the legal minimums 1.6 mm and 3 mm."
+
+- id: mc-gear-pattern
+  caption: "The usual motorcycle gear pattern: **1 – N – 2 – 3 – 4 – 5 – 6**. Press the gear lever down for 1st, lift it up for the others."
+  alt: "Diagram of the motorcycle gear pattern 1-N-2-3-4-5-6."
+
+- id: acceleration-lane
+  caption: "**1** Use the acceleration lane to match the speed of the traffic. **2** Move out as soon as you can do so safely – mirror, signal, shoulder check. **3** Drivers already on the road should adjust their speed to make it easier."
+  alt: "Top view of a car joining a motorway along an acceleration lane."
+
+- id: two-plus-one
+  caption: "A 2+1 road (*mötesfri väg*): the central barrier separates the directions, and the road alternates between one and two lanes in each direction. Overtake only where you have two lanes."
+  alt: "Top view of a 2+1 road where the central barrier switches sides so each direction alternates between one and two lanes."
+
+- id: time-gap
+  caption: "When the car in front passes a fixed point, count the seconds until you reach it. Three seconds is a common rule of thumb in good conditions – much more on wet or icy roads."
+  alt: "Two cars and a roadside pole, illustrating how to count the following distance in seconds."
+
+- id: headlight-beams
+  caption: "Main beam lights far ahead. Dipped beam is shorter and is aimed so that it does not dazzle oncoming drivers – dip in good time."
+  alt: "Top view at night comparing the long main beam with the shorter dipped beam."

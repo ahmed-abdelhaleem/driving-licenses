@@ -25,6 +25,8 @@ At walking pace you steer by turning the handlebars the way you want to go. Abov
 To turn **right**, push the **right** handlebar grip **forward** (away from you). The front wheel turns slightly **left** for an instant, the motorcycle leans **right**, and it turns right. To turn **left**, push the **left** grip. The harder you push, the faster it leans.
 :::
 
+[[fig:counter-steering]]
+
 Counter-steering is the fastest way to change direction – it is also what you use in the **evasive manoeuvre** of the riding test, done at about 50 km/h [[src:tv-mc]].
 
 ## Speed before the bend

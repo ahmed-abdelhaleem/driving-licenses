@@ -40,6 +40,8 @@ You must keep a low enough speed at **hill crests**, in **sharp bends** and wher
 
 Many Swedish main roads have a **central barrier** (often a steel cable barrier) and alternate between **one and two lanes** in each direction. The barrier separates the directions, which greatly reduces head-on crashes.
 
+[[fig:two-plus-one]]
+
 - **Overtake only where you have two lanes** in your direction. Do not start an overtake just before the two lanes end.
 - When the two lanes merge into one, both drivers must **adapt to each other** with mutual consideration [[src:tf|3:44]], and a driver who sees someone wanting to move into their lane must adjust speed to help [[src:tf|3:43]]. Sign [[sign:F17|F17]] warns that the number of lanes decreases.
 - There is little room to stop. If you break down, try to reach a lay-by, and put out the warning triangle where required [[src:tf|3:57]].

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="counter-steering-t counter-steering-d">
+  <title id="counter-steering-t">Counter-steering on a motorcycle</title>
+  <desc id="counter-steering-d">Three panels. 1: handlebars from above – the rider pushes the right grip forward, so the front wheel turns slightly to the left for a moment. 2: the motorcycle seen from behind leans to the right. 3: the motorcycle turns right.</desc>
+  <defs>
+    <marker id="counter-steering-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="counter-steering-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="counter-steering-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="counter-steering-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-panel" x="10" y="10" width="200" height="340" rx="10"/>
+<text class="d-tb" x="110" y="40" text-anchor="middle"><tspan x="110" dy="0">1  Push the right</tspan><tspan x="110" dy="20">grip forward</tspan></text>
+<g transform="translate(110 200) rotate(-12)"><rect class="d-ink" x="-80" y="-5" width="160" height="10" rx="5"/><rect class="d-car-a" x="-92" y="-9" width="30" height="18" rx="6"/><rect class="d-car-a" x="62" y="-9" width="30" height="18" rx="6"/><rect class="d-asphalt" x="-9" y="-75" width="18" height="70" rx="8"/></g>
+<line class="d-dash" x1="110" y1="300" x2="110" y2="110"/>
+<text class="d-ts" x="110" y="330" text-anchor="middle"><tspan x="110" dy="0">Front wheel turns</tspan><tspan x="110" dy="20">slightly left</tspan></text>
+<path class="d-arrow-g" d="M 185.3 244.0 L 185.3 202.0" marker-end="url(#counter-steering-ag)"/>
+<rect class="d-panel" x="220" y="10" width="200" height="340" rx="10"/>
+<text class="d-tb" x="320" y="40" text-anchor="middle"><tspan x="320" dy="0">2  The motorcycle</tspan><tspan x="320" dy="20">leans right</tspan></text>
+<line class="d-ink-s" x1="240" y1="300" x2="400" y2="300" stroke-width="3"/>
+<g transform="translate(320 300) rotate(22)"><rect class="d-ink" x="-9" y="-70" width="18" height="70" rx="8"/><rect class="d-car-a" x="-26" y="-130" width="52" height="66" rx="14"/><circle class="d-car-b" cx="0" cy="-152" r="22"/><rect class="d-ink" x="-46" y="-118" width="92" height="8" rx="4"/></g>
+<text class="d-ts" x="320" y="330" text-anchor="middle"><tspan x="320" dy="0">Seen from behind</tspan></text>
+<rect class="d-panel" x="430" y="10" width="200" height="340" rx="10"/>
+<text class="d-tb" x="530" y="40" text-anchor="middle"><tspan x="530" dy="0">3  …and turns</tspan><tspan x="530" dy="20">right</tspan></text>
+<rect class="d-asphalt" x="450" y="90" width="160" height="230" rx="8"/>
+<path class="d-path-w" d="M 500 310 C 500 230 505 200 520 180 S 570 130 600 125" marker-end="url(#counter-steering-aw)"/>
+<g transform="translate(500 290)"><rect class="d-car-b" x="-8" y="-28" width="16" height="56" rx="7"/></g>
+</svg>

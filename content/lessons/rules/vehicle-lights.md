@@ -46,6 +46,8 @@ Use **dipped beam** or **main beam** [[src:ts-lighting]].
 **In English:** "When driving a car, class b tractor, class I motor implement, heavy off-road vehicle, motorcycle or class I moped on a road, main beam **must** be used when the driver's field of vision, given the vehicle's speed, is otherwise not enough to drive safely. Main beam may **not** be used 1. on a stretch where the road is adequately lit, 2. at such a distance from an oncoming vehicle that its driver can be dazzled, 3. when meeting a rail vehicle or a ship travelling along the road, if there is a risk of dazzle, or 4. at a short distance behind another vehicle."
 :::
 
+[[fig:headlight-beams]]
+
 ::: tip Meeting at night
 Dip your lights **in good time** before the oncoming vehicle – before its driver can be dazzled. Then look towards the **right edge** of the road rather than into the oncoming lights, and slow down if you cannot see far enough with dipped beam. More in [[lesson:darkness-and-weather]].
 :::

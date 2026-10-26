@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 410" role="img" aria-labelledby="mc-gear-pattern-t mc-gear-pattern-d">
+  <title id="mc-gear-pattern-t">Motorcycle gear pattern</title>
+  <desc id="mc-gear-pattern-d">The usual motorcycle gear pattern from the bottom: 1, N, 2, 3, 4, 5, 6. Press the lever down for first gear and lift it up for the others. Neutral is a half step between first and second.</desc>
+  <defs>
+    <marker id="mc-gear-pattern-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="mc-gear-pattern-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="mc-gear-pattern-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="mc-gear-pattern-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-car-a" x="184" y="40" width="52" height="34" rx="8"/>
+<text class="d-tw-b" x="210" y="64" text-anchor="middle"><tspan x="210" dy="0">6</tspan></text>
+<line class="d-ink-s" x1="210" y1="74" x2="210" y2="86" stroke-width="2"/>
+<rect class="d-car-a" x="184" y="86" width="52" height="34" rx="8"/>
+<text class="d-tw-b" x="210" y="110" text-anchor="middle"><tspan x="210" dy="0">5</tspan></text>
+<line class="d-ink-s" x1="210" y1="120" x2="210" y2="132" stroke-width="2"/>
+<rect class="d-car-a" x="184" y="132" width="52" height="34" rx="8"/>
+<text class="d-tw-b" x="210" y="156" text-anchor="middle"><tspan x="210" dy="0">4</tspan></text>
+<line class="d-ink-s" x1="210" y1="166" x2="210" y2="178" stroke-width="2"/>
+<rect class="d-car-a" x="184" y="178" width="52" height="34" rx="8"/>
+<text class="d-tw-b" x="210" y="202" text-anchor="middle"><tspan x="210" dy="0">3</tspan></text>
+<line class="d-ink-s" x1="210" y1="212" x2="210" y2="224" stroke-width="2"/>
+<rect class="d-car-a" x="184" y="224" width="52" height="34" rx="8"/>
+<text class="d-tw-b" x="210" y="248" text-anchor="middle"><tspan x="210" dy="0">2</tspan></text>
+<line class="d-ink-s" x1="210" y1="258" x2="210" y2="270" stroke-width="2"/>
+<rect class="d-ok" x="184" y="270" width="52" height="34" rx="8"/>
+<text class="d-tw-b" x="210" y="294" text-anchor="middle"><tspan x="210" dy="0">N</tspan></text>
+<line class="d-ink-s" x1="210" y1="304" x2="210" y2="316" stroke-width="2"/>
+<rect class="d-car-a" x="184" y="316" width="52" height="34" rx="8"/>
+<text class="d-tw-b" x="210" y="340" text-anchor="middle"><tspan x="210" dy="0">1</tspan></text>
+<path class="d-arrow" d="M 270 290 L 270 50" marker-end="url(#mc-gear-pattern-ah)"/>
+<text class="d-tb" x="286" y="160" text-anchor="start"><tspan x="286" dy="0">Lift the lever UP</tspan><tspan x="286" dy="20">for 2nd, 3rd, 4th …</tspan></text>
+<path class="d-arrow" d="M 150 270 L 150 346" marker-end="url(#mc-gear-pattern-ah)"/>
+<text class="d-tb" x="134" y="326" text-anchor="end"><tspan x="134" dy="0">Press DOWN</tspan><tspan x="134" dy="20">for 1st</tspan></text>
+<text class="d-t" x="286" y="294" text-anchor="start"><tspan x="286" dy="0">N (neutral): a half step</tspan><tspan x="286" dy="20">between 1st and 2nd.</tspan><tspan x="286" dy="20">A green N light shows it.</tspan></text>
+<text class="d-ts" x="20" y="396" text-anchor="start"><tspan x="20" dy="0">The most common pattern. Some motorcycles differ – check the owner's manual.</tspan></text>
+</svg>

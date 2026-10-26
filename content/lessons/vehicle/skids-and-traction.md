@@ -42,6 +42,8 @@ Skids are usually caused by **braking, accelerating or steering too harshly**, o
 | Common cause | Too much speed into a bend, steering harder and harder | Lifting off or braking hard in a bend, accelerating hard in a rear-wheel-drive car |
 | What to do | **Ease off** the accelerator, **reduce the steering angle** a little so the tyres can grip again, and look where you want to go | **Release the brake / ease off** and **steer in the direction of the skid** – if the rear slides to the right, steer right [[src:uk-hc-general|rule 119]]. |
 
+[[fig:understeer-oversteer]]
+
 ::: warning Prevention is the only safe method
 Recovering from a skid needs space, practice and luck. Adapt your speed **before** the bend, keep a long distance, and avoid sudden movements on slippery roads. The **skid training** in part 2 of the risk education shows how little grip there is – see [[lesson:risk-education]].
 :::

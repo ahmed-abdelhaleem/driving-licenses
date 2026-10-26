@@ -420,8 +420,13 @@ figure { margin: 0; }
 figure.photo img { border-radius: var(--radius); display: block; width: 100%; height: auto; background: var(--surface-2); }
 figcaption { font-size: var(--step--1); color: var(--ink-2); margin-top: 0.45rem; line-height: 1.45; }
 figcaption .credit { display: block; font-size: 0.78rem; opacity: 0.9; }
-figure.diagram { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.9rem; }
-figure.diagram svg { display: block; width: 100%; height: auto; max-height: 30rem; }
+figure.diagram { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.9rem; overflow-x: auto; }
+/* On phones a diagram keeps a minimum width (its labels stay readable) and scrolls sideways inside its frame. */
+figure.diagram svg { display: block; width: 100%; min-width: 480px; height: auto; max-height: 32rem; }
+.prose figure + figure { margin-top: 1rem; }
+@media (max-width: 560px) {
+  figure.diagram::before { content: "Swipe sideways to see the whole picture →"; display: block; position: sticky; left: 0; font-size: 0.75rem; color: var(--ink-2); margin-bottom: 0.4rem; }
+}
 
 /* diagram palette (used by inline SVG figures) */
 .d-asphalt { fill: #5b6670; }
@@ -444,6 +449,29 @@ figure.diagram svg { display: block; width: 100%; height: auto; max-height: 30re
 .d-blue { fill: #005596; }
 .d-arrow { stroke: var(--ink); fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
 .d-panel { fill: var(--surface-2); }
+.d-t { fill: var(--ink); font-family: var(--font-body); font-size: 15px; }
+.d-tb { fill: var(--ink); font-family: var(--font-display); font-weight: 700; font-size: 17px; }
+.d-ts { fill: var(--ink-2); font-family: var(--font-body); font-size: 13.5px; }
+.d-tw { fill: #ffffff; font-family: var(--font-body); font-size: 15px; }
+.d-tw-b { fill: #ffffff; font-family: var(--font-display); font-weight: 700; font-size: 18px; }
+.d-num { fill: #ffffff; stroke: #15202b; stroke-width: 2; }
+.d-num-t { fill: #15202b; font-family: var(--font-display); font-weight: 700; font-size: 16px; }
+.d-glass { fill: #cfe3f5; }
+.d-lamp { fill: #ff9f1a; }
+.d-see { fill: #12924a; fill-opacity: 0.32; }
+.d-blind { fill: #d92c34; fill-opacity: 0.42; }
+.d-path-w { stroke: #ffffff; fill: none; stroke-width: 3; stroke-dasharray: 9 7; stroke-linecap: round; }
+.d-arrow-w { stroke: #ffffff; fill: none; stroke-width: 3; stroke-linecap: round; }
+.d-arrow-g { stroke: #12924a; fill: none; stroke-width: 3.5; stroke-linecap: round; }
+.d-arrow-r { stroke: #d92c34; fill: none; stroke-width: 3.5; stroke-linecap: round; }
+.d-dash { stroke: var(--ink-2); fill: none; stroke-width: 2; stroke-dasharray: 6 6; }
+.d-asphalt-s { stroke: #5b6670; }
+.d-panel-g { fill: #9dc183; stroke: #ffffff; stroke-width: 2; }
+.d-barrier { stroke: #c9d1d8; stroke-width: 3; fill: none; }
+.d-barrier-post { fill: #e9edf1; }
+.d-night { fill: #0f1a2b; }
+.d-asphalt-night { fill: #2c333b; }
+.d-beam { fill: #fff2a8; fill-opacity: 0.6; }
 
 /* ---------------------------------------------------------------- signs */
 .sign-img { display: inline-block; object-fit: contain; background: transparent; }

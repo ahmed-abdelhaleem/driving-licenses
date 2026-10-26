@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 470" role="img" aria-labelledby="blind-spots-t blind-spots-d">
+  <title id="blind-spots-t">Mirrors and blind spots</title>
+  <desc id="blind-spots-d">Top view of a car in the middle of three lanes. Green areas behind the car show what the inside mirror and the two door mirrors show. Red areas beside the rear corners of the car are blind spots that no mirror shows; a motorcycle is hidden in the left blind spot.</desc>
+  <defs>
+    <marker id="blind-spots-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="blind-spots-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="blind-spots-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="blind-spots-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-grass" x="0" y="0" width="340" height="470"/>
+<rect class="d-asphalt" x="20" y="0" width="300" height="470"/>
+<line class="d-line" x1="120" y1="0" x2="120" y2="470" stroke-width="3" stroke-dasharray="26 26"/>
+<line class="d-line" x1="220" y1="0" x2="220" y2="470" stroke-width="3" stroke-dasharray="26 26"/>
+<polygon class="d-see" points="139.0,190.0 133.0,470 31.1,470"/>
+<polygon class="d-see" points="201.0,190.0 207.0,470 308.9,470"/>
+<polygon class="d-see" points="151.3,259.6 188.7,259.6 244.2,470 95.8,470"/>
+<polygon class="d-blind" points="22,208.1 132.4,208.1 77.8,358.1 22,358.1"/>
+<polygon class="d-blind" points="318,208.1 207.6,208.1 262.2,358.1 318,358.1"/>
+<g transform="translate(70 270.1)"><rect class="d-car-b" x="-9" y="-34" width="18" height="68" rx="8"/><circle class="d-ink" cx="0" cy="-6" r="8"/></g>
+<g transform="translate(170.0 214.5) rotate(0)"><rect class="d-car-a" x="-26.0" y="-64.5" width="52" height="129" rx="11.4"/><polygon class="d-glass" points="-21.8,-28.4 21.8,-28.4 18.7,-11.6 -18.7,-11.6"/><polygon class="d-glass" points="-18.7,32.2 18.7,32.2 21.3,45.1 -21.3,45.1"/><rect class="d-car-a" x="-31.0" y="-24.5" width="6" height="7" rx="2"/><rect class="d-car-a" x="25.0" y="-24.5" width="6" height="7" rx="2"/></g>
+<circle class="d-white" cx="159.6" cy="208.1" r="5"/>
+<path class="d-arrow-w" d="M 170 120 L 170 40" marker-end="url(#blind-spots-aw)"/>
+<rect class="d-see" x="352" y="40" width="26" height="18" rx="3"/>
+<text class="d-tb" x="388" y="55" text-anchor="start"><tspan x="388" dy="0">What the mirrors show</tspan></text>
+<text class="d-ts" x="388" y="78" text-anchor="start"><tspan x="388" dy="0">Inside mirror and the two</tspan><tspan x="388" dy="20">door mirrors</tspan></text>
+<rect class="d-blind" x="352" y="140" width="26" height="18" rx="3"/>
+<text class="d-tb" x="388" y="155" text-anchor="start"><tspan x="388" dy="0">Blind spots</tspan></text>
+<text class="d-ts" x="388" y="178" text-anchor="start"><tspan x="388" dy="0">Beside the rear corners.</tspan><tspan x="388" dy="20">No mirror shows them – a</tspan><tspan x="388" dy="20">car or motorcycle there</tspan><tspan x="388" dy="20">can be hidden.</tspan></text>
+<text class="d-tb" x="352" y="290" text-anchor="start"><tspan x="352" dy="0">Before you change lanes,</tspan><tspan x="352" dy="20">turn or pull out:</tspan></text>
+<text class="d-t" x="352" y="336" text-anchor="start"><tspan x="352" dy="0">mirror – signal – turn your</tspan><tspan x="352" dy="20">head and look into the</tspan><tspan x="352" dy="20">blind spot.</tspan></text>
+<circle class="d-white" cx="360" cy="414" r="5" stroke="#15202b" stroke-width="1"/>
+<text class="d-ts" x="374" y="419" text-anchor="start"><tspan x="374" dy="0">Driver's eyes</tspan></text>
+</svg>

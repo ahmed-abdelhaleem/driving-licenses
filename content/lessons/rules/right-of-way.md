@@ -35,6 +35,8 @@ And whatever the answer: **give way** clearly by slowing down in good time, and 
 
 The [[term:hogerregeln|right-hand rule]] (*högerregeln*) applies in junctions **without** signs, signals or other rules – common in residential areas. Sign [[sign:A28|A28]] can warn of such a junction.
 
+[[fig:right-hand-rule]]
+
 ::: example Who goes first?
 You come to a junction with no signs. A car approaches from your **right**, another from your **left**.
 - You give way to the car from the **right**.

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 345" role="img" aria-labelledby="two-plus-one-t two-plus-one-d">
+  <title id="two-plus-one-t">A 2+1 road with a central barrier</title>
+  <desc id="two-plus-one-d">Top view of a three-lane road with a steel cable barrier in the middle. In the left part, eastbound traffic has two lanes and a car overtakes; westbound has one lane. Further on the barrier moves over and westbound traffic gets two lanes.</desc>
+  <defs>
+    <marker id="two-plus-one-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="two-plus-one-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="two-plus-one-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="two-plus-one-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-grass" x="0" y="45" width="680" height="215" rx="10"/>
+<rect class="d-asphalt" x="0" y="70" width="680" height="165"/>
+<line class="d-line" x1="0" y1="70" x2="680" y2="70" stroke-width="2"/>
+<line class="d-line" x1="0" y1="235" x2="680" y2="235" stroke-width="2"/>
+<path class="d-barrier" d="M 0 125 L 300 125 L 380 180 L 680 180"/>
+<circle class="d-barrier-post" cx="10" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="36" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="62" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="88" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="114" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="140" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="166" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="192" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="218" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="244" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="270" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="296" cy="125.0" r="3"/>
+<circle class="d-barrier-post" cx="322" cy="140.1" r="3"/>
+<circle class="d-barrier-post" cx="348" cy="158.0" r="3"/>
+<circle class="d-barrier-post" cx="374" cy="175.9" r="3"/>
+<circle class="d-barrier-post" cx="400" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="426" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="452" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="478" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="504" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="530" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="556" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="582" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="608" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="634" cy="180.0" r="3"/>
+<circle class="d-barrier-post" cx="660" cy="180.0" r="3"/>
+<line class="d-line" x1="0" y1="180" x2="250" y2="180" stroke-width="3" stroke-dasharray="20 14"/>
+<line class="d-line" x1="430" y1="125" x2="680" y2="125" stroke-width="3" stroke-dasharray="20 14"/>
+<g transform="translate(120.0 207.0) rotate(90)"><rect class="d-car-b" x="-16.0" y="-38.0" width="32" height="76" rx="7.0"/><polygon class="d-glass" points="-13.4,-16.7 13.4,-16.7 11.5,-6.8 -11.5,-6.8"/><polygon class="d-glass" points="-11.5,19.0 11.5,19.0 13.1,26.6 -13.1,26.6"/><rect class="d-car-b" x="-21.0" y="-14.4" width="6" height="7" rx="2"/><rect class="d-car-b" x="15.0" y="-14.4" width="6" height="7" rx="2"/></g>
+<g transform="translate(200.0 152.0) rotate(90)"><rect class="d-car-a" x="-16.0" y="-38.0" width="32" height="76" rx="7.0"/><polygon class="d-glass" points="-13.4,-16.7 13.4,-16.7 11.5,-6.8 -11.5,-6.8"/><polygon class="d-glass" points="-11.5,19.0 11.5,19.0 13.1,26.6 -13.1,26.6"/><rect class="d-car-a" x="-21.0" y="-14.4" width="6" height="7" rx="2"/><rect class="d-car-a" x="15.0" y="-14.4" width="6" height="7" rx="2"/></g>
+<path class="d-path-w" d="M 245 152 L 290 152" marker-end="url(#two-plus-one-aw)"/>
+<g transform="translate(120.0 97.0) rotate(-90)"><rect class="d-car-c" x="-16.0" y="-38.0" width="32" height="76" rx="7.0"/><polygon class="d-glass" points="-13.4,-16.7 13.4,-16.7 11.5,-6.8 -11.5,-6.8"/><polygon class="d-glass" points="-11.5,19.0 11.5,19.0 13.1,26.6 -13.1,26.6"/><rect class="d-car-c" x="-21.0" y="-14.4" width="6" height="7" rx="2"/><rect class="d-car-c" x="15.0" y="-14.4" width="6" height="7" rx="2"/></g>
+<g transform="translate(560.0 152.0) rotate(-90)"><rect class="d-car-c" x="-16.0" y="-38.0" width="32" height="76" rx="7.0"/><polygon class="d-glass" points="-13.4,-16.7 13.4,-16.7 11.5,-6.8 -11.5,-6.8"/><polygon class="d-glass" points="-11.5,19.0 11.5,19.0 13.1,26.6 -13.1,26.6"/><rect class="d-car-c" x="-21.0" y="-14.4" width="6" height="7" rx="2"/><rect class="d-car-c" x="15.0" y="-14.4" width="6" height="7" rx="2"/></g>
+<g transform="translate(470.0 97.0) rotate(-90)"><rect class="d-car-b" x="-16.0" y="-38.0" width="32" height="76" rx="7.0"/><polygon class="d-glass" points="-13.4,-16.7 13.4,-16.7 11.5,-6.8 -11.5,-6.8"/><polygon class="d-glass" points="-11.5,19.0 11.5,19.0 13.1,26.6 -13.1,26.6"/><rect class="d-car-b" x="-21.0" y="-14.4" width="6" height="7" rx="2"/><rect class="d-car-b" x="15.0" y="-14.4" width="6" height="7" rx="2"/></g>
+<path class="d-arrow" d="M 20 30 L 80 30" marker-end="url(#two-plus-one-ah)"/>
+<text class="d-ts" x="90" y="35" text-anchor="start"><tspan x="90" dy="0">Your direction (the lower lanes)</tspan></text>
+<text class="d-t" x="20" y="284" text-anchor="start"><tspan x="20" dy="0">Two lanes in your direction:</tspan><tspan x="20" dy="20">here you can overtake.</tspan></text>
+<text class="d-t" x="400" y="284" text-anchor="start"><tspan x="400" dy="0">One lane: no room to overtake.</tspan><tspan x="400" dy="20">Where two lanes become one,</tspan><tspan x="400" dy="20">adapt to each other.</tspan></text>
+</svg>

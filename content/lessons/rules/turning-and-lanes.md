@@ -84,6 +84,8 @@ A **roundabout** (*cirkulationsplats*) is a place that the authorities have deci
 - Try to plan so that you leave from the **right-hand lane**.
 - If you leave from the **left-hand lane**, take extra care with vehicles in the right-hand lane – they may be going round further. Remember that you are **changing lanes**.
 
+[[fig:roundabout]]
+
 ::: example Choosing a lane in a two-lane roundabout
 - **First exit** (to the right): right-hand lane, signal right as you approach your exit.
 - **Straight on:** the lane that suits you best – often the right-hand lane.

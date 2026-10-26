@@ -355,10 +355,10 @@
   sv: cirkulationsplats
   en: roundabout
   def: "A junction where traffic drives anticlockwise around a central island, marked with sign D3. You give way to vehicles already in the roundabout when you enter."
-  image: "sign:D3-1"
+  image: ["fig:roundabout", "sign:D3-1"]
   law: ["tf|3:13", "tf|3:22"]
   related: [vajningsplikt]
-  lessons: [right-of-way]
+  lessons: [turning-and-lanes, right-of-way]
 
 - id: huvudled
   sv: huvudled
@@ -519,7 +519,7 @@
   sv: högerregeln
   en: right-hand rule
   def: "When two vehicles' paths cross and nothing else decides priority, the driver who has the other vehicle on their right must give way."
-  image: "sign:A28-1"
+  image: ["fig:right-hand-rule", "sign:A28-1"]
   law: ["tf|3:18"]
   related: [vajningsplikt]
   lessons: [right-of-way]
@@ -561,6 +561,7 @@
   en: dipped headlights
   also: [low beam]
   def: "Headlights angled down so they do not dazzle others. Motor vehicles must normally use them when driving on the road, day and night."
+  image: "fig:headlight-beams"
   law: ["tf|3:69", "vtdf|2"]
   related: [helljus, varselljus]
   lessons: [vehicle-lights]
@@ -570,6 +571,7 @@
   en: main beam
   also: [high beam, full beam]
   def: "Headlights that light far ahead. Use them when dipped headlights do not let you see far enough, but not on well-lit roads, when they would dazzle oncoming drivers, or close behind another vehicle."
+  image: "fig:headlight-beams"
   law: ["tf|3:70", "vtdf|2"]
   related: [halvljus]
   lessons: [vehicle-lights]
@@ -600,7 +602,8 @@
 - id: monsterdjup
   sv: mönsterdjup
   en: tread depth
-  def: "How deep the grooves in the tyre are. At least 1.6 mm, and at least 3 mm for winter tyres in the winter period."
+  def: "How deep the grooves in the tyre's main pattern are. For a car at least 1.6 mm – and at least 3 mm from 1 December to 31 March when there are winter road conditions."
+  image: "fig:tread-depth"
   related: [vinterdack]
   lessons: [tyres]
 
@@ -659,8 +662,9 @@
   sv: döda vinkeln
   en: blind spot
   def: "An area around the vehicle that you cannot see in the mirrors. Turn your head and look before you change lanes or pull out."
-  related: []
-  lessons: [seeing-and-planning]
+  image: "fig:blind-spots"
+  related: [avsokning]
+  lessons: [car-controls, seeing-and-planning]
 
 - id: rattfylleri
   sv: rattfylleri
@@ -944,6 +948,7 @@
   sv: understyrning
   en: understeer
   def: "The **front** wheels slide, so the car goes straighter – wider – than you steer. Ease off the accelerator and reduce the steering angle a little so the tyres can grip again."
+  image: "fig:understeer-oversteer"
   related: [overstyrning, sladd]
   lessons: [skids-and-traction]
 
@@ -951,6 +956,7 @@
   sv: överstyrning
   en: oversteer
   def: "The **rear** wheels slide, so the back swings out and the car turns more than you steer, or spins. Release the brake or ease off, and steer in the direction of the skid."
+  image: "fig:understeer-oversteer"
   related: [understyrning, sladd]
   lessons: [skids-and-traction]
 
@@ -1028,6 +1034,7 @@
   sv: motstyrning
   en: counter-steering
   def: "How a motorcycle is steered above walking pace. To turn **right**, push the **right** handlebar grip forward: the front wheel turns slightly left for an instant, the motorcycle leans right and turns right. The harder you push, the faster it leans."
+  image: "fig:counter-steering"
   related: [kurvtagning, undanmanover]
   lessons: [mc-cornering]
 
@@ -1056,6 +1063,7 @@
   sv: växelpedal
   en: gear lever (motorcycle)
   def: "The lever by the left footrest of a motorcycle, worked by the left foot. Most motorcycles use the pattern 1 – N – 2 – 3 – 4 – 5 (– 6): press down for first gear, lift up for the others. Neutral is a half step between first and second."
+  image: "fig:mc-gear-pattern"
   related: [kopplingshandtag]
   lessons: [mc-controls]
 
@@ -1229,6 +1237,7 @@
   sv: accelerationsfält
   en: acceleration lane
   def: "An extra lane where you join a fast road. Use it to match the speed of the traffic you are joining, and move out of it as soon as you can do so without danger or unnecessary obstruction. Drivers on the road should adjust their speed to help you in."
+  image: "fig:acceleration-lane"
   law: ["tf|3:23", "tf|3:43"]
   related: [pafart, motorvag, motortrafikled]
   lessons: [motorways, right-of-way]
@@ -1237,6 +1246,7 @@
   sv: mötesfri väg (2+1-väg)
   en: 2+1 road (road with a central barrier)
   def: "A road with a central barrier, often a steel cable barrier, that alternates between one and two lanes in each direction. The barrier separates the directions and greatly reduces head-on crashes. Overtake only where you have two lanes."
+  image: "fig:two-plus-one"
   related: [omkorning, varningstriangel]
   lessons: [roads-and-environments, meeting-and-overtaking]
 

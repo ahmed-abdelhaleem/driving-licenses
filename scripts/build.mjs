@@ -313,13 +313,14 @@ const glossaryOut = glossary.map((g) => {
   const env = { where: `glossary ${g.id}`, sources: new Set(), signs: new Set(), terms: new Set(), lessons: new Set(), photos: new Set(), diagrams: new Set() };
   const defHtml = md.renderInline(g.def || '', env);
   const moreHtml = g.more ? md.render(g.more, env) : '';
+  // image: one "kind:ref" string or a list of them (sign:, photo:, fig:).
   let imageHtml = '';
-  if (g.image) {
-    const [kind, ref] = g.image.split(':');
-    if (kind === 'sign') imageHtml = renderShortcode('signs', ref, env);
-    else if (kind === 'photo') imageHtml = renderShortcode('photo', ref, env);
-    else if (kind === 'fig') imageHtml = renderShortcode('fig', ref, env);
-    else problem(env.where, `bad image "${g.image}"`);
+  for (const img of [].concat(g.image || [])) {
+    const [kind, ref] = img.split(':');
+    if (kind === 'sign') imageHtml += renderShortcode('signs', ref, env);
+    else if (kind === 'photo') imageHtml += renderShortcode('photo', ref, env);
+    else if (kind === 'fig') imageHtml += renderShortcode('fig', ref, env);
+    else problem(env.where, `bad image "${img}"`);
   }
   for (const r of g.related || []) if (!termById.has(r)) problem(env.where, `unknown related term "${r}"`);
   for (const r of g.lessons || []) if (!lessonById.has(r)) problem(env.where, `unknown lesson "${r}"`);

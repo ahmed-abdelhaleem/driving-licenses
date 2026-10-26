@@ -55,6 +55,8 @@ Rules **1–5 apply on expressways too**, and on the slip roads to and from them
 
 Drivers already on the road must adjust their speed to make it easier for someone joining [[src:tf|3:43]] – and if it is safe, moving to the left lane helps.
 
+[[fig:acceleration-lane]]
+
 ## Driving
 
 - Keep to the **right-hand lane** unless you are overtaking [[src:tf|3:7]]. After overtaking, move back right when it is safe [[src:tf|3:37]].

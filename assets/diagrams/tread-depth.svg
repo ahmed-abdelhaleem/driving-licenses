@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-labelledby="tread-depth-t tread-depth-d">
+  <title id="tread-depth-t">Tread depth</title>
+  <desc id="tread-depth-d">A cut through the tread of a tyre, with the depth of a main groove marked. Legal minimum for cars: 1.6 mm all year, and 3 mm from 1 December to 31 March when there are winter road conditions.</desc>
+  <defs>
+    <marker id="tread-depth-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="tread-depth-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="tread-depth-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="tread-depth-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-asphalt" x="20" y="230" width="420" height="60" rx="6"/>
+<rect class="d-asphalt" x="30" y="160" width="70" height="72" rx="6"/>
+<rect class="d-asphalt" x="120" y="160" width="90" height="72" rx="6"/>
+<rect class="d-asphalt" x="232" y="160" width="90" height="72" rx="6"/>
+<rect class="d-asphalt" x="344" y="160" width="86" height="72" rx="6"/>
+<text class="d-tw" x="230" y="268" text-anchor="middle"><tspan x="230" dy="0">Tyre (cut through the tread)</tspan></text>
+<line class="d-ink-s" x1="221" y1="160" x2="221" y2="230" stroke-width="2.5" marker-start="url(#tread-depth-ah)" marker-end="url(#tread-depth-ah)"/>
+<line class="d-ink-s" x1="191" y1="160" x2="251" y2="160" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text class="d-tb" x="221" y="122" text-anchor="middle"><tspan x="221" dy="0">Tread depth</tspan></text>
+<text class="d-ts" x="221" y="144" text-anchor="middle"><tspan x="221" dy="0">measured in the main grooves</tspan></text>
+<text class="d-tb" x="462" y="50" text-anchor="start"><tspan x="462" dy="0">Legal minimum</tspan><tspan x="462" dy="20">(cars, light trucks)</tspan></text>
+<rect class="d-panel" x="462" y="100" width="168" height="70" rx="8"/>
+<text class="d-tb" x="474" y="128" text-anchor="start"><tspan x="474" dy="0">1.6 mm</tspan></text>
+<text class="d-ts" x="474" y="150" text-anchor="start"><tspan x="474" dy="0">all year</tspan></text>
+<rect class="d-panel" x="462" y="182" width="168" height="110" rx="8"/>
+<text class="d-tb" x="474" y="210" text-anchor="start"><tspan x="474" dy="0">3 mm</tspan></text>
+<text class="d-ts" x="474" y="232" text-anchor="start"><tspan x="474" dy="0">1 Dec – 31 Mar</tspan><tspan x="474" dy="20">when there are winter</tspan><tspan x="474" dy="20">road conditions</tspan></text>
+<text class="d-ts" x="20" y="318" text-anchor="start"><tspan x="20" dy="0">Grip on wet roads, snow and ice gets much worse long before the legal limit.</tspan></text>
+</svg>

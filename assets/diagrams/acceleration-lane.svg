@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="acceleration-lane-t acceleration-lane-d">
+  <title id="acceleration-lane-t">Joining a motorway from an acceleration lane</title>
+  <desc id="acceleration-lane-d">Top view of a two-lane motorway with an acceleration lane on the right. A car accelerates along the acceleration lane and moves out into the motorway when there is room. A car on the motorway behind adjusts its speed.</desc>
+  <defs>
+    <marker id="acceleration-lane-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="acceleration-lane-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="acceleration-lane-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="acceleration-lane-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-grass" x="0" y="20" width="680" height="280" rx="10"/>
+<rect class="d-asphalt" x="0" y="60" width="680" height="110"/>
+<path class="d-asphalt-s" d="M -10 292 C 60 290 100 197 170 197 L 470 197" stroke-width="55" fill="none"/>
+<polygon class="d-asphalt" points="468,170 468,224.5 560,170"/>
+<line class="d-line" x1="0" y1="115" x2="680" y2="115" stroke-width="3" stroke-dasharray="30 20"/>
+<line class="d-line" x1="170" y1="170" x2="470" y2="170" stroke-width="3" stroke-dasharray="10 10"/>
+<line class="d-line" x1="0" y1="170" x2="170" y2="170" stroke-width="3"/>
+<line class="d-line" x1="560" y1="170" x2="680" y2="170" stroke-width="3"/>
+<path class="d-path-w" d="M 285 198 C 340 198 350 145 372 143" marker-end="url(#acceleration-lane-aw)"/>
+<g transform="translate(235.0 198.0) rotate(90)"><rect class="d-car-a" x="-17.0" y="-40.0" width="34" height="80" rx="7.5"/><polygon class="d-glass" points="-14.3,-17.6 14.3,-17.6 12.2,-7.2 -12.2,-7.2"/><polygon class="d-glass" points="-12.2,20.0 12.2,20.0 13.9,28.0 -13.9,28.0"/><rect class="d-car-a" x="-22.0" y="-15.2" width="6" height="7" rx="2"/><rect class="d-car-a" x="16.0" y="-15.2" width="6" height="7" rx="2"/><circle class="d-lamp" cx="-13.0" cy="-35.0" r="5"/><circle class="d-lamp" cx="-13.0" cy="35.0" r="5"/></g><text class="d-tw-b" x="235.0" y="204.0" text-anchor="middle">1</text>
+<g transform="translate(420.0 143.0) rotate(90)"><rect class="d-car-a" x="-17.0" y="-40.0" width="34" height="80" rx="7.5"/><polygon class="d-glass" points="-14.3,-17.6 14.3,-17.6 12.2,-7.2 -12.2,-7.2"/><polygon class="d-glass" points="-12.2,20.0 12.2,20.0 13.9,28.0 -13.9,28.0"/><rect class="d-car-a" x="-22.0" y="-15.2" width="6" height="7" rx="2"/><rect class="d-car-a" x="16.0" y="-15.2" width="6" height="7" rx="2"/></g><text class="d-tw-b" x="420.0" y="149.0" text-anchor="middle">2</text>
+<g transform="translate(110.0 143.0) rotate(90)"><rect class="d-car-b" x="-17.0" y="-40.0" width="34" height="80" rx="7.5"/><polygon class="d-glass" points="-14.3,-17.6 14.3,-17.6 12.2,-7.2 -12.2,-7.2"/><polygon class="d-glass" points="-12.2,20.0 12.2,20.0 13.9,28.0 -13.9,28.0"/><rect class="d-car-b" x="-22.0" y="-15.2" width="6" height="7" rx="2"/><rect class="d-car-b" x="16.0" y="-15.2" width="6" height="7" rx="2"/></g><text class="d-tw-b" x="110.0" y="149.0" text-anchor="middle">3</text>
+<g transform="translate(560.0 88.0) rotate(90)"><rect class="d-car-c" x="-17.0" y="-40.0" width="34" height="80" rx="7.5"/><polygon class="d-glass" points="-14.3,-17.6 14.3,-17.6 12.2,-7.2 -12.2,-7.2"/><polygon class="d-glass" points="-12.2,20.0 12.2,20.0 13.9,28.0 -13.9,28.0"/><rect class="d-car-c" x="-22.0" y="-15.2" width="6" height="7" rx="2"/><rect class="d-car-c" x="16.0" y="-15.2" width="6" height="7" rx="2"/></g>
+<path class="d-arrow-w" d="M 600 278 L 660 278" marker-end="url(#acceleration-lane-aw)"/>
+<text class="d-tw" x="590" y="284" text-anchor="end"><tspan x="590" dy="0">Direction of travel</tspan></text>
+</svg>

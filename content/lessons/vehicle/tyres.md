@@ -30,6 +30,8 @@ The tyres are the car's **only contact with the road**. Every movement – accel
 
 These are **minimums**. Grip on wet roads, snow and ice gets much worse long before a tyre reaches the legal limit. A tyre may also not have cracks, holes or other damage that exposes its inner reinforcement [[src:tsfs-2009-19|6]].
 
+[[fig:tread-depth]]
+
 ## Winter tyres
 
 ::: law tf 4:18a

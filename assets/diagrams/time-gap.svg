@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-labelledby="time-gap-t time-gap-d">
+  <title id="time-gap-t">Measuring the following distance in seconds</title>
+  <desc id="time-gap-d">Top view of two cars on a road. The car in front has just passed a pole. The driver behind counts one thousand and one, one thousand and two, one thousand and three; if they reach the pole before finishing, they are too close.</desc>
+  <defs>
+    <marker id="time-gap-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="time-gap-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="time-gap-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="time-gap-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-grass" x="0" y="50" width="680" height="130" rx="10"/>
+<rect class="d-asphalt" x="0" y="75" width="680" height="80"/>
+<line class="d-line" x1="0" y1="78" x2="680" y2="78" stroke-width="2"/>
+<line class="d-line" x1="0" y1="152" x2="680" y2="152" stroke-width="2"/>
+<rect class="d-ink" x="467" y="30" width="6" height="40"/><circle class="d-red" cx="470" cy="30" r="10"/>
+<text class="d-ts" x="488" y="26" text-anchor="start"><tspan x="488" dy="0">Fixed point, e.g. a pole</tspan></text>
+<g transform="translate(480.0 115.0) rotate(90)"><rect class="d-car-b" x="-18.0" y="-42.0" width="36" height="84" rx="7.9"/><polygon class="d-glass" points="-15.1,-18.5 15.1,-18.5 13.0,-7.6 -13.0,-7.6"/><polygon class="d-glass" points="-13.0,21.0 13.0,21.0 14.8,29.4 -14.8,29.4"/><rect class="d-car-b" x="-23.0" y="-16.0" width="6" height="7" rx="2"/><rect class="d-car-b" x="17.0" y="-16.0" width="6" height="7" rx="2"/></g>
+<g transform="translate(140.0 115.0) rotate(90)"><rect class="d-car-a" x="-18.0" y="-42.0" width="36" height="84" rx="7.9"/><polygon class="d-glass" points="-15.1,-18.5 15.1,-18.5 13.0,-7.6 -13.0,-7.6"/><polygon class="d-glass" points="-13.0,21.0 13.0,21.0 14.8,29.4 -14.8,29.4"/><rect class="d-car-a" x="-23.0" y="-16.0" width="6" height="7" rx="2"/><rect class="d-car-a" x="17.0" y="-16.0" width="6" height="7" rx="2"/></g>
+<path class="d-arrow" d="M 20 26 L 80 26" marker-end="url(#time-gap-ah)"/>
+<line class="d-ink-s" x1="186" y1="196" x2="470" y2="196" stroke-width="2" marker-start="url(#time-gap-ah)" marker-end="url(#time-gap-ah)"/>
+<text class="d-t" x="328.0" y="226" text-anchor="middle"><tspan x="328.0" dy="0">“one thousand and one, one thousand and two,</tspan><tspan x="328.0" dy="20">one thousand and three”</tspan></text>
+</svg>

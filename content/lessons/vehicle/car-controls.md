@@ -64,6 +64,8 @@ Symbols differ between car makes. The owner's manual explains each one. When you
 
 The mirrors never show everything. The areas you cannot see in the mirrors are your **blind spots** ([[term:dodvinkel|sv]]) – mainly beside the rear corners of the car, but also behind the **windscreen pillars** (A-pillars), which can hide a pedestrian or cyclist at a junction.
 
+[[fig:blind-spots]]
+
 ::: key Mirror – signal – shoulder check
 Before every change of position – pulling out, changing lanes, turning – check the mirrors, signal, and **turn your head** to look into the blind spot on that side. Move your head when you look past the windscreen pillars at junctions.
 :::

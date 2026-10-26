@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="headlight-beams-t headlight-beams-d">
+  <title id="headlight-beams-t">Dipped beam and main beam</title>
+  <desc id="headlight-beams-d">Top view of a car at night. The main beam lights the road far ahead. The dipped beam is shorter and reaches further along the right-hand side of the road than towards oncoming traffic.</desc>
+  <defs>
+    <marker id="headlight-beams-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="headlight-beams-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="headlight-beams-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="headlight-beams-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-night" x="0" y="0" width="680" height="300" rx="10"/>
+<rect class="d-asphalt-night" x="0" y="90" width="680" height="120"/>
+<line class="d-line" x1="0" y1="150" x2="680" y2="150" stroke-width="3" stroke-dasharray="26 26" opacity="0.6"/>
+<polygon class="d-beam" points="110,170 660,110 660,215 110,190" opacity="0.35"/>
+<polygon class="d-beam" points="110,170 300,150 400,190 400,212 110,192"/>
+<g transform="translate(70.0 180.0) rotate(90)"><rect class="d-car-a" x="-18.0" y="-42.0" width="36" height="84" rx="7.9"/><polygon class="d-glass" points="-15.1,-18.5 15.1,-18.5 13.0,-7.6 -13.0,-7.6"/><polygon class="d-glass" points="-13.0,21.0 13.0,21.0 14.8,29.4 -14.8,29.4"/><rect class="d-car-a" x="-23.0" y="-16.0" width="6" height="7" rx="2"/><rect class="d-car-a" x="17.0" y="-16.0" width="6" height="7" rx="2"/></g>
+<text class="d-tw" x="260" y="60" text-anchor="start"><tspan x="260" dy="0">Main beam: lights the road far ahead</tspan></text>
+<text class="d-tw" x="140" y="250" text-anchor="start"><tspan x="140" dy="0">Dipped beam: shorter, and reaching further on the right side,</tspan><tspan x="140" dy="20">so oncoming drivers are not dazzled</tspan></text>
+</svg>

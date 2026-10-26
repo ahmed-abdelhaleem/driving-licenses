@@ -23,6 +23,8 @@ sources: [tsfs-2011-19, tv-mc, eu-168-2013]
 
 Most motorcycles use the gear pattern **1 – N – 2 – 3 – 4 – 5 (– 6)**: press the lever **down** for first gear, and lift it **up** for the others. **Neutral** sits between first and second – a half step. A green **N** light shows neutral. Some motorcycles and most scooters are **automatic** – then there is no clutch lever or gear lever.
 
+[[fig:mc-gear-pattern]]
+
 ::: note At the riding test
 The motorcycle must have a **manual gearbox and a clutch lever** – unless the test is for an automatic-only licence [[src:tv-mc]].
 :::

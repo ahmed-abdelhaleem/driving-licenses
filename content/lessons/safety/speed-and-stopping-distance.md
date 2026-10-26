@@ -69,6 +69,8 @@ Keep a distance so that you will not run into the vehicle in front if it slows d
 3. If you reach the point before you have finished, you are too close.
 :::
 
+[[fig:time-gap]]
+
 Three seconds is a common rule of thumb in good conditions – it is not a legal limit. Make the gap **at least double** on wet roads and **up to ten times** greater on icy roads [[src:uk-hc-general|rule 126]].
 
 ## Efficient braking at the test
