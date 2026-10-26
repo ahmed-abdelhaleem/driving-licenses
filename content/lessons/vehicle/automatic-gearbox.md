@@ -30,6 +30,8 @@ Using both feet can make you press the brake and accelerator at the same time, o
 
 Many cars also have **M** (manual gear choice, often with + and –), **S** (sport) or **L / B / 1–2** (lower gears for **engine braking**). The owner's manual explains your car's positions.
 
+[[photo:auto-selector]]
+
 Usually you must **press the brake pedal** to move the selector out of P, and some cars have a button on the lever. Many newer cars use buttons or a dial instead of a lever.
 
 ## Moving off and stopping

@@ -42,7 +42,7 @@ So look for an **E label** in the helmet (often on the chin strap) showing appro
 - It should fit snugly: when fastened, it should not be possible to roll it off forwards or backwards.
 :::
 
-**Visor:** keep it clean and unscratched – scratches scatter light at night. A **tinted** visor reduces what you see in poor light; use a clear one in darkness and dusk.
+**Visor:** check before each ride that it is clean and in good condition – a scratched visor can limit your view, particularly in bright sunshine and in darkness [[src:uk-hc-mc|rule 83]] [[src:uk-hc-mc|rule 84]]. A **tinted** visor reduces what you see in poor light; use a clear one in darkness and dusk.
 
 ## Clothing and protectors
 
@@ -57,7 +57,7 @@ There is no law on clothing, but the right gear can prevent or reduce many injur
 | **Airbag vest or jacket** | Inflates in a crash to protect neck, back and chest. |
 
 ::: tip Be seen
-Car drivers often fail to notice motorcycles – the curriculum names the risks of other road users having **difficulty seeing riders** [[src:tsfs-2011-19|3:2]]. **Bright colours and reflective material** on the jacket and helmet help. See [[lesson:mc-visibility-and-position]].
+Car drivers often fail to notice motorcycles – the curriculum names the risks of other road users having **difficulty seeing riders** [[src:tsfs-2011-19|3:2]]. **Bright colours and reflective material** on the jacket and helmet help – reflective material shows up in other vehicles' headlights from a longer distance in the dark [[src:uk-hc-mc|rule 86]] [[src:uk-hc-mc|rule 87]]. See [[lesson:mc-visibility-and-position]].
 :::
 
 ## Weather and comfort

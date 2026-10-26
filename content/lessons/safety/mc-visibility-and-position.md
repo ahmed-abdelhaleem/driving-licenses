@@ -18,7 +18,7 @@ The curriculum for motorcycle licences specifically requires you to identify the
 Trafikverket's analyses show that the **second most common** type of fatal motorcycle crash is the **junction crash** [[src:tv-mc-safety]].
 
 ::: key The classic danger
-A car **turning left across your path**, or **pulling out from a side road**, because the driver has not seen you – or has seen you but judged that you were further away or slower. Treat every car waiting at a junction as one that **may pull out**.
+A car **turning left across your path**, or **pulling out from a side road**, because the driver has not seen you – or has seen you but judged that you were further away or slower [[src:uk-hc-mc|rule 86]]. Treat every car waiting at a junction as one that **may pull out**.
 :::
 
 ## How to reduce the risk at junctions
@@ -36,7 +36,7 @@ A car **turning left across your path**, or **pulling out from a side road**, be
 There is no single "right" position – choose it for three things:
 
 - **See** – a position that gives you the best view ahead, through bends and past vehicles.
-- **Be seen** – a position where you are in the mirrors and the view of other drivers, not in their blind spots.
+- **Be seen** – a position where you are in the mirrors and the view of other drivers, not in their blind spots [[src:uk-hc-mc|rule 88]].
 - **Space** – a margin to oncoming traffic, to the edge, to parked cars and to hazards on the road surface.
 
 In general, a position slightly **left of the centre** of your lane makes you visible in the mirror of the car in front and to oncoming traffic – but move **right** when meeting traffic on narrow roads, before hill crests and in left-hand bends where oncoming vehicles may cut the corner. Never ride in the blind spot of a truck or car beside you.

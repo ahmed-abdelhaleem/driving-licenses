@@ -282,6 +282,7 @@
   url: https://www.transportstyrelsen.se/sv/vagtrafik/vagmarken/
   accessed: 2026-10-25
   note: All sign, marking and signal images on this site are the official files from this catalogue.
+  use: images
 
 - id: ts-press
   short: Transportstyrelsen – pressbilder
@@ -292,6 +293,7 @@
   url: https://www.transportstyrelsen.se/sv/om-oss/pressrum/pressbilder/
   accessed: 2026-10-25
   note: '"Du kan ladda ner filer av vägmärken och använda fritt för olika ändamål utan Transportstyrelsens godkännande." (You may download road sign files and use them freely for different purposes without the Transport Agency''s approval.)'
+  use: images
 
 - id: ts-curricula
   short: Transportstyrelsen – kursplaner
@@ -862,6 +864,18 @@
   url: https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88
   accessed: 2026-10-25
   note: Used only for general advice on being seen, visors and clothing. UK traffic law itself does not apply in Sweden.
+
+- id: sgi-mc
+  short: SGI Motorcycle Handbook
+  title: Motorcycle Driver's Handbook
+  titleEn: Motorcycle Driver's Handbook (Saskatchewan, Canada) – riding technique
+  publisher: SGI – Saskatchewan Government Insurance, the driver licensing authority of Saskatchewan, Canada
+  kind: official-web
+  url: https://sgi.sk.ca/motorcycle/-/knowledge_base/motorcycle-handbook/turning
+  alt: https://sgi.sk.ca/documents/37148/138037/motorcycle_handbook.pdf
+  altLabel: The whole handbook as a PDF
+  accessed: 2026-10-26
+  note: Used only for general motorcycle technique – counter-steering, braking with both brakes, quick stops. Saskatchewan's traffic law does not apply in Sweden.
 
 - id: uk-hc-incidents
   short: UK Highway Code

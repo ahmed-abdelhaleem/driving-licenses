@@ -716,15 +716,15 @@
   area: safety
   lesson: mc-road-surface
   paths: [motorcycle]
-  q: You see a rainbow-coloured sheen on the wet road at a roundabout. What is it likely to be, and what do you do?
+  q: Near a petrol station you see a shiny patch on the wet road where diesel may have been spilt. What do you do?
   options:
-    - Spilt diesel or oil – very slippery; avoid it or ride over it upright and smoothly
-    - Paint – it gives extra grip
-    - Water – no danger
-    - Ice – brake hard on it
+    - Treat it as very slippery – ride round it if you can, otherwise upright and as smoothly as possible
+    - Brake hard on it to test the grip
+    - Lean harder so you get past it quickly
+    - Nothing – diesel does not affect grip
   answer: 0
-  explain: Spilt **diesel** makes the surface **very slippery**. Ride round it if you can – otherwise upright, with no braking or sudden steering.
-  src: ["uk-hc-weather|rule 227"]
+  explain: Spilt **diesel** makes the surface **very slippery**, and shiny patches on a wet road are slippery too. Ride round it if you can – otherwise keep the motorcycle upright and brake, accelerate and steer as little and as smoothly as possible.
+  src: ["uk-hc-weather|rule 227", "sgi-mc|Slippery surfaces", "sgi-mc|Rain"]
 
 - id: mcs-surface
   area: safety

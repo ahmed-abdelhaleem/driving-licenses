@@ -22,7 +22,7 @@ So bends are where a rider's skill, speed choice and planning matter most.
 At walking pace you steer by turning the handlebars the way you want to go. Above roughly jogging speed, a motorcycle steers by **leaning**, and you make it lean by **counter-steering**:
 
 ::: key Counter-steering
-To turn **right**, push the **right** handlebar grip **forward** (away from you). The front wheel turns slightly **left** for an instant, the motorcycle leans **right**, and it turns right. To turn **left**, push the **left** grip. The harder you push, the faster it leans.
+To turn **right**, push the **right** handlebar grip **forward** (away from you). The front wheel turns slightly **left** for an instant, the motorcycle leans **right**, and it turns right. To turn **left**, push the **left** grip [[src:sgi-mc|Turning]]. The sharper the turn, the more the motorcycle must lean [[src:sgi-mc|Emergency steering]].
 :::
 
 [[fig:counter-steering]]

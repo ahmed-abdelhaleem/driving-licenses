@@ -77,3 +77,14 @@
   page: "https://commons.wikimedia.org/wiki/File:Triangle_de_pr%C3%A9signalisation.JPG"
   w: 1000
   h: 665
+
+- id: auto-selector
+  title: "Beschriftung Wählhebel.JPG"
+  alt: "The positions P, R, N and D on an automatic gear selector, with D lit, and M/S with + and – for manual gear choice."
+  caption: "The selector of an automatic car: **P** park, **R** reverse, **N** neutral and **D** drive (lit). This car also has **M/S** – manual gear choice with + and –, or sport."
+  author: "User:Mattes"
+  license: "Public domain"
+  page: "https://commons.wikimedia.org/wiki/File:Beschriftung_W%C3%A4hlhebel.JPG"
+  w: 788
+  h: 949
+  modified: true

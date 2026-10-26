@@ -28,14 +28,14 @@ You need a valid permit for two things:
 
 ## Which permit to apply for
 
-Permits come in three groups. Cars and motorcycles are both in **group 1**, which covers tractor, AM (moped class I), A1, A2, A, B and BE [[src:ts-permit]]. While the permit is valid you can take any licence in its group. For example, someone who first gets a B licence can later take an A licence on the same permit, as long as it has not expired.
+Permits come in three groups. Cars and motorcycles are both in **group 1**, which covers tractor, AM (moped class I), A1, A2, A, B and BE [[src:ts-permit]] [[src:kkf|3:1]]. While the permit is valid you can take any licence in its group. For example, someone who first gets a B licence can later take an A licence on the same permit, as long as it has not expired.
 
 ## How to apply
 
 ::: steps
 1. **Apply online** with Transportstyrelsen's e-service. You log in with an e-ID (*e-legitimation*, for example BankID). If you cannot use an e-ID, you can order a paper form and send it by post to *Transportstyrelsen, 701 97 Örebro*.
 2. **Fill in the health declaration** (*hälsodeklaration*). It is a form with questions about your health that you answer yourself. In the e-service you fill it in as part of the application.
-3. **Have your eyes tested** by an optician (or a doctor) and send the **eyesight certificate** (*synintyg*). Many opticians send it to Transportstyrelsen digitally. The certificate may not be issued more than [[fact:permit.eyeTestMaxAge]] before you apply. At the eye test you must prove who you are with a valid ID document (or a close relative with valid ID can confirm your identity) [[src:ts-permit]].
+3. **Have your eyes tested** by an optician (or a doctor) and send the **eyesight certificate** (*synintyg*). Many opticians send it to Transportstyrelsen digitally. The certificate may not be issued more than [[fact:permit.eyeTestMaxAge]] before you apply [[src:kkf|3:1]]. At the eye test you must prove who you are with a valid ID document (or a close relative with valid ID can confirm your identity) [[src:ts-permit]].
 4. **Wait for the decision.** When everything is in and there is nothing to investigate, it normally takes [[fact:permit.processing]]. The permit is sent to your digital mailbox if you have one, and you can always see it on *Mina sidor* (My pages) on Transportstyrelsen's website.
 :::
 

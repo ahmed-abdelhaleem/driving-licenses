@@ -17,7 +17,7 @@
   alt: "Top view of a roundabout: a car waits at the entry, a car circulates anticlockwise and a car leaves with its right indicator on."
 
 - id: counter-steering
-  caption: "Counter-steering: push the **right** grip forward – the front wheel turns slightly left for an instant, the motorcycle leans right and turns right. The harder you push, the faster it leans."
+  caption: "Counter-steering: push the **right** grip forward – the front wheel turns slightly left for an instant, the motorcycle leans right and turns right. The sharper the turn, the more the motorcycle must lean."
   alt: "Three panels showing how pushing the right handlebar grip forward makes a motorcycle lean and turn right."
 
 - id: understeer-oversteer

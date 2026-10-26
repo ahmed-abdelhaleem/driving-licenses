@@ -718,7 +718,7 @@
   q: Why should you avoid locking the wheels when you brake hard?
   options: ["Locked wheels can lead to loss of control", "It damages the chain", "It is forbidden", "It turns the lights off"]
   answer: 0
-  explain: In an emergency, brake at once – but avoid braking so harshly that you **lock the wheels**, because locked wheels can lead to loss of control. On a motorcycle, a locked front wheel almost always means a fall.
+  explain: In an emergency, brake at once – but avoid braking so harshly that you **lock the wheels**, because locked wheels can lead to loss of control. On a motorcycle, a locked front wheel can quickly make you fall.
   src: ["uk-hc-general|rule 118"]
 
 - id: mcv-auto-lights
@@ -823,3 +823,228 @@
   answer: 0
   explain: The curriculum requires you to explain **the importance of personal protective equipment** – and to use it. Trafikverket lists the helmet and other protective equipment among the key safety measures.
   src: ["tsfs-2011-19|2:2", tv-mc-safety]
+
+# ---------------------------------------------------------------- motorcycle: steering, brakes and controls (2)
+- id: mcv-countersteer-start
+  area: vehicle
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: You ride at 60 km/h and want to turn right. How do you make the motorcycle lean into the turn?
+  options:
+    - Press the right handgrip forward
+    - Press the left handgrip forward
+    - Pull the front brake lever
+    - Take both feet off the footrests
+  answer: 0
+  explain: Above walking pace a motorcycle must **lean** to turn. Gentle forward pressure on the handgrip **in the direction of the turn** starts the lean – to turn right, press the right handgrip. This is called **counter-steering**.
+  src: ["sgi-mc|Turning"]
+
+- id: mcv-countersteer-wheel
+  area: vehicle
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: You press the right handgrip forward at speed. What does the front wheel do for an instant?
+  options:
+    - It turns slightly to the left, so the motorcycle starts to lean right
+    - It turns sharply to the right
+    - It locks
+    - It lifts off the road
+  answer: 0
+  explain: The front wheel moves **away** from the turn for a moment, which makes the motorcycle start to **lean** in the direction of the turn. Then the wheel re-centres and the motorcycle turns.
+  src: ["sgi-mc|Turning"]
+
+- id: mcv-lean-sharper
+  area: vehicle
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: What is true about leaning when you turn a motorcycle?
+  options:
+    - The sharper the turn, the more the motorcycle must lean
+    - The faster you go, the less it needs to lean in the same bend
+    - A motorcycle turns without leaning above 50 km/h
+    - Leaning is only needed at walking pace
+  answer: 0
+  explain: A motorcycle must lean in order to turn, and **the sharper the turn, the more it must lean**. That is why braking and choosing the speed are done **before** the bend.
+  src: ["sgi-mc|Turning", "sgi-mc|Emergency steering"]
+
+- id: mcv-front-share
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: About how much of a motorcycle's braking power does the front brake give?
+  options:
+    - About three-quarters
+    - About a quarter
+    - About half
+    - Almost nothing – the rear brake does the work
+  answer: 0
+  explain: The front brake gives about **three-quarters** of the braking power, so you must use **both** brakes to stop quickly.
+  src: ["sgi-mc|Braking"]
+
+- id: mcv-rear-lock
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: In a hard stop on a motorcycle without ABS, the rear wheel locks while you are going straight. What should you do?
+  options:
+    - Keep the rear brake on until you have come to a complete stop
+    - Release the rear brake at once and accelerate
+    - Turn the handlebars sharply
+    - Pull in the front brake harder until that wheel locks too
+  answer: 0
+  explain: If the rear wheel does lock, do **not** release the brake until you have come to a **complete stop**. Best of all, squeeze both brakes progressively so the wheels do not lock.
+  src: ["sgi-mc|Quick stops"]
+
+- id: mcv-quick-stop-clutch
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: What do you do with the clutch in an emergency stop on a motorcycle?
+  options:
+    - Pull in the clutch, so the engine does not stall
+    - Release the clutch fully and keep the gear in
+    - Nothing – the clutch is never used when braking
+    - Change up a gear first
+  answer: 0
+  explain: Apply both brakes with a progressive squeeze and **pull in the clutch**.
+  src: ["sgi-mc|Quick stops"]
+
+- id: mcv-brake-before-bend
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: When should you do your braking for a bend on a motorcycle?
+  options:
+    - Before the bend, while the motorcycle is upright
+    - In the middle of the bend, while you lean
+    - At the exit of the bend
+    - It does not matter
+  answer: 0
+  explain: Make sure all your braking is done **before** the turn. Braking hard while leaning uses grip you need for cornering, and makes the motorcycle stand up and run wide.
+  src: ["sgi-mc|Braking", "tf|3:14"]
+
+- id: mcv-slippery-brakes
+  area: vehicle
+  lesson: mc-road-surface
+  paths: [motorcycle]
+  q: Which brake is more effective on a slippery surface?
+  options:
+    - The front brake – it is still more effective than the rear, even on slippery surfaces
+    - The rear brake – the front must never be used on slippery roads
+    - Neither works on a slippery road
+    - Only engine braking works
+  answer: 0
+  explain: Use **both** brakes, gently and smoothly. The **front** brake is still more effective than the rear brake, even on slippery surfaces.
+  src: ["sgi-mc|Slippery surfaces"]
+
+- id: mcv-clutch-hand
+  area: vehicle
+  lesson: mc-controls
+  paths: [motorcycle]
+  q: How do you work the clutch on an ordinary motorcycle?
+  options:
+    - With the lever in front of the left handgrip, using the left hand
+    - With a pedal under the right foot
+    - With the lever on the right handgrip
+    - With the left foot
+  answer: 0
+  explain: The **clutch lever** is in front of the **left** handgrip. Squeezing it disconnects the engine from the rear wheel – you must do that whenever you change gear.
+  src: ["sgi-mc|Know your motorcycle controls"]
+
+- id: mcv-rear-brake-foot
+  area: vehicle
+  lesson: mc-controls
+  paths: [motorcycle]
+  q: On most motorcycles, how do you work the rear brake?
+  options:
+    - With the right foot, on the pedal in front of the right footrest
+    - With the left hand
+    - With the left foot, on the gear lever
+    - With the right hand only
+  answer: 0
+  explain: On most motorcycles the **right foot** works the **rear** brake, and the **right hand** works the **front** brake. They should be used together.
+  src: ["sgi-mc|Know your motorcycle controls"]
+
+- id: mcv-gear-foot
+  area: vehicle
+  lesson: mc-controls
+  paths: [motorcycle]
+  q: On most motorcycles, how do you change gear?
+  options:
+    - Pull in the clutch, then lift or press the gear lever with your left foot
+    - Turn the throttle backwards
+    - Press a button on the right handgrip, without the clutch
+    - Press the rear brake pedal
+  answer: 0
+  explain: The gear lever is on the **left** side, just ahead of the footrest. Squeeze the clutch lever with the left hand, then lift or press the gear lever with your **left toe**.
+  src: ["sgi-mc|Know your motorcycle controls"]
+
+- id: mcv-kill-use
+  area: vehicle
+  lesson: mc-controls
+  paths: [motorcycle]
+  q: What is the red kill switch (engine stop switch) on the right handlebar for?
+  options:
+    - To stop the engine quickly in an emergency
+    - To switch on the main beam
+    - To turn off the ABS
+    - To warm up the engine
+  answer: 0
+  explain: The kill switch stops the engine **quickly** – for example after a fall. The engine will not start when it is in the OFF position, and it is part of the safety check at the riding test.
+  src: ["sgi-mc|Know your motorcycle controls", tv-mc]
+
+- id: mcv-knees
+  area: vehicle
+  lesson: mc-cornering
+  paths: [motorcycle]
+  q: Why should you hold your knees against the tank when you ride?
+  options:
+    - It helps you keep your balance as the motorcycle turns
+    - It makes the engine run cooler
+    - It is required by law
+    - It switches off the indicators
+  answer: 0
+  explain: Holding your knees firmly against the tank helps you keep your **balance** as the motorcycle turns – and keeps your arms free to steer.
+  src: ["sgi-mc|Body position"]
+
+- id: mcv-abs-small
+  area: vehicle
+  lesson: mc-braking
+  paths: [motorcycle]
+  q: What do EU rules say about the brakes of new motorcycles of at most 125 cc?
+  options:
+    - The manufacturer may choose between ABS and a combined brake system
+    - They must not have ABS
+    - They must have drum brakes
+    - EU rules say nothing about brakes
+  answer: 0
+  explain: New motorcycles **over 125 cc** must have **ABS**. For motorcycles **under 125 cc**, the manufacturer may choose between **ABS** and a **combined brake system**.
+  src: [eu-168-2013]
+
+- id: mcv-grating
+  area: vehicle
+  lesson: mc-road-surface
+  paths: [motorcycle]
+  q: You ride over a metal bridge grating and the motorcycle starts to wander back and forth. What do you do?
+  options:
+    - Stay on course, hold the controls firmly and ride straight across
+    - Brake hard at once
+    - Steer quickly from side to side to correct it
+    - Stop on the grating and walk the motorcycle
+  answer: 0
+  explain: "On a badly rutted surface or a metal grating the motorcycle tends to **wander**. It feels uneasy but is generally not dangerous: **stay on course**, grip the controls firmly and ride straight across."
+  src: ["sgi-mc|Grooves and gratings"]
+
+- id: mcv-rails-angle
+  area: vehicle
+  lesson: mc-road-surface
+  paths: [motorcycle]
+  q: How should you cross railway or tram tracks on a motorcycle?
+  options:
+    - Slow down and cross at an angle of 45–90 degrees
+    - Ride along the rail until it ends
+    - Cross at a very small angle, almost parallel to the rails
+    - Brake hard on the rails
+  answer: 0
+  explain: Check for trains, slow down and cross at an angle between **45 and 90 degrees**, so the wheels cannot get caught in the tracks. If a rail runs along your path, move away and cross it at a clear angle – do not try to edge across it.
+  src: ["sgi-mc|Railway tracks"]

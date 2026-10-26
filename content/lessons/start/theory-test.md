@@ -58,6 +58,8 @@ Trafikverket says the test measures knowledge in five areas [[src:tv-theory-b]]:
 | **Traffic rules** (*Trafikregler*) | Road signs, road markings, speed, meeting and overtaking, load, passengers and duties towards other road users. |
 | **Personal factors** (*Personliga förutsättningar*) | Group pressure, deliberate or impulsive actions, and how unwillingness to follow rules affects safety. |
 
+Transportstyrelsen's **course plans** (*kursplaner*) set out the content and goals of the driver education for each category – TSFS 2011:20 for cars and TSFS 2011:19 for motorcycles [[src:ts-curricula]]. The lessons on this site follow them and cite them wherever they set a requirement.
+
 ::: warning Do not just memorise answers
 The questions you practise on the internet or get from a driving school are **not** the questions in the real test. Trafikverket stresses that you need broad knowledge of the whole subject rather than answers to single questions [[src:tv-theory-b]]. That is also true of the practice questions on this site.
 :::
