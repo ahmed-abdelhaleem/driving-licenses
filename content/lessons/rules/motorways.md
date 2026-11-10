@@ -23,6 +23,8 @@ Both are marked with **green** signs: **[[sign:E1|E1 motorway]]** (*motorväg*) 
 | Directions | **Two separate carriageways**, one for each direction, separated by a central reserve or similar [[src:tf|10:7]] | Can have traffic in **both directions on the same carriageway** – often without a barrier |
 | Default speed limit | **[[fact:speed.motorway]]** (Trafikverket may set 120 km/h) [[src:tf|9:1]] | **No own limit** – the base speed of 70 km/h applies unless signs show more [[src:tf|3:17]] |
 
+[[photo:motorway-e22]]
+
 ## The special rules
 
 ::: law tf 9:1

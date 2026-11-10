@@ -39,6 +39,8 @@ The Police's advice [[src:polisen-wildlife-2025]]:
 - Animals often move in **groups** – an elk cow with calves, or a group of wild boar. When one animal has crossed, slow down and look for more.
 - **Reindeer** in northern Sweden often stand or walk on the road and move slowly.
 
+[[photo:moose-calf-road]]
+
 ## If an animal appears in front of you
 
 - **Brake as hard as you can.** The lower your speed at impact, the less violent the crash. With **ABS** you keep the ability to steer while braking hard [[src:uk-hc-general|rule 120]].

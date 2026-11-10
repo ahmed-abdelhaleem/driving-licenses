@@ -49,6 +49,8 @@ Transportstyrelsen's English brochure calls a crossing with traffic lights or a 
 | **Give way** to pedestrians who have stepped onto it or are **about to** step onto it [[src:tf|3:61]]. | **Obey the signals**, and give pedestrians who stepped out correctly time to cross – **even if you have green** [[src:tf|3:60]]. |
 | You may **not overtake** just before or on it [[src:tf|3:40]]. | After **turning** at a junction, drive **slowly** and give way to pedestrians on or about to step onto the crossing [[src:tf|3:60]]. |
 
+[[photo:zebra-crossing]]
+
 At **every** crossing: drive so you do not have to stop **on** it [[src:tf|3:62]], and do not stop or park on it or within **10 metres before** it [[src:tf|3:53]].
 
 ::: key "About to step out" – how do you know?

@@ -355,7 +355,7 @@
   sv: cirkulationsplats
   en: roundabout
   def: "A junction where traffic drives anticlockwise around a central island, marked with sign D3. You give way to vehicles already in the roundabout when you enter."
-  image: ["fig:roundabout", "sign:D3-1"]
+  image: ["photo:roundabout-umea", "fig:roundabout", "sign:D3-1"]
   law: ["tf|3:13", "tf|3:22"]
   related: [vajningsplikt]
   lessons: [turning-and-lanes, right-of-way]
@@ -373,7 +373,7 @@
   sv: motorväg
   en: motorway
   def: "A road for fast motor traffic with separate carriageways for each direction and no level junctions, marked with sign E1. The speed limit is 110 km/h unless signs say 120 or lower."
-  image: "sign:E1"
+  image: ["photo:motorway-e22", "sign:E1"]
   law: ["tf|9:1"]
   related: [motortrafikled, pafart]
   lessons: [motorways]
@@ -427,7 +427,7 @@
   en: pedestrian crossing
   also: [zebra crossing]
   def: "A part of the road for pedestrians to cross, shown with markings or sign B3. It is guarded if traffic lights or a police officer control it, otherwise unguarded."
-  image: "sign:B3-1"
+  image: ["photo:zebra-crossing", "sign:B3-1"]
   law: ["tf|3:61", "vtdf|2"]
   related: [cykeloverfart, cykelpassage]
   lessons: [pedestrians-and-cyclists]
@@ -1368,7 +1368,7 @@
   sv: viltolycka
   en: wildlife collision
   def: "A collision between a vehicle and a wild animal. After a collision with a bear, wolf, wolverine, lynx, elk (moose), deer, roe deer, otter, wild boar, mouflon or eagle, the driver must mark the place and notify the Police (call 112) – even if the animal does not look injured. A collision with a reindeer must also be reported."
-  image: "sign:A19"
+  image: ["photo:moose-calf-road", "sign:A19"]
   related: [viltolycksremsa, varningsmarke]
   lessons: [wildlife]
 

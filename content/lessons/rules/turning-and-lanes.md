@@ -65,6 +65,8 @@ When you turn into a road that has two or more lanes in your direction, turn in 
 
 A **roundabout** (*cirkulationsplats*) is a place that the authorities have decided is a roundabout, marked with sign [[sign:D3|D3]] [[src:ts-roundabout]]. (In Swedish, *rondell* means only the island in the middle.) The law has only a few rules for roundabouts: you give way to vehicles already in it, and you drive **anticlockwise** [[src:tf|3:22]] [[src:tf|3:13]]. Transportstyrelsen's official guide explains the rest [[src:ts-roundabout]]:
 
+[[photo:roundabout-umea]]
+
 ### On the way in
 
 - **Give way** to vehicles that are already in the roundabout.

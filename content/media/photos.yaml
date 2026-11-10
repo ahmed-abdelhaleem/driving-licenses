@@ -153,3 +153,47 @@
   page: "https://commons.wikimedia.org/wiki/File:Motorkleding_reflectie.JPG"
   w: 1000
   h: 750
+
+- id: moose-calf-road
+  title: "Moose mother and calf on road.jpg"
+  alt: "An elk (moose) cow and her calf walking across a road in front of a forest."
+  caption: "An **elk** (moose) cow with her calf crossing a road. Animals often move in groups – when one has crossed, slow down and look for more."
+  author: "Veronika Ronkos"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:Moose_mother_and_calf_on_road.jpg"
+  w: 1000
+  h: 785
+
+- id: roundabout-umea
+  title: "Rondell vid Rödäng, Umeå.jpg"
+  alt: "A small roundabout with a grassy central island and a light-coloured paved strip around it, in a residential area."
+  caption: "A roundabout in Umeå. Traffic drives **anticlockwise** around the central island, and drivers coming in give way to vehicles already in the roundabout."
+  author: "Fredriklarssonphotography"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:Rondell_vid_R%C3%B6d%C3%A4ng,_Ume%C3%A5.jpg"
+  w: 1000
+  h: 666
+
+- id: zebra-crossing
+  title: "Crossing across Stadsgården.jpg"
+  alt: "A pedestrian crossing with white stripes and a traffic island, with pedestrian lights, in a city street."
+  caption: "A pedestrian crossing (*övergångsställe*) in Stockholm, with a traffic island in the middle. This one has traffic lights – at a crossing **without** lights, give way to pedestrians who are on it or about to step onto it."
+  author: "JIP"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:Crossing_across_Stadsg%C3%A5rden.jpg"
+  w: 1000
+  h: 750
+
+- id: motorway-e22
+  title: "E22 Nättraby motorväg västerut mot Karlskrona.jpg"
+  alt: "A motorway seen from a bridge: two carriageways with two lanes each, separated by a central barrier, with a slip road on the left."
+  caption: "The E22 motorway near Karlskrona. Each direction has its **own carriageway**, separated by a barrier, and traffic joins and leaves on **slip roads** – there are no level junctions."
+  author: "Sendelbach (talk)"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:E22_N%C3%A4ttraby_motorv%C3%A4g_v%C3%A4sterut_mot_Karlskrona.jpg"
+  w: 1000
+  h: 750
