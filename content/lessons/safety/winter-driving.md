@@ -15,6 +15,8 @@ Winter in Sweden means darkness, snow, ice and quickly changing grip. The curric
 
 ## Before you drive
 
+[[photo:studded-tyre]]
+
 ::: steps
 1. **Winter tyres** when they are required – 1 December to 31 March when there are winter road conditions – with at least **3 mm** tread [[src:tf|4:18a]] [[src:tsfs-2009-19|5]]. See [[lesson:tyres]].
 2. **Clear all windows completely** – not just a peephole. You must be able to see, and the mirrors must be clear [[src:uk-hc-weather|rule 229]].
@@ -24,6 +26,8 @@ Winter in Sweden means darkness, snow, ice and quickly changing grip. The curric
 :::
 
 ## Where is it most slippery?
+
+[[signs:A10]]
 
 - When the temperature is **around 0 °C** – ice with a thin film of water on it is extremely slippery.
 - **Black ice** (*svartis, blank is*) – thin, transparent ice that looks like a wet road.

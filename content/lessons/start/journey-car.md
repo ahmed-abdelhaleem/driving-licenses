@@ -45,6 +45,8 @@ You also cannot hold a driving licence from another EEA country. If you do, you 
 
 ## The steps, in order
 
+[[fig:licence-steps-car]]
+
 ::: steps
 1. **Apply for a learner's permit** from Transportstyrelsen. See [[lesson:learner-permit]].
 2. **Practise driving** – from the age of [[fact:ages.practiceCar]] – at a driving school, privately with an approved supervisor, or both. See [[lesson:practice-driving]].

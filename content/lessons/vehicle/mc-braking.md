@@ -17,6 +17,8 @@ A motorcycle has a **front brake** (lever, right hand) and a **rear brake** (ped
 
 ## Why the front brake does most of the work
 
+[[fig:mc-brake-share]]
+
 When you brake, the motorcycle's weight moves **forward**: the front tyre is pressed harder into the road and can transfer much more braking force, while the rear tyre gets **lighter** and locks easily. The **front brake** gives about **three-quarters** of the braking power, so you must use **both** brakes to stop quickly [[src:sgi-mc|Braking]]. The rear brake adds stability and the rest of the force.
 
 ::: key Squeeze, do not grab

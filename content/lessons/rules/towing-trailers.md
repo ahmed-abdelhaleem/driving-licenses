@@ -48,6 +48,8 @@ And a **light trailer** (*lätt släpfordon*) is defined as [[src:vtdl|2]]:
 
 ## B96 and BE
 
+[[fig:trailer-rules]]
+
 - **B96** (extended B, *utökad behörighet B*) – you have passed a **special driving test** and may tow a trailer over 750 kg where the combined total weight is **over 3,500 kg but at most [[fact:licence.b96Max]]** [[src:kkl|2:7a]] [[src:ts-vehicles]].
 - **BE** – a B car with one or more trailers, where the **trailers'** combined total weight is at most **3,500 kg** [[src:kkl|2:5]].
 

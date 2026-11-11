@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-labelledby="seat-belt-position-t seat-belt-position-d">
+  <title id="seat-belt-position-t">Seat, head restraint and seat belt</title>
+  <desc id="seat-belt-position-d">Side view of a driver in the seat. The top of the head restraint is at the height of the top of the head and close to it. The diagonal part of the belt goes over the middle of the shoulder, the lap part low over the hips. Arms and knees are slightly bent.</desc>
+  <defs>
+    <marker id="seat-belt-position-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="seat-belt-position-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="seat-belt-position-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="seat-belt-position-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<path class="d-seat" d="M 150 300 L 300 300 Q 315 300 312 286 L 300 250 L 175 250 Z"/>
+<path class="d-seat" d="M 175 255 L 150 110 Q 147 96 160 96 L 185 96 Q 196 96 197 108 L 215 252 Z"/>
+<rect class="d-seat" x="150" y="52" width="46" height="40" rx="12"/>
+<circle class="d-skin" cx="196" cy="70" r="28"/>
+<path class="d-person" d="M 186 100 L 210 98 L 236 236 L 196 246 Z"/>
+<path class="d-person" d="M 200 236 L 330 230 L 336 252 L 206 262 Z"/>
+<path class="d-person" d="M 320 232 L 360 320 L 342 328 L 304 248 Z"/>
+<path class="d-person" d="M 206 128 L 290 172 L 284 186 L 198 146 Z"/>
+<line class="d-ink-s" x1="330" y1="150" x2="300" y2="200" stroke-width="10" stroke-linecap="round"/>
+<line class="d-ink-s" x1="300" y1="200" x2="420" y2="230" stroke-width="5"/>
+<line class="d-belt" x1="200" y1="104" x2="236" y2="232"/>
+<line class="d-belt" x1="204" y1="246" x2="250" y2="244"/>
+<line class="d-ink-s" x1="172" y1="50" x2="404" y2="45" stroke-width="1.2" opacity="0.6"/>
+<text class="d-t" x="410" y="50" text-anchor="start"><tspan x="410" dy="0">Head restraint: top level with the</tspan><tspan x="410" dy="18">top of your head, close behind it</tspan></text>
+<line class="d-ink-s" x1="214" y1="150" x2="404" y2="115" stroke-width="1.2" opacity="0.6"/>
+<text class="d-t" x="410" y="120" text-anchor="start"><tspan x="410" dy="0">Diagonal belt over the middle of</tspan><tspan x="410" dy="18">the shoulder – never under the arm</tspan></text>
+<line class="d-ink-s" x1="236" y1="246" x2="404" y2="195" stroke-width="1.2" opacity="0.6"/>
+<text class="d-t" x="410" y="200" text-anchor="start"><tspan x="410" dy="0">Lap part low over the hips,</tspan><tspan x="410" dy="18">tight and without twists</tspan></text>
+<line class="d-ink-s" x1="300" y1="170" x2="404" y2="265" stroke-width="1.2" opacity="0.6"/>
+<text class="d-t" x="410" y="270" text-anchor="start"><tspan x="410" dy="0">Arms and knees slightly bent</tspan><tspan x="410" dy="18">when you hold the wheel and pedals</tspan></text>
+</svg>

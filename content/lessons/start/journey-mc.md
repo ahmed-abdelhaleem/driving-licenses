@@ -13,6 +13,8 @@ sources: [ts-mc, ts-a, ts-vehicles]
 
 ## Three motorcycle categories
 
+[[fig:mc-categories]]
+
 There are three licence categories for two-wheeled motorcycles [[src:ts-mc]] [[src:kkl|2:5]]:
 
 | Category | Swedish name | What it covers | Lowest age for the licence |

@@ -48,6 +48,8 @@ You **push the motorcycle with the engine off** into the start position in an an
 
 ### High-speed part
 
+[[fig:counter-steering|The evasive manoeuvre in the high-speed part is done with counter-steering: push the grip on the side you want to turn to.]]
+
 You accelerate to **at least [[fact:drivingTest.mcEvasionSpeed]]**, make an **evasive manoeuvre** and ride a **serpentine (slalom)** at the same speed. At the end you slow down and **turn around the last cone**, accelerate back to about 50 km/h, ride the serpentine back, and finish with an **efficient, controlled braking to a stop using both the front and the rear brake** [[src:tv-mc]].
 
 The examiner assesses that you can handle the controls, balance, crawl and steer, and use the right riding and steering technique in an emergency where you cannot stop before an obstacle [[src:tv-mc]].

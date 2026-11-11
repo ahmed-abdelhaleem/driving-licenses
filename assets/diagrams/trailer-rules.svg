@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" role="img" aria-labelledby="trailer-rules-t trailer-rules-d">
+  <title id="trailer-rules-t">Which trailer may you tow?</title>
+  <desc id="trailer-rules-d">Three rows. B: a trailer of at most 750 kilograms, or a heavier trailer if the car and trailer total weights are at most 3,500 kilograms together. B96: car and trailer total weights over 3,500 but at most 4,250 kilograms, after a special driving test. BE: a B car with one or more trailers whose total weight is at most 3,500 kilograms.</desc>
+  <defs>
+    <marker id="trailer-rules-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="trailer-rules-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="trailer-rules-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="trailer-rules-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-panel" x="10" y="14" width="660" height="122" rx="10"/>
+<rect class="d-car-a" x="22" y="28" width="64" height="38" rx="8"/>
+<text class="d-tw-b" x="54" y="54" text-anchor="middle"><tspan x="54" dy="0">B</tspan></text>
+<rect class="d-car-a" x="104" y="76" width="96" height="34" rx="9"/><rect class="d-car-a" x="122" y="56" width="48" height="24" rx="8"/><rect class="d-glass" x="128" y="61" width="17" height="14" rx="3"/><rect class="d-glass" x="151" y="61" width="17" height="14" rx="3"/><circle class="d-ink" cx="128" cy="110" r="11"/><circle class="d-ink" cx="176" cy="110" r="11"/>
+<line class="d-ink-s" x1="200" y1="98" x2="214" y2="98" stroke-width="4"/><rect class="d-car-b" x="214" y="76" width="56" height="34" rx="5"/><circle class="d-ink" cx="242.0" cy="110" r="11"/>
+<text class="d-t" x="352" y="50" text-anchor="start"><tspan x="352" dy="0">A trailer of at most 750 kg – or a</tspan><tspan x="352" dy="20">heavier one if car + trailer total</tspan><tspan x="352" dy="20">weights are at most 3,500 kg</tspan></text>
+<rect class="d-panel" x="10" y="148" width="660" height="122" rx="10"/>
+<rect class="d-car-a" x="22" y="162" width="64" height="38" rx="8"/>
+<text class="d-tw-b" x="54" y="188" text-anchor="middle"><tspan x="54" dy="0">B96</tspan></text>
+<rect class="d-car-a" x="104" y="210" width="96" height="34" rx="9"/><rect class="d-car-a" x="122" y="190" width="48" height="24" rx="8"/><rect class="d-glass" x="128" y="195" width="17" height="14" rx="3"/><rect class="d-glass" x="151" y="195" width="17" height="14" rx="3"/><circle class="d-ink" cx="128" cy="244" r="11"/><circle class="d-ink" cx="176" cy="244" r="11"/>
+<line class="d-ink-s" x1="200" y1="232" x2="214" y2="232" stroke-width="4"/><rect class="d-car-b" x="214" y="210" width="80" height="34" rx="5"/><circle class="d-ink" cx="254.0" cy="244" r="11"/>
+<text class="d-t" x="352" y="184" text-anchor="start"><tspan x="352" dy="0">Car + trailer total weights over</tspan><tspan x="352" dy="20">3,500 kg but at most 4,250 kg.</tspan><tspan x="352" dy="20">Needs a special driving test</tspan></text>
+<rect class="d-panel" x="10" y="282" width="660" height="122" rx="10"/>
+<rect class="d-car-a" x="22" y="296" width="64" height="38" rx="8"/>
+<text class="d-tw-b" x="54" y="322" text-anchor="middle"><tspan x="54" dy="0">BE</tspan></text>
+<rect class="d-car-a" x="104" y="344" width="96" height="34" rx="9"/><rect class="d-car-a" x="122" y="324" width="48" height="24" rx="8"/><rect class="d-glass" x="128" y="329" width="17" height="14" rx="3"/><rect class="d-glass" x="151" y="329" width="17" height="14" rx="3"/><circle class="d-ink" cx="128" cy="378" r="11"/><circle class="d-ink" cx="176" cy="378" r="11"/>
+<line class="d-ink-s" x1="200" y1="366" x2="214" y2="366" stroke-width="4"/><rect class="d-car-b" x="214" y="344" width="104" height="34" rx="5"/><circle class="d-ink" cx="266.0" cy="378" r="11"/>
+<text class="d-t" x="352" y="318" text-anchor="start"><tspan x="352" dy="0">A B car with trailer(s) whose</tspan><tspan x="352" dy="20">total weight is at most 3,500 kg</tspan></text>
+<text class="d-ts" x="10" y="432" text-anchor="start"><tspan x="10" dy="0">The weights that count are the total weights in the registration certificates.</tspan></text>
+</svg>

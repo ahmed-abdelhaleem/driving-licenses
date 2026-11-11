@@ -46,6 +46,7 @@
   en: eyesight certificate
   also: [vision certificate]
   def: "A certificate from an optician or doctor about your eyesight. For a car or motorcycle you need a visual acuity of at least 0.5 with both eyes together (glasses or lenses allowed). It may not be more than two months old when you apply for a learner's permit."
+  image: "photo:eye-chart"
   related: [korkortstillstand, halsodeklaration]
   lessons: [learner-permit]
 
@@ -70,6 +71,7 @@
   en: practice driving
   also: [learner driving]
   def: "Driving while you learn, before you have the licence. It needs a learner's permit and, if private, an approved supervisor. The vehicle must show the green and white ÖVNINGSKÖR sign at the back."
+  image: "photo:learner-sign"
   law: ["kkl|4:1", "kkl|4:5"]
   related: [handledare, korkortstillstand, trafikskola]
   lessons: [practice-driving]
@@ -1586,6 +1588,7 @@
   sv: synskärpa
   en: visual acuity
   def: "How sharply you see. For a car or motorcycle licence you need at least 0.5 when you look with both eyes together. Glasses or contact lenses are allowed."
+  image: "photo:eye-chart"
   related: [synintyg, korkortstillstand]
   lessons: [learner-permit]
 

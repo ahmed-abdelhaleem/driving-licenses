@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" role="img" aria-labelledby="probation-t probation-d">
+  <title id="probation-t">Probation after the test</title>
+  <desc id="probation-d">After the test a car or motorcycle licence has two years of probation. If the licence is revoked during probation, you need a new learner's permit, the risk education again and both tests again, and the new licence gets a new probation period.</desc>
+  <defs>
+    <marker id="probation-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="probation-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="probation-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="probation-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-panel" x="10" y="20" width="660" height="70" rx="10"/>
+<rect class="d-ok" x="10" y="20" width="160" height="70" rx="10"/>
+<text class="d-tw-b" x="26" y="50" text-anchor="start"><tspan x="26" dy="0">Test passed</tspan></text>
+<text class="d-tw" x="26" y="74" text-anchor="start"><tspan x="26" dy="0">licence issued</tspan></text>
+<text class="d-tb" x="190" y="50" text-anchor="start"><tspan x="190" dy="0">Probation: the first two years</tspan></text>
+<text class="d-t" x="190" y="74" text-anchor="start"><tspan x="190" dy="0">Same rules as everyone – but stricter consequences</tspan></text>
+<path class="d-arrow" d="M 340 96 L 340 136" marker-end="url(#probation-ah)"/>
+<rect class="d-panel-bad" x="10" y="140" width="660" height="130" rx="10"/><text class="d-tb" x="24" y="166" text-anchor="start"><tspan x="24" dy="0">Licence revoked during probation?</tspan></text><text class="d-t" x="24" y="190" text-anchor="start"><tspan x="24" dy="0">Then you must start again: a new learner's permit, the risk</tspan><tspan x="24" dy="19">education again, and both the theory test and the driving test.</tspan><tspan x="24" dy="19">The new licence gets a new probation period.</tspan></text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="mc-brake-share-t mc-brake-share-d">
+  <title id="mc-brake-share-t">How a motorcycle brakes</title>
+  <desc id="mc-brake-share-d">Side view of a motorcycle. When it brakes, the weight moves forward. The front brake gives about three quarters of the braking power and the rear brake the rest. Use both brakes with a progressive squeeze.</desc>
+  <defs>
+    <marker id="mc-brake-share-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="mc-brake-share-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="mc-brake-share-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="mc-brake-share-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<line class="d-ink-s" x1="20" y1="230" x2="660" y2="230" stroke-width="3"/>
+<circle cx="190" cy="188" r="42" class="d-wheel"/><circle cx="430" cy="188" r="42" class="d-wheel"/>
+<circle cx="190" cy="188" r="14" class="d-ink"/><circle cx="430" cy="188" r="14" class="d-ink"/>
+<polygon class="d-car-a" points="210,160 300,120 390,118 420,150 330,170 240,175"/>
+<line class="d-ink-s" x1="430" y1="188" x2="400" y2="90" stroke-width="7" stroke-linecap="round"/>
+<line class="d-ink-s" x1="385" y1="90" x2="420" y2="84" stroke-width="6" stroke-linecap="round"/>
+<rect class="d-ink" x="230" y="110" width="80" height="14" rx="6"/>
+<path class="d-arrow" d="M 250 60 L 420 60" marker-end="url(#mc-brake-share-ah)"/>
+<text class="d-tb" x="250" y="48" text-anchor="start"><tspan x="250" dy="0">Braking: the weight moves forward</tspan></text>
+<text class="d-tb" x="492" y="180" text-anchor="start"><tspan x="492" dy="0">Front brake</tspan></text>
+<text class="d-t" x="492" y="202" text-anchor="start"><tspan x="492" dy="0">about 3/4 of the</tspan><tspan x="492" dy="20">braking power</tspan></text>
+<text class="d-tb" x="20" y="180" text-anchor="start"><tspan x="20" dy="0">Rear brake</tspan></text>
+<text class="d-t" x="20" y="202" text-anchor="start"><tspan x="20" dy="0">the rest</tspan></text>
+<text class="d-t" x="20" y="268" text-anchor="start"><tspan x="20" dy="0">Use both brakes, with a progressive squeeze – do not grab the front brake.</tspan></text>
+<text class="d-ts" x="20" y="290" text-anchor="start"><tspan x="20" dy="0">The rear tyre gets lighter as you brake, so it locks more easily.</tspan></text>
+</svg>

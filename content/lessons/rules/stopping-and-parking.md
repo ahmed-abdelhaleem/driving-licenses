@@ -48,6 +48,8 @@ Transportstyrelsen sums the rules up in two principles: you must not stop or par
 
 ## Never stop or park here
 
+[[signs:C39,M21]]
+
 ::: law tf 3:53
 > Ett fordon får inte stannas eller parkeras
 >
@@ -76,6 +78,8 @@ Also never [[src:tf|3:47]] [[src:tf|9:1]]:
 :::
 
 ## Never park here (stopping is allowed)
+
+[[signs:C35,M22]]
 
 ::: law tf 3:55
 > Ett fordon får inte parkeras

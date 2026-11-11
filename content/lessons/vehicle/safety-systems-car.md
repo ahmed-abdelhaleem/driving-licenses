@@ -18,6 +18,8 @@ The curriculum requires you to explain the car's **protection systems**, how the
 
 ## Seat belts
 
+[[fig:seat-belt-position]]
+
 The seat belt is the most important protection in the car. According to Trafikverket's research summary, the belt reduced deaths among front-seat occupants of cars by about **45 %** [[src:tv-vehicle-safety]]. It holds you in place, spreads the forces over the strong parts of your body, and keeps you from being thrown out or into other people.
 
 Using it is the law for everyone, with few exceptions – see [[lesson:passengers-and-loads]] [[src:tf|4:10]]. Most cars have a **seat belt reminder**; studies cited by Trafikverket show that belt use in the front seats rises to about **99 %** in cars with an effective reminder [[src:tv-vehicle-safety]].

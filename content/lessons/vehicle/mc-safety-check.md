@@ -13,6 +13,8 @@ sources: [tv-mc, tsfs-2011-19, tf]
 
 ## What can be checked at the test
 
+[[fig:mc-check-points]]
+
 The riding test starts with a check of a selection of these [[src:tv-mc]]:
 
 - lights, direction indicators, reflectors and the horn,

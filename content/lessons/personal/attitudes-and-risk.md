@@ -21,6 +21,8 @@ Roads, vehicles and speed limits are built to protect you – but the system onl
 
 ## Who is killed in Swedish traffic?
 
+[[fig:road-deaths-2025]]
+
 The official statistics for **2025** [[src:trafa-2025]]:
 
 - **203 people** were killed – the lowest number since the end of the Second World War.

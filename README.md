@@ -14,10 +14,10 @@ The theory test itself is the same for manual and automatic cars; the paths diff
 
 - **Structured lessons** (65) in modules that follow the official course plans: your road to the licence, signs and markings, traffic rules, the vehicle, driving safely, environment and personal factors. Every lesson starts with goals, explains in simple words, and quotes the Swedish law text next to an English translation where the law matters.
 - **Every official road sign, marking and signal** (344, with 611 images) with an English name, the meaning translated from the official description, and practical advice.
-- **A dictionary** of 201 Swedish licence and traffic words with plain-English definitions, law references, related words and – for 53 of them – a sign, photo or diagram.
+- **A dictionary** of 201 Swedish licence and traffic words with plain-English definitions, law references, related words and – for 61 of them – a sign, photo or diagram.
 - **Search** across lessons, signs and dictionary words, in English or Swedish (e.g. `B1`, `väjningsplikt`, `roundabout`).
 - **Practice and an exam simulator**: 586 written questions plus 229 sign-recognition questions. The simulator builds a theory test like Trafikverket's: 70 questions (65 scored + 5 unscored trial questions), 50 minutes, pass mark 52. Trafikverket does not publish how many questions each area gets, so the split between the five areas is this site's own choice.
-- **Photos and diagrams**: freely licensed photos from Wikimedia Commons (author, licence and source under each picture) and diagrams drawn for the site that follow the light and dark themes.
+- **Photos and diagrams**: every lesson has at least one picture – 23 freely licensed photos from Wikimedia Commons (author, licence and source under each picture), 24 diagrams drawn for the site that follow the light and dark themes, and the official sign images.
 - **Sources**: a page listing every source with its publisher, link and the date it was checked. Citations in the lessons link to the exact chapter and section of the law.
 
 Progress (finished lessons, wrong answers, exam results) is stored only in your own browser.

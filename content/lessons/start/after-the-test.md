@@ -25,6 +25,8 @@ You must show the licence (or the ID document) if a police officer or vehicle in
 
 ## Probation – the first two years
 
+[[fig:probation]]
+
 ::: law kkl 3:18
 > För ett körkort som utfärdats efter godkänt förarprov gäller en prövotid av ett år för behörigheten AM och två år för övriga behörigheter från dagen för provet.
 

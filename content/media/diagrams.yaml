@@ -47,3 +47,51 @@
 - id: headlight-beams
   caption: "Main beam lights far ahead. Dipped beam is shorter and is aimed so that it does not dazzle oncoming drivers – dip in good time."
   alt: "Top view at night comparing the long main beam with the shorter dipped beam."
+
+- id: licence-steps-car
+  caption: "The road to a car licence (B), step by step."
+  alt: "Six numbered steps from learner's permit to licence and probation."
+
+- id: mc-categories
+  caption: "The three motorcycle categories and their minimum ages."
+  alt: "Three columns comparing motorcycle categories A1, A2 and A."
+
+- id: theory-test-format
+  caption: "The theory test (*kunskapsprov*) in numbers."
+  alt: "Infographic: 70 questions, 50 minutes, 52 of 65 to pass, five areas."
+
+- id: licence-seized
+  caption: "What happens when the police take your licence on the spot."
+  alt: "Timeline in four steps from the police taking a licence to Transportstyrelsen's decision."
+
+- id: trailer-rules
+  caption: "Trailers with B, B96 and BE. Always use the **total weights** from the registration certificates."
+  alt: "Three rows comparing the trailer rules for licence B, B96 and BE."
+
+- id: road-deaths-2025
+  caption: "Road deaths in Sweden in 2025, from the official statistics."
+  alt: "Key figures: 203 killed, 71 percent men, 73 percent outside built-up areas, 25 percent single-vehicle crashes."
+
+- id: mc-brake-share
+  caption: "When you brake, the weight moves forward – the front brake gives about **three-quarters** of the braking power. Use **both** brakes."
+  alt: "Side view of a motorcycle showing weight transfer and the front brake doing most of the braking."
+
+- id: truck-blind-spots
+  caption: "A truck turning right: a cyclist beside it can be completely hidden from the driver."
+  alt: "Top view of a truck turning right with its blind spots and a cyclist beside it."
+
+- id: mc-check-points
+  caption: "The parts the examiner can ask you to check at the riding test."
+  alt: "Motorcycle side view with ten numbered check points."
+
+- id: seat-belt-position
+  caption: "Set up your seat, head restraint and belt like this before every drive."
+  alt: "Side view of a seated driver showing head restraint height and seat belt position."
+
+- id: probation
+  caption: "Probation (*prövotid*): if your licence is revoked in the first two years, you start again from the beginning."
+  alt: "Diagram of the two-year probation and what happens if the licence is revoked during it."
+
+- id: air-resistance
+  caption: "Air resistance grows with the **square** of the speed – the main reason higher speed costs so much fuel."
+  alt: "Bar chart of air resistance at 50, 70, 90 and 110 km/h."

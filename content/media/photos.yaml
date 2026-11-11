@@ -220,3 +220,36 @@
   w: 800
   h: 856
   modified: true
+
+- id: phone-handheld
+  title: "Cell phone use while driving.jpg"
+  alt: "A driver's hand holding a mobile phone while driving on a country road."
+  caption: "Holding a phone while you drive is **banned** in Sweden – also for a quick look. Even hands-free, you may only use it if it does not affect your driving."
+  author: "Ed Brown as Edbrown05"
+  license: "CC BY-SA 2.5"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5"
+  page: "https://commons.wikimedia.org/wiki/File:Cell_phone_use_while_driving.jpg"
+  w: 1000
+  h: 750
+
+- id: eye-chart
+  title: "Sample Snellen chart.jpg"
+  alt: "An eye chart with rows of letters getting smaller, with the visual acuity in decimal numbers from 0.1 to 2.0 beside each row."
+  caption: "An eye chart with **decimal** visual acuity. For a car or motorcycle licence you need at least **0.5** with both eyes together – glasses or contact lenses are allowed."
+  author: "Khex14"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:Sample_Snellen_chart.jpg"
+  w: 655
+  h: 822
+
+- id: learner-sign
+  title: "Övningskörb.jpg"
+  alt: "A green sign with white text ÖVNINGSKÖR on the back of a car."
+  caption: "The green and white **ÖVNINGSKÖR** sign (\"practice driving\"). During practice it must be clearly visible from behind."
+  author: "Entheta"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:%C3%96vningsk%C3%B6rb.jpg"
+  w: 800
+  h: 521

@@ -39,6 +39,8 @@ A vehicle used in a traffic crime can be **confiscated** if it is needed to prev
 
 ## When the police take your licence
 
+[[fig:licence-seized]]
+
 The police **must** take your licence on the spot if, for example [[src:kkl|5:7]] [[src:ts-police-seize]]:
 
 - you show **clear signs** of being affected by alcohol or another substance while driving,

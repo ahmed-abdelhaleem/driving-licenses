@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" role="img" aria-labelledby="truck-blind-spots-t truck-blind-spots-d">
+  <title id="truck-blind-spots-t">Blind spots of a truck</title>
+  <desc id="truck-blind-spots-d">Top view of a truck at a junction about to turn right, with its right indicator on. Red areas show large blind spots along its right side and close in front of the cab. A cyclist beside the truck on the right is in the blind spot.</desc>
+  <defs>
+    <marker id="truck-blind-spots-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="truck-blind-spots-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="truck-blind-spots-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="truck-blind-spots-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-grass" x="0" y="0" width="420" height="420" rx="10"/>
+<rect class="d-asphalt" x="110" y="0" width="200" height="420"/>
+<rect class="d-asphalt" x="0" y="150" width="420" height="100"/>
+<polygon class="d-blind" points="228,244 296,244 308,180 232,180"/>
+<polygon class="d-blind" points="292,250 412,220 412,420 292,410"/>
+<rect class="d-car-c" x="232" y="250" width="60" height="44" rx="6"/>
+<rect class="d-glass" x="238" y="254" width="48" height="10" rx="2"/>
+<rect class="d-panel-truck" x="231" y="300" width="62" height="160" rx="4"/>
+<circle class="d-lamp" cx="290" cy="256" r="6"/>
+<circle class="d-lamp" cx="290" cy="454" r="6"/>
+<path class="d-path-w" d="M 262 240 q 0 -60 80 -70" marker-end="url(#truck-blind-spots-aw)"/>
+<g transform="translate(332 290)"><rect class="d-ink" x="-3" y="-24" width="6" height="48" rx="3"/><rect class="d-car-b" x="-10" y="-6" width="20" height="16" rx="7"/><rect class="d-ink" x="-12" y="-18" width="24" height="4" rx="2"/></g>
+<rect class="d-blind" x="440" y="30" width="26" height="18" rx="3"/>
+<text class="d-tb" x="476" y="45" text-anchor="start"><tspan x="476" dy="0">Blind spots</tspan></text>
+<text class="d-t" x="440" y="80" text-anchor="start"><tspan x="440" dy="0">Trucks and buses have</tspan><tspan x="440" dy="20">large blind spots –</tspan><tspan x="440" dy="20">especially to the right</tspan><tspan x="440" dy="20">and close in front.</tspan></text>
+<text class="d-t" x="440" y="190" text-anchor="start"><tspan x="440" dy="0">If you cannot see the</tspan><tspan x="440" dy="20">driver's face in their</tspan><tspan x="440" dy="20">mirror, they cannot</tspan><tspan x="440" dy="20">see you.</tspan></text>
+<text class="d-t" x="440" y="300" text-anchor="start"><tspan x="440" dy="0">Do not stay beside a</tspan><tspan x="440" dy="20">truck at a junction</tspan><tspan x="440" dy="20">where it may turn right.</tspan></text>
+</svg>

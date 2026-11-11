@@ -63,6 +63,8 @@ For every **10 km/h** faster you drive above about **70–75 km/h**, fuel consum
 
 The main reason is **air resistance**, which grows with the **square** of the speed – twice the speed gives four times the air resistance.
 
+[[fig:air-resistance]]
+
 ## 4. Engine braking
 
 Release the accelerator **early** and let the engine slow the vehicle, instead of driving on and then braking hard. You use the brakes less, and save energy and brake wear. In an electric or hybrid car, the motor **recovers energy** when you release the accelerator (regenerative braking).

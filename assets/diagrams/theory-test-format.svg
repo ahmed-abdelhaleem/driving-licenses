@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="theory-test-format-t theory-test-format-d">
+  <title id="theory-test-format-t">The theory test in numbers</title>
+  <desc id="theory-test-format-d">70 questions, of which 65 count and 5 are unscored trial questions; 50 minutes; a pass needs 52 points or more out of 65. The questions cover five areas: vehicle, environment, traffic safety, traffic rules and personal factors. A pass is valid for one year for tests passed on or after 19 August 2026.</desc>
+  <defs>
+    <marker id="theory-test-format-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="theory-test-format-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="theory-test-format-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="theory-test-format-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-panel" x="10" y="10" width="210" height="150" rx="12"/>
+<text class="d-big" x="28" y="76">70</text>
+<text class="d-tb" x="110" y="70" text-anchor="start"><tspan x="110" dy="0">questions</tspan></text>
+<text class="d-t" x="28" y="108" text-anchor="start"><tspan x="28" dy="0">65 count – the other</tspan><tspan x="28" dy="20">5 are trial questions</tspan></text>
+<rect class="d-panel" x="236" y="10" width="210" height="150" rx="12"/>
+<text class="d-big" x="254" y="76">50</text>
+<text class="d-tb" x="336" y="70" text-anchor="start"><tspan x="336" dy="0">minutes</tspan></text>
+<text class="d-t" x="254" y="108" text-anchor="start"><tspan x="254" dy="0">for the whole test</tspan></text>
+<rect class="d-panel" x="462" y="10" width="210" height="150" rx="12"/>
+<text class="d-big" x="480" y="76">52</text>
+<text class="d-tb" x="562" y="70" text-anchor="start"><tspan x="562" dy="0">to pass</tspan></text>
+<text class="d-t" x="480" y="108" text-anchor="start"><tspan x="480" dy="0">points or more</tspan><tspan x="480" dy="20">out of 65</tspan></text>
+<text class="d-tb" x="10" y="196" text-anchor="start"><tspan x="10" dy="0">Five areas:</tspan></text>
+<rect class="d-chip" x="10" y="212" width="77" height="32" rx="16"/>
+<text class="d-t" x="21" y="233" text-anchor="start"><tspan x="21" dy="0">Vehicle</tspan></text>
+<rect class="d-chip" x="96.6" y="212" width="108" height="32" rx="16"/>
+<text class="d-t" x="107.6" y="233" text-anchor="start"><tspan x="107.6" dy="0">Environment</tspan></text>
+<rect class="d-chip" x="214.39999999999998" y="212" width="131" height="32" rx="16"/>
+<text class="d-t" x="225.39999999999998" y="233" text-anchor="start"><tspan x="225.39999999999998" dy="0">Traffic safety</tspan></text>
+<rect class="d-chip" x="355.59999999999997" y="212" width="123" height="32" rx="16"/>
+<text class="d-t" x="366.59999999999997" y="233" text-anchor="start"><tspan x="366.59999999999997" dy="0">Traffic rules</tspan></text>
+<rect class="d-chip" x="488.99999999999994" y="212" width="147" height="32" rx="16"/>
+<text class="d-t" x="499.99999999999994" y="233" text-anchor="start"><tspan x="499.99999999999994" dy="0">Personal factors</tspan></text>
+<text class="d-ts" x="10" y="282" text-anchor="start"><tspan x="10" dy="0">A pass is valid for one year (for tests passed on or after 19 August 2026).</tspan></text>
+</svg>

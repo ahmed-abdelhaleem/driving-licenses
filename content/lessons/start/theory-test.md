@@ -35,6 +35,8 @@ Trafikverket's advice: book the theory test and the driving test at the same tim
 
 ## The format
 
+[[fig:theory-test-format]]
+
 ::: key The theory test in numbers
 - **[[fact:theory.questions]] questions**, each with answer options and **one** correct answer.
 - **[[fact:theory.minutes]] minutes.**

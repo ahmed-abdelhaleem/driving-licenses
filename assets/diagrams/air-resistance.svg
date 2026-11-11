@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="air-resistance-t air-resistance-d">
+  <title id="air-resistance-t">Air resistance and speed</title>
+  <desc id="air-resistance-d">Bar chart of air resistance compared with 50 kilometres per hour: about 2 times at 70, 3.2 times at 90 and 4.8 times at 110 kilometres per hour, because air resistance grows with the square of the speed.</desc>
+  <defs>
+    <marker id="air-resistance-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="air-resistance-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="air-resistance-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="air-resistance-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-car-b" x="80" y="202.8" width="80" height="37.2" rx="6"/>
+<text class="d-tb" x="120" y="192.8099173553719" text-anchor="middle"><tspan x="120" dy="0">× 1</tspan></text>
+<text class="d-t" x="120" y="264" text-anchor="middle"><tspan x="120" dy="0">50 km/h</tspan></text>
+<rect class="d-car-b" x="220" y="167.1" width="80" height="72.9" rx="6"/>
+<text class="d-tb" x="260" y="157.10743801652893" text-anchor="middle"><tspan x="260" dy="0">× 2</tspan></text>
+<text class="d-t" x="260" y="264" text-anchor="middle"><tspan x="260" dy="0">70 km/h</tspan></text>
+<rect class="d-car-b" x="360" y="119.5" width="80" height="120.5" rx="6"/>
+<text class="d-tb" x="400" y="109.50413223140497" text-anchor="middle"><tspan x="400" dy="0">× 3.2</tspan></text>
+<text class="d-t" x="400" y="264" text-anchor="middle"><tspan x="400" dy="0">90 km/h</tspan></text>
+<rect class="d-car-b" x="500" y="60.0" width="80" height="180.0" rx="6"/>
+<text class="d-tb" x="540" y="50.0" text-anchor="middle"><tspan x="540" dy="0">× 4.8</tspan></text>
+<text class="d-t" x="540" y="264" text-anchor="middle"><tspan x="540" dy="0">110 km/h</tspan></text>
+<line class="d-ink-s" x1="60" y1="240" x2="640" y2="240" stroke-width="2"/>
+<text class="d-tb" x="10" y="22" text-anchor="start"><tspan x="10" dy="0">Air resistance compared with 50 km/h</tspan></text>
+<text class="d-ts" x="10" y="290" text-anchor="start"><tspan x="10" dy="0">Air resistance grows with the square of the speed: twice the speed gives four times the air resistance.</tspan></text>
+</svg>

@@ -50,6 +50,8 @@ Permits come in three groups. Cars and motorcycles are both in **group 1**, whic
 
 Transportstyrelsen checks your health declaration and eyesight certificate. For cars and motorcycles you need a visual acuity (*synskärpa*) of at least **[[fact:permit.vision]]** when you look with both eyes together. Glasses or contact lenses are allowed [[src:ts-medical]].
 
+[[photo:eye-chart]]
+
 Some conditions mean you may have to send a certificate from a doctor, for example diabetes treated with medicine, or epilepsy. Transportstyrelsen tells you which certificate it needs and by when. Many common medicines, such as contraceptive pills, asthma medicine and painkillers you can buy without a prescription, do not need any certificate [[src:ts-medical]].
 
 ::: note Changed in 2026

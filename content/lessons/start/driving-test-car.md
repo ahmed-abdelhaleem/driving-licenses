@@ -29,6 +29,8 @@ The test has three parts [[src:tv-driving-b]]:
 
 ## 1. The safety check
 
+[[photo:oil-dipstick|Checking the engine oil – fluids such as washer fluid, coolant and engine oil are among the things the examiner can ask you to check.]]
+
 The examiner asks you to check some of these [[src:tv-driving-b]]:
 
 - lights, direction indicators, reflectors and the horn,

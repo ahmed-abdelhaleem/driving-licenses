@@ -25,6 +25,8 @@ The rule above is about removing the code later. The code itself is printed on t
 
 ## What counts as an automatic car
 
+[[photo:auto-selector]]
+
 Transportstyrelsen describes it as a vehicle with an automatic gearbox **without a clutch pedal** [[src:ts-faq]]. In practice that includes:
 
 - cars with a traditional automatic gearbox (selector with P, R, N, D),

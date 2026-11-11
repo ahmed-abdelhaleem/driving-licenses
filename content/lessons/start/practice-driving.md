@@ -76,6 +76,8 @@ Until 31 July 2026, both the supervisor and the learner had to take an introduct
 - The green and white **ÖVNINGSKÖR** sign must be clearly visible from behind, without blocking the view [[src:ts-practice]].
 - You may carry passengers, as long as the practice can be done safely [[src:ts-practice]].
 
+[[photo:learner-sign]]
+
 ::: only car
 **Manual or automatic?** You may practise in both kinds of car, unless your learner's permit limits you to automatic cars. If you practise in a manual car, your supervisor may not have code 78 (automatic only) on their own licence [[src:ts-faq]].
 :::

@@ -24,6 +24,8 @@ So there are **two** rules:
 1. You may **never hold** a phone or other communication device in your hand while you use it when driving – whether or not it affects your driving. This has applied since **1 February 2018** [[src:ts-mobile]].
 2. Even **without** holding it, you may only use it if it **does not affect your driving** negatively [[src:tf|4:10e]].
 
+[[photo:phone-handheld]]
+
 The rule covers **all motor vehicles** – car, motorcycle, moped, truck and bus [[src:ts-mobile]]. It also applies to the **supervisor** during private practice, because the supervisor counts as the driver [[src:ts-mobile]]. There are exceptions only for emergency services and similar urgent work [[src:ts-mobile]].
 
 ## What is still allowed?

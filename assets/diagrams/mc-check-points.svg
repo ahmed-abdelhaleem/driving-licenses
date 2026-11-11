@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 340" role="img" aria-labelledby="mc-check-points-t mc-check-points-d">
+  <title id="mc-check-points-t">What to check on a motorcycle</title>
+  <desc id="mc-check-points-d">Side view of a motorcycle with ten numbered check points: lights, indicators, reflectors and horn; brakes; tyres and rims; chain, belt or shaft; stand; mirrors; steering head bearing; suspension; engine oil level; kill switch.</desc>
+  <defs>
+    <marker id="mc-check-points-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="mc-check-points-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="mc-check-points-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="mc-check-points-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<line class="d-ink-s" x1="40" y1="270" x2="530" y2="270" stroke-width="3" opacity="0.5"/>
+<circle cx="210" cy="222" r="48" class="d-wheel"/><circle cx="470" cy="222" r="48" class="d-wheel"/>
+<circle cx="210" cy="222" r="16" class="d-ink"/><circle cx="470" cy="222" r="16" class="d-ink"/>
+<polygon class="d-car-a" points="240,192 320,148 420,146 450,178 360,200 270,206"/>
+<line class="d-ink-s" x1="470" y1="222" x2="438" y2="120" stroke-width="8" stroke-linecap="round"/>
+<line class="d-ink-s" x1="420" y1="120" x2="462" y2="113" stroke-width="6" stroke-linecap="round"/>
+<rect class="d-ink" x="262" y="138" width="86" height="14" rx="6"/>
+<line class="d-ink-s" x1="210" y1="222" x2="330" y2="210" stroke-width="5"/>
+<line class="d-ink-s" x1="300" y1="206" x2="290" y2="270" stroke-width="4"/>
+<circle class="d-lamp" cx="486" cy="146" r="9"/>
+<circle cx="486" cy="146" r="12" class="d-num"/><text class="d-num-t" x="486" y="151.5" text-anchor="middle">1</text>
+<circle cx="500" cy="200" r="12" class="d-num"/><text class="d-num-t" x="500" y="205.5" text-anchor="middle">2</text>
+<circle cx="174" cy="186" r="12" class="d-num"/><text class="d-num-t" x="174" y="191.5" text-anchor="middle">3</text>
+<circle cx="262" cy="226" r="12" class="d-num"/><text class="d-num-t" x="262" y="231.5" text-anchor="middle">4</text>
+<circle cx="296" cy="252" r="12" class="d-num"/><text class="d-num-t" x="296" y="257.5" text-anchor="middle">5</text>
+<circle cx="466" cy="98" r="12" class="d-num"/><text class="d-num-t" x="466" y="103.5" text-anchor="middle">6</text>
+<circle cx="424" cy="140" r="12" class="d-num"/><text class="d-num-t" x="424" y="145.5" text-anchor="middle">7</text>
+<circle cx="452" cy="174" r="12" class="d-num"/><text class="d-num-t" x="452" y="179.5" text-anchor="middle">8</text>
+<circle cx="352" cy="220" r="12" class="d-num"/><text class="d-num-t" x="352" y="225.5" text-anchor="middle">9</text>
+<circle cx="404" cy="106" r="12" class="d-num"/><text class="d-num-t" x="404" y="111.5" text-anchor="middle">10</text>
+<circle cx="560" cy="24" r="11" class="d-num"/><text class="d-num-t" x="560" y="29.5" text-anchor="middle">1</text>
+<circle cx="560" cy="56" r="11" class="d-num"/><text class="d-num-t" x="560" y="61.5" text-anchor="middle">2</text>
+<circle cx="560" cy="88" r="11" class="d-num"/><text class="d-num-t" x="560" y="93.5" text-anchor="middle">3</text>
+<circle cx="560" cy="120" r="11" class="d-num"/><text class="d-num-t" x="560" y="125.5" text-anchor="middle">4</text>
+<circle cx="560" cy="152" r="11" class="d-num"/><text class="d-num-t" x="560" y="157.5" text-anchor="middle">5</text>
+<circle cx="560" cy="184" r="11" class="d-num"/><text class="d-num-t" x="560" y="189.5" text-anchor="middle">6</text>
+<circle cx="560" cy="216" r="11" class="d-num"/><text class="d-num-t" x="560" y="221.5" text-anchor="middle">7</text>
+<circle cx="560" cy="248" r="11" class="d-num"/><text class="d-num-t" x="560" y="253.5" text-anchor="middle">8</text>
+<circle cx="560" cy="280" r="11" class="d-num"/><text class="d-num-t" x="560" y="285.5" text-anchor="middle">9</text>
+<circle cx="560" cy="312" r="11" class="d-num"/><text class="d-num-t" x="560" y="317.5" text-anchor="middle">10</text>
+<text class="d-ts" x="578" y="0" text-anchor="start"><tspan x="578" dy="0"></tspan></text>
+<text class="d-ts" x="578" y="29" text-anchor="start"><tspan x="578" dy="0">Lights, indicators, reflectors, horn</tspan></text>
+<text class="d-ts" x="578" y="61" text-anchor="start"><tspan x="578" dy="0">Brakes</tspan></text>
+<text class="d-ts" x="578" y="93" text-anchor="start"><tspan x="578" dy="0">Tyres and rims</tspan></text>
+<text class="d-ts" x="578" y="125" text-anchor="start"><tspan x="578" dy="0">Chain, belt or shaft</tspan></text>
+<text class="d-ts" x="578" y="157" text-anchor="start"><tspan x="578" dy="0">Stand</tspan></text>
+<text class="d-ts" x="578" y="189" text-anchor="start"><tspan x="578" dy="0">Mirrors</tspan></text>
+<text class="d-ts" x="578" y="221" text-anchor="start"><tspan x="578" dy="0">Steering head bearing</tspan></text>
+<text class="d-ts" x="578" y="253" text-anchor="start"><tspan x="578" dy="0">Suspension</tspan></text>
+<text class="d-ts" x="578" y="285" text-anchor="start"><tspan x="578" dy="0">Engine oil level</tspan></text>
+<text class="d-ts" x="578" y="317" text-anchor="start"><tspan x="578" dy="0">Kill switch</tspan></text>
+</svg>

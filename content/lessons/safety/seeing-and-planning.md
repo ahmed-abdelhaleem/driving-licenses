@@ -57,6 +57,8 @@ For every situation, ask: **What could happen? What would I do then?** Then adju
 
 ## Blind spots of big vehicles
 
+[[fig:truck-blind-spots]]
+
 Trucks and buses have large **blind spots** ([[term:dodvinkel|sv]]) – especially to the **right** side and close in front. If you cannot see the driver's face in their mirror, they cannot see you. Do not stay beside a truck at a junction where it may turn right.
 
 ## Attention is limited

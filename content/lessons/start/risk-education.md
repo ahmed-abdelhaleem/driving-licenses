@@ -29,6 +29,8 @@ Part 1 (often called *riskettan*) is a classroom course about alcohol and other 
 
 ## Part 2 – speed, safety and difficult conditions
 
+[[fig:stopping-distance|Stopping distances on a dry road. On the skid track you feel how much longer the distance gets when the surface is slippery.]]
+
 Part 2 (often called *risktvåan*) is practical and covers speed, safety and driving in different road and weather conditions [[src:ts-risk-car]] [[src:ts-risk-mc]].
 
 ::: only car

@@ -61,6 +61,8 @@ Also avoid **long periods** of driving without breaks, especially at night. If y
 
 ## When tiredness hits
 
+[[signs:H13]]
+
 ::: steps
 1. **Stop** as soon as you can do so safely – VTI's advice is to **stop at once** when you feel tired [[src:vti-fatigue-law]].
 2. Park where it is **safe and allowed** – a rest area, a car park, a petrol station. On a motorway or expressway you may only stop at signed **parking places or rest areas** – not on the shoulder [[src:tf|9:1]] – so take the next one or the next exit.

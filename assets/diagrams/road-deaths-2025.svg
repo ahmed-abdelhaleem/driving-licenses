@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="road-deaths-2025-t road-deaths-2025-d">
+  <title id="road-deaths-2025-t">Killed in Swedish road traffic, 2025</title>
+  <desc id="road-deaths-2025-d">203 people were killed in road traffic in 2025, the lowest number since the Second World War. 71 percent were men, 73 percent died outside built-up areas and 25 percent died in single-vehicle crashes with motor vehicles. The Vision Zero target is at most 133 deaths in 2030.</desc>
+  <defs>
+    <marker id="road-deaths-2025-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ink"/></marker>
+    <marker id="road-deaths-2025-aw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-white"/></marker>
+    <marker id="road-deaths-2025-ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-bad"/></marker>
+    <marker id="road-deaths-2025-ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="d-ok"/></marker>
+  </defs>
+<rect class="d-panel" x="10" y="10" width="210" height="230" rx="12"/>
+<text class="d-big" x="30" y="92">203</text>
+<text class="d-tb" x="30" y="126" text-anchor="start"><tspan x="30" dy="0">killed in road</tspan><tspan x="30" dy="20">traffic in 2025</tspan></text>
+<text class="d-ts" x="30" y="182" text-anchor="start"><tspan x="30" dy="0">the lowest number since</tspan><tspan x="30" dy="20">the Second World War</tspan></text>
+<text class="d-tb" x="240" y="42" text-anchor="start"><tspan x="240" dy="0">71 %</tspan></text>
+<text class="d-t" x="300" y="42" text-anchor="start"><tspan x="300" dy="0">were men</tspan></text>
+<rect class="d-panel" x="240" y="54" width="420" height="18" rx="9"/>
+<rect class="d-car-a" x="240" y="54" width="298" height="18" rx="9"/>
+<text class="d-tb" x="240" y="116" text-anchor="start"><tspan x="240" dy="0">73 %</tspan></text>
+<text class="d-t" x="300" y="116" text-anchor="start"><tspan x="300" dy="0">died outside built-up areas</tspan></text>
+<rect class="d-panel" x="240" y="128" width="420" height="18" rx="9"/>
+<rect class="d-car-a" x="240" y="128" width="307" height="18" rx="9"/>
+<text class="d-tb" x="240" y="190" text-anchor="start"><tspan x="240" dy="0">25 %</tspan></text>
+<text class="d-t" x="300" y="190" text-anchor="start"><tspan x="300" dy="0">died in single-vehicle crashes</tspan></text>
+<rect class="d-panel" x="240" y="202" width="420" height="18" rx="9"/>
+<rect class="d-car-a" x="240" y="202" width="105" height="18" rx="9"/>
+<text class="d-t" x="10" y="272" text-anchor="start"><tspan x="10" dy="0">Vision Zero target: at most 133 deaths in road traffic in 2030.</tspan></text>
+<text class="d-ts" x="10" y="294" text-anchor="start"><tspan x="10" dy="0">Single-vehicle crashes: with motor vehicles. Source: the official statistics for 2025.</tspan></text>
+</svg>
