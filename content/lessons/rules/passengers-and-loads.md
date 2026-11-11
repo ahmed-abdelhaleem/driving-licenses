@@ -39,6 +39,8 @@ Every passenger aged 15 or over is responsible for wearing their own belt. The *
 - **Never** put a child in a baby seat, child seat, booster seat or booster cushion on a seat with an **active passenger airbag** – it can be deadly. A child is not safe in front of an active airbag until they are about **140 cm** tall. Side airbags are no danger to children in child seats [[src:ts-children]].
 - Doctors and researchers recommend a booster seat or cushion until the child is **10–12 years** old [[src:ts-children]].
 
+[[photo:baby-car-seat]]
+
 ## How many passengers?
 
 - A car may not carry more passengers than it is **registered** for, and passengers must sit on places **meant for passengers** [[src:tf|4:6]].

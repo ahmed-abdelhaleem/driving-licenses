@@ -706,6 +706,7 @@
   sv: utryckningsfordon
   en: emergency vehicle
   def: "A police car, ambulance, fire engine or similar registered as an emergency vehicle. When it uses blue lights and siren you must make way, and stop if needed."
+  image: "photo:ambulance-blue-lights"
   law: ["tf|2:5"]
   related: []
   lessons: [basic-duties]
@@ -899,6 +900,7 @@
   en: child car seat / booster cushion
   also: [child restraint]
   def: "Special protection for children in a car. Children shorter than 135 cm must use a child seat, booster seat, booster cushion or other child restraint. Children are safest **rear-facing** until about four years old. Never put a child seat in front of an active passenger airbag."
+  image: "photo:baby-car-seat"
   law: ["tf|4:10"]
   related: [bilbalte, krockkudde]
   lessons: [passengers-and-loads]

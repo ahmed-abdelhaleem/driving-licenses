@@ -69,6 +69,8 @@ When you drive behind a slow vehicle on a road where others want to overtake, le
 **In English:** "A road user must make way for 1. an emergency vehicle giving a signal with its prescribed alarm device, and 2. a train or tram, unless the tram driver has to give way as shown by a road sign. A driver who must make way must stop if necessary."
 :::
 
+[[photo:ambulance-blue-lights]]
+
 An [[term:utryckningsfordon|emergency vehicle]] (ambulance, fire engine, police) with **siren and blue lights** must get through. What to do:
 
 ::: steps

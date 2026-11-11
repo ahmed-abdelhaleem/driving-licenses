@@ -197,3 +197,26 @@
   page: "https://commons.wikimedia.org/wiki/File:E22_N%C3%A4ttraby_motorv%C3%A4g_v%C3%A4sterut_mot_Karlskrona.jpg"
   w: 1000
   h: 750
+
+- id: ambulance-blue-lights
+  title: "Ambulans0001.jpg"
+  alt: "A yellow and green Swedish ambulance with blue lights flashing, driving on a winter street."
+  caption: "An ambulance on an emergency call (*utryckning*) in Eskilstuna. When an emergency vehicle signals with its alarm device – blue lights and siren – make way for it, and stop if necessary."
+  author: "Hangsna"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  page: "https://commons.wikimedia.org/wiki/File:Ambulans0001.jpg"
+  w: 1000
+  h: 684
+
+- id: baby-car-seat
+  title: "Babyskydd.JPG"
+  alt: "A baby car seat (infant carrier) with a teddy bear sitting in it."
+  caption: "A baby car seat (*babyskydd*) for the youngest children. Children are safest travelling **rear-facing** until about four years old – and never in front of an active passenger airbag."
+  author: "Snibban"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  page: "https://commons.wikimedia.org/wiki/File:Babyskydd.JPG"
+  w: 800
+  h: 856
+  modified: true
